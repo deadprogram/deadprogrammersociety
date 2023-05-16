@@ -1,5 +1,5 @@
 ---
-title: 'About'
+title: 'About deadprogram'
 image: images/ronevans-bio.jpg
 url: "about"
 menu:
