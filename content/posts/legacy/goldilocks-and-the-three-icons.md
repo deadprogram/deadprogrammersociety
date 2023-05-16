@@ -8,7 +8,9 @@ tags:
 - user interface
 ---
 
-[![](http://upload.wikimedia.org/wikipedia/en/5/50/Apple_Macintosh_Desktop.png)](http://upload.wikimedia.org/wikipedia/en/5/50/Apple_Macintosh_Desktop.png)Once upon a time, there were three icons. A Poppa Application icon, a Momma Folder icon and a Baby Document icon. Life was good, and people were easily able to tell the difference between them, although very few visitors were known to go to that part of the forest.  
+[![](http://upload.wikimedia.org/wikipedia/en/5/50/Apple_Macintosh_Desktop.png)](http://upload.wikimedia.org/wikipedia/en/5/50/Apple_Macintosh_Desktop.png)
+
+Once upon a time, there were three icons. A Poppa Application icon, a Momma Folder icon and a Baby Document icon. Life was good, and people were easily able to tell the difference between them, although very few visitors were known to go to that part of the forest.  
   
 But then along came the Trashcan icon... and the dark times began. If you dragged a folder to the trash it went away back into the void. But if you dragged a Special kind of folder called a Disk icon, it was EJECTED. The trash had discovered "Free will" and their eden was never the same again.  
   

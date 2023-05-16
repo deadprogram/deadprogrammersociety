@@ -7,7 +7,7 @@ tags:
 - softer side of development
 ---
 
-[![](http://www.bigbaer.com/assets/jimmy-smith-hammond-b3-jazz-legend.jpg)](http://www.bigbaer.com/assets/jimmy-smith-hammond-b3-jazz-legend.jpg)I have reading a bit lately about "rockstar" programmers. Recruiter ads are proclaiming "Rockstar programmer needed". Various websites named rockstar<name of technology> or alternately <name of technology>rockstars are springing up everywhere.  
+I have reading a bit lately about "rockstar" programmers. Recruiter ads are proclaiming "Rockstar programmer needed". Various websites named rockstar<name of technology> or alternately <name of technology>rockstars are springing up everywhere.  
   
 I would rather be a "jazz musician" programmer, myself. Nothing against rock, don't get me wrong. Glam, punk, metal, I can go there. I frequently do. It's the "star" part, that has been starting to bother me.  
   

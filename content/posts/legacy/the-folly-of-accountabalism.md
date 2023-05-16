@@ -8,7 +8,9 @@ tags:
 - softer side of development
 ---
 
-[![](http://www.pipini.gr/thrisk/sion/dali-cannibal.jpg)](http://www.pipini.gr/thrisk/sion/dali-cannibal.jpg)The Harvard Business Review has published their list of 20 breakthrough ideas for 2007. There are several ideas on this list with particular appeal to me. One that stands out is [David Weinberger's "Folly of Accountabalism"](http://harvardbusinessonline.hbsp.harvard.edu/hbrsa/en/issue/0702/article/R0702A.jhtml?type=F#section20) which insists that "Accountability has gone horribly wrong. It has become 'accountabalism,' the practice of eating sacrificial victims in an attempt to magically ward off evil."  
+[![](http://www.pipini.gr/thrisk/sion/dali-cannibal.jpg)](http://www.pipini.gr/thrisk/sion/dali-cannibal.jpg)
+
+The Harvard Business Review has published their list of 20 breakthrough ideas for 2007. There are several ideas on this list with particular appeal to me. One that stands out is [David Weinberger's "Folly of Accountabalism"](http://harvardbusinessonline.hbsp.harvard.edu/hbrsa/en/issue/0702/article/R0702A.jhtml?type=F#section20) which insists that "Accountability has gone horribly wrong. It has become 'accountabalism,' the practice of eating sacrificial victims in an attempt to magically ward off evil."  
   
 Dr. Weinberger is referring to the emphasis on corporate management and compliance that has come to dominate modern American business. Software development within corporate IT departments are just as bound by this kind of thinking as marketing or sales is. Weinberger argues that this manifests itself as several common practices.  
   

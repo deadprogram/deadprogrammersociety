@@ -8,7 +8,9 @@ tags:
 - agile development
 ---
 
-[![](http://3.bp.blogspot.com/_SgxaAaUGqzY/RfjBjNYIkgI/AAAAAAAAAAk/34WaJhSA0SI/s200/lorax.gif)](http://3.bp.blogspot.com/_SgxaAaUGqzY/RfjBjNYIkgI/AAAAAAAAAAk/34WaJhSA0SI/s1600-h/lorax.gif)Recently I was in a client meeting with a bunch of managers to discuss some very complex changes that were being proposed for an existing system. I was invited to the meeting so I could "speak for the code", which to them meant that I could validate the ideas of the group based on my knowledge of the code base.  
+[![](http://3.bp.blogspot.com/_SgxaAaUGqzY/RfjBjNYIkgI/AAAAAAAAAAk/34WaJhSA0SI/s200/lorax.gif)](http://3.bp.blogspot.com/_SgxaAaUGqzY/RfjBjNYIkgI/AAAAAAAAAAk/34WaJhSA0SI/s1600-h/lorax.gif)
+
+Recently I was in a client meeting with a bunch of managers to discuss some very complex changes that were being proposed for an existing system. I was invited to the meeting so I could "speak for the code", which to them meant that I could validate the ideas of the group based on my knowledge of the code base.  
   
 After the meeting ended, I kept mulling over that phrase "speaking for the code". The more I did, the more I realized the parallels between "speaking for the code" as an architect or lead developer, and the Lorax "speaking for the trees" in the [Dr. Seuss story of the same name](http://en.wikipedia.org/wiki/The_Lorax).  
   

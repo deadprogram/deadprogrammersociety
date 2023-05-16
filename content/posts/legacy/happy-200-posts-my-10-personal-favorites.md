@@ -5,7 +5,9 @@ draft: false
 url: /2009/09/happy-200-posts-my-10-personal.html
 ---
 
-[![](http://kedarvideo.files.wordpress.com/2008/08/47000-candles.jpg)](http://kedarvideo.files.wordpress.com/2008/08/47000-candles.jpg)I was shocked to discover this morning that this is to be my 200th blog post. Wow! It has been a good run so far since I restarted the Dead Programmer Society in 2006, and I really appreciate the awesome feedback and support that I have received from the community.  
+[![](http://kedarvideo.files.wordpress.com/2008/08/47000-candles.jpg)](http://kedarvideo.files.wordpress.com/2008/08/47000-candles.jpg)
+
+I was shocked to discover this morning that this is to be my 200th blog post. Wow! It has been a good run so far since I restarted the Dead Programmer Society in 2006, and I really appreciate the awesome feedback and support that I have received from the community.  
   
 To commemorate this personal event, here is a list of my top 10 favorite posts, in no particular order:  
   

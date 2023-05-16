@@ -10,7 +10,9 @@ tags:
 - ruby on rails
 ---
 
-[![](http://4.bp.blogspot.com/_99hJa4-u8JM/Rik4aD_cDPI/AAAAAAAAARU/0RQXLJR_NV8/s320/J-Dubb+-+Money,+Trees+&+Real+Estate+%28Front%29.jpg)](http://4.bp.blogspot.com/_99hJa4-u8JM/Rik4aD_cDPI/AAAAAAAAARU/0RQXLJR_NV8/s320/J-Dubb+-+Money,+Trees+&+Real+Estate+%28Front%29.jpg)I keep thinking about [Zed Shaw's vitriolic (and newly updated) posting](http://www.zedshaw.com/rants/rails_is_a_ghetto.html), and one particular aspect about it that seems to bother me. One way of looking at a ghetto is that is keeps people in. Another, is that is keeps outsiders away. In either case, it is an economy, like most any other. And like any economy, there are winners and losers.  
+[![](http://4.bp.blogspot.com/_99hJa4-u8JM/Rik4aD_cDPI/AAAAAAAAARU/0RQXLJR_NV8/s320/J-Dubb+-+Money,+Trees+&+Real+Estate+%28Front%29.jpg)](http://4.bp.blogspot.com/_99hJa4-u8JM/Rik4aD_cDPI/AAAAAAAAARU/0RQXLJR_NV8/s320/J-Dubb+-+Money,+Trees+&+Real+Estate+%28Front%29.jpg)
+
+I keep thinking about [Zed Shaw's vitriolic (and newly updated) posting](http://www.zedshaw.com/rants/rails_is_a_ghetto.html), and one particular aspect about it that seems to bother me. One way of looking at a ghetto is that is keeps people in. Another, is that is keeps outsiders away. In either case, it is an economy, like most any other. And like any economy, there are winners and losers.  
   
 What exactly is Zed complaining about? That the overall level of technical competence is very low, even among many self-proclaimed developers? That the industry has lots of hustlers and scammers? That the MAN is keeping us down and holding back our progress? I am just curious, what was the ideal environment that Zed was waxing sentimentally about? Oh yeah, developing software for the NYC Department of Corrections. Hmmm, time for a gratuitous [link about the prison-industrial complex](http://en.wikipedia.org/wiki/Prison-industrial_complex).  
   
