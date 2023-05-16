@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 theme = "hugo-winston-theme"
 themesDir = "themes"
-title = "Dead Programmer SOciety"
+title = "Dead Programmer Society"
 paginate = 3
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
@@ -16,7 +16,7 @@ pygmentsUseClasses = true
 [params]
   google_analytics_id = ""
   twitter_handle = "@deadprogram"
-  showAuthorOnHomepage = true
+  showAuthorOnHomepage = false
   showAuthorOnPosts = false
   showPostsOnHomepage = true
   addDot = true
