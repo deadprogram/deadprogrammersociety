@@ -8,8 +8,6 @@ tags:
 - softer side of development
 ---
 
-[![](http://gfx.dagbladet.no/kultur/2004/06/29/lundgrensak1.jpg)](http://gfx.dagbladet.no/kultur/2004/06/29/lundgrensak1.jpg)  
-  
 This post on the "Creating Passionate Users" blog really sums up what makes a Dead Programmer, well....dead!  
   
 [http://headrush.typepad.com/creating\_passionate\_users/2006/10/knocking\_the\_ex.html](http://headrush.typepad.com/creating_passionate_users/2006/10/knocking_the_ex.html)  
@@ -18,6 +16,7 @@ A colleague of mine once quipped, "Why is it that at some point in most people's
   
 
 ![](http://headrush.typepad.com/photos/uncategorized/zombiefunction_2.jpg)  
+
 So what happens to these poor middle managers? Is it the tribal "showing the size of one's beak"? Or is it a kind of post traumatic stress disorder, brought on by being way into the "anxiety zone" (I will post about the state of flow soon).
 
 Odd that the very factors like creativity and free-thinking that can most stimulate success, are the ones most likely to be blocked by management at many companies.
