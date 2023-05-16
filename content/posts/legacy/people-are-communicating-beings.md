@@ -8,7 +8,7 @@ tags:
 - softer side of development
 ---
 
-[![](http://www.bigbaer.com/assets/talking_heads_remain_in_light.jpg)](http://www.bigbaer.com/assets/talking_heads_remain_in_light.jpg)I ran into this older article from Alistair Cockburn the other day called [Characterizing people as non-linear, first-order components in software development](http://alistair.cockburn.us/index.php/Characterizing_people_as_non-linear,_first-order_components_in_software_development).  
+I ran into this older article from Alistair Cockburn the other day called [Characterizing people as non-linear, first-order components in software development](http://alistair.cockburn.us/index.php/Characterizing_people_as_non-linear,_first-order_components_in_software_development).  
   
 What Dr. Cockburn is talking about, is that very agile of ideas that people are the central focus for any software development effort. Developing software is not just a sausage factory of requirement documents, source code documents, and unit test plan documents. The people are what is important, not the documents.  
   
