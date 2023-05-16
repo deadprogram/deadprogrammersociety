@@ -10,7 +10,7 @@ tags:
 - svn
 ---
 
-[![](http://www.naknekfish.com/images/salmon.jpg)](http://www.naknekfish.com/images/salmon.jpg)I have been using [git](http://git.or.cz/) for a while, not quite as long as the [really](http://www.rubini.us/) [cool](http://peepcode.com) [kids](http://www.gitcasts.com/), but long enough to have become a git snob. As such, having to work on existing projects that were using that nasty old [subversion](http://subversion.tigris.org/) was just like, a drag, man.  
+I have been using [git](http://git.or.cz/) for a while, not quite as long as the [really](http://www.rubini.us/) [cool](http://peepcode.com) [kids](http://www.gitcasts.com/), but long enough to have become a git snob. As such, having to work on existing projects that were using that nasty old [subversion](http://subversion.tigris.org/) was just like, a drag, man.  
   
 I kept saying, "I'm going to migrate everything over to git." Somehow, I just never seemed to find the time. Another little problem was the underwhelming level of support for git on Windows. Yes, a couple of projects I am involved with have Windows code for client applications in there.  
   

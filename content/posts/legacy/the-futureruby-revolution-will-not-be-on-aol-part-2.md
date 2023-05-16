@@ -8,7 +8,7 @@ tags:
 - ruby
 ---
 
-[![](http://www.vansabbenauctions.nl/VSA25/802.jpg)](http://www.vansabbenauctions.nl/VSA25/802.jpg)[FutureRuby](http://futureruby.com) Day 2 began in a seemingly calm and reflective way. Coffees were sipped, and hangovers nursed. As the self-inflicted wounds from the [Pravda-Vodka-Kalashnikov](http://www.joeydevilla.com/wordpress/wp-content/uploads/2009/07/pravda_vodka_bar_3.jpg) faded, [Pete Forde](http://twitter.com/peteforde), our leader and spiritual adviser, began a short sermon.  
+[FutureRuby](http://futureruby.com) Day 2 began in a seemingly calm and reflective way. Coffees were sipped, and hangovers nursed. As the self-inflicted wounds from the [Pravda-Vodka-Kalashnikov](http://www.joeydevilla.com/wordpress/wp-content/uploads/2009/07/pravda_vodka_bar_3.jpg) faded, [Pete Forde](http://twitter.com/peteforde), our leader and spiritual adviser, began a short sermon.  
   
 His message was simple: Vegas is a horrible place to hold [RailsConf](http://railsconf.com). And we should live in a manner that follows the ["Four Agreements"](http://www.amazon.com/Four-Agreements-Practical-Personal-Freedom/dp/1878424319). Seriously, yes, he said both of these things.  
   

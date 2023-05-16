@@ -7,7 +7,7 @@ tags:
 - twitter
 ---
 
-[![](http://www.crawlofthedead.com/images/uploads/sockzombies.jpg)](http://www.crawlofthedead.com/images/uploads/sockzombies.jpg)I just had a small realization: there is a perfect ratio for Twitter use. Wait, before you laugh and hit the back button, hear me out on the following idea.  
+I just had a small realization: there is a perfect ratio for Twitter use. Wait, before you laugh and hit the back button, hear me out on the following idea.  
   
 There is an emergent trend in optimal Twitter use:  
 ```

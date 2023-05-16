@@ -10,7 +10,7 @@ tags:
 - rubyconf
 ---
 
-[![](http://www.bittercinema.com/images/Werewolf-vs-Vampire-Woman,-.jpg)](http://www.bittercinema.com/images/Werewolf-vs-Vampire-Woman,-.jpg)I had read with mild amusement the minor dustup over the craze of Werewolf players at RubyConf 2007. If you don't know what it is, you can read about it [here](http://headius.blogspot.com/2007/11/is-werewolf-killing-conference-hackfest.html).  
+I had read with mild amusement the minor dustup over the craze of Werewolf players at RubyConf 2007. If you don't know what it is, you can read about it [here](http://headius.blogspot.com/2007/11/is-werewolf-killing-conference-hackfest.html).  
   
 Some people just really enjoy playing social games. Let's call them the Werewolves... you know who you are, even if the rest of us do not.  
   

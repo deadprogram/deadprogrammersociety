@@ -9,7 +9,7 @@ tags:
 - jruby
 ---
 
-[![](http://2.bp.blogspot.com/_SgxaAaUGqzY/RghTAsYV18I/AAAAAAAAAAs/gV1gCyi5Oe0/s200/koala.jpg)](http://2.bp.blogspot.com/_SgxaAaUGqzY/RghTAsYV18I/AAAAAAAAAAs/gV1gCyi5Oe0/s1600-h/koala.jpg)An [interview with Dr. Wayne Kelly](http://channel9.msdn.com/showpost.aspx?postid=295197) has been put up on [Channel 9](http://channel9.msdn.com), Microsoft's video interview site. Dr. Kelly is head of the Ruby.NET compiler project at the [Queensland University of Technology in Australia](http://www.qut.edu.au/). As always, I am eager to see progress on the .NET side of the [Ruby language wars](http://deadprogrammersociety.blogspot.com/2007/03/jruby-has-won-rails-race-vs-net.html). I drank my coffee, and put on my phones for the 15 minute interview.  
+An [interview with Dr. Wayne Kelly](http://channel9.msdn.com/showpost.aspx?postid=295197) has been put up on [Channel 9](http://channel9.msdn.com), Microsoft's video interview site. Dr. Kelly is head of the Ruby.NET compiler project at the [Queensland University of Technology in Australia](http://www.qut.edu.au/). As always, I am eager to see progress on the .NET side of the [Ruby language wars](http://deadprogrammersociety.blogspot.com/2007/03/jruby-has-won-rails-race-vs-net.html). I drank my coffee, and put on my phones for the 15 minute interview.  
   
 After watching the video, I must say I am a little underwhelmed. Not to disparage the fine work of the good doctor on this worthy project, far from it. But I was not impressed by his comments about his lack of familiarity with the Ruby language itself. "If I was going to do any real Ruby programming, I would have to have the pickaxe book at my side to help me with the syntax, " says Dr. Kelly midway thru the interview.  
   

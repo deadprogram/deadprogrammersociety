@@ -7,7 +7,7 @@ tags:
 - open source development
 ---
 
-[![](http://epguides.com/McHalesNavy/cast.jpg)](http://epguides.com/McHalesNavy/cast.jpg)That unwitting center of global innovation known as the United States Navy has made a bold announcement: from now on, they are only going to accept open source.  
+That unwitting center of global innovation known as the United States Navy has made a bold announcement: from now on, they are only going to accept open source.  
   
 I just [read about this on CNET](http://www.cnet.com/8301-13505_1-9893173-16.html?part=rss&subj=news&tag=2547-1_3-0-5), where they were linking to a [recent story in Federal Computer Week](http://www.fcw.com/online/news/151858-1.html). When I read this, I just about fell out of my seat. According to Vice Adm. Mark Edwards, deputy chief of naval operations for communications:  
 

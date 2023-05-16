@@ -10,7 +10,7 @@ tags:
 - jruby
 ---
 
-[![](http://assets.espn.go.com/photo/2006/0928/box_a_ali2_275.jpg)](http://assets.espn.go.com/photo/2006/0928/box_a_ali2_275.jpg)Earlier today, I read with great interest the [potentially inflammatory post](http://ola-bini.blogspot.com/2007/09/rubinius-is-important.html) where Ola Bini proclaims the Ruby VM wars already over, and basically divides the Ruby VM empire into two halves, with the center controlled by Rome, err, I mean Rubinius primitives.  
+Earlier today, I read with great interest the [potentially inflammatory post](http://ola-bini.blogspot.com/2007/09/rubinius-is-important.html) where Ola Bini proclaims the Ruby VM wars already over, and basically divides the Ruby VM empire into two halves, with the center controlled by Rome, err, I mean Rubinius primitives.  
   
 I had already come to this conclusion a while ago. Not because I am smarter than anyone, FAR from it. Probably because I am more superficial, and easily impressed by meaningless characteristics, like how cool is the name Rubinius?  
   

@@ -8,7 +8,7 @@ tags:
 - user interface
 ---
 
-[![](http://www.101cookbooks.com/mt-static/images/food/compoundbutter.jpg)](http://www.101cookbooks.com/mt-static/images/food/compoundbutter.jpg)Really cool [article here](http://colorusage.arc.nasa.gov/graphics_page_design.php) from of all places NASA (go figure) courtesy of the Signal Vs. Noise blog. Entitled "DESIGNING A COLOR GRAPHICS PAGE", it really breaks down a process of utilizing color to maximize user understanding of information.  
+Really cool [article here](http://colorusage.arc.nasa.gov/graphics_page_design.php) from of all places NASA (go figure) courtesy of the Signal Vs. Noise blog. Entitled "DESIGNING A COLOR GRAPHICS PAGE", it really breaks down a process of utilizing color to maximize user understanding of information.  
   
 Color for its own sake is better kept to the domain of art. Functional design, like that of software user interfaces, need to be much better thought out, reaching for both utility and aesthetic qualities. Not an easy goal to achieve. The NASA article is a very good, if erudite, treatment of the subject.  
   

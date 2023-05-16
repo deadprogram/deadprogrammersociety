@@ -8,7 +8,7 @@ tags:
 - democracy
 ---
 
-[![](http://1.bp.blogspot.com/_SgxaAaUGqzY/SYCRN0R_YII/AAAAAAAABtI/UkEw6iU0GRY/s200/IMG_0564.JPG)](http://1.bp.blogspot.com/_SgxaAaUGqzY/SYCRN0R_YII/AAAAAAAABtI/UkEw6iU0GRY/s1600-h/IMG_0564.JPG)For the last week or so, I have been serving on a jury in Department 45 of the Stanley Mosk Courthouse in downtown Los Angeles. Now that the trial is over, I am able to talk/blog/pontificate about my experience.  
+For the last week or so, I have been serving on a jury in Department 45 of the Stanley Mosk Courthouse in downtown Los Angeles. Now that the trial is over, I am able to talk/blog/pontificate about my experience.  
   
 This was my first time actually serving on a jury, despite having come close a couple of times in the past. The case itself was a canonical example of how ridiculous big companies can be when fighting over money. The dispute was about billings between two very large insurance companies. Like you probably just did, my first comment was "a plague on both their houses." However, after executing the mental gymnastics for days of maintaining [equipoise](http://en.wikipedia.org/wiki/Equipoise), once I had heard all of the evidence presented by both sides, I felt that the plaintiff had actually been wronged by the defendant. Both attorneys did an excellent job arguing their clients' positions, but the facts seemed reasonably clear to me from the evidence and testimony. At least as clear as anything can be almost ten years after the events had originally transpired.  
   

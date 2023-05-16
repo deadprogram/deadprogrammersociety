@@ -7,7 +7,7 @@ tags:
 - robotics
 ---
 
-[![](http://www.jeffbots.com/gort2.jpg)](http://www.jeffbots.com/gort2.jpg)The upcoming RailsConf 2007 is not the only revolutionary conference that is going on this week. At that epicenter of robotics and artificial intelligence research Boston, MA is the [RoboBusiness Conference and Expo](http://www.roboevent.com/) featuring everybody who is anybody in the biz such as iRobot.  
+The upcoming RailsConf 2007 is not the only revolutionary conference that is going on this week. At that epicenter of robotics and artificial intelligence research Boston, MA is the [RoboBusiness Conference and Expo](http://www.roboevent.com/) featuring everybody who is anybody in the biz such as iRobot.  
   
 CNET has a [pretty good interview with Rodney Brooks](http://news.com.com/Sizing+up+the+coming+robotics+revolution/2008-11394_3-6183596.html?tag=st.txt.caro), the CTO of [iRobot](http://www.irobot.com/). Despite the popularity of the Roomba, the robotics revolution has hardly begun. Brooks makes the interesting observation that not only will we see more autonomous robots wandering around like the Roomba, but even more embedded robotics like the self-parking feature on the Lexus.  
   

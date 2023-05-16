@@ -7,7 +7,7 @@ tags:
 - patents
 ---
 
-[![](http://www.filmreference.com/images/sjff_03_img1340.jpg)](http://www.filmreference.com/images/sjff_03_img1340.jpg)Software patents... as, Obi-Wan warned, "You will never find a more wretched hive of scum and villainy. We must be cautious." Well, the dark side has struck back, people. A massive salvo has been launched, this time aimed directly at the open source community in the form of [Trend Micro vs. Barracuda Networks](http://www.linux.com/feature/125807).  
+Software patents... as, Obi-Wan warned, "You will never find a more wretched hive of scum and villainy. We must be cautious." Well, the dark side has struck back, people. A massive salvo has been launched, this time aimed directly at the open source community in the form of [Trend Micro vs. Barracuda Networks](http://www.linux.com/feature/125807).  
   
 I was thinking about a cute little pictograph that would describe the public awareness and attitudes about software patents. Yes, this is highly unscientific. Also, I was too lazy to do it, so I settled for pie charts instead:  
   

@@ -7,7 +7,7 @@ tags:
 - space
 ---
 
-[![](http://www.blogsmithmedia.com/www.engadget.com/media/2007/06/iss.jpg)](http://www.blogsmithmedia.com/www.engadget.com/media/2007/06/iss.jpg)I was shocked to read about the [ongoing problems with the life support computers onboard the International Space Station](http://www.engadget.com/2007/06/14/critical-space-station-computers-fail/). Every time I hear of problems up there, I feel a serious rant coming on.  
+I was shocked to read about the [ongoing problems with the life support computers onboard the International Space Station](http://www.engadget.com/2007/06/14/critical-space-station-computers-fail/). Every time I hear of problems up there, I feel a serious rant coming on.  
   
 I grew up on science fiction books. In fact, I would have to say that the vast majority of my childhood was spent far away from this planet. Suffice to say, I am a serious supporter of space exploration.  
   
