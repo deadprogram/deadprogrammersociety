@@ -8,7 +8,7 @@ tags:
 - railsconf 2009
 ---
 
-[![](http://www.moviewallpapers.net/images/wallpapers/1998/fear-and-loathing-in-las-vegas/fear-and-loathing-in-las-vegas-3-800.jpg)](http://www.moviewallpapers.net/images/wallpapers/1998/fear-and-loathing-in-las-vegas/fear-and-loathing-in-las-vegas-3-800.jpg)We were around Barstow on the edge of the desert, when the drugs began to take hold... wait, that was someone else's story. OK, restart.  
+We were around Barstow on the edge of the desert, when the drugs began to take hold... wait, that was someone else's story. OK, restart.  
   
 We were around Barstow on the edge of the desert when the excitement began to take hold... we were on our way to RailsConf 2009! No screaming bats, just loud pumping techno music to power the PT Cruiser. My designer, who was not old enough to be pouring beer on his chest, nor interested in facilitating the tanning process, said "What the hell are you yelling about?". I aimed the Cruiser toward the horizon without slowing down, "I need an In-n-Out milkshake."  
   

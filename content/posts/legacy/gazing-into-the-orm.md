@@ -9,7 +9,7 @@ tags:
 - ruby on rails
 ---
 
-[![](http://www.tolkientown.com/images/gallery/2206/pippinorbbutton2)](http://www.tolkientown.com/images/gallery/2206/pippinorbbutton2)Jeremy Miller has an [interesting post today](http://codebetter.com/blogs/jeremy.miller/archive/2007/02/23/Don_2700_t-Let-the-Database-Dictate-Your-Object-Model.aspx) regarding [Object Relation Mapping (ORM)](http://en.wikipedia.org/wiki/Object-relational_mapping). Droves of developers are now flocking to ORMs via [Ruby on Rails](http://www.rubyonrails.org/), [Castle](http://www.castleproject.org/), or one of the other many projects in this space, so it is good to have people like Jeremy exploring from a real implementation perspective.  
+Jeremy Miller has an [interesting post today](http://codebetter.com/blogs/jeremy.miller/archive/2007/02/23/Don_2700_t-Let-the-Database-Dictate-Your-Object-Model.aspx) regarding [Object Relation Mapping (ORM)](http://en.wikipedia.org/wiki/Object-relational_mapping). Droves of developers are now flocking to ORMs via [Ruby on Rails](http://www.rubyonrails.org/), [Castle](http://www.castleproject.org/), or one of the other many projects in this space, so it is good to have people like Jeremy exploring from a real implementation perspective.  
   
 Anyhow, his post really is concerned with applications that use an existing database, have a large amount of logical processing. Simply applying an ORM without considering the logical implications of the data, not only fails to take advantage of the power of ORMs, but falls into a bit of a quagmire, with potentially a very non-DRY result.  
   

@@ -8,7 +8,7 @@ tags:
 - ruby on rails
 ---
 
-[![](http://career.studentaffairs.duke.edu/images/los_angeles_skyline.jpg)](http://career.studentaffairs.duke.edu/images/los_angeles_skyline.jpg)Last night, I gave a short presentation on [Ezra Z's](http://www.brainspl.at/) cool Ruby web development framework [Merb](http://merb.rubyforge.org/) at the [Los Angeles Web Developer Meetup](http://web.meetup.com/34/). Microsoft was kind enough to provide space at their new downtown offices, and even buy pizza. Can you say "(munch munch) Silver (crunch) light (munch) launch (gulp) budget"?  
+Last night, I gave a short presentation on [Ezra Z's](http://www.brainspl.at/) cool Ruby web development framework [Merb](http://merb.rubyforge.org/) at the [Los Angeles Web Developer Meetup](http://web.meetup.com/34/). Microsoft was kind enough to provide space at their new downtown offices, and even buy pizza. Can you say "(munch munch) Silver (crunch) light (munch) launch (gulp) budget"?  
   
 When I started my presentation, I asked the room how many people were using [Ruby on Rails](http://www.rubyonrails.org/). Almost everyone in the place raised their hand. Nice! My talk was a brief review of what Merb is, and some of the similarities and differences with Rails. The crowd was very attentive, and there were some good followup questions asked afterward.  
   

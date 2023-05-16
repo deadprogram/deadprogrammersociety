@@ -7,7 +7,7 @@ tags:
 - softer side of development
 ---
 
-[![](http://course1.winona.edu/pjohnson/images/being4.jpg)](http://course1.winona.edu/pjohnson/images/being4.jpg)Kevin Barnes over at [Code Craft](http://codecraft.info/) has a cool posting [comparing software development to gardening](http://codecraft.info/index.php/archives/82/). I agree with him that it is a fantastic analogy!  
+Kevin Barnes over at [Code Craft](http://codecraft.info/) has a cool posting [comparing software development to gardening](http://codecraft.info/index.php/archives/82/). I agree with him that it is a fantastic analogy!  
   
 It really rings true to me in a couple of fun ways:  
 

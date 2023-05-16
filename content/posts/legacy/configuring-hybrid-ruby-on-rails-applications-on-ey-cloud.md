@@ -11,7 +11,7 @@ tags:
 - engine yard
 ---
 
-[![](http://farm3.static.flickr.com/2081/2219708271_ec0bb4cb80.jpg)](http://farm3.static.flickr.com/2081/2219708271_ec0bb4cb80.jpg)This last weekend, we completed migration of a slightly more complex Ruby on Rails application than the usual to [Engine Yard's EY-Cloud](http://www.engineyard.com/products/cloud/features). It took a few tries, and a tiny bit of research, before we completely understood what to do to get it up and running with all of the needed capabilities. Naturally this was due to gaps in my own knowledge, and I wanted to post about what I had learned, and how awesome EY-Cloud really is!  
+This last weekend, we completed migration of a slightly more complex Ruby on Rails application than the usual to [Engine Yard's EY-Cloud](http://www.engineyard.com/products/cloud/features). It took a few tries, and a tiny bit of research, before we completely understood what to do to get it up and running with all of the needed capabilities. Naturally this was due to gaps in my own knowledge, and I wanted to post about what I had learned, and how awesome EY-Cloud really is!  
   
 If you do not know about it, EY-Cloud is Engine Yard's cloud platform that is based on [Amazon's EC2](http://aws.amazon.com/ec2/). Readers of this blog know I am not afraid to [get hardcore when it comes to EC2 server configurations](http://deadprogrammersociety.blogspot.com/search/label/ec2), and with EY-Cloud I feel like I can now get the best of everything. But I am getting ahead of myself.  
   

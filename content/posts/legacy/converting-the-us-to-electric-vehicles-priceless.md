@@ -8,7 +8,7 @@ tags:
 - oil dependency
 ---
 
-[![](http://www.defenselink.mil/dodcmsshare/homepagephoto/2007-05/hires_070525-D-7203T-012.JPG)](http://www.defenselink.mil/dodcmsshare/homepagephoto/2007-05/hires_070525-D-7203T-012.JPG)A non-scientific, but clearly well thought-out back-of-envelope calculation by MIT CS professor Philip Greenspun is food for thought: [the cost of replacing the entire fleet of U.S. passenger cars with electric ones would be zero](http://blogs.law.harvard.edu/philg/2008/05/27/cost-of-converting-entire-us-to-electric-cars-zero/).  
+A non-scientific, but clearly well thought-out back-of-envelope calculation by MIT CS professor Philip Greenspun is food for thought: [the cost of replacing the entire fleet of U.S. passenger cars with electric ones would be zero](http://blogs.law.harvard.edu/philg/2008/05/27/cost-of-converting-entire-us-to-electric-cars-zero/).  
   
 Here are some of his numbers:  
 

@@ -8,7 +8,7 @@ tags:
 - ruby
 ---
 
-[![](http://fivestar.ne.jp/blog02/archives/mcfaddenandwhitehead.jpg)](http://fivestar.ne.jp/blog02/archives/mcfaddenandwhitehead.jpg)According to a [recent eWeek article](http://www.eweek.com/c/a/Application-Development/Ruby-is-on-the-Rise), there will be four times more Ruby programmers within five years. Before all the haters start making cracks about it going from one thousand to four thousand professional Rubyists, here is a juicy bit from Mark Driver, Gartner analyst:  
+According to a [recent eWeek article](http://www.eweek.com/c/a/Application-Development/Ruby-is-on-the-Rise), there will be four times more Ruby programmers within five years. Before all the haters start making cracks about it going from one thousand to four thousand professional Rubyists, here is a juicy bit from Mark Driver, Gartner analyst:  
   
 
 > "There are under one million professional Ruby developers now and we're projecting there will be four million plus by 2013."

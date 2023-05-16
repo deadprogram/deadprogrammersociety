@@ -9,7 +9,7 @@ tags:
 - continuous integration
 ---
 
-[![](http://www.easybuenosairescity.com/fotos/tango2.jpg)](http://www.easybuenosairescity.com/fotos/tango2.jpg)I spent a bit of time this morning getting [CruiseControl.rb](http://cruisecontrolrb.thoughtworks.com/) and [RCov](http://eigenclass.org/hiki.rb?rcov) working together for a new client's fairly LARGE Ruby on Rails (70+ models, 40+ controllers) project. If you are not familiar with CruiseControl.rb, it is the Ruby based continuous integration tool from [ThoughtWorks](http://www.thoughtworks.com/). RCov, on the other hand, is a very well known code coverage tool for Ruby. The implementation was incredibly simple, but finding the information on how to get the two working together required a perusal of the CruiseControl.rb code itself.  
+I spent a bit of time this morning getting [CruiseControl.rb](http://cruisecontrolrb.thoughtworks.com/) and [RCov](http://eigenclass.org/hiki.rb?rcov) working together for a new client's fairly LARGE Ruby on Rails (70+ models, 40+ controllers) project. If you are not familiar with CruiseControl.rb, it is the Ruby based continuous integration tool from [ThoughtWorks](http://www.thoughtworks.com/). RCov, on the other hand, is a very well known code coverage tool for Ruby. The implementation was incredibly simple, but finding the information on how to get the two working together required a perusal of the CruiseControl.rb code itself.  
   
 First of all, you will need to install the [rails\_rcov](http://blog.codahale.com/2006/05/26/rails-plugin-rails_rcov) plugin. This useful plugin allows you to really easily run RCov using rake, and is essential to simple RCov integration with your CruiseControl.rb builds. You can install rails\_rcov like this:  
   

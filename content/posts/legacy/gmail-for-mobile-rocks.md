@@ -7,7 +7,6 @@ tags:
 - cool stuff
 ---
 
-[![](http://www.techcrunch.com/wp-content/gmailmobile.jpg)](http://www.techcrunch.com/wp-content/gmailmobile.jpg)  
 I just installed the brand new [Gmail for Mobile](http://www.gmail.com/app) on my Motorola RAZR. In just a matter of a couple moments, I was looking at my Gmail inbox! Gmail for Mobile is a Java-applet that runs on your Java enabled phone. Keeping the network traffic down this way is a lot better option that a WAP-based email solution, which is what I had tried and abandoned previously.
 
   

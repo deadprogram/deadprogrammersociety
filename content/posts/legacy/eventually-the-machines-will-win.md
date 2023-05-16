@@ -9,7 +9,7 @@ tags:
 - robotics
 ---
 
-[![](http://www.movieforum.com/movies/wallpapers/scifi/forbiddenplanet/images/forbiddenplanet1024x768.jpg)](http://www.movieforum.com/movies/wallpapers/scifi/forbiddenplanet/images/forbiddenplanet1024x768.jpg)I have never been a big checkers fan. Good thing, cause I would have had to give up the game after the [recent "solution" of the game by a team of Canadian computer scientists](http://www.sciencenews.org/articles/20070721/fob4.asp). Every possible move of every possible game has been mapped, and a checkers playing program can take each of these into account before deciding on its next move. No human player has such ability.  
+I have never been a big checkers fan. Good thing, cause I would have had to give up the game after the [recent "solution" of the game by a team of Canadian computer scientists](http://www.sciencenews.org/articles/20070721/fob4.asp). Every possible move of every possible game has been mapped, and a checkers playing program can take each of these into account before deciding on its next move. No human player has such ability.  
   
 Actually, as it turns out, the best possible outcome in a game of checkers, given two players who each make perfect moves, is a draw.  
   

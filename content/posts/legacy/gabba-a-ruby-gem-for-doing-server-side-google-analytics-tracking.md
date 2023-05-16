@@ -10,7 +10,6 @@ tags:
 - google analytics
 ---
 
-[![](http://www.thehype.fm/wp-content/uploads/2009/05/yo-gabba.jpg)](http://www.thehype.fm/wp-content/uploads/2009/05/yo-gabba.jpg)  
 Yo, Gabba! Gabba, hey? [Gabba](https://github.com/hybridgroup/gabba) is a Ruby gem to do easy server-side [Google Analytics](http://google.com/analytics/) tracking of page view and custom events. Gather around and I'll show you how it works.  
   
 Google Analytics is the gold standard of website traffic reporting. In addition to tracking page views, one of the interesting capabilities it has is to track custom events. These could be shopping cart checkouts or video plays from clicking on a button in a Flash player.  

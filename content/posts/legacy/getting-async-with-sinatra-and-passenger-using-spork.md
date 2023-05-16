@@ -13,7 +13,6 @@ tags:
 - spork
 ---
 
-[![](http://www.trophybikes.com/content/Image/MISC%20GOODS/SPORK.jpg)](http://www.trophybikes.com/content/Image/MISC%20GOODS/SPORK.jpg)  
 Everyone wants it all. In the case of upload processing, this means we want both the convenience of [Sinatra](http://www.sinatrarb.com) coding, plus the performance that a nice process/threading model gives us. Go off and do some work I just assigned you, and don't make me wait around to see you do it.  
   
 If you are using [Passenger](http://www.modrails.com), it already is buffering your uploads, and not calling your Sinatra application until the upload is complete. That saves system resources for more important things, like even more uploads. Pretty nice.  

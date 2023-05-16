@@ -5,7 +5,7 @@ draft: false
 url: /2009/02/frankie-gets-some-fixes.html
 ---
 
-[![](http://neatorama.cachefly.net/images/2008-10/empire-state-building.jpg)](http://neatorama.cachefly.net/images/2008-10/empire-state-building.jpg)It has been very overdue to get [Frankie](http://github.com/deadprogrammer/frankie/tree/master) updated to work with the latest versions of [Sinatra](http://www.sinatrarb.com/) and [Facebooker](http://github.com/mmangino/facebooker/tree/master).  
+It has been very overdue to get [Frankie](http://github.com/deadprogrammer/frankie/tree/master) updated to work with the latest versions of [Sinatra](http://www.sinatrarb.com/) and [Facebooker](http://github.com/mmangino/facebooker/tree/master).  
   
 But where I have been lagging, [mjfreshyfresh](http://blog.stepchangegroup.com/) has stepped up, and submitted a patch that gives compatibility with Sinatra 0.9.x and Facebooker 1.0.2. Thanks, my main man!  
   

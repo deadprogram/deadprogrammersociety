@@ -11,7 +11,7 @@ tags:
 - ruby on rails
 ---
 
-[![](http://www.la2day.com/files/imagecache/full_article_image/files/cucumbereyes.jpg)](http://www.la2day.com/files/imagecache/full_article_image/files/cucumbereyes.jpg)Ever since I discovered [Fitnesse](http://fitnesse.org/) a few years back, I have been increasingly obsessed with the idea of executable specifications and testable requirements. As far as I am concerned, [Behavior Driven Development](http://en.wikipedia.org/wiki/Behavior_driven_development) (BDD) is a very appealing way to get the "people who need the software" and the "people who build the software" to understand each other.  
+Ever since I discovered [Fitnesse](http://fitnesse.org/) a few years back, I have been increasingly obsessed with the idea of executable specifications and testable requirements. As far as I am concerned, [Behavior Driven Development](http://en.wikipedia.org/wiki/Behavior_driven_development) (BDD) is a very appealing way to get the "people who need the software" and the "people who build the software" to understand each other.  
   
 For about 2 years, give or take, many [Ruby on Rails](http://www.rubyonrails.org/) developers have been switching to [RSpec](http://rspec.info/), or at least paying lip-service (giving rspec?). This is simply because, as far as automated testing, ye olde test::unit is getting a bit long in the tooth. The somewhat less ambitious [shoulda](http://www.thoughtbot.com/projects/shoulda) project takes a much more minimal approach to RSpec, preferring to be a better test:unit and not going all the way to the executable specification. Maybe they did not drink the whole glass of kool-aid? Well, I did... a while back. But I digress.  
   

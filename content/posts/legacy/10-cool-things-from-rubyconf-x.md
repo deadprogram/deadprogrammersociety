@@ -8,7 +8,7 @@ tags:
 - rubyconf
 ---
 
-[![](http://rlv.zcache.com/x_hat-p148311112721548543qz14_400.jpg)](http://rlv.zcache.com/x_hat-p148311112721548543qz14_400.jpg)This last week was the fantastic [RubyConf X](http://rubyconf.org/). It has been ten years of RubyConf and in celebration of this notable occasion, the organizers located it in New Orleans and opened up the registration to a lot more people then most years past. This had the clearly foreseeable consequence of turning the conference into a really fun time!  
+This last week was the fantastic [RubyConf X](http://rubyconf.org/). It has been ten years of RubyConf and in celebration of this notable occasion, the organizers located it in New Orleans and opened up the registration to a lot more people then most years past. This had the clearly foreseeable consequence of turning the conference into a really fun time!  
   
 So here, in no particular order, are 10 cool things I saw or heard at the conference.  
   

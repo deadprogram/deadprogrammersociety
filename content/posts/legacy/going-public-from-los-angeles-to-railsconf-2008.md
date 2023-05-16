@@ -10,8 +10,6 @@ tags:
 - railsconf2008
 ---
 
-  
-  
 With the high cost (and carbon!) of transportation, as well as the burden of the increased time it takes to fight your way through the congestion, we all need to change the way that we navigate thru our daily lives. I had decided to take public transportation to get from my house in Los Angeles, to RailsConf 2008 in Portland, OR.  
   
 When I first mentioned my plans, several friends and family members were incredulous. "It takes too long, " stated one person. "There's no way to get to airport in LA except by car, " scoffed another. I set out to prove them wrong, and by doing so began a new chapter in how I approach personal transportation.  

@@ -11,7 +11,7 @@ tags:
 - ruby on rails
 ---
 
-[![](http://www.smmirror.com/volume6/issue34/images1/yahoo.jpg)](http://www.smmirror.com/volume6/issue34/images1/yahoo.jpg)Last Tuesday night was July's Los Angeles Web Application Developer Meetup. This event is starting to get really good. Not only were there lots of people who came out, but our hosts Yahoo! actually bought us beer too. Hint to future hosts of the meetup... be cool like Yahoo! and provide BOTH a projection screen and beer.  
+Last Tuesday night was July's Los Angeles Web Application Developer Meetup. This event is starting to get really good. Not only were there lots of people who came out, but our hosts Yahoo! actually bought us beer too. Hint to future hosts of the meetup... be cool like Yahoo! and provide BOTH a projection screen and beer.  
   
 There were two especially fun presentations, at least to me. [Jim Bumgardner](http://www.krazydad.com/blog/) of Yahoo showed off some of his really interesting web gadgetry. Now I didn't know Jim when I walked into the meetup, but I have seen his work. The man has done some innovative stuff over the years, that is for sure. Also, he has to have one of the best gigs I have seen for a while, getting paid to build really fun things.  
   

@@ -11,7 +11,7 @@ tags:
 - facebook
 ---
 
-[![](http://www.porthalcyon.com/features/200505/images/bacall_sinatra2.jpg)](http://www.porthalcyon.com/features/200505/images/bacall_sinatra2.jpg)**UPDATED 4/12/2008: Now compatible with Sinatra 0.2.0**  
+**UPDATED 4/12/2008: Now compatible with Sinatra 0.2.0**  
 So you want to create a small Facebook application... seems like it should be a small thing, right? But creating an entire Ruby on Rails application just for a tiny little Facebook application is, at the very least, a bit wasteful. In the case of a overly popular Facebook app you could end up with, as Marc Andreessen put it, a ["self-inflicted denial of service attack"](http://blog.pmarca.com/2007/06/analyzing_the_f.html), unless you have both a pretty serious infrastructure to support it, as well as lots of cash to keep that data center running.  
   
 Wouldn't you rather be able to create a highly scalable "hello, world" Facebook application in around 13 lines of Ruby code? Say hello to [Frankie](http://facethesinatra.com):  

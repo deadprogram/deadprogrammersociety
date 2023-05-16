@@ -8,7 +8,7 @@ tags:
 - textmate
 ---
 
-[![](http://www.thefishgrip.com/images/CatfishInGripBig.JPG)](http://www.thefishgrip.com/images/CatfishInGripBig.JPG)I really wanted to be all cool and retro by going back to EMACS, but my usual workload has kept me from figuring out the right environment for my Mac. In the meantime, programming pal and fun blogger [Daniel Fischer](http://www.danielfischer.com/) turned me on to just one more reason to stay lazy.  
+I really wanted to be all cool and retro by going back to EMACS, but my usual workload has kept me from figuring out the right environment for my Mac. In the meantime, programming pal and fun blogger [Daniel Fischer](http://www.danielfischer.com/) turned me on to just one more reason to stay lazy.  
   
 TextMate is really quite a cool editor. However, one problem that annoys, especially when working on larger projects, is TextMate's "Find In Project". If you've ever literally had your entire machine lock up while doing a search, you know the pain.  
   

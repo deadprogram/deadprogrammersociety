@@ -8,7 +8,7 @@ tags:
 - ruby on rails
 ---
 
-[![](http://www.chocolateheaven.com/images/products/full/33700_zoom.jpg)](http://www.chocolateheaven.com/images/products/full/33700_zoom.jpg)I have been busy the last few nights incorporating the brilliant Rails plugin called [attachment\_fu](http://svn.techno-weenie.net/projects/plugins/attachment_fu/) from Rick Olson aka [technoweenie](http://weblog.techno-weenie.net/). If you do not know about attachment\_fu, it is a complete solution to the problem of uploading image files attachments to include with your models.  
+I have been busy the last few nights incorporating the brilliant Rails plugin called [attachment\_fu](http://svn.techno-weenie.net/projects/plugins/attachment_fu/) from Rick Olson aka [technoweenie](http://weblog.techno-weenie.net/). If you do not know about attachment\_fu, it is a complete solution to the problem of uploading image files attachments to include with your models.  
   
 First, I had to get past the initial hurdle of getting ImageScience and FreeImage correctly installed and working on my Mac. Despite the claims that Locomotive should have already had these in the bundle, I had to go thru a small process to get the prerequisites going.  
   

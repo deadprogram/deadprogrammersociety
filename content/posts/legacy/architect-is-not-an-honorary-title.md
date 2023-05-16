@@ -8,7 +8,7 @@ tags:
 - agile development
 ---
 
-[![](http://roolily.files.wordpress.com/2007/10/coronation.jpg)](http://roolily.files.wordpress.com/2007/10/coronation.jpg)The job title "architect" seems to mean something different inside every organization. At far too many companies, it is almost an honorary title, being reserved as a promotion for long-term company loyalists who "know the business", instead of actually meaning anything related to the overarching technical design required for the successful release of quality software.  
+The job title "architect" seems to mean something different inside every organization. At far too many companies, it is almost an honorary title, being reserved as a promotion for long-term company loyalists who "know the business", instead of actually meaning anything related to the overarching technical design required for the successful release of quality software.  
   
 Knowing the business is great. In fact, knowing the business is essential. I hope that business experts abound within your organization. But "architecting" is not what these people are doing.  
   

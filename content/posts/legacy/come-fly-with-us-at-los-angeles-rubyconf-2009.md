@@ -9,7 +9,7 @@ tags:
 - larubyconf
 ---
 
-[![](http://www.cinepad.com/fs_covers/fs_fly.jpg)](http://www.cinepad.com/fs_covers/fs_fly.jpg)Yes, the rumors are true, our talk for [LARubyConf](http://www.larubyconf.com) was accepted. If you want to see the first ever public live demonstration of [flying\_robot](http://github.com/deadprogrammer/flying_robot), the real thing, actually flying around and such, come check it out live and direct at the first Los Angeles Ruby Conference on April 4.  
+Yes, the rumors are true, our talk for [LARubyConf](http://www.larubyconf.com) was accepted. If you want to see the first ever public live demonstration of [flying\_robot](http://github.com/deadprogrammer/flying_robot), the real thing, actually flying around and such, come check it out live and direct at the first Los Angeles Ruby Conference on April 4.  
   
 I do yet not know exactly what our demo will include, but from what we have been doing so far in the lab, you won't want to miss this one. Unless what you get to witness is massive fail. Either way, it will be spectacular.  
   

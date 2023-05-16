@@ -10,7 +10,7 @@ tags:
 - continuous integration
 ---
 
-[![](http://cruisecontrolrb.thoughtworks.com/images/cruise_logo_large.png)](http://cruisecontrolrb.thoughtworks.com/images/cruise_logo_large.png)At last, Ruby has a real Continuous Integration system, not just some crazy hacked-together solution. Nothing against crazy, hacked-together solutions, but your CI system is not the place for such madness. From those wonderful folks at [Thoughtworks](http://www.thoughtworks.com), we now have [CruiseControl.rb](http://cruisecontrolrb.thoughtworks.com), to join the CruiseControl and CruiseControl.NET offerings for Java and .NET projects respectively.  
+At last, Ruby has a real Continuous Integration system, not just some crazy hacked-together solution. Nothing against crazy, hacked-together solutions, but your CI system is not the place for such madness. From those wonderful folks at [Thoughtworks](http://www.thoughtworks.com), we now have [CruiseControl.rb](http://cruisecontrolrb.thoughtworks.com), to join the CruiseControl and CruiseControl.NET offerings for Java and .NET projects respectively.  
   
 I have been a constant user of CruiseControl.NET for all of the MS-platform projects for the last couple of years, and having a powerful, flexible system has been great. However, having to pay heavily of the angle-bracket tax to create the XML for the NAnt build scripts, CC.NET config files, and pretty much everything else has been a real pain. The pleasure has been the real-time integration with the CCTray notification program (shows up red in your system tray, and pops up a balloon notification when a build has been broken).  
   
