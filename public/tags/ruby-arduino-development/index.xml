@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ruby arduino development on Dead Programmer SOciety</title>
+    <link>/tags/ruby-arduino-development/</link>
+    <description>Recent content in ruby arduino development on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Jul 2009 09:55:00 -0700</lastBuildDate><atom:link href="/tags/ruby-arduino-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Ready For Takeoff At FutureRuby</title>
+      <link>/2009/07/getting-ready-for-takeoff-at-futureruby.html</link>
+      <pubDate>Sun, 05 Jul 2009 09:55:00 -0700</pubDate>
+      
+      <guid>/2009/07/getting-ready-for-takeoff-at-futureruby.html</guid>
+      <description>I just realized it has been an entire month since my last post. Sorry! In case you were wondering, the always overambitious plans for Project Flying Robot have taken up more time than expected. And parts. Especially parts.
+Lucky for us, the benefit of a hard deadline approaches: FutureRuby is coming up next week. My brother Damen Evans and I are going to be showing off our latest works in Unmanned Aerial Vehicles (UAV) based on Ruby Arduino Development (RAD).</description>
+    </item>
+    
+    <item>
+      <title>Project Flying Robot: Getting RAD With The ATMega328</title>
+      <link>/2009/04/project-flying-robot-getting-rad-with.html</link>
+      <pubDate>Sat, 18 Apr 2009 15:08:00 -0700</pubDate>
+      
+      <guid>/2009/04/project-flying-robot-getting-rad-with.html</guid>
+      <description>I have been wanting to upgrade the hardware used in our Dorkboards for flying_robot, from the ATMega168, to the newer better faster ATMega328. More memory, and a faster UART for serial communications with the XBee modems in the same pinout = easy win. Thanks to a quick shipping turnaround from @adafruit I got them in before the weekend, so I could play a little bit today.
+The first step was to upgrade my hard-working Arduino Diecimila to a 328.</description>
+    </item>
+    
+    <item>
+      <title>Project Flying Robot: I Believe I Can Fly</title>
+      <link>/2009/03/project-flying-robot-i-believe-i-can.html</link>
+      <pubDate>Sat, 21 Mar 2009 13:47:00 -0700</pubDate>
+      
+      <guid>/2009/03/project-flying-robot-i-believe-i-can.html</guid>
+      <description>At long last, after many obstacles to be surmounted, yesterday we achieved liftoff. The blimp prototype &amp;ldquo;Rogue 1&amp;rdquo; of our flying_robot project to create a platform for Ruby Arduino Development powered Unmanned Aerial Vehicles has achieved an important milestone.
+After our third complete rewiring of the main circuit board, two burned out Pololu micro serial motor controllers, some time reviewing the schematics of the Blimpduino project, and too many revisions to the basic software to list here, we had finally gotten everything ready for what would hopefully be a successful flight test.</description>
+    </item>
+    
+    <item>
+      <title>Project Flying Robot: Better To Burn Out Than Fade Away?</title>
+      <link>/2009/03/project-flying-robot-better-to-burn-out.html</link>
+      <pubDate>Sun, 15 Mar 2009 17:57:00 -0700</pubDate>
+      
+      <guid>/2009/03/project-flying-robot-better-to-burn-out.html</guid>
+      <description>We had made incredible strides forward in our construction of &amp;ldquo;Rogue 1&amp;rdquo; our autonomous blimp that we are building as the first implementation of flying_robot, our Arduino-framework for Unmanned Aerial Vehicles based on top of Ruby Arduino Development (RAD). We are also heavily influenced by the cool Blimpduino project. We were finally ready for a live test&amp;hellip; or so we thought. We inflated our envelope, and my brother attached the gondola that he has been carefully constructing.</description>
+    </item>
+    
+    <item>
+      <title>Project Flying Robot: By Your Command</title>
+      <link>/2009/03/project-flying-robot-by-your-command.html</link>
+      <pubDate>Tue, 10 Mar 2009 13:52:00 -0700</pubDate>
+      
+      <guid>/2009/03/project-flying-robot-by-your-command.html</guid>
+      <description>Our flying_robot project for Unmanned Aerial Vehicles has been underway for a few weeks now. Much soldering, and playing around with cool Arduino tricks has been taking place. You can read more here, here, here, and here if you need to catch up.
+One aspect that I have mentioned several times, but not gotten into much detail about, is our protocol for communicating with the UAV from the ground station. It is amazing to me, but there is still no dominant digital protocol for controlling UAV&amp;rsquo;s.</description>
+    </item>
+    
+    <item>
+      <title>Project Flying Robot: The Flying Dorkboard</title>
+      <link>/2009/02/project-flying-robot-flying-dorkboard.html</link>
+      <pubDate>Sat, 28 Feb 2009 08:53:00 -0800</pubDate>
+      
+      <guid>/2009/02/project-flying-robot-flying-dorkboard.html</guid>
+      <description>As we proceeded along with our flying_robot project, one thing became abundantly clear: weight matters. The Arduino Diecimilla that we had been using up to this point, although a fine package for beginners, was just not going to make it when it came time to weigh in. Yes, there is the Arduino Nano, but it is not a cheap device. Also, it has a few options that were not important to us, like the integrated USB, since we planned on only using XBee based communication with the blimp.</description>
+    </item>
+    
+    <item>
+      <title>Project Flying Robot: The Adventure Begins</title>
+      <link>/2009/02/project-flying-robot-adventure-begins.html</link>
+      <pubDate>Wed, 18 Feb 2009 08:22:00 -0800</pubDate>
+      
+      <guid>/2009/02/project-flying-robot-adventure-begins.html</guid>
+      <description>I love robots. OK, there, I&amp;rsquo;ve gone and gotten that out into the open. Like many programmers, I have long dreamed of dominating the world with my robot legions. Or failing that, at least getting my RoboSapien to walk around in a little circle by itself.
+Recently, my brother Damen Evans and I decided that we needed to realize our ambitions, and began work on a flying robot. Yes, that is what I said.</description>
+    </item>
+    
+  </channel>
+</rss>

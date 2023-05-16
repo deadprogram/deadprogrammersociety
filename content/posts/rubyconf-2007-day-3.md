@@ -1,0 +1,31 @@
+---
+title: 'RubyConf 2007 - Day 3'
+date: 2007-11-18T21:45:00.000-08:00
+draft: false
+url: /2007/11/rubyconf-2007-day-3.html
+tags: 
+- rubyconf 2007
+- ruby
+- rubyconf2007
+- rubyconf
+---
+
+[![](http://4.bp.blogspot.com/_SgxaAaUGqzY/R0GUFJJIkyI/AAAAAAAAAlc/DudNsKz-C1g/s200/Photo+16.jpg)](http://4.bp.blogspot.com/_SgxaAaUGqzY/R0GUFJJIkyI/AAAAAAAAAlc/DudNsKz-C1g/s1600-h/Photo+16.jpg)As day 3 of RubyConf 2007 began, the breakfast buffet had to remind us of its presence. This time, it was the main sound system that was taken out by the ultra-powerful toasters. When [Dr. Nic](http://drnicwilliams.com/) was asked if he wanted to get started anyhow, he had to give two of his charmingly nasal "No" rhymes with "Pow" before MC David Black caught his meaning. This gave some of us a moment to try to catch up on the flurry of RubyConf blogging. Not that you could tell that from the extreme lateness of this post. But enough of my feeble excuses.  
+  
+Finally, Dr. Nic took the stage, and gave an entertaining if kitschy presentation of his new [RubiGen](http://rubyforge.org/projects/rubigen/) generator to make generators. The whole "A-team" gimmick was over the top enough that Dr. Nic himself admitted by the end how he looked forward to retiring it. All I can say is "curse you for planting that theme song in my head for over an hour". On a better note (ouch!) this is for sure some useful stuff, and I will no doubt be doing some "generatin'" of my own coming up soon.  
+  
+Next up was "Behavior Driven Development in Ruby with RSpec". Although the presentation was not as flashy as the first, it was full of great information presented by smart guys who really know their stuff. I did not know [Dave Astels](http://daveastels.com/), and although I have spent some time hanging out with [David Chelimsky](http://blog.davidchelimsky.net/), I don't know him half as well as I would like to. Watching their live demo of [ping-pong programming](http://www.stickyminds.com/sitewide.asp?Function=edetail&ObjectType=COL&ObjectId=9101) on stage made me wish that I had someone really, really good to pair with these days. It looked fun!  
+  
+For a former [Fitnesse](http://fitnesse.org/) junkie like myself, the syntactical sugar applied to testing of requirements that is [Behavior Driven Development](http://dannorth.net/introducing-bdd/) using [RSpec](http://rspec.rubyforge.org/) is really appealing. I really don't know why some really smart people like [Chad Fowler](http://www.chadfowler.com/) and [Ryan Davis](http://blog.zenspider.com/) are not into it. I suppose that I have spent a lot of time with trying to sync up a customer's need with some custom software that was being written, and so the merger of domain specific languages and executable specifications is just particularly compelling.  
+  
+The last of the three main sessions was [Jay Phillips](http://jicksta.com/) presenting "Adhearsion - Sane VoIP Development". Way back when, I did some telephony stuff on ancient evil AT&T System V boxes, so I have followed from afar the wild and craziness of VoIP with the jaundiced eye of one who has gone there before, and came back having lost half of the party. Poor Vonage... ahem. That said, the [Adhearsion](http://adhearsion.com/) project taking a Rails-like approach to the stinking morass that is anything related to telephony is rather ingenious. I think much of the crowd will never use any of this stuff, but it was really neat. I wish Jay luck in his quest!  
+  
+After the main presentations, I decided to keep close to the cutting edge, and see what the [Google Summer of Code](http://code.google.com/soc/2007/) hath wrought. Amusingly, I must not have been the only one to lack major interest in the other sessions, cause the Goog room was full up on the "everyone who is anyone in Ruby" crowd. Can you say "time to catch up on feeds"?  
+  
+Of the Google SOC projects, I cannot remember much. I was most impressed by one student's charming honesty. It would seem that the project hadn't really gone all that well, and the work produced didn't seem like anything usable. But he had learned quite a lot. I think we often forget the value in so-called "failure", cause we of course only extol the virtues of success. But [Edison's remarks on failure](http://www.quotationspage.com/quote/1977.html) are instructive, and I took from this kid that he was going to be a lot more ready for real-life programming challenges as a result of his experience. I was a lot more impressed by that than some well-crafted but uninteresting code library that I will probably never use.  
+  
+The last session of the day for me was [Aaron Bedra](http://www.aaronbedra.com/)'s extremely cool "Sploitin' With Ruby". It you do not know about [Metasploit](http://www.metasploit.com/), it is a security research nee hacking tool, that is written almost entirely in Ruby. Taking an open-source, very plugin-oriented approach allows security professionals and outgunned system administrators to try to keep up with the R & D budgets of black hats, who these days have major economic incentives to hack your systems. Anyone who knows anything about security knows that these is no such thing as a secure operating system. That said, it was pitiful how easily you could probe for these exploits using Metasploit, without even knowing a fraction of what would be required before the invention of such tools.  
+  
+I just hope a bunch of the people who were making dumb comments in the room understand that breaking into your own computers to test them is smart, and a great way to harden your defenses against various nasty people. Breaking into OTHER people's computers is a recipe for a stay in federal prison.  
+  
+After the fun and games, I had to join the throng of taxi-seekers and head for the airport. RubyConf 2007 had been great, but now it was time to get back to the enormous piles of work that had only grown in my absence. RubyConf is a fantastic fun time, and a real inspiration to many of us. I will most certainly be back again next year, assuming that my finger is quick enough on the mouse to grab a seat.

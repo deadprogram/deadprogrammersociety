@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Heroku, Why Haven&#39;t I Been Using You Till Now? - Dead Programmer SOciety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/2009/04/heroku-why-havent-i-been-using-you-till.html" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6b89cc86c0b843a772cdd6c6a8b7e11c2116c7933f6163d2ef225a87e1d2c121.css">
+  
+
+  
+    
+    <meta property="og:title" content="Heroku, Why Haven&#39;t I Been Using You Till Now?"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/2009/04/heroku-why-havent-i-been-using-you-till.html"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@deadprogram"/>
+    <meta name="twitter:creator" content="@deadprogram"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Dead Programmer SOciety</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Heroku, Why Haven&#39;t I Been Using You Till Now?<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="http://www.dinaview.com/wp-content/uploads/2008/06/hero.jpg"><img src="http://www.dinaview.com/wp-content/uploads/2008/06/hero.jpg" alt=""></a>Last night, I finally got around to deploying something on <a href="http://heroku.com/">Heroku</a>, an interesting service founded by my formerly LA-based Ruby programming chums <a href="http://adam.blog.heroku.com/">Adam Wiggins</a>, James Lindenbaum, and Orion Henry. I had played with their previous incarnation of the service, now known as &ldquo;Heroku Garden&rdquo; but only recently have I gotten to know a little bit more about the incredible offering they have evolved into.</p>
+<p>Basically, the Heroku crew have addressed the question &ldquo;how can I deploy my <a href="http://rubyonrails.org/">Ruby on Rails</a>, <a href="http://www.sinatrarb.com/">Sinatra</a>, or other <a href="http://rack.rubyforge.org/">Rack</a>-based web application into a dynamic cloud of servers with ridiculous ease?&rdquo; They have done this with an ingenious architecture that takes advantage of <a href="http://aws.amazon.com/ec2/">Amazon&rsquo;s EC2</a> to provide their internal infrastructure. This allows Heroku to concentrate on their most important core value proposition, of a simple way to take your Ruby code and just push it into the cloud.</p>
+<p>Notice I said &ldquo;push&rdquo;. Heroku requires that you use <a href="http://git-scm.com/">git</a> for source control of your application. You are using git for everything now, right? If not, git with it! Sorry, could not resist that. Anyhow, by simply adding a remote master to your existing git repo that points to Heroku, along with a few Ruby gems that they provide, you can deploy your app just by pushing your current branch to the Heroku master.</p>
+<p>Doing this, causes your app to get packaged up into &ldquo;slug&rdquo;. Once you have an active slug, it will be be deployed to a &ldquo;dyno&rdquo; within the Heruku grid, which is what a virtual node within their architecture is called. As your app requires more resources, the slug can be deployed to more dynos within &ldquo;less than 2 seconds for most apps&rdquo;. That is way faster than starting up a new Amazon EC2 instance yourself, and having this extra layer has a number of other interesting benefits as well.</p>
+<p>Heroku has a quick start guide, which pretty much runs down what you need to do. I had found a slightly more <a href="http://heroku.com/pages/quickstart">simplified quickstart here</a>. I already had an existing Sinatra-based app that I wanted to test on Heroku, so here were my steps:</p>
+<p>1. Install heroku gem</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo gem install heroku
+</code></pre></div><p>2. Setup Heroku account info, and upload public key</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">heroku keys:add 
+</code></pre></div><p>This will prompt you for your Heroku account info. If you have not created one yet, better jump over to <a href="http://heroku.com/signup">http://heroku.com/signup</a> and create one</p>
+<p>3. Create Heroku app from my existing app<br>
+I just changed so my current directory was the app I wanted to add to Heroku, then entered:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">heroku create myappname
+</code></pre></div><p>This creates the new app on Heroku, and creates a remote branch so you can deploy just by pushing the code.</p>
+<p>4. Deploy my code</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">git push heroku master
+</code></pre></div><p>That&rsquo;s it! If you have a really simple app, with no database access, you are done. What, you are deploying a Ruby on Rails app and need a database setup? OK, then&hellip;</p>
+<p>5. Run database migrations</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">heroku rake db:migrate
+</code></pre></div><p>NOW, you are fully deployed and running on Heroku. Unless you are not. I still had a minor problem with my app. I was writing my log file into &ldquo;logs/production.log&rdquo; but Heroku does not normally allow write access to disk. The two exceptions to this are the &ldquo;tmp&rdquo; directory and &ldquo;log&rdquo; directory (notice singular). They do provide an easy way to view your most recent log entries, by typing```
+heroku logs</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+So, here is my total time required to deploy this app on Heroku:  
+\- Reading quickstart = 3 minutes  
+\- Installing gem and entering account info = 2 minutes  
+\- Making my app a Heroku app = 1 minute  
+\- Deploying my app for the first time to Heroku = 2 minutes  
+\- Figuring out what I had done wrong from the Heroku documentation = 10 minutes  
+TOTAL = 18 minutes  
+  
+Here were my bonus steps:  
+\- Reading Heroku docs on using a custom domain with Heroku = 1 minute  
+\- Realize I need to rename my app using Heroku command line = 1 minute  
+\- Rename my app using Heroku command line = 1 minute  
+\- Setting my DNS settings to point to Heroku = 5 minutes  
+\- Telling Heroku about my custom domain = 1 minute  
+TOTAL = 9 minutes  
+  
+So there you have it... a fully deployed app, living in the Heroku grid and consequently the Amazon EC2 cloud, in less than 30 minutes, having never used their tools before, including troubleshooting a minor configuration problem. That may seem unfair... and it is. That is exactly the kind of unfair I like on my side!  
+  
+Much credit should go to the Heroku team for creating something extremely cool and functional. Important details are still not available, like pricing etc., but at least for now Heroku, is a great way to easily get your app up into the cloud within literally minutes.  
+  
+What is the future for Heroku? Funded by [Y Combinator](http://ycombinator.com/), they have been quietly working away, and now with Sinatra team leads [Blake Mizerany](http://twitter.com/bmizerany) and [Ryan Tomayko](http://tomayko.com/) onboard as well, I think we will be hearing a lot from this exciting little company.</code></pre></div>
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/deadprogram" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/deadprogram" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/deadprogram/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.575671c6da23c3563d465f9cfa3d2857fc0239531a2e8ea1fb6812017653b4d7.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wireless on Dead Programmer SOciety</title>
+    <link>/tags/wireless/</link>
+    <description>Recent content in wireless on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Feb 2009 10:38:00 -0800</lastBuildDate><atom:link href="/tags/wireless/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Flying Robot: Getting All XBee With It</title>
+      <link>/2009/02/project-flying-robot-getting-all-xbee.html</link>
+      <pubDate>Sun, 22 Feb 2009 10:38:00 -0800</pubDate>
+      
+      <guid>/2009/02/project-flying-robot-getting-all-xbee.html</guid>
+      <description>We have been making some amazing progress on our flying_robot project. This post is actually from almost a week ago, but I have not had time to catch up blogging with what we have been getting accomplished.
+As I had mentioned in my first posting, one of the reasons that we did not simply copy the Blimpduino, is that we do not want to use a standard R/C controller for manual control.</description>
+    </item>
+    
+  </channel>
+</rss>

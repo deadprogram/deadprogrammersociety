@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sparkline on Dead Programmer SOciety</title>
+    <link>/tags/sparkline/</link>
+    <description>Recent content in sparkline on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Jan 2010 12:12:00 -0800</lastBuildDate><atom:link href="/tags/sparkline/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sparkline Some Interest With Ruby on Rails</title>
+      <link>/2010/01/sparkline-some-interest-with-ruby-on.html</link>
+      <pubDate>Tue, 12 Jan 2010 12:12:00 -0800</pubDate>
+      
+      <guid>/2010/01/sparkline-some-interest-with-ruby-on.html</guid>
+      <description>Recently, I added some sparkline graphs to a Ruby on Rails application. A sparkline is a very small graphic that displays a large amount of information, typically shown over time, and usually embedded in some other text. Invented by the father of modern infographics Edward Tufte, the sparkline has become a fixture of many online applications that want to visually display some stats in a simple, integrated way.
+When it come to adding sparklines into a Ruby on Rails application, there are a couple of different options.</description>
+    </item>
+    
+  </channel>
+</rss>

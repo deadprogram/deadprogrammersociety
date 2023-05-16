@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Format Ruby Code On Your Blog Postings Like The Cool Kids - Dead Programmer SOciety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/2007/02/format-ruby-code-on-your-blog-postings.html" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6b89cc86c0b843a772cdd6c6a8b7e11c2116c7933f6163d2ef225a87e1d2c121.css">
+  
+
+  
+    
+    <meta property="og:title" content="Format Ruby Code On Your Blog Postings Like The Cool Kids"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/2007/02/format-ruby-code-on-your-blog-postings.html"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@deadprogram"/>
+    <meta name="twitter:creator" content="@deadprogram"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Dead Programmer SOciety</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Format Ruby Code On Your Blog Postings Like The Cool Kids<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="http://www.barronmind.com/attire6.jpg"><img src="http://www.barronmind.com/attire6.jpg" alt=""></a>I had noticed that almost <a href="http://brainspl.at">all</a> <a href="http://chadfowler.com/">of</a> <a href="http://drnicwilliams.com/">the</a> <a href="http://errtheblog.com/">cool</a> <a href="http://dablog.rubypal.com/">people</a> post nicely formatted, color coded, beautiful looking Ruby code whenever they post.</p>
+<p>Well, some of the cool people use a <a href="http://redhanded.hobix.com/inspect/streamCopyYoutubeRevverEtc.html">style of formatting that defies description</a>&hellip;but I digress.</p>
+<p>Anyhow, I looked at my poor pitiful postings, and felt like a second, or even third class citizen. Everybody&rsquo;s code is looking better than mine! What can be done?! Extreme makeover, Ruby CSS edition.</p>
+<p>Mac developers who are using TextMate already have a built-in way to get back nicely formatted HTML. Does this mean they have built-in coolness? Yes it does. But for others who are using a different OS, or maybe an IDE like RadRails, there is also a solution.</p>
+<p>On the Ruby Advent calendar site from last year, is a <a href="http://www.rubyinside.com/advent2006/7-coloring.html">cool posting from Peter Cooper</a> that allows you to submit some Ruby code thru a web page, and get back formatted HTML. Add a little bit of CSS to your page, and you too can be one of the cool people.</p>
+<p>I had to modify the suggested CSS for my ultra-retro TTL terminal look that I usually set my editors up with. So my Ruby code went from this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+class Animal &lt; DSLThing  
+ attr\_accessor :name  
+   
+ def initialize(name=nil)  
+  @name = name  
+ end  
+end  
+
+</code></pre></div><p>To this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">class Animal &lt; DSLThing  
+ attr\_accessor :name  
+   
+ def initialize(name\=nil)  
+  @name \= name  
+ end  
+end
+</code></pre></div><p>With my new CSS, I can now hopefully masquerade as one of the cool kids, and maybe even sneak into the club.</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/deadprogram" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/deadprogram" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/deadprogram/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.575671c6da23c3563d465f9cfa3d2857fc0239531a2e8ea1fb6812017653b4d7.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

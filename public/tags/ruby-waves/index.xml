@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ruby waves on Dead Programmer SOciety</title>
+    <link>/tags/ruby-waves/</link>
+    <description>Recent content in ruby waves on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Apr 2009 08:35:00 -0700</lastBuildDate><atom:link href="/tags/ruby-waves/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LARubyConf 2009 - Dan Yoder - &#34;Resource Oriented Architectures and Why It Matters&#34;</title>
+      <link>/2009/04/larubyconf-2009-dan-yoder-resource.html</link>
+      <pubDate>Sun, 05 Apr 2009 08:35:00 -0700</pubDate>
+      
+      <guid>/2009/04/larubyconf-2009-dan-yoder-resource.html</guid>
+      <description>Lead-off man Dan Yoder started off the day&amp;rsquo;s proceedings at the Los Angeles Ruby Conference (LARubyConf) 2009, with a presentation on Ruby Waves called &amp;ldquo;Resource Oriented Architectures and Why It Matters&amp;rdquo;. Despite not getting the same attention that some Ruby frameworks have, the Waves team has been tirelessly working on it. According to Dan, the foundation of Waves has gotten pretty solid. Waves adds a lot of support for things over and above just handling http requests.</description>
+    </item>
+    
+  </channel>
+</rss>

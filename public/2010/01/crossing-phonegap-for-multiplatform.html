@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Crossing The PhoneGap For Multiplatform Mobile Applications - Dead Programmer SOciety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/2010/01/crossing-phonegap-for-multiplatform.html" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6b89cc86c0b843a772cdd6c6a8b7e11c2116c7933f6163d2ef225a87e1d2c121.css">
+  
+
+  
+    
+    <meta property="og:title" content="Crossing The PhoneGap For Multiplatform Mobile Applications"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/2010/01/crossing-phonegap-for-multiplatform.html"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@deadprogram"/>
+    <meta name="twitter:creator" content="@deadprogram"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Dead Programmer SOciety</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Crossing The PhoneGap For Multiplatform Mobile Applications<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="http://www.elvincountry.com/travel-images/02802741.jpg"><img src="http://www.elvincountry.com/travel-images/02802741.jpg" alt=""></a>I had first heard of the <a href="http://phonegap.com/">PhoneGap</a> open source framework for multiplatform mobile development last year at the <a href="http://futureruby.com/">FutureRuby</a> conference in Toronto. Honestly, I did not really concentrate on all they were saying at the time, and in the flurry of info including back-to-back mobile sessions with <a href="http://rhomobile.com/">Rhomobile</a>, I did not fully retain a clear picture of what they had to offer. My bad.</p>
+<p>It was not until late last year, while working on plans for a very cool mobile application, that I was reminded about PhoneGap by one of my colleagues. After a brief evaluation of their benefits vs. the other multiplatform options, we decided to use PhoneGap on this particular project. We have made some amazing progress with using PhoneGap for mobile development since then, and I thought I would share a few of the lessons learned.</p>
+<p>First of all, a quick explanation of how PhoneGap works. <a href="http://blogs.nitobi.com/jesse">Jesse MacFadyen</a>, one of the programmers at <a href="http://nitobi.com/">Nitobi</a>, the primary developers of PhoneGap, has a <a href="http://blogs.nitobi.com/jesse/2009/11/04/phonegap-for-iphone-exposed/">good blog post</a> where he breaks down how the PhoneGap framework works on iPhone. Here is my much condensed take on what he is saying.</p>
+<p>All of the mobile platforms supported by PhoneGap have some kind of web browser control. A PhoneGap application is a packaged up application which is a webpage or mini-website, that executes inside whatever web browser control is available on that platform. Add in a standard JavaScript API to a wrapper that accesses the device-specific functionality like GPS or the accelerometer, and you can hook up the JavaScript on your &ldquo;page&rdquo; to the hardware.</p>
+<p>But don&rsquo;t make the mistake of thinking you should just slap together some web pages formatted for mobile. Rather, you can and must think of it as an application that is written in the form of a single web page with a bunch of JavaScript. To access server data, you will need to write some AJAX code to access the remote resources, then update your UI accordingly. The good news is you can use familiar JavaScript libraries such as <a href="http://jquery.com/">jQuery</a> to do so. We chose <a href="http://www.jqtouch.com/">jqTouch</a> to get a very iPhone-like UI.</p>
+<p>The PhoneGap framework is under very active development. New code is being committed to their <a href="http://github.com/phonegap/phonegap">github repo</a> frequently. As such, you really do need to have git installed, and some working knowledge of how to use it, to get things setup.</p>
+<p>In fact, the device specific functionality for each platform is contained within the main PhoneGap git repository as a series of git submodules such as <a href="http://github.com/phonegap/phonegap-iphone">phonegap-iphone</a>, <a href="http://github.com/phonegap/phonegap-android">phonegap-android</a>, etc. This makes it all but impossible to install the latest and greatest without git. Being a git user myself, this does not pose any problem, and if you are not gitmotized yet, this is an ideal time to become so.</p>
+<p>Here are the series of steps I followed to create my own PhoneGap project&hellip;</p>
+<p><strong>Prerequisites</strong></p>
+<ul>
+<li>
+<p>Install iPhone SDK (yes, you must join the iPhone developer program)</p>
+</li>
+<li>
+<p>Install Android SDK (<a href="http://www.talkandroid.com/android-sdk-install-guide/">http://www.talkandroid.com/android-sdk-install-guide/</a> has some good instructions. I am not using Eclipse, so I skipped all that)</p>
+</li>
+<li>
+<p>Install Apache Ant (sudo port install apache-ant)</p>
+</li>
+</ul>
+<p><strong>Install PhoneGap</strong></p>
+<ul>
+<li>
+<p>Get latest PhoneGap (git clone git://github.com/phonegap/phonegap.git)</p>
+</li>
+<li>
+<p>Get submodules for iPhone &amp; Android (cd phonegap &amp;&amp; git submodule update)</p>
+</li>
+<li>
+<p>Build iPhone Lib and install</p>
+</li>
+<li>
+<p>Build Android libs</p>
+</li>
+</ul>
+<p><strong>Setting Up A New Multiplatform PhoneGap Project</strong></p>
+<ul>
+<li>
+<p>Create a new iPhone project using the phonegap-iphone template. The www directory in the new project will be becoming the shared part of your project, with all your UI and application logic</p>
+</li>
+<li>
+<p>Create the Android project using the phonegap-android build script. Use the www directory from the iphone project as the www-dir param. You will be replacing this with a reference to the git submodule</p>
+</li>
+<li>
+<p>Create a new git repo in the www directory in the iPhone project, and commit all the files in the www directory</p>
+</li>
+<li>
+<p>Change directories to the parent of where you want to put the directory for the shared git repo, then clone the repo located at /path/to/iphoneproj/www to /path/to/sharedrepo. You may also want to create a remote branch at this point for the new shared repo</p>
+</li>
+<li>
+<p>Remove the www directory from the iPhone project</p>
+</li>
+<li>
+<p>Create a new git repo in the iphone project directory, then commit all files. You may also want to create a remote branch at this point</p>
+</li>
+<li>
+<p>Put the shared code into the iPhone project by using &ldquo;git submodule add&rdquo; to put a reference to the shared repo into /path/to/iphoneproj/www</p>
+</li>
+<li>
+<p>Create a new git repo in the Android project directory, then commit all files. You may also want to create a remote branch at this point, as you probably did for the iPhone project files</p>
+</li>
+<li>
+<p>Remove the /path/to/androidproj/assets/www directory from the Android project, and use &ldquo;git submodule add&rdquo; to put a reference to the shared repo at /path/to/androidproj/assets/www</p>
+</li>
+</ul>
+<p>You now should have 3 git repos, with the shared code, the iPhone specific project code, and the Android specific project code, each in their respective places. Much easier and nicer to work on.</p>
+<p>Anyhow, I hope this info is useful to any PhoneGap developers that want to get things setup cleanly for multi-platform mobile programming. Please let me know any feedback or improvements that people out there come up with, for this neat open source framework for doing JavaScript-based mobile development.</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/deadprogram" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/deadprogram" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/deadprogram/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.575671c6da23c3563d465f9cfa3d2857fc0239531a2e8ea1fb6812017653b4d7.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

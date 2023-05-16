@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>e the editor on Dead Programmer SOciety</title>
+    <link>/tags/e-the-editor/</link>
+    <description>Recent content in e the editor on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Mar 2007 16:35:00 -0700</lastBuildDate><atom:link href="/tags/e-the-editor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>E Is For Editor Envy</title>
+      <link>/2007/03/e-is-for-editor-envy.html</link>
+      <pubDate>Wed, 28 Mar 2007 16:35:00 -0700</pubDate>
+      
+      <guid>/2007/03/e-is-for-editor-envy.html</guid>
+      <description>I love it when I find out about a cool new tool. In this case, it is E, a Windows clone of the ubiquitous Mac text editor TextMate. Looks like this project has been around for awhile, but I just heard of it thanks to a blog entry about creating a Mac-like environment under Windows.
+Installing E is not a small task, although it is not a difficult one. This is due to the fact that E relies heavily on Cygwin to support &amp;ldquo;bundles&amp;rdquo; which is how TextMate creates their oh-so-useful macro and template collections.</description>
+    </item>
+    
+  </channel>
+</rss>

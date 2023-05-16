@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>s3 on Dead Programmer SOciety</title>
+    <link>/tags/s3/</link>
+    <description>Recent content in s3 on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Feb 2008 11:18:00 -0800</lastBuildDate><atom:link href="/tags/s3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Everybody Into The Pool</title>
+      <link>/2008/02/everybody-into-pool.html</link>
+      <pubDate>Wed, 20 Feb 2008 11:18:00 -0800</pubDate>
+      
+      <guid>/2008/02/everybody-into-pool.html</guid>
+      <description>A few weeks back, I indulged my current obsession with grid computing, and Amazon&amp;rsquo;s EC2 and S3 services in particular, with a lengthy post. I mentioned how friend Ari Lerner and I had built a really neat solution, and were going to put all of our processing farm goodness into a nice neat gemified package. Well, mostly thanks to Ari, we now have a new Ruby gem called ProcessorPool that uses EC2 and S3 to do all the hard work for you.</description>
+    </item>
+    
+    <item>
+      <title>On The Grid With EC2</title>
+      <link>/2008/01/on-grid-with-ec2.html</link>
+      <pubDate>Sat, 12 Jan 2008 10:08:00 -0800</pubDate>
+      
+      <guid>/2008/01/on-grid-with-ec2.html</guid>
+      <description>Lately, I have had a chance to get seriously into Amazon&amp;rsquo;s Elastic Compute Cloud (EC2) service. I doubt any reader of this blog is unfamiliar with the existence of EC2, but many of you have probably not even gotten to the tire kicking stage, like I had been until recently.
+Even after attending several sessions about Amazon&amp;rsquo;s EC2 at RailsConf 2007, I still had only a very general idea about the service.</description>
+    </item>
+    
+    <item>
+      <title>Making S3 Folders In Ruby</title>
+      <link>/2008/01/making-s3-folders-in-ruby.html</link>
+      <pubDate>Fri, 11 Jan 2008 17:26:00 -0800</pubDate>
+      
+      <guid>/2008/01/making-s3-folders-in-ruby.html</guid>
+      <description>Amazon&amp;rsquo;s S3 storage service is a really cool way to store and serve up massive quantities of data. Interestingly, it is more like a database than like a file system. Despite the convenience of referring to an object like &amp;ldquo;/path/to/thing.jpg&amp;rdquo; S3 really does not have any separate objects for &amp;ldquo;/path&amp;rdquo; or &amp;ldquo;/path/to&amp;rdquo;. In fact, neither &amp;ldquo;/path&amp;rdquo; nor &amp;ldquo;/path/to&amp;rdquo; even exist.
+This is why, when you store an S3 object, the name it is given is called &amp;ldquo;key&amp;rdquo; instead of &amp;ldquo;filename&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

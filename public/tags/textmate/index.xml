@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>textmate on Dead Programmer SOciety</title>
+    <link>/tags/textmate/</link>
+    <description>Recent content in textmate on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Jan 2009 08:58:00 -0800</lastBuildDate><atom:link href="/tags/textmate/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get A Grep On TextMate</title>
+      <link>/2009/01/get-grep-on-textmate.html</link>
+      <pubDate>Fri, 23 Jan 2009 08:58:00 -0800</pubDate>
+      
+      <guid>/2009/01/get-grep-on-textmate.html</guid>
+      <description>I really wanted to be all cool and retro by going back to EMACS, but my usual workload has kept me from figuring out the right environment for my Mac. In the meantime, programming pal and fun blogger Daniel Fischer turned me on to just one more reason to stay lazy.
+TextMate is really quite a cool editor. However, one problem that annoys, especially when working on larger projects, is TextMate&amp;rsquo;s &amp;ldquo;Find In Project&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

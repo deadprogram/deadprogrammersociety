@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Ruby Domain Specific Languages - The Basics (Part 4) - Dead Programmer SOciety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/2006/11/ruby-domain-specific-languages-basics_27.html" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6b89cc86c0b843a772cdd6c6a8b7e11c2116c7933f6163d2ef225a87e1d2c121.css">
+  
+
+  
+    
+    <meta property="og:title" content="Ruby Domain Specific Languages - The Basics (Part 4)"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/2006/11/ruby-domain-specific-languages-basics_27.html"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@deadprogram"/>
+    <meta name="twitter:creator" content="@deadprogram"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Dead Programmer SOciety</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Ruby Domain Specific Languages - The Basics (Part 4)<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="http://files.dogster.com/pix/dogs/90/194290/194290_1147718709.jpg"><img src="http://files.dogster.com/pix/dogs/90/194290/194290_1147718709.jpg" alt=""></a>In the <a href="http://deadprogrammersociety.blogspot.com/2006/11/ruby-domain-specific-languages-basics_19.html">previous three entries</a> in this series of postings, I have been exploring the basics of creating domain specific languages using Ruby. Since I cannot disclose details of my big financial service client&rsquo;s DSL, I am using this made up example to illustrate the techniques that are useful when building your own Ruby DSL. So far we have created a &ldquo;PetShop&rdquo; domain that allows us to interact with the Pets. Defining the behavior of new Pets is the purpose of this DSL.</p>
+<p>For example, let&rsquo;s say we now want each Pet to be able to do some trick, when called on to do so. When you are defining behaviors, it is very useful to define a recipe-like syntax in a DSL.</p>
+<p>Here is an example:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+ pet &#34;Toto&#34; do  
+  when\_performing\_tricks do  
+   sit  
+   speak  
+  end  
+ end  
+
+</code></pre></div><p>This is just a description or recipe of what the animal is supposed to do when asked to perform it&rsquo;s trick. When we really want our Pet to perform, we simply say:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+  pet.perform  
+
+</code></pre></div><p>This produces the following output:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+Toto will now perform...  
+Toto is sitting...  
+Toto says &#39;Woof!&#39;  
+Let&#39;s hear some applause for Toto!  
+Slugworth will now perform...  
+Slugworth is sitting...  
+Let&#39;s hear some applause for Slugworth!  
+Tweety will now perform...  
+Tweety is sitting...  
+Tweety says &#39;I thought I saw a putty tat!  
+Tweety is flying...  
+Let&#39;s hear some applause for Tweety!  
+
+</code></pre></div><p>The Pet will do whatever tricks it knows, using this little simple bit of Ruby magic:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+ def self.when\_performing\_tricks(&amp;routine)  
+  @routine = routine  
+ end  
+  
+ def perform  
+  puts &#34;#{name} will now perform...&#34;  
+  @routine.call  
+  puts &#34;Let&#39;s hear some applause for #{name}!&#34;  
+ end  
+  
+
+</code></pre></div><p>The &ldquo;when_performing_tricks&rdquo; method simply stores the block, and executes it only when the time comes to &ldquo;perform&rdquo;.</p>
+<p>So how does the Pet know what is entailed in each trick? I have put the &ldquo;sit&rdquo; trick into the base Pet class (every Pet knows how to sit):</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+ def self.sit  
+  puts &#34;#{name} is sitting...&#34;  
+ end  
+
+</code></pre></div><p>We can also more importantly define custom tricks per type of Pet. A simple bit of Ruby metaprogramming goodness helps us out:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+ def self.define\_trick(name, &amp;trick\_definition)  
+  singleton\_class.class\_eval do  
+   define\_method name, &amp;trick\_definition  
+  end  
+ end  
+  
+
+</code></pre></div><p>The &ldquo;class_eval&rdquo; methos lets us evaluate the inside expression in the context of the class object, not just a particular instance of the object. Another bit worth noting is the helper method that I have added to the DSLThing base class called &ldquo;singleton_class&rdquo; that looks like this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+ def self.singleton\_class  
+  class &lt;&lt; self; self; end  
+ end    
+
+</code></pre></div><p>This is just a short cut to get to the class instance object, known better to Rubyists as the &ldquo;singleton_class&rdquo;.</p>
+<p>Lastly, the &ldquo;define_method&rdquo; method then lets us define a new method for the trick. When we want to define a new trick for a particular Pet, we can simply define it like this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+  define\_trick &#34;speak&#34; do  
+   puts &#34;Toto says &#39;Woof!&#39;&#34;  
+  end  
+
+</code></pre></div><p>Putting it all together, here are our new definitions of the tricks our Pets can do:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+ pet &#34;Toto&#34; do  
+  when\_performing\_tricks do  
+   sit  
+   speak  
+  end  
+    
+  define\_trick &#34;speak&#34; do  
+   puts &#34;Toto says &#39;Woof!&#39;&#34;  
+  end  
+ end  
+  
+ pet &#34;Tweety&#34; do  
+  when\_performing\_tricks do  
+   sit  
+   speak  
+   fly  
+  end  
+    
+  define\_trick &#34;speak&#34; do  
+   puts &#34;Tweety says &#39;I thought I saw a putty tat!&#34;  
+  end  
+    
+  define\_trick &#34;fly&#34; do  
+   puts &#34;Tweety is flying...&#34;  
+  end  
+ end  
+  
+ pet &#34;Slugworth&#34; do  
+  when\_performing\_tricks do  
+   sit  
+  end  
+ end  
+
+</code></pre></div><p>One other interesting technique of note is that we are actually defining a new type of Pet by dynamically declaring a new class based on the Pet class. Otherwise, our custom tricks for one type of Pet might interfer with the custom tricks of another. The solution to this is using the &ldquo;Object.const_set&rdquo; and &ldquo;Object.const_get&rdquo;. Here is the code I used:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+ def self.pet(name, &amp;blk)  
+  @pets ||= Hash.new  
+  klass = Class.new(Pet)  
+  Object.const\_set(name, klass) if not Object.const\_defined?(name)  
+  p = Object.const\_get(name).new  
+  p.name = name  
+  p.class.class\_eval(&amp;blk) if block\_given?  
+  p.copyvars    
+  @pets\[name\] = p  
+ end  
+
+</code></pre></div><p>In this posting I have used the DSL recipe technique, and created dynamic methods and classes. Combining these techniques can allow for a very powerful and yet concise syntax when creating your own Ruby domain specific languages.</p>
+<p>Here is the complete listing of the code from this post:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+class DSLThing  
+ def copyvars  
+  self.class.instance\_variables.each do |var|  
+   instance\_variable\_set(var, self.class.instance\_variable\_get(var))  
+  end   
+ end  
+   
+ def self.singleton\_class  
+  class &lt;&lt; self; self; end  
+ end    
+end  
+  
+class PetShop &lt; DSLThing  
+ attr\_accessor :pets, :people  
+   
+ def self.create(&amp;block)  
+  f = PetShop.new  
+  f.class.instance\_eval(&amp;block) if block\_given?  
+  f.copyvars    
+  return f  
+ end  
+   
+ def self.pet(name, &amp;blk)  
+  @pets ||= Hash.new  
+  klass = Class.new(Pet)  
+  Object.const\_set(name, klass) if not Object.const\_defined?(name)  
+  p = Object.const\_get(name).new  
+  p.name = name  
+  p.class.class\_eval(&amp;blk) if block\_given?  
+  p.copyvars    
+  @pets\[name\] = p  
+ end  
+end  
+  
+class Animal &lt; DSLThing  
+ attr\_accessor :name  
+   
+ def initialize(name=nil)  
+  @name = name  
+ end  
+end  
+  
+class Pet &lt; Animal  
+ def initialize(name=nil)  
+  @name = name  
+  super  
+ end  
+   
+ def self.when\_performing\_tricks(&amp;routine)  
+  @routine = routine  
+ end  
+  
+ def self.define\_trick(name, &amp;trick\_definition)  
+  singleton\_class.class\_eval do  
+   define\_method name, &amp;trick\_definition  
+  end  
+ end  
+  
+ def perform  
+  puts &#34;#{name} will now perform...&#34;  
+  @routine.call  
+  puts &#34;Let&#39;s hear some applause for #{name}!&#34;  
+ end  
+  
+ def self.sit  
+  puts &#34;#{name} is sitting...&#34;  
+ end  
+end  
+  
+shop = PetShop.create do  
+ pet &#34;Toto&#34; do  
+  when\_performing\_tricks do  
+   sit  
+   speak  
+  end  
+    
+  define\_trick &#34;speak&#34; do  
+   puts &#34;Toto says &#39;Woof!&#39;&#34;  
+  end  
+ end  
+  
+ pet &#34;Tweety&#34; do  
+  when\_performing\_tricks do  
+   sit  
+   speak  
+   fly  
+  end  
+    
+  define\_trick &#34;speak&#34; do  
+   puts &#34;Tweety says &#39;I thought I saw a putty tat!&#34;  
+  end  
+    
+  define\_trick &#34;fly&#34; do  
+   puts &#34;Tweety is flying...&#34;  
+  end  
+ end  
+  
+ pet &#34;Slugworth&#34; do  
+  when\_performing\_tricks do  
+   sit  
+  end  
+ end  
+end  
+  
+shop.pets.each\_value do |pet|  
+ pet.perform   
+end  
+
+</code></pre></div>
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/deadprogram" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/deadprogram" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/deadprogram/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.575671c6da23c3563d465f9cfa3d2857fc0239531a2e8ea1fb6812017653b4d7.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

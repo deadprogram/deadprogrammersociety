@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>radrails on Dead Programmer SOciety</title>
+    <link>/tags/radrails/</link>
+    <description>Recent content in radrails on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Mar 2007 21:00:00 -0700</lastBuildDate><atom:link href="/tags/radrails/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aptana &#43; RadRails = Much Web Development Goodness?</title>
+      <link>/2007/03/aptana-radrails-much-web-development.html</link>
+      <pubDate>Mon, 12 Mar 2007 21:00:00 -0700</pubDate>
+      
+      <guid>/2007/03/aptana-radrails-much-web-development.html</guid>
+      <description>It was a couple of weeks ago when the RadRails team acknowledged that the ship had started to wander off course. Without any revenues, and with too few project contributors, the project was looking adrift. Could this be the end?
+Do not fear, gentle reader. Last week, the announcement came at EclipseCon that the RadRails project is now part of the Aptana project. Up until this announcement, I had never heard of Aptana.</description>
+    </item>
+    
+  </channel>
+</rss>

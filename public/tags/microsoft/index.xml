@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>microsoft on Dead Programmer SOciety</title>
+    <link>/tags/microsoft/</link>
+    <description>Recent content in microsoft on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 May 2008 14:29:00 -0700</lastBuildDate><atom:link href="/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modern Web Design</title>
+      <link>/2008/05/modern-web-design.html</link>
+      <pubDate>Fri, 02 May 2008 14:29:00 -0700</pubDate>
+      
+      <guid>/2008/05/modern-web-design.html</guid>
+      <description>This one pie chart says it all&amp;hellip;
+From ChangeTheThought.com</description>
+    </item>
+    
+    <item>
+      <title>RubyConf 2007 - Day 2 - &#34;The Ruby VM Smackdown Begins&#34;</title>
+      <link>/2007/11/rubyconf-2007-day-2-ruby-vm-smackdown.html</link>
+      <pubDate>Tue, 06 Nov 2007 13:38:00 -0800</pubDate>
+      
+      <guid>/2007/11/rubyconf-2007-day-2-ruby-vm-smackdown.html</guid>
+      <description>As the sun rose over the hills of North Carolina, the quiet betrayed a seething fire blazing in the hearts of three development teams. &amp;ldquo;Three teams enter, one team leaves!&amp;rdquo; Yes, I am talking about the main event, people, the one, the only, Ruby VM Smackdown! The room was jam packed, the anticipation was high.
+As good fortune would have it, I was sitting right next to the head of the team who was my personal favorite to win the day.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft Vs. The Galaxy</title>
+      <link>/2007/06/microsoft-vs-galaxy.html</link>
+      <pubDate>Fri, 01 Jun 2007 21:01:00 -0700</pubDate>
+      
+      <guid>/2007/06/microsoft-vs-galaxy.html</guid>
+      <description>&amp;ldquo;The more you tighten your grip&amp;hellip;the more star systems will slip through your fingers&amp;hellip;&amp;rdquo; - Princess Leia</description>
+    </item>
+    
+    <item>
+      <title>Ruby/Microsoft?</title>
+      <link>/2007/05/rubymicrosoft.html</link>
+      <pubDate>Wed, 30 May 2007 15:00:00 -0700</pubDate>
+      
+      <guid>/2007/05/rubymicrosoft.html</guid>
+      <description>Martin Fowler just posted on his bliki a little piece entitled RubyMicrosoft. As I read it, I felt a strange chill run down my spine. Perhaps a few words of explanation are needed&amp;hellip;
+At RailsConf recently I stood at the Thoughtworks booth for a moment chatting up Fowler, and embarrassing myself by asking for a photo with him (he doesn&amp;rsquo;t pose for photos with people). Luckily, I was rescued by the arrival of Oli Bini, and an ensuing short discussion about JRuby.</description>
+    </item>
+    
+  </channel>
+</rss>

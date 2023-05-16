@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>RubyConf 2008 - Day 1 - Testing Heresies - Francis Hwang - Dead Programmer SOciety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/2008/11/rubyconf-2008-day-1-testing-heresies.html" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6b89cc86c0b843a772cdd6c6a8b7e11c2116c7933f6163d2ef225a87e1d2c121.css">
+  
+
+  
+    
+    <meta property="og:title" content="RubyConf 2008 - Day 1 - Testing Heresies - Francis Hwang"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/2008/11/rubyconf-2008-day-1-testing-heresies.html"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@deadprogram"/>
+    <meta name="twitter:creator" content="@deadprogram"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Dead Programmer SOciety</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>RubyConf 2008 - Day 1 - Testing Heresies - Francis Hwang<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="http://media-2.web.britannica.com/eb-media/10/18910-004-7F8BCBE7.jpg"><img src="http://media-2.web.britannica.com/eb-media/10/18910-004-7F8BCBE7.jpg" alt=""></a>The sessions for RubyConf 2008 day one were nearly over, when I attending this highly entertaining and informative one. I had missed the chance to see a previous presentation by <a href="http://fhwang.net/">Francis Hwang</a>, and being as test-obsessed as I am, I was not going to make the same mistake twice.</p>
+<p>Many people are confused over mocks, stubs, and other fakes. Here are the real definitions.</p>
+<p><a href="http://xunitpatterns.com/">Gerard Meszaros</a> - Test Doubles<br>
+- dummies - passed around but never used<br>
+- fakes - work but unstable in production<br>
+- stubs - provide canned answers to calls made during test<br>
+- mocks - mostly concerned with surface interaction</p>
+<p>Classical TDD use real objects.<br>
+Mockist TDD will always use a mock for any object with interesting behavior</p>
+<p>Problem #1 with mocks<br>
+Cannot figure out problem and solution at same time</p>
+<p>Problem #2 with mocks<br>
+Bugs can slip between layers</p>
+<p>Francis Hwang, TDD Clasiscist<br>
+- test setup creates records in the db<br>
+- no sqlite in test<br>
+- when you use test doubles, it&rsquo;s always a big deal</p>
+<p>Real world example #1<br>
+Ensure that an optimization is actually being used<br>
+Redefine the actual surface interaction to &lsquo;scream&rsquo; on error</p>
+<p>Real world example #2<br>
+Faking a real web service (not written by us)<br>
+Best to use stub, to duplicate functionality<br>
+Need test, stub, AND test for stub</p>
+<p>Dogma - if you tests do not run quickly, there&rsquo;s something wrong with you<br>
+Heresy - I&rsquo;d like my test to run 30 sec. I&rsquo;d also like a pony</p>
+<p>Francis does not use autotest, because he does not want to run all of the tests every time he changes something. <a href="http://blog.segment7.net/">Eric Hodel</a> chimed in from the audience says that it can run only what changed. Only if it passes, will it run ALL tests. Me, I loves my <a href="http://www.zenspider.com/ZSS/Products/ZenTest/">autotest</a>&hellip; with growl notifications, it&rsquo;s all good.</p>
+<p><a href="http://devver.net/">devver</a><br>
+They say it is a ec2 based distributed test system&hellip;</p>
+<p><a href="http://github.com/brynary/testjour/tree/master">testjour</a><br>
+uses bonjour to trigger a farm of machines in your LAN to perform distributed tests</p>
+<p>Dogma - you code should always be well-structured<br>
+Heresy - under-structuring can be freeing</p>
+<p>Uses example of constantly cleaning small NYC apt. It was living on a boat, where you spent all your time putting things away.</p>
+<p>Dogma - Fine grained focus leads to high quality code<br>
+Heresy - Never forget the unknown unknowns</p>
+<p>System design 101<br>
+How likely fail<br>
+What will fail look like<br>
+How can I find out quickly<br>
+How can I limit damage</p>
+<p>Dogma - testing makes my job easier<br>
+Heresy - testing makes it easier for others to do my job - unless my job keeps growing</p>
+<p>Rails has made it so simple to implement simple business logic, so way more is expected now.</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/deadprogram" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/deadprogram" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/deadprogram/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.575671c6da23c3563d465f9cfa3d2857fc0239531a2e8ea1fb6812017653b4d7.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

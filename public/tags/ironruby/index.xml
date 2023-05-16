@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ironruby on Dead Programmer SOciety</title>
+    <link>/tags/ironruby/</link>
+    <description>Recent content in ironruby on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Feb 2008 06:05:00 -0800</lastBuildDate><atom:link href="/tags/ironruby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ruby.NET, We Hardly Knew Ye</title>
+      <link>/2008/02/rubynet-we-hardly-knew-ye.html</link>
+      <pubDate>Tue, 05 Feb 2008 06:05:00 -0800</pubDate>
+      
+      <guid>/2008/02/rubynet-we-hardly-knew-ye.html</guid>
+      <description>It comes as not entirely surprising that the Wayne Kelly of the Ruby.NET project from down under has finally given up the ship. Microsoft had already grabbed the spotlight with IronRuby and the DLR. Despite some early gains, it seemed that development momentum had peaked, until Ruby.NET finally made its way up onto Google Code and a &amp;ldquo;real&amp;rdquo; open source project.
+How, how will John Lam and team proceed without Ruby.</description>
+    </item>
+    
+    <item>
+      <title>RubyConf 2007 - Day 2 - &#34;The Ruby VM Smackdown Begins&#34;</title>
+      <link>/2007/11/rubyconf-2007-day-2-ruby-vm-smackdown.html</link>
+      <pubDate>Tue, 06 Nov 2007 13:38:00 -0800</pubDate>
+      
+      <guid>/2007/11/rubyconf-2007-day-2-ruby-vm-smackdown.html</guid>
+      <description>As the sun rose over the hills of North Carolina, the quiet betrayed a seething fire blazing in the hearts of three development teams. &amp;ldquo;Three teams enter, one team leaves!&amp;rdquo; Yes, I am talking about the main event, people, the one, the only, Ruby VM Smackdown! The room was jam packed, the anticipation was high.
+As good fortune would have it, I was sitting right next to the head of the team who was my personal favorite to win the day.</description>
+    </item>
+    
+    <item>
+      <title>Weighing In On The Upcoming Ruby VM Smackdown</title>
+      <link>/2007/09/weighing-in-on-upcoming-ruby-vm.html</link>
+      <pubDate>Mon, 24 Sep 2007 10:43:00 -0700</pubDate>
+      
+      <guid>/2007/09/weighing-in-on-upcoming-ruby-vm.html</guid>
+      <description>Earlier today, I read with great interest the potentially inflammatory post where Ola Bini proclaims the Ruby VM wars already over, and basically divides the Ruby VM empire into two halves, with the center controlled by Rome, err, I mean Rubinius primitives.
+I had already come to this conclusion a while ago. Not because I am smarter than anyone, FAR from it. Probably because I am more superficial, and easily impressed by meaningless characteristics, like how cool is the name Rubinius?</description>
+    </item>
+    
+    <item>
+      <title>RubyConf 2007 =&gt; Ruby VM Smackdown</title>
+      <link>/2007/09/rubyconf-2007-ruby-vm-smackdown.html</link>
+      <pubDate>Fri, 07 Sep 2007 09:43:00 -0700</pubDate>
+      
+      <guid>/2007/09/rubyconf-2007-ruby-vm-smackdown.html</guid>
+      <description>I just registered for RubyConf 2007, which will be held Nov. 2-4 in Charlotte, NC. If you want a more intimate, more hard-core Rubyist experience, than what RailsConf is turning into, RubyConf looks to be it.
+There not being that many tickets available, you better register right now if you want to go. I registered without even looking at the agenda first&amp;hellip; just filled out the registration form, and hoped it&amp;rsquo;s was not too late.</description>
+    </item>
+    
+    <item>
+      <title>IronRuby Lives!</title>
+      <link>/2007/07/ironruby-lives.html</link>
+      <pubDate>Mon, 23 Jul 2007 08:02:00 -0700</pubDate>
+      
+      <guid>/2007/07/ironruby-lives.html</guid>
+      <description>John Lam and company have finally gotten something together to release to the world at large for their IronRuby project. I have not had a chance to play with it yet, but as a hard-core Rubyist I will, of course, have to do so.
+A few interesting observations from how they have chosen to go about developing this project. One is that they are distributing the source code, albeit as part of the Microsoft Permissive License.</description>
+    </item>
+    
+    <item>
+      <title>Ruby Is More Of A Free Love Kind Of Language</title>
+      <link>/2007/07/ruby-is-more-of-free-love-kind-of.html</link>
+      <pubDate>Fri, 13 Jul 2007 08:16:00 -0700</pubDate>
+      
+      <guid>/2007/07/ruby-is-more-of-free-love-kind-of.html</guid>
+      <description>I have been really, really busy lately, which is why I have not had a chance to post anything. I finally caught up on some reading and listening, and John Lam, father of the IronRuby project at Microsoft, has a fun interview on the DotNetRocks podcast. Irrespective of how I may currently feel about the direction over at Microsoft or rock, it is an interesting interview.
+My favorite line has to be where John is describing the cultural differences between the users of Python vs.</description>
+    </item>
+    
+  </channel>
+</rss>

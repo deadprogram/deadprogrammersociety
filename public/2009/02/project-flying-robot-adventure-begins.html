@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Project Flying Robot: The Adventure Begins - Dead Programmer SOciety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/2009/02/project-flying-robot-adventure-begins.html" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6b89cc86c0b843a772cdd6c6a8b7e11c2116c7933f6163d2ef225a87e1d2c121.css">
+  
+
+  
+    
+    <meta property="og:title" content="Project Flying Robot: The Adventure Begins"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/2009/02/project-flying-robot-adventure-begins.html"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@deadprogram"/>
+    <meta name="twitter:creator" content="@deadprogram"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Dead Programmer SOciety</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Project Flying Robot: The Adventure Begins<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="http://www.johnnysokkoandhisflyingrobot.com/johnnysokkoandhisflyingrobot.jpg"><img src="http://www.johnnysokkoandhisflyingrobot.com/johnnysokkoandhisflyingrobot.jpg" alt=""></a>I love robots. OK, there, I&rsquo;ve gone and gotten that out into the open. Like many programmers, I have long dreamed of dominating the world with my robot legions. Or failing that, at least getting my <a href="http://en.wikipedia.org/wiki/RoboSapien">RoboSapien</a> to walk around in a little circle by itself.</p>
+<p>Recently, my brother <a href="http://myfirstairship.blogspot.com/">Damen Evans</a> and I decided that we needed to realize our ambitions, and began work on a flying robot. Yes, that is what I said. <strong>Flying robot</strong>. After many years of respective obsessions about Lighter Than Air (LTA) vehicles and autonomous control, we are combining our forces and actually building something.</p>
+<p>The &ldquo;Rogue 1&rdquo;, as we are calling the airship, is heavily influenced (pun only, hopefully) by the very cool <a href="http://diydrones.com/profiles/blog/show?id=705844%3ABlogPost%3A44817">Blimpduino</a> project. It will be controlled by an <a href="http://www.arduino.cc/">Arduino</a> based system, like the Blimpduino. However, our focus is a bit different, which is why we are building our own hardware design, although also based on the open source Arduino hardware platform.</p>
+<p>One major concept that we are working on, is creating a digital protocol for controlling the airship from a ground station. Where the Blimpduino uses a standard radio control setup, we are creating a fully digital protocol for Unmanned Aerial Vehicles (UAV) similar to what MIDI does for music. For example, an LTA vehicle would have a different way to perform a command like &ldquo;rudder left 10 degrees&rdquo; than an airplane or helicopter would. Especially since neither an LTA nor a helicopter even have rudders!</p>
+<p>We have decided to use the <a href="http://rad.rubyforge.org/">Ruby Arduino Development</a> (RAD) project for creating the software needed for <a href="http://github.com/deadprogrammer/flying_robot/tree/master">flying_robot</a>. It is still a bit rough in some ways, but it allows us to take advantage of a slick Ruby DSL-like approach for implementing the flying_robot command set for a specific UAV, as well as for integrating a bunch of the hardware we will be needing, like motors and sensors.</p>
+<p>As the many small parts come in, both Damen and I will be blogging about the fun, so watch the skies&hellip; they&rsquo;re already here!</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/deadprogram" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/deadprogram" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/deadprogram/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.575671c6da23c3563d465f9cfa3d2857fc0239531a2e8ea1fb6812017653b4d7.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iphone on Dead Programmer SOciety</title>
+    <link>/tags/iphone/</link>
+    <description>Recent content in iphone on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Jan 2010 08:30:00 -0800</lastBuildDate><atom:link href="/tags/iphone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crossing The PhoneGap For Multiplatform Mobile Applications</title>
+      <link>/2010/01/crossing-phonegap-for-multiplatform.html</link>
+      <pubDate>Mon, 18 Jan 2010 08:30:00 -0800</pubDate>
+      
+      <guid>/2010/01/crossing-phonegap-for-multiplatform.html</guid>
+      <description>I had first heard of the PhoneGap open source framework for multiplatform mobile development last year at the FutureRuby conference in Toronto. Honestly, I did not really concentrate on all they were saying at the time, and in the flurry of info including back-to-back mobile sessions with Rhomobile, I did not fully retain a clear picture of what they had to offer. My bad.
+It was not until late last year, while working on plans for a very cool mobile application, that I was reminded about PhoneGap by one of my colleagues.</description>
+    </item>
+    
+    <item>
+      <title>More Developer Fun In Los Angeles</title>
+      <link>/2007/10/more-developer-fun-in-los-angeles.html</link>
+      <pubDate>Wed, 24 Oct 2007 08:17:00 -0700</pubDate>
+      
+      <guid>/2007/10/more-developer-fun-in-los-angeles.html</guid>
+      <description>Last night was the always entertaining Los Angeles Application Developer Meetup. L.A. is not known for the same massive quantity of developers as the bay area, for example, but having joined forces with the LA Ruby on Rails Meetup crew some time back, the monthly event is still growing.
+This month&amp;rsquo;s was held at the impressive new digs of YellowPages.com, who have been busy building out a huge Ruby on Rails based local search replacement for their venerable 100K+ lines of Java code.</description>
+    </item>
+    
+    <item>
+      <title>Fun At Yahoo! In Los Angeles</title>
+      <link>/2007/07/fun-at-yahoo-in-los-angeles.html</link>
+      <pubDate>Thu, 26 Jul 2007 22:39:00 -0700</pubDate>
+      
+      <guid>/2007/07/fun-at-yahoo-in-los-angeles.html</guid>
+      <description>Last Tuesday night was July&amp;rsquo;s Los Angeles Web Application Developer Meetup. This event is starting to get really good. Not only were there lots of people who came out, but our hosts Yahoo! actually bought us beer too. Hint to future hosts of the meetup&amp;hellip; be cool like Yahoo! and provide BOTH a projection screen and beer.
+There were two especially fun presentations, at least to me. Jim Bumgardner of Yahoo showed off some of his really interesting web gadgetry.</description>
+    </item>
+    
+  </channel>
+</rss>

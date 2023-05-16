@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>user interface on Dead Programmer SOciety</title>
+    <link>/tags/user-interface/</link>
+    <description>Recent content in user interface on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Mar 2009 11:35:00 -0800</lastBuildDate><atom:link href="/tags/user-interface/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Playing With Hoops, or Every Step You Take</title>
+      <link>/2009/03/playing-with-hoops-or-every-step-you.html</link>
+      <pubDate>Fri, 06 Mar 2009 11:35:00 -0800</pubDate>
+      
+      <guid>/2009/03/playing-with-hoops-or-every-step-you.html</guid>
+      <description>I do not often pay full attention to Giles Bowkett. That is the flip side of being the provocateur that he is, some people will occasionally tune out. However, when anyone plays the Steve Krug card, I am compelled to take a look.
+Yesterday, Giles posted a dead-on point about user registration, called &amp;ldquo;I Don&amp;rsquo;t Care About Your Hoops&amp;rdquo;. When you compare the success of simplicity, as in the Google and Apple examples, to what we all tend to fall into, I hope you are as embarrassed as I was.</description>
+    </item>
+    
+    <item>
+      <title>Goldilocks and The Three Icons</title>
+      <link>/2008/04/goldilocks-and-three-icons.html</link>
+      <pubDate>Wed, 23 Apr 2008 18:50:00 -0700</pubDate>
+      
+      <guid>/2008/04/goldilocks-and-three-icons.html</guid>
+      <description>Once upon a time, there were three icons. A Poppa Application icon, a Momma Folder icon and a Baby Document icon. Life was good, and people were easily able to tell the difference between them, although very few visitors were known to go to that part of the forest.
+But then along came the Trashcan icon&amp;hellip; and the dark times began. If you dragged a folder to the trash it went away back into the void.</description>
+    </item>
+    
+    <item>
+      <title>Getting To Usable</title>
+      <link>/2008/02/getting-to-usable.html</link>
+      <pubDate>Tue, 19 Feb 2008 07:52:00 -0800</pubDate>
+      
+      <guid>/2008/02/getting-to-usable.html</guid>
+      <description>I read a great posting last night from Matt Rogers, founder of startup Aroxo, on a strategy for usability testing. Suddenly, I was flashing back a few years to the early salad days of web usability&amp;hellip;
+When I first read Steve Krug&amp;rsquo;s tiny masterwork &amp;ldquo;Don&amp;rsquo;t Make Me Think&amp;rdquo;, I was very excited; at last, a nice practical approach! After the pedantic and overly academic work of guys like Jakob Neilson, Krug&amp;rsquo;s book hit me like Dr.</description>
+    </item>
+    
+    <item>
+      <title>The Eyes Have It</title>
+      <link>/2007/11/eyes-have-it.html</link>
+      <pubDate>Wed, 21 Nov 2007 08:06:00 -0800</pubDate>
+      
+      <guid>/2007/11/eyes-have-it.html</guid>
+      <description>Software usability has really benefited from the latest and greatest digital technology for eye tracking. If you are not familiar with eye tracking, it is exactly what it sounds like: a camera watching where the user&amp;rsquo;s eyes are focused, and matching that to the screen to identify what the user is REALLY looking at, for how long, and in what order.
+Here is a really great summary called &amp;ldquo;Scientific Web Design: 23 Actionable Lessons from Eye-Tracking Studies&amp;rdquo; that collects information from several different studies, and packages it up into something pretty, dare I say it, usable.</description>
+    </item>
+    
+    <item>
+      <title>Pretty pretty pretty pretty... good</title>
+      <link>/2007/10/pretty-pretty-pretty-pretty-good.html</link>
+      <pubDate>Tue, 09 Oct 2007 11:07:00 -0700</pubDate>
+      
+      <guid>/2007/10/pretty-pretty-pretty-pretty-good.html</guid>
+      <description>Yet more wisdom about user experience and interface design from the Signal Vs. Noise blog, this time debunking the mistaken idea that a good user interface has anything to do with just drawing a pretty picture, and handing it over to someone to implement.
+One phrase in particular really caught my attention, &amp;ldquo;our designers apply their talents to the native materials of the web.&amp;rdquo;
+Now, I am not trying to pick on Photoshop people here, but how can you design an interface that is interactive, without using interactive tools to do so?</description>
+    </item>
+    
+    <item>
+      <title>The Proper Use Of Color</title>
+      <link>/2007/10/proper-use-of-color.html</link>
+      <pubDate>Fri, 05 Oct 2007 11:04:00 -0700</pubDate>
+      
+      <guid>/2007/10/proper-use-of-color.html</guid>
+      <description>Really cool article here from of all places NASA (go figure) courtesy of the Signal Vs. Noise blog. Entitled &amp;ldquo;DESIGNING A COLOR GRAPHICS PAGE&amp;rdquo;, it really breaks down a process of utilizing color to maximize user understanding of information.
+Color for its own sake is better kept to the domain of art. Functional design, like that of software user interfaces, need to be much better thought out, reaching for both utility and aesthetic qualities.</description>
+    </item>
+    
+  </channel>
+</rss>

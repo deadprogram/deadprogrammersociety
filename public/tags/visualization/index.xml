@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>visualization on Dead Programmer SOciety</title>
+    <link>/tags/visualization/</link>
+    <description>Recent content in visualization on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Aug 2007 18:11:00 -0700</lastBuildDate><atom:link href="/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visualize This</title>
+      <link>/2007/08/visualize-this.html</link>
+      <pubDate>Wed, 08 Aug 2007 18:11:00 -0700</pubDate>
+      
+      <guid>/2007/08/visualize-this.html</guid>
+      <description>Did you ever want to present information in a visual format, but didn&amp;rsquo;t know which one was most appropriate? Don&amp;rsquo;t know a Petri net from a concept fan? Or perhaps you just need even more visual stimulus from your information?
+Well, welcome to a feast of visualization splendor. Just have a glance at the Periodic Table of Visualization Methods&amp;hellip; your eyes will never go hungry again.
+Thanks to Visual Literacy for creating this great info, and to Jeff Atwood of Coding Horror for blogging about it.</description>
+    </item>
+    
+  </channel>
+</rss>

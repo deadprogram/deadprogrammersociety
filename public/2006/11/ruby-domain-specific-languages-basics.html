@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Ruby Domain Specific Languages - The Basics (Part 1) - Dead Programmer SOciety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/2006/11/ruby-domain-specific-languages-basics.html" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6b89cc86c0b843a772cdd6c6a8b7e11c2116c7933f6163d2ef225a87e1d2c121.css">
+  
+
+  
+    
+    <meta property="og:title" content="Ruby Domain Specific Languages - The Basics (Part 1)"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/2006/11/ruby-domain-specific-languages-basics.html"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@deadprogram"/>
+    <meta name="twitter:creator" content="@deadprogram"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Dead Programmer SOciety</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Ruby Domain Specific Languages - The Basics (Part 1)<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="http://www.artandmind.org/wamfestival/Images/Domain%20Field%20pic%20web%201.jpg"><img src="http://www.artandmind.org/wamfestival/Images/Domain%20Field%20pic%20web%201.jpg" alt=""></a></p>
+<p>I have been working on a prototype of a Ruby domain specific language for one of my clients, a very large financial services company. I have learned a whole bunch of really interesting lessons, which I will share over a short series of posts as I make more progress.</p>
+<p>The first thing I tried to do was create a basic bit of DSL tastiness like this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+class Dog &lt; Animal  
+ number\_of\_legs 4  
+end  
+  
+class Bird &lt; Animal  
+ number\_of\_legs 2  
+end  
+  
+class Snail &lt; Animal  
+ number\_of\_legs 0  
+end  
+
+</code></pre></div><p>My first implementation of the Animal class looked like this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+class Animal  
+ attr\_accessor :number\_of\_legs  
+  
+ def self.number\_of\_legs(number\_of\_legs)  
+  @number\_of\_legs = number\_of\_legs  
+ end  
+end  
+
+</code></pre></div><p>Just looking at this bit of code, it seems like it should work. However, when trying this, it doesn&rsquo;t work as expected.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+pet = Dog.new  
+p pet.number\_of\_legs # prints nil  
+
+</code></pre></div><p>In Ruby EVERYTHING is an object. This includes the class objects themselves, not just the instances of class objects! This means that when the number_of_legs method is called, it is actually being called before the actual instance object itself has been created. We need to get to our instance variable, and one way is to copy the class-level instance variable to the instance itself when the actual instance is being initialized like this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+class Animal  
+ attr\_accessor :number\_of\_legs  
+  
+ def self.number\_of\_legs(number\_of\_legs)  
+  @number\_of\_legs = number\_of\_legs  
+ end  
+  
+ def initialize  
+  instance\_variable\_set(&#34;@number\_of\_legs&#34;, self.class.instance\_variable\_get(&#34;@number\_of\_legs&#34;))  
+ end  
+end  
+
+</code></pre></div><p>Now the class works as expected:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+pet = Dog.new  
+p pet.number\_of\_legs # prints 4  
+
+</code></pre></div><p>As you add new things to your DSL, having to copy each variable manually is boring. The final change is to copy every class instance variable automatically at initialization, as follows:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+class Animal  
+ attr\_accessor :number\_of\_legs  
+   
+ def self.number\_of\_legs(number\_of\_legs)  
+  @number\_of\_legs = number\_of\_legs  
+ end  
+   
+ def initialize  
+  self.class.instance\_variables.each do var  
+   instance\_variable\_set(var, self.class.instance\_variable\_get(var))  
+  end  
+ end   
+end  
+
+</code></pre></div><p>This is a lot cleaner, and is much more maintainable code.</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/deadprogram" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/deadprogram" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/deadprogram/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.575671c6da23c3563d465f9cfa3d2857fc0239531a2e8ea1fb6812017653b4d7.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

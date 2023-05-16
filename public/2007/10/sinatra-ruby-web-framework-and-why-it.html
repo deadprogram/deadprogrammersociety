@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Sinatra, a Ruby web framework, and Why It Matters - Dead Programmer SOciety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/2007/10/sinatra-ruby-web-framework-and-why-it.html" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6b89cc86c0b843a772cdd6c6a8b7e11c2116c7933f6163d2ef225a87e1d2c121.css">
+  
+
+  
+    
+    <meta property="og:title" content="Sinatra, a Ruby web framework, and Why It Matters"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/2007/10/sinatra-ruby-web-framework-and-why-it.html"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@deadprogram"/>
+    <meta name="twitter:creator" content="@deadprogram"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Dead Programmer SOciety</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Sinatra, a Ruby web framework, and Why It Matters<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="http://sinatra.rubyforge.org/logo.png"><img src="http://sinatra.rubyforge.org/logo.png" alt=""></a>As followers of this blog know, I am very interested in the Ruby language itself, not just web development. But it is undeniable that Ruby has become popular largely due to web development powered by Ruby on Rails. However amazing Rails is, however, it is not the final web framework to be developed in Ruby.</p>
+<p>When <a href="http://xnot.org/">Ari Lerner</a> first told me of the <a href="http://sinatra.rubyforge.org/">Sinatra</a> project, I was interested to see where he was going with it. Now that I have seen it, I totally get it, and I am more interested than ever. Let&rsquo;s compare it to Rails, <a href="http://camping.rubyforge.org/">Camping</a>, and <a href="http://merb.rubyforge.org/">Merb</a>, to better understand where Sinatra fits in, and why Ruby programmers should take a look at it.</p>
+<p>Unlike Ruby on Rails, Sinatra is not a Model-View-Controller (MVC) based framework for creating websites. If you want helper functions that help you create forms, connect to databases, or any of the other myriad of functions that Rails provides, you will not find them. Instead, Sinatra is a very simple, yet powerful, Domain Specific Language (DSL) for defining RESTful HTTP actions, and then defining how the application is going to respond to them.</p>
+<p>Rails requires a separate routes file to define how the web application is going to respond to requests, which hooks up to the appropriate controllers/models. Sinatra defines the simplest thing that could possibly work. When you declare a new &ldquo;get&rdquo; or &ldquo;post&rdquo; action, Sinatra will automatically add the route, and simply start responding to requests that match.</p>
+<p>Here is a simple example of a Sinatra application:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+require &#39;rubygems&#39;  
+require &#39;sinatra&#39;  
+  
+get &#39;/&#39; do  
+   &#34;Hello world&#34;  
+end  
+
+</code></pre></div><p>As you can see, a Sinatra application&rsquo;s code is tiny, similar to Camping in that you can easily create an entire web application deployed as a single file. Unlike Camping, Sinatra does not have such a &ldquo;crazy meta magic&rdquo; feel to it&hellip; why&rsquo;s coding style is not for the faint of heart.</p>
+<p>Like Merb, Sinatra is implemented as a Mongrel handler. Also, like Merb it is both thread-safe and has better performance than Rails. However, where Merb tries to be a &ldquo;Rails-lite&rdquo; for devs who are already familiar with Rails, but want a more bare-metal approach, Sinatra unabashedly takes an entirely different direction with its very minimal DSL-syntax.</p>
+<p>Not to say that you cannot use ActiveRecord or whatever other Ruby gems you want to create your application. But unlike Rails, Sinatra&rsquo;s base core is incrediby minimal, and it puts the onus on the developer to decide what to include, instead of adding a bunch of things that may not be appropriate for the type of application that Sinatra would be good for.</p>
+<p>So what would it be good for? API implmentations, quick minimal applications, and web development that does not want or need things that are included in Rails, like ActiveRecord. Control panel mini-applications, or perhaps widgets. I am looking forward to really getting into some fun with Sinatra&hellip; check back soon here for more.</p>
+<p>Yesterday, the <a href="http://www.rubyinside.com/">Ruby Inside</a> blog mentioned Sinatra, and some of us have been <a href="http://digg.com/programming/Sinatra_Classy_web_development_dressed_in_a_DSL">digging it</a> for the last few days. Take a look, and you will enjoy the appeal of a simplicity and elegance in development you haven&rsquo;t felt from Ruby for a long time&hellip; a very long time.</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/deadprogram" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/deadprogram" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/deadprogram/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.575671c6da23c3563d465f9cfa3d2857fc0239531a2e8ea1fb6812017653b4d7.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rush shell on Dead Programmer SOciety</title>
+    <link>/tags/rush-shell/</link>
+    <description>Recent content in rush shell on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Nov 2008 06:54:00 -0800</lastBuildDate><atom:link href="/tags/rush-shell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RubyConf 2008 - Day 1 - rush, a shell that will yield to you - Nicholas Schlueter</title>
+      <link>/2008/11/rubyconf-2008-rush-shell-that-will.html</link>
+      <pubDate>Tue, 11 Nov 2008 06:54:00 -0800</pubDate>
+      
+      <guid>/2008/11/rubyconf-2008-rush-shell-that-will.html</guid>
+      <description>I had previously blogged a bit about Rush, the Ruby shell. Well, now Rush must now be its own force to be reckoned with, because this presentation was NOT by Adam Wiggins, the creator of Rush, but was instead by Nicholas Schlueter, the creator of RushMate. If you&amp;rsquo;ve not heard of it, RushMate allows you to use Rush from within TextMate, which translates to being able to write custom commands much more easily.</description>
+    </item>
+    
+    <item>
+      <title>Rush The Shell</title>
+      <link>/2008/02/rush-shell.html</link>
+      <pubDate>Wed, 20 Feb 2008 14:20:00 -0800</pubDate>
+      
+      <guid>/2008/02/rush-shell.html</guid>
+      <description>I just read the latest posting from Adam Wiggins, very cool dude, hard-core Rubyist, and friend. He has a new project called Rush, the Ruby shell. Adam is one of the guys behind Heroku, which is a pretty amazing pure web browser-based IDE/deployment/hosting solution for Ruby on Rails, if you haven&amp;rsquo;t seen that yet.
+Anyhow, like many of us, Adam seems like he just wants to use Ruby for everything. And when I say everything, I mean EVERYTHING.</description>
+    </item>
+    
+  </channel>
+</rss>

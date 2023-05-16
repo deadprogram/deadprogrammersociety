@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Dead Programmer SOciety</title>
+    <link>/pages/</link>
+    <description>Recent content in Pages on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Ron Evans aka @deadprogram is an award-winning software developer and expert in robotics/IoT/computer vision who is very active in the free and open source community. He has helped many clients such as AT&amp;amp;T, Intel, and Northvolt solve some of their most difficult technical and business problems.
+Ron is a very active speaker, keynoting and presenting at industry conferences around the world such as MakerFaire, OSCON, GopherCon, FOSDEM, and the MIT Technology Review.</description>
+    </item>
+    
+  </channel>
+</rss>

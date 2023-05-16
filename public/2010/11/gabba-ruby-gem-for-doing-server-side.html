@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Gabba: A Ruby Gem For Doing Server Side Google Analytics Tracking - Dead Programmer SOciety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/2010/11/gabba-ruby-gem-for-doing-server-side.html" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6b89cc86c0b843a772cdd6c6a8b7e11c2116c7933f6163d2ef225a87e1d2c121.css">
+  
+
+  
+    
+    <meta property="og:title" content="Gabba: A Ruby Gem For Doing Server Side Google Analytics Tracking"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/2010/11/gabba-ruby-gem-for-doing-server-side.html"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@deadprogram"/>
+    <meta name="twitter:creator" content="@deadprogram"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Dead Programmer SOciety</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Gabba: A Ruby Gem For Doing Server Side Google Analytics Tracking<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="http://www.thehype.fm/wp-content/uploads/2009/05/yo-gabba.jpg"><img src="http://www.thehype.fm/wp-content/uploads/2009/05/yo-gabba.jpg" alt=""></a><br>
+Yo, Gabba! Gabba, hey? <a href="https://github.com/hybridgroup/gabba">Gabba</a> is a Ruby gem to do easy server-side <a href="http://google.com/analytics/">Google Analytics</a> tracking of page view and custom events. Gather around and I&rsquo;ll show you how it works.</p>
+<p>Google Analytics is the gold standard of website traffic reporting. In addition to tracking page views, one of the interesting capabilities it has is to track custom events. These could be shopping cart checkouts or video plays from clicking on a button in a Flash player.</p>
+<p>The way that Google Analytics is implemented is using the typical tracking image technique. An image is fetched from the server, and based on the infomation pased with this request, the information about the visit is tracked. One twist on this is that Google Analytics generates the tag for the &ldquo;traxel&rdquo; using a piece of asynchronous JavaScript. This means that clients without javascript are not able to use Google Analytics to track visitor metrics&hellip; or does it?</p>
+<p>There is another lesser-known way to integrate that can generate the needed info entirely on the server. This is normally used to handle older mobile browsers that do not have JavaScript implementations. Since all you are doing is fetching a 1x1 pixel GIF image, all you really need is the magic URL.</p>
+<p>This is in fact exactly what you would need to do if you want to track custom events, the only real difference being the specific parameters passed to Google Analytics.</p>
+<p>There are a number of cases where you might want to track custom events for non-browser devices or other unique situations. Tracking when a purchase is completed, or when a video is played by Flash player or a phone call is initiated, are just a few things you might want to track entirely on the server, with no browser interaction at all.</p>
+<p>I did a bit of searching, but did not find any Ruby library that did what I needed. You know what that means! Fire up the editor, I&rsquo;m going in! And that is how the gabba gem was born.</p>
+<p>It is very easy to use:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+\# track page views  
+Gabba::Gabba.new(&#34;UT-1234&#34;, &#34;mydomain.com&#34;).page\_view(&#34;something&#34;, &#34;track/me&#34;)  
+  
+\# or track custom events  
+Gabba::Gabba.new(&#34;UT-1234&#34;, &#34;mydomain.com&#34;).event(&#34;Videos&#34;, &#34;Play&#34;, &#34;ID&#34;, &#34;123&#34;)  
+
+</code></pre></div><p>That is all there is to using it. Simple way to get server side Google Analytics tracking of page view and custom events. Fork <a href="https://github.com/hybridgroup/gabba">gabba</a> on github, or just &ldquo;gem install gabba&rdquo; and start tracking all your fun stuff.</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/deadprogram" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/deadprogram" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/deadprogram/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.575671c6da23c3563d465f9cfa3d2857fc0239531a2e8ea1fb6812017653b4d7.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

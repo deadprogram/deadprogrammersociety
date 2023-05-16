@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Project Flying Robot: By Your Command - Dead Programmer SOciety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/2009/03/project-flying-robot-by-your-command.html" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6b89cc86c0b843a772cdd6c6a8b7e11c2116c7933f6163d2ef225a87e1d2c121.css">
+  
+
+  
+    
+    <meta property="og:title" content="Project Flying Robot: By Your Command"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/2009/03/project-flying-robot-by-your-command.html"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@deadprogram"/>
+    <meta name="twitter:creator" content="@deadprogram"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Dead Programmer SOciety</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Project Flying Robot: By Your Command<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="http://paulsstarbasef22.homestead.com/files/Cylon_raider1.jpg"><img src="http://paulsstarbasef22.homestead.com/files/Cylon_raider1.jpg" alt=""></a>Our <a href="http://github.com/deadprogrammer/flying_robot/tree/master">flying_robot</a> project for Unmanned Aerial Vehicles has been underway for a few weeks now. Much soldering, and playing around with cool <a href="http://www.arduino.cc/">Arduino</a> tricks has been taking place. You can read more <a href="http://deadprogrammersociety.blogspot.com/2009/02/project-flying-robot-adventure-begins.html">here</a>, <a href="http://deadprogrammersociety.blogspot.com/2009/02/project-flying-robot-getting-all-xbee.html">here</a>, <a href="http://deadprogrammersociety.blogspot.com/2009/02/project-flying-robot-compass-two-motors.html">here</a>, and <a href="http://deadprogrammersociety.blogspot.com/2009/02/project-flying-robot-flying-dorkboard.html">here</a> if you need to catch up.</p>
+<p>One aspect that I have mentioned several times, but not gotten into much detail about, is our protocol for communicating with the UAV from the ground station. It is amazing to me, but there is still no dominant digital protocol for controlling UAV&rsquo;s. Many people are this using analog radio controllers, with some kind of sideband channel for autopilot commands.</p>
+<p>There are a few characteristics that seem essential to me for a proper ground control system design:</p>
+<ul>
+<li>
+<p>A nice way to send control stick commands from a &ldquo;virtual r/c&rdquo; that can be used with any UAV</p>
+</li>
+<li>
+<p>Consistent way to send autopilot commands</p>
+</li>
+<li>
+<p>A way to be able to read the instruments remotely, and display them as part of your &ldquo;control surface&rdquo;</p>
+</li>
+</ul>
+<p>Another observation I have, is that there is every current Arduino UAV project has an entirely different code base. There also does not seem to be any practical way for these projects to share much, even though they are all targeting the same microcontroller.</p>
+<p>Certain characteristics seem essential for developing on-board UAV system programming, but are lacking in any of the projects I was able to find:</p>
+<ul>
+<li>
+<p>A nice, modular way to put together the pieces you need in software that match the hardware configuration for that particular vehicle</p>
+</li>
+<li>
+<p>A high-level domain specific language (DSL) to specify the UAV&rsquo;s behavior, and not just programming in C++ or assembly language</p>
+</li>
+<li>
+<p>A consistent programming interface that corresponds to the protocol used by various ground controllers</p>
+</li>
+</ul>
+<p>With all of these design criteria in mind, I have been implementing the flying_robot command parser and interface. Here is an example of the minimum code required to create a UAV using the current implementation:</p>
+<p>As you can tell, there is not all that much to it. The base for a UAV in 34 lines of code.</p>
+<p>The most current code for the actual &ldquo;Rogue 1&rdquo; LTA vehicle is being committed to <a href="http://github.com/deadprogrammer/flying_robot_rogue_one/tree/master">http://github.com/deadprogrammer/flying_robot_rogue_one/tree/master</a> if you want to follow along with our progress.</p>
+<p>Next post, we test the main thrusters and vectoring controllers, and nearly start a fire&hellip;</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/deadprogram" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/deadprogram" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/deadprogram/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.575671c6da23c3563d465f9cfa3d2857fc0239531a2e8ea1fb6812017653b4d7.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

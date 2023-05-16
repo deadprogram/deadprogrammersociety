@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>code2009 on Dead Programmer SOciety</title>
+    <link>/tags/code2009/</link>
+    <description>Recent content in code2009 on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Dec 2009 09:07:00 -0800</lastBuildDate><atom:link href="/tags/code2009/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thanks For A Great #code2009</title>
+      <link>/2009/12/thanks-for-great-code2009.html</link>
+      <pubDate>Thu, 31 Dec 2009 09:07:00 -0800</pubDate>
+      
+      <guid>/2009/12/thanks-for-great-code2009.html</guid>
+      <description>It has been an amazing year for both personal and professional code development.
+Starting with the inspiration to begin Project Flying Robot, to the prestige of presenting at LARubyConf, FutureRuby, TWTRCON, IgniteLA, 140 The Twitter Conference, RubyConf, and Conferencia Rails, and lastly the year-end fun of starting out the ongoing #code2009 Twitter meme, so popular that it spawned a couple of mashups and got picked up by Hacker News and uber-language blog Lambda the Ultimate.</description>
+    </item>
+    
+  </channel>
+</rss>

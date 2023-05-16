@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>oil dependency on Dead Programmer SOciety</title>
+    <link>/tags/oil-dependency/</link>
+    <description>Recent content in oil dependency on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 May 2008 18:40:00 -0700</lastBuildDate><atom:link href="/tags/oil-dependency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Converting The US To Electric Vehicles: Priceless</title>
+      <link>/2008/05/converting-us-to-electric-vehicles.html</link>
+      <pubDate>Tue, 27 May 2008 18:40:00 -0700</pubDate>
+      
+      <guid>/2008/05/converting-us-to-electric-vehicles.html</guid>
+      <description>A non-scientific, but clearly well thought-out back-of-envelope calculation by MIT CS professor Philip Greenspun is food for thought: the cost of replacing the entire fleet of U.S. passenger cars with electric ones would be zero.
+Here are some of his numbers:
+ * total spent per year: $1 trillion
+* percentage of oil consumed by passenger cars: 40
+* total spent per year on oil for passenger cars: $400 billion [refining into gasoline, distributing, and retailing add even more to this]</description>
+    </item>
+    
+    <item>
+      <title>RailsConf 2008 Better Be Good</title>
+      <link>/2008/05/railsconf-2008-better-be-good.html</link>
+      <pubDate>Tue, 27 May 2008 08:23:00 -0700</pubDate>
+      
+      <guid>/2008/05/railsconf-2008-better-be-good.html</guid>
+      <description>RailsConf 2008 is later this week, as if you all did not know that. Interestingly, this year it has not sold out like it did for 1.0 and 2.0. Increased capacity by O&amp;rsquo;Reilly? Or perhaps something else at work here&amp;hellip;
+If you are not aware for the cost of transport, you have been living on another planet. Just the massive increase in time required to make the pilgrimage has been substantial.</description>
+    </item>
+    
+  </channel>
+</rss>

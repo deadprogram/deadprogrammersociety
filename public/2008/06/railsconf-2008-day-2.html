@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>RailsConf 2008 - Day 2 - Dead Programmer SOciety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/2008/06/railsconf-2008-day-2.html" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6b89cc86c0b843a772cdd6c6a8b7e11c2116c7933f6163d2ef225a87e1d2c121.css">
+  
+
+  
+    
+    <meta property="og:title" content="RailsConf 2008 - Day 2"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/2008/06/railsconf-2008-day-2.html"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@deadprogram"/>
+    <meta name="twitter:creator" content="@deadprogram"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Dead Programmer SOciety</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>RailsConf 2008 - Day 2<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="http://3.bp.blogspot.com/_SgxaAaUGqzY/SEzEQxsxKAI/AAAAAAAABMw/F65ZTrMgTb0/s1600-h/05-31-08_0744.jpg"><img src="http://3.bp.blogspot.com/_SgxaAaUGqzY/SEzEQxsxKAI/AAAAAAAABMw/F65ZTrMgTb0/s200/05-31-08_0744.jpg" alt=""></a>Day 2 of RailsConf 2008 began with a keynote from <a href="http://bitsweat.net/">Jeremy Kemper</a>, uber-committer and now main man behind Ruby on Rails. According to the brief introduction by DHH, Jeremy did around one third of the Rails 1.0 release himself, cares deeply about the &ldquo;whole thing&rdquo;, and has been busy helping get RoR running on Ruby 1.9 and other platforms.</p>
+<p>That must explain why Jeremy kept yawning incessantly during his presentation&hellip; he is the reason DHH is able to get more sleep! There was some speculation that Jeremy was actually suffering from a hangover&hellip; I have no idea, I was asleep the night before.</p>
+<p>Anyhow, Jeremy gave an overview of going from Rails 1.0 to the new 2.1 release. Basically, in his opinion 1.2 was &ldquo;out for a while and got stale&rdquo;. In 2.0, we got all these foxy and sexy things, plus shed a lot of fat and gained speed. But the real story was the growth of the movement behind Rails from a fairly small group of core people, to a massive community of interested contributors. Here are some amazing stats:</p>
+<p>From the 2.0 release in Dec 2007 to the 2.1 release in June 2008</p>
+<p>&gt; 1400 contributors (Trac, Lighthouse, and Github users combined&hellip; obviously a bunch are duplicates, but even 450+ is a large number!)<br>
+&gt; 1600 patches<br>
+&gt; 9000 comments</p>
+<p>I cannot imagine the chaos of having THAT MANY people harassing me over getting their pet patches into the Rails trunk. No wonder they seem a little preoccupied&hellip; they are actually thinking about how many patches that will have to reviewed by later tonight! Much respect to the team just for dealing with that many crazed developers. This is to a large extent the key benefit of moving <a href="http://github.com/rails/rails/tree/master">RoR on to Github</a>: the much easier process of managing all these people&rsquo;s contributions.</p>
+<p>Here are a few brief highlights of the new 2.1 features:</p>
+<p>* New merged migrations - helps deal with keeping migrations synched throughout the development team. It does this by a new naming system, and now making sure that all unapplied migrations have been handled, instead of the old simple schema_info table, RoR now keeps track of all migrations, and makes sure that all migrations have been applied</p>
+<p>* Time zone support - there were several plugins for time zone support. RoR has now included a fairly simple way of handling this with some baked in logic that extends both the Time class as well as some new ActiveSupport hotness.</p>
+<p>* Ruby gem dependencies - now you can specify exactly which gems and versions are needed for your Rails app, instead of playing &ldquo;one of these gems is not like the others&rdquo; when trying to install or deploy a Rails app.</p>
+<p>* Memcache - support for the ultra powerful memcache is now baked in, making fragment caching work nicely&hellip; made memcache a first class member of framework, and the memcache client is now bundled with the code distribution.</p>
+<p>* ActiveRecord Dirty - now a way of track what has changed in a AR instance. This improves performance slightly by eliminating unnecessary database writes, but even more importantly results in much cleaner log files.</p>
+<p>* Smarter :include - avoids combinatorial explosion with out of control includes, that result in too many left outer joins on every DB access. Instead, will just perform two queries to DB, with resulting database performance improvements. For example:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+Msg.find(:all, :include =&gt; :user) # two queries  
+Msg.find(:all, :include =&gt; :user, :order\_by =&gt; &#39;users.created\_at) # uses outer join  
+
+</code></pre></div><p>* Named scopes - with complex models, you will have repeated convenience associations. For example:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+user.recent\_messages  
+
+</code></pre></div><p>You would prefer:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+user.messages.recent  
+
+</code></pre></div><p>especially if you can pick it up &ldquo;for free&rdquo;. Here is a tiny example:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+class User  
+ has\_many :messages  
+ ...  
+end  
+  
+class Messages  
+ named\_scope :recent, :order =&gt; &#39;created\_by DESC&#39;  
+ ...http://www2.blogger.com/img/gl.link.gif[](http://www.ironruby.net/)  
+end  
+
+</code></pre></div><p><strong>An Embarrassment Of Riches In Ruby VM-land</strong><br>
+Rails is now running in (milestone achieved just before the conference, thanks to heroic efforts by <a href="http://www.iunknown.com/">John Lam</a>, and the rest of what is a very under-appreciated team within the Ruby community at-large). Rails has been running in <a href="http://jruby.codehaus.org/">JRuby</a> for months. Also, RoR has been running in <a href="http://rubini.us/">Rubinius</a> since about two weeks before RailsConf.</p>
+<p>And adding to the fun, <a href="http://www.ruby-lang.org/en/">Ruby 1.87 is now released</a>, which includes a bunch of performance related backports from the once and future Ruby 1.9 release.</p>
+<p>Just to show all of this multi-platform hotness, Jeremy did a little Rails 2.1 demo, showing the a minimal Rails app running on JRuby, Rubinius, and Ruby 1.9. That was amazing really, that we are actually here. Sure, Rubinius was kinda slow at starting up, but it <em>worked</em>, that is what counts.</p>
+<p><strong>Ruby 1.9 on Rails</strong><br>
+Yes, you can actually run Rails on Ruby 1.9, at least somewhat. ruby-1.9 script/server</p>
+<p>In Ruby 1.9, string encoding is huge change. According to Jeremy, 1.9 looks really fast&hellip; despite no formal benchmarks. He sees modest performance improvements on typical pages, and really notices it on bigger ERB pages. The typical page is about 20% faster. He says all rails tests are running on ruby 1.9.</p>
+<p>Despite all of the yawning, I was not put to sleep at all by seeing some cool new Rails features, and even more importantly a few huge milestones in the Ruby VM race.</p>
+<p><strong>&ldquo;Getting Git&rdquo; - Scott Chacon</strong><br>
+The keynote was good, but it had only whetted my appetite for even more substance. After a tip from a friend, I went to check out <a href="http://jointheconversation.org/">Scott Chacon</a>&rsquo;s presentation on git. If you knew nothing about git, this was not the place for you. Scott really got into the internals of git, which many of us found captivating.</p>
+<p>The room was pretty packed, and the crowd was held in rapt attention. Several of us remarked afterwards that it was the most organized presentation we had ever seen. It somewhat mimicked the format used during <a href="http://identity20.com/media/OSCON2005/">Dick Hardt&rsquo;s presentation on &ldquo;Identity 2.0&rdquo; at OSCON 2005</a>, if you have seen that one. Each section of the presentation was precisely timed, and amount of material covered was massive. I took copious notes, but there was no way to try to capture that much info. Check it out online <a href="http://www.gitcasts.com/git-talk">here</a>, if you want to dive deeply into the glory that is git.</p>
+<p><strong>&ldquo;Advanced RESTful Rails&rdquo; - Ben Scofield</strong></p>
+<p>Next, I went to <a href="http://www.culann.com/">Ben Scofield</a>&rsquo;s presentation on REST. Surprisingly a lot of people are not yet using REST. Or if they are, there appears to be some confusion over exactly how to implement things correctly. It was a decent presentation, but &ldquo;Intermediate&rdquo; would have been slightly more accurate. I mean, where was the discussion about polymorphic RESTful controllers? Now THAT would have been advanced.</p>
+<p>It was still a good, if not great presentation. Ben knows what he is talking about, I would just suggest raising the bar as far as use of the word &ldquo;advanced&rdquo;. That suggestion applies across the board to all RailsConf presentations.</p>
+<p><strong>&ldquo;StoryRunner&rdquo; - David Chemlisky</strong></p>
+<p><a href="http://blog.davidchelimsky.net/">David Chelimsky</a> is the closest thing we have to a test guru in the Ruby community. Here I am using the word guru in a precise way, &ldquo;any person who counsels or advises; mentor&rdquo;. No single person has had as much impact on introducing best test practices like behavior-driven development to the Ruby community. Even the way that plain old test-driven development is done, is heavily influenced by <a href="http://rspec.info/">RSpec</a>. Not to mention the clones like <a href="http://rubyforge.org/projects/test-spec/">Test::Spec</a> and <a href="http://www.thoughtbot.com/projects/shoulda">shoulda</a>. All of the cooler projects I work on have test specs, and not just unit tests. The projects that I work on that are not as precisely thought out, turn out to not have test specs, but only unit tests.</p>
+<p>Coincidence? I think not. The reason for going through the process of really defining what is to be done is to provide a common understanding between the people in the project. But if that was the whole story, BDUF might work. The problem is you need to apply test-driven development principals <em>to the specifications themselves</em> in your project, not just the code. And you need to be doing this as the project goes on, not just once in the beginning.</p>
+<p>Behavior-driven development is about closing the gap between the &ldquo;customer&rdquo; (the system/site/application user, if you work in something other than a consulting firm) and the &ldquo;developer&rdquo; (that would be you). And that is where StoryRunner comes in.</p>
+<p>StoryRunner makes it easy to create a kind of simple parser for a very english language oriented, simple text based way to write specs, requiring far less structure that the current RSpec format. It is really like a DSL that customers can use themselves to define their needs. As David put it, &ldquo;Ruby code is very readable, but you will not be getting customers to send you emails with new requirements in the form of Ruby code.&rdquo;</p>
+<p>So BDD is about helping the customer/user formalize their thoughts about exactly what solution they need. Can you imaging a future, where an initial RFP is put out in the form of test specs? That might provide a lot better basis for estimating, than the pages and pages of static docs that seem to still be getting cranked out inside large development organizations.</p>
+<p>Have the requirements been changing? Just do a diff on the specs. There are so many advantages to this approach, that once you get the customer &ldquo;spec-obsessed&rdquo;, just like developers who become &ldquo;test-obsessed&rdquo; the game is totally changed. You can&rsquo;t go back, at least willingly.</p>
+<p>David talked about a couple of other tools that fit nicely in the RSpec stack. One very cool way to use it for full-stack integration testing is using <a href="http://github.com/brynary/webrat/tree/master">Webrat</a>. Another is doing true browser testing using <a href="http://selenium-rc.openqa.org/">Selenium-RC</a>. David showed a demo of this, and remarked on how happy it made customers to be able to actually see their web site being tested, not just get the results back.</p>
+<p>Note that RSpec is for use with Ruby, not just Rails, so if you are using Merb or Sinatra, or whatever, you can still write test specs using RSpec and StoryRunner.</p>
+<p><a href="http://3.bp.blogspot.com/_SgxaAaUGqzY/SEzEc9zpt7I/AAAAAAAABM4/YAJ7D0J1yiE/s1600-h/05-31-08_1855.jpg"><img src="http://3.bp.blogspot.com/_SgxaAaUGqzY/SEzEc9zpt7I/AAAAAAAABM4/YAJ7D0J1yiE/s200/05-31-08_1855.jpg" alt=""></a><strong>Keynote - Kent Beck</strong><br>
+During Chad Fowler&rsquo;s introduction, Chad said he was &ldquo;like one of the superdelegates, getting to cast his vote about what we would get for presentations regardless of what we thought we wanted.&rdquo; All I can say is, Chad, keep it up. Some of these people might not get it, but if they continue to stay in this game long enough, they will.</p>
+<p>At last, the moment I had been waiting for, and the biggest attraction for me personally in the RailsConf 2008 schedule: <a href="http://en.wikipedia.org/wiki/Kent_Beck">Kent Beck</a>, one of the extremes, the Saturday night keynote.</p>
+<p>Kent&rsquo;s presentation on the surface appeared highly informal, just a bunch of stories. It actually consisted of a serious of overlapping arcs on three topics that he knows a little about, because he helped create them: test-driven development, design patterns, and Extreme Programming. These stories took place over a 20 year timeline, stretching back to the origins of the work that the whole Rails community indirectly rides on today. This was before a bunch of RailsConf attendees were born, or at best were still in diapers.</p>
+<p>I was pretty immersed in Kent&rsquo;s storytelling. I was too young to have been part of that original movement, but I&rsquo;m old enough to want to learn all I can from the great masters, before they are all retired or just inaccessible. Amazing to have access to a couple of the extremes, like Ward Cunningham who was just hanging out on Day 1, at a fairly small conference like RailsConf, where most of the people do not even know who they are. For me, it is like a dream come true. If a bunch of other people are passing up the equivalent of intellectual caviar to stuff themselves with potato chips, well, good for them.</p>
+<p>Enough ranting, back to Kent&rsquo;s <a href="http://www.amazon.com/Beelzebubs-Tales-His-Grandson-Everything/dp/0140194738">&ldquo;Tales to His Grandson&rdquo;</a>. The unifying theme that emerged to me was that Kent is a true 60&rsquo;s radical who chose software as his weapon of choice to use in order to achieve social change. Like many great thinkers, Kent is a reader of books. Yes, those old things. Here are a few that he specifically mentioned that were instrumental in the development of his philosophies:</p>
+<p><a href="http://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028">Christopher Alexander - &ldquo;The Timeless Way Of Building&rdquo;</a></p>
+<p><a href="http://www.amazon.com/Naked-Cartoonist-Enhance-Your-Creativity/dp/1579122361">Robert Mankoff - &ldquo;The Naked Cartoonist: A New Way to Enhance Your Creativity&rdquo;</a></p>
+<p><a href="http://www.amazon.com/WORDS-THAT-WORK-WHAT-PEOPLE/dp/1401302599">Dr. Frank Luntz - &ldquo;WORDS THAT WORK: IT&rsquo;S NOT WHAT YOU SAY, IT&rsquo;S WHAT PEOPLE HEAR&rdquo;</a></p>
+<p>The last question in the Q&amp;A was really telling. When asked &ldquo;do you think that you accomplished the political changes you set out to?&rdquo; he responded that &ldquo;No, he had not. And that he really did not fully understand why&rdquo;. Oh, those idealistic baby boomers! Kent, you may not have achieved all you set out to do directly, but the forces you set in motion are still going. Even though many of the attendees at RailsConf do not know you, they have grown up in a world where they expect more freedom and openness, and that is in part thanks to you, and fighting the good fight back then. Thanks, Kent, for staying true to the movement.</p>
+<p><strong>RailsConf - The Jam Session</strong><br>
+After that very high level of intellectual brilliance, what could possibly top it off? How about a fantastic musical jam session. Chad had arranged the Musical BoF, and somehow <a href="http://onestepback.org/">Jim Weirich</a> had talked a <a href="http://www.artichokemusic.com">very generous and cool local music store</a> into loaning him a perfectly playable acoustic guitar. Chad had his ukulele, <a href="http://www.chariotsolutions.com/">Andrea Wright</a> a recorder, and <a href="http://blog.almostaspacegame.com/">Dan Tripp</a>, a portable folding guitar. I had brought a couple of my harmonicas with me, though not enough, of course. There were a bunch of other fun musical things, like a flute, and an impromptu Brazilian song or two from actual Brazilians. Not to mention a very creative approach toward an impromptu percussion setup by <a href="http://funkworks.blogspot.com/">Forrest Chang</a>.</p>
+<p>Anyhow, great fun was had by all! We are already planning the RubyConf 2008 Jam, so it you will be coming, bring your ax! I will commit right now to the Dead Programmer Society helping sponsor having some instruments and/or PA system&hellip; plus some beer!</p>
+<p>As I headed back to my room, I felt the smug contentment that comes from having had a really good time. Thanks everyone, for having made RailsConf 2008 &ldquo;worth it&rdquo; by the end of Day 2. Day 3 was still coming, and would have a few surprises of its own&hellip;</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/deadprogram" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/deadprogram" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/deadprogram/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.575671c6da23c3563d465f9cfa3d2857fc0239531a2e8ea1fb6812017653b4d7.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

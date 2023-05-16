@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rubyconf2010 on Dead Programmer SOciety</title>
+    <link>/tags/rubyconf2010/</link>
+    <description>Recent content in rubyconf2010 on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Nov 2010 07:20:00 -0800</lastBuildDate><atom:link href="/tags/rubyconf2010/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10 Cool Things From RubyConf X</title>
+      <link>/2010/11/10-cool-things-from-rubyconf-x.html</link>
+      <pubDate>Wed, 17 Nov 2010 07:20:00 -0800</pubDate>
+      
+      <guid>/2010/11/10-cool-things-from-rubyconf-x.html</guid>
+      <description>This last week was the fantastic RubyConf X. It has been ten years of RubyConf and in celebration of this notable occasion, the organizers located it in New Orleans and opened up the registration to a lot more people then most years past. This had the clearly foreseeable consequence of turning the conference into a really fun time!
+So here, in no particular order, are 10 cool things I saw or heard at the conference.</description>
+    </item>
+    
+  </channel>
+</rss>

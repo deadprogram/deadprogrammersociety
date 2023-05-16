@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>open source development on Dead Programmer SOciety</title>
+    <link>/tags/open-source-development/</link>
+    <description>Recent content in open source development on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Feb 2009 09:38:00 -0800</lastBuildDate><atom:link href="/tags/open-source-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>So Long, And Thanks For All The SSH</title>
+      <link>/2009/02/so-long-and-thanks-for-all-ssh.html</link>
+      <pubDate>Wed, 25 Feb 2009 09:38:00 -0800</pubDate>
+      
+      <guid>/2009/02/so-long-and-thanks-for-all-ssh.html</guid>
+      <description>I read Jamis Buck&amp;rsquo;s posting late last night, about how he was retiring from involvement with Capistrano, Net:SSH and a few other closely related projects. First of all, the community owes him a lot for doing so much work on these crucial parts of the Ruby on Rails ecosystem.
+Seems like he has fallen victim to his own project&amp;rsquo;s popularity. So many people using your code, and they start to expect things, and then demand them.</description>
+    </item>
+    
+    <item>
+      <title>In My Hood</title>
+      <link>/2009/01/in-my-hood.html</link>
+      <pubDate>Sun, 25 Jan 2009 09:26:00 -0800</pubDate>
+      
+      <guid>/2009/01/in-my-hood.html</guid>
+      <description>I was taking my morning constitutional with my youngest son, when I noticed my neighbor who programs at JPL had added a new placard to the artistic decor attached to his fence.
+And who says there is no software development in Los Angeles?</description>
+    </item>
+    
+    <item>
+      <title>The U.S. Navy Goes Open Source</title>
+      <link>/2008/03/us-navy-goes-open-source.html</link>
+      <pubDate>Thu, 13 Mar 2008 12:30:00 -0700</pubDate>
+      
+      <guid>/2008/03/us-navy-goes-open-source.html</guid>
+      <description>That unwitting center of global innovation known as the United States Navy has made a bold announcement: from now on, they are only going to accept open source.
+I just read about this on CNET, where they were linking to a recent story in Federal Computer Week. When I read this, I just about fell out of my seat. According to Vice Adm. Mark Edwards, deputy chief of naval operations for communications:</description>
+    </item>
+    
+    <item>
+      <title>I Want My API</title>
+      <link>/2008/01/i-want-my-api.html</link>
+      <pubDate>Mon, 28 Jan 2008 22:47:00 -0800</pubDate>
+      
+      <guid>/2008/01/i-want-my-api.html</guid>
+      <description>I just ran into a really great resource for open source API documentation. Called gotAPI, it links in a delightfully searchable way all of the APIs we love, but turn out to not actually know. Well, we know them, just not well enough to have their numbers setup for speed dial on our cell phones. Or our code able to call them directly without looking up a reference first.
+Here is a small sample of ones I will actually use regularly:</description>
+    </item>
+    
+    <item>
+      <title>Zed Is Mad</title>
+      <link>/2008/01/zed-is-mad.html</link>
+      <pubDate>Tue, 01 Jan 2008 15:44:00 -0800</pubDate>
+      
+      <guid>/2008/01/zed-is-mad.html</guid>
+      <description>Zed Shaw has always been a rather curmudgeonly figure. I find him smart and hilarious, but of course many are rather insulted by his &amp;ldquo;tell it like he $%#@! well sees it&amp;rdquo; style. To me, Zed is like the Hunter S. Thompson of our community. The more your believe your own BS, the more he pisses you off.
+Like Hunter S., Zed is a put up or shut up kind of person.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test-driven development on Dead Programmer SOciety</title>
+    <link>/tags/test-driven-development/</link>
+    <description>Recent content in test-driven development on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Nov 2008 09:07:00 -0800</lastBuildDate><atom:link href="/tags/test-driven-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RubyConf 2008 - Day 1 - Testing Heresies - Francis Hwang</title>
+      <link>/2008/11/rubyconf-2008-day-1-testing-heresies.html</link>
+      <pubDate>Thu, 13 Nov 2008 09:07:00 -0800</pubDate>
+      
+      <guid>/2008/11/rubyconf-2008-day-1-testing-heresies.html</guid>
+      <description>The sessions for RubyConf 2008 day one were nearly over, when I attending this highly entertaining and informative one. I had missed the chance to see a previous presentation by Francis Hwang, and being as test-obsessed as I am, I was not going to make the same mistake twice.
+Many people are confused over mocks, stubs, and other fakes. Here are the real definitions.
+Gerard Meszaros - Test Doubles
+- dummies - passed around but never used</description>
+    </item>
+    
+    <item>
+      <title>More Developer Fun In Los Angeles</title>
+      <link>/2007/10/more-developer-fun-in-los-angeles.html</link>
+      <pubDate>Wed, 24 Oct 2007 08:17:00 -0700</pubDate>
+      
+      <guid>/2007/10/more-developer-fun-in-los-angeles.html</guid>
+      <description>Last night was the always entertaining Los Angeles Application Developer Meetup. L.A. is not known for the same massive quantity of developers as the bay area, for example, but having joined forces with the LA Ruby on Rails Meetup crew some time back, the monthly event is still growing.
+This month&amp;rsquo;s was held at the impressive new digs of YellowPages.com, who have been busy building out a huge Ruby on Rails based local search replacement for their venerable 100K+ lines of Java code.</description>
+    </item>
+    
+    <item>
+      <title>Stop The Bug-Based Development</title>
+      <link>/2007/09/stop-bug-based-development.html</link>
+      <pubDate>Mon, 24 Sep 2007 11:27:00 -0700</pubDate>
+      
+      <guid>/2007/09/stop-bug-based-development.html</guid>
+      <description>I enjoyed reading Phil Haack&amp;rsquo;s little &amp;ldquo;you&amp;rsquo;re either with us or against us&amp;rdquo; diatribe from earlier today, where he rails against non-test-driven development. I only differ in that I prefer to call it Bug-Based Development (BBD).
+So are you one of those fifth-column types who is providing aid and comfort to the enemy? Draw a line in the sand&amp;hellip; never make your troops take casualties retaking the same ground twice&amp;hellip; no bastard ever won a war by dying for his country.</description>
+    </item>
+    
+    <item>
+      <title>Power Rangers Should Test First</title>
+      <link>/2007/06/power-rangers-should-test-first.html</link>
+      <pubDate>Fri, 01 Jun 2007 15:53:00 -0700</pubDate>
+      
+      <guid>/2007/06/power-rangers-should-test-first.html</guid>
+      <description>Last night, I got home a bit late. My 8 year old son was still up, watching the Power Rangers. &amp;ldquo;Sit down and watch with me, Dad,&amp;rdquo; he said. &amp;ldquo;I&amp;rsquo;m surprised you still like the Power Rangers,&amp;rdquo; I said, as I sat beside him on the sofa. &amp;ldquo;I mostly just like the vehicles,&amp;rdquo; he told me.
+The Power Rangers were in trouble in this episode. The bad guys had taken remote control of the Rangers&#39; giant robots, and the Power Rangers were helpless without their usual firepower.</description>
+    </item>
+    
+    <item>
+      <title>Toward A Test-Driven Culture</title>
+      <link>/2006/10/toward-test-driven-culture.html</link>
+      <pubDate>Mon, 23 Oct 2006 14:43:00 -0700</pubDate>
+      
+      <guid>/2006/10/toward-test-driven-culture.html</guid>
+      <description>We all have to move to a test-driven culture. We cannot think about testing as an afterthought, or as a necessary evil. Testing has to be baked into the culture of software development the same way that testing is baked into Ruby on Rails. It is there right from the beginning, and makes you feel guilty when you DON&amp;rsquo;T do it. The DNA of software development has to evolve to grow systems with neurons that make it so that a lack of testing feels like sticking your hand into a wall socket; you notice right away when it happens, and you take immediate action to make it stop.</description>
+    </item>
+    
+  </channel>
+</rss>

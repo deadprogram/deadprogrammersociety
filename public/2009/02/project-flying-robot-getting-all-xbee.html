@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Project Flying Robot: Getting All XBee With It - Dead Programmer SOciety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/2009/02/project-flying-robot-getting-all-xbee.html" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6b89cc86c0b843a772cdd6c6a8b7e11c2116c7933f6163d2ef225a87e1d2c121.css">
+  
+
+  
+    
+    <meta property="og:title" content="Project Flying Robot: Getting All XBee With It"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/2009/02/project-flying-robot-getting-all-xbee.html"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@deadprogram"/>
+    <meta name="twitter:creator" content="@deadprogram"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Dead Programmer SOciety</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Project Flying Robot: Getting All XBee With It<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="http://4.bp.blogspot.com/_SgxaAaUGqzY/SaGtHgTCZeI/AAAAAAAABto/oQ4rSOtEeZs/s1600-h/IMG_0609.JPG"><img src="http://4.bp.blogspot.com/_SgxaAaUGqzY/SaGtHgTCZeI/AAAAAAAABto/oQ4rSOtEeZs/s200/IMG_0609.JPG" alt=""></a>We have been making some amazing progress on our flying_robot project. This post is actually from almost a week ago, but I have not had time to catch up blogging with what we have been getting accomplished.</p>
+<p>As I had mentioned in my first posting, one of the reasons that we did not simply copy the <a href="http://diydrones.com/profiles/blog/show?id=705844%3ABlogPost%3A44817">Blimpduino</a>, is that we do not want to use a standard R/C controller for manual control. No, that would be too easy. Actually, it is because we have other kinds of ground control in mind&hellip; but I will get into that in future posts, once we have a working vehicle.</p>
+<p>One focus of our project is to create a fully digital protocol to communicate wirelessly with UAV&rsquo;s. Something like MIDI is to music, the flying_robot command set is to flying. In other words, flying_robot is intended to provide a device-independent way to communicate with various kinds of unmanned aerial vehicles. So we started looking at digital wireless solutions. WiFi is common, but does not have the range, plus it uses too much power. Bluetooth just lacks range, period. Sounds like a job for <a href="http://www.digi.com/technology/rf-articles/wireless-zigbee.jsp">XBee</a> to me.</p>
+<p>If you have not heard of it, XBee is a wireless data standard that has several priorities: it must have good range, use very low power, and be very cheap. The internet of things will likely be connected via XBee, since it it ideal for low-cost devices that wish to communicate with each other.</p>
+<p>XBee modems come in several different flavors, depending on the needed range and desired type of network topology. The simplest version supports the 802.15.4 protocol, which is probably best for most point to point type applications, like a ground control to a base station. This is what they sometimes refer to as the &ldquo;Series 1&rdquo; modems.</p>
+<p>The ZigBee modems, also sometimes called Series 2, add a protocol for mesh networking that looks to be very interesting. It could be used for a swarm of robots that communicate with each other, not just with a base station. This appealed to my inner geek, and so I ordered two of these modems, with the intention of experimenting with mesh networking in the near future.</p>
+<p>On that note, there is an <a href="http://www.digi.com/products/wireless/point-multipoint/xbee-pro-868.jsp">amazing deal right now for experimenters directly from Digi</a>. You can get a development kit for the super-powerful next-generation XBee 868, that includes a pair of the modems, for only $99. I could not resist, and just ordered a pair of these to play around with, as well as the <a href="http://www.sparkfun.com/commerce/product_info.php?products_id=8768">XBee-Pro 2.5&rsquo;s I already had acquired from SparkFun</a>.</p>
+<p>One thing I discovered quickly, was that the XBee modems I had purchased are really small. The next, was that I had to do some additional programming on them, before they would talk to each other. I found a <a href="http://github.com/madrona/xbee-modem-setup/tree/master">useful Ruby script for configuring XBee modems</a> from madrona, but it turned out to be a little more complicated, due to my choice of ZigBee over the simpler 802.15.4 protocol.</p>
+<p>Fortunately, others have already been blazing this wireless trail, so I found <a href="http://antipastohw.blogspot.com/2009/01/xbee-shield-to-xbee-shield.html">these recent instructions</a> on the Liquidware blog. It turns out that when dealing with ZigBee, one of the modems needs to be designated the &ldquo;coordinator&rdquo; for all the others in that mesh network, to hand out the all-important MY addresses. The coordinator needs different firmware than the individual nodes, which requires a utility provided by Digi, which is Windows only. Without this firmware on one of the modems in your mesh, you can send as many AT command as you like, the modems will never talk to each other. I dusted off a VM, and installed the Digi utility. Once I had updated the firmware, and updated the configurations of each modem using madrona&rsquo;s script, I was ready to go.</p>
+<p>With one XBee modem plugged into my Mac via the USB port thanks to the <a href="http://www.sparkfun.com/commerce/product_info.php?products_id=8687">XBee Explorer</a> adapter, and the other plugged into the Arduino via the <a href="http://www.sparkfun.com/commerce/product_info.php?products_id=8471">XBee Shield</a> from Sparkfun, serial communication &ldquo;just worked&rdquo;. Now I was ready to start coding on the Arduino itself&hellip; but that is another story.</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/deadprogram" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/deadprogram" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/deadprogram/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.575671c6da23c3563d465f9cfa3d2857fc0239531a2e8ea1fb6812017653b4d7.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

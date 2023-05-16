@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rubyconf 2007 on Dead Programmer SOciety</title>
+    <link>/tags/rubyconf-2007/</link>
+    <description>Recent content in rubyconf 2007 on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Nov 2007 05:52:00 -0800</lastBuildDate><atom:link href="/tags/rubyconf-2007/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Werewolf vs. Vampyre</title>
+      <link>/2007/11/werewolf-vs-vampyre.html</link>
+      <pubDate>Mon, 19 Nov 2007 05:52:00 -0800</pubDate>
+      
+      <guid>/2007/11/werewolf-vs-vampyre.html</guid>
+      <description>I had read with mild amusement the minor dustup over the craze of Werewolf players at RubyConf 2007. If you don&amp;rsquo;t know what it is, you can read about it here.
+Some people just really enjoy playing social games. Let&amp;rsquo;s call them the Werewolves&amp;hellip; you know who you are, even if the rest of us do not.
+Other people, however, view RubyConf as a place to get together with the other commiters on their beloved project, stay up all night, and crank out a new release before their presentation the next day.</description>
+    </item>
+    
+    <item>
+      <title>RubyConf 2007 - Day 3</title>
+      <link>/2007/11/rubyconf-2007-day-3.html</link>
+      <pubDate>Sun, 18 Nov 2007 21:45:00 -0800</pubDate>
+      
+      <guid>/2007/11/rubyconf-2007-day-3.html</guid>
+      <description>As day 3 of RubyConf 2007 began, the breakfast buffet had to remind us of its presence. This time, it was the main sound system that was taken out by the ultra-powerful toasters. When Dr. Nic was asked if he wanted to get started anyhow, he had to give two of his charmingly nasal &amp;ldquo;No&amp;rdquo; rhymes with &amp;ldquo;Pow&amp;rdquo; before MC David Black caught his meaning. This gave some of us a moment to try to catch up on the flurry of RubyConf blogging.</description>
+    </item>
+    
+    <item>
+      <title>RubyConf 2007 - Day 2 - &#34;The Ruby VM Smackdown Begins&#34;</title>
+      <link>/2007/11/rubyconf-2007-day-2-ruby-vm-smackdown.html</link>
+      <pubDate>Tue, 06 Nov 2007 13:38:00 -0800</pubDate>
+      
+      <guid>/2007/11/rubyconf-2007-day-2-ruby-vm-smackdown.html</guid>
+      <description>As the sun rose over the hills of North Carolina, the quiet betrayed a seething fire blazing in the hearts of three development teams. &amp;ldquo;Three teams enter, one team leaves!&amp;rdquo; Yes, I am talking about the main event, people, the one, the only, Ruby VM Smackdown! The room was jam packed, the anticipation was high.
+As good fortune would have it, I was sitting right next to the head of the team who was my personal favorite to win the day.</description>
+    </item>
+    
+    <item>
+      <title>RubyConf 2007 - Day 1 - &#34;Advanced Ruby Class Design&#34; - Jim Weirich</title>
+      <link>/2007/11/rubyconf-2007-day-1-advanced-ruby-class.html</link>
+      <pubDate>Mon, 05 Nov 2007 10:57:00 -0800</pubDate>
+      
+      <guid>/2007/11/rubyconf-2007-day-1-advanced-ruby-class.html</guid>
+      <description>Jim Weirich is a very smart guy. So smart that his presentation was not about complicated classes, but about Ruby itself and how to take advantage of it to simplify things. Jim&amp;rsquo;s background in computing is long and varied, something like a history lesson in programming languages. Here is the abbreviated list:
+FORTRAN &amp;gt; C &amp;gt; Modula 2 &amp;gt; C++ &amp;gt; Eiffel &amp;gt; Java
+and in parallel to this:
+LISP &amp;gt; FORTH &amp;gt; TCL &amp;gt; Perl</description>
+    </item>
+    
+    <item>
+      <title>RubyConf 2007 - Day 1 - &#34;What Makes Code Beautiful&#34; - Marcel Molina</title>
+      <link>/2007/11/rubyconf-2007-day-1-what-makes-code.html</link>
+      <pubDate>Mon, 05 Nov 2007 00:19:00 -0800</pubDate>
+      
+      <guid>/2007/11/rubyconf-2007-day-1-what-makes-code.html</guid>
+      <description>I remember Marcel Molina from the first RailsConf, when the Rails core team was introduced to the audience. What had impressed me at the time, besides his cool glasses, was the fact that Marcel comes from a literature background.
+That makes his take on programming in Ruby very interesting, because he approaches it from an aesthetic perspective, not just a functional one. To Marcel, code must achieve both, for it to be considered beautiful.</description>
+    </item>
+    
+    <item>
+      <title>RubyConf 2007 - Day 1</title>
+      <link>/2007/11/rubyconf-2007-day-1.html</link>
+      <pubDate>Sun, 04 Nov 2007 23:33:00 -0800</pubDate>
+      
+      <guid>/2007/11/rubyconf-2007-day-1.html</guid>
+      <description>Where RailsConf is growing to become a spectacle, RubyConf still has that special, small feeling of sharing. It is like the difference seeing a really great band perform at a small club before they get &amp;ldquo;discovered&amp;rdquo;, and then seeing them again in an arena. Still the same band, but a much different experience. Being here at RubyConf 2007 brings back the joy of hacking Ruby code for its own sake, not just creating the latest and greatest social web application.</description>
+    </item>
+    
+  </channel>
+</rss>

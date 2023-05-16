@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Making S3 Folders In Ruby - Dead Programmer SOciety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/2008/01/making-s3-folders-in-ruby.html" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6b89cc86c0b843a772cdd6c6a8b7e11c2116c7933f6163d2ef225a87e1d2c121.css">
+  
+
+  
+    
+    <meta property="og:title" content="Making S3 Folders In Ruby"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/2008/01/making-s3-folders-in-ruby.html"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@deadprogram"/>
+    <meta name="twitter:creator" content="@deadprogram"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Dead Programmer SOciety</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Making S3 Folders In Ruby<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="http://baseballcrank.com/RaidersWarehouse.jpg"><img src="http://baseballcrank.com/RaidersWarehouse.jpg" alt=""></a>Amazon&rsquo;s S3 storage service is a really cool way to store and serve up massive quantities of data. Interestingly, it is more like a database than like a file system. Despite the convenience of referring to an object like &ldquo;/path/to/thing.jpg&rdquo; S3 really does not have any separate objects for &ldquo;/path&rdquo; or &ldquo;/path/to&rdquo;. In fact, neither &ldquo;/path&rdquo; nor &ldquo;/path/to&rdquo; even exist.</p>
+<p>This is why, when you store an S3 object, the name it is given is called &ldquo;key&rdquo; instead of &ldquo;filename&rdquo;. It functions like a database key, returning a file. However, as very &ldquo;ultra hipster Web 2.0&rdquo; as this may be, it is still convenient to browse a large collection of files by using a familiar directory/sub-directory/etc.</p>
+<p>In fact, all of the S3 utilities that I use allow you to create a folder inside of a bucket, and sub-folders inside of that etc. But I did not see any programmatic facility for creating a folder independent of any object inside of S3. If you have been paying attention, you remember that in S3 there is no such thing as a directory! So how do these nice GUI browsers do it?</p>
+<p>I did some Googling, but no luck, beyond &ldquo;it couldn&rsquo;t be done&rdquo;. Since I had two different programs that already did it, I knew THAT wasn&rsquo;t the case. It took a little old-fashioned investigation&hellip; I looked directly at the output from a query to a bucket that had the little folders in them already.</p>
+<p>Lo and behold, it turns out, they cheat, by creating a specially named object for each &ldquo;directory&rdquo;. For a directory named &ldquo;/path&rdquo;, you would create an object with the key &ldquo;path_$folder$&rdquo;, and for a directory named &ldquo;/path/to&rdquo;, you create an object with the key &ldquo;path/to_$folder$&rdquo;. Then to get a directory listing for &ldquo;/path&rdquo; you just do a query on S3 for all object whose key starts with &ldquo;/path&rdquo;. Ignore any objects that end with &ldquo;_$folder$&rdquo; and there you have it: S3 folders.</p>
+<p>I decided that it would be nice if the aws/s3 gem would support this foldering the same way that copying a file within a file system does: if the enclosing directories do not exist, they are created before the file copy.</p>
+<p>Thanks to the beauty of modern dynamic languages, I was easily able to put together a little monkeypatch for aws/S3 to the S3Object class, that handles this.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback"># This is an extension to S3Object that supports the emerging &#39;standard&#39; for virtual folders on S3.  
+# For example:  
+#   S3Object.store(&#39;/folder/to/greeting.txt&#39;, &#39;hello world!&#39;, &#39;ron&#39;, :use\_virtual\_directories =&gt; true)  
+#  
+# This will create an object in S3 that mimics a folder, as far as the S3 GUI browsers like  
+# the S3 Firefox Extension or Bucket Explorer are concerned.  
+module AWS  
+ module S3  
+ class S3Object  
+ class &lt;&lt; self  
+           
+        alias :original\_store :store  
+        def store(key, data, bucket \= nil, options \= {})  
+          store\_folders(key, bucket, options) if options\[:use\_virtual\_directories\]  
+          original\_store(key, data, bucket, options)  
+        end  
+    
+        def store\_folders(key, bucket \= nil, options \= {})  
+          folders \= key.split(&#34;/&#34;)  
+          folders.slice!(0)  
+          folders.pop  
+          current\_folder \= &#34;/&#34;  
+          folders.each {|folder|  
+            current\_folder += folder  
+            store\_folder(current\_folder, bucket, options)  
+            current\_folder += &#34;/&#34;  
+          }  
+        end  
+    
+        def store\_folder(key, bucket \= nil, options \= {})  
+          original\_store(key + &#34;\_$folder$&#34;, &#34;&#34;, bucket, options) # store the magic entry that emulates a folder  
+        end  
+      end  
+    end  
+  end  
+end
+</code></pre></div><p>Sure, you can have the best of both worlds: massive virtual storage, and a convenient directory-like structure. And now you can have it with your favorite Ruby S3 library.</p>
+<p>Happy storage!</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/deadprogram" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/deadprogram" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/deadprogram/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.575671c6da23c3563d465f9cfa3d2857fc0239531a2e8ea1fb6812017653b4d7.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

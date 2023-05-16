@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hmc6352 on Dead Programmer SOciety</title>
+    <link>/tags/hmc6352/</link>
+    <description>Recent content in hmc6352 on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Feb 2009 11:01:00 -0800</lastBuildDate><atom:link href="/tags/hmc6352/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Flying Robot: A Compass, Two Motors, And A Servo</title>
+      <link>/2009/02/project-flying-robot-compass-two-motors.html</link>
+      <pubDate>Thu, 26 Feb 2009 11:01:00 -0800</pubDate>
+      
+      <guid>/2009/02/project-flying-robot-compass-two-motors.html</guid>
+      <description>Last weekend was a fantastic hardware/software jam session with my brother Damen, working on our autonomous Ruby Arduino Development (RAD) powered blimp. Lots of little pieces had been coming in the mail, my brother had been soldering, and I had been programming away. Both of us were eager to start putting it all together.
+The first item of business was getting our bearings. We had acquired from Sparkfun a very cool HMC6352 digital compass module.</description>
+    </item>
+    
+  </channel>
+</rss>

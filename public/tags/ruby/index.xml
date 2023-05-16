@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ruby on Dead Programmer SOciety</title>
+    <link>/tags/ruby/</link>
+    <description>Recent content in ruby on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Nov 2010 23:05:00 -0800</lastBuildDate><atom:link href="/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gabba: A Ruby Gem For Doing Server Side Google Analytics Tracking</title>
+      <link>/2010/11/gabba-ruby-gem-for-doing-server-side.html</link>
+      <pubDate>Tue, 30 Nov 2010 23:05:00 -0800</pubDate>
+      
+      <guid>/2010/11/gabba-ruby-gem-for-doing-server-side.html</guid>
+      <description>Yo, Gabba! Gabba, hey? Gabba is a Ruby gem to do easy server-side Google Analytics tracking of page view and custom events. Gather around and I&amp;rsquo;ll show you how it works.
+Google Analytics is the gold standard of website traffic reporting. In addition to tracking page views, one of the interesting capabilities it has is to track custom events. These could be shopping cart checkouts or video plays from clicking on a button in a Flash player.</description>
+    </item>
+    
+    <item>
+      <title>Configuring Hybrid Ruby on Rails Applications On EY-Cloud</title>
+      <link>/2010/03/configuring-hybrid-ruby-on-rails.html</link>
+      <pubDate>Thu, 04 Mar 2010 10:30:00 -0800</pubDate>
+      
+      <guid>/2010/03/configuring-hybrid-ruby-on-rails.html</guid>
+      <description>This last weekend, we completed migration of a slightly more complex Ruby on Rails application than the usual to Engine Yard&amp;rsquo;s EY-Cloud. It took a few tries, and a tiny bit of research, before we completely understood what to do to get it up and running with all of the needed capabilities. Naturally this was due to gaps in my own knowledge, and I wanted to post about what I had learned, and how awesome EY-Cloud really is!</description>
+    </item>
+    
+    <item>
+      <title>I Was A Guest Blogger At LARubyConf 2010</title>
+      <link>/2010/02/i-was-guest-blogger-at-larubyconf-2010.html</link>
+      <pubDate>Mon, 22 Feb 2010 11:40:00 -0800</pubDate>
+      
+      <guid>/2010/02/i-was-guest-blogger-at-larubyconf-2010.html</guid>
+      <description>Longtime readers of this blog know that I can really get into writing about Ruby conferences, and I had a great time this last weekend at LARubyConf 2010. This time, I got to try some thing new: I was guest blogging the conference for TheBitSource, which has been providing some great coverage of other tech events like PyCon and SCALE.
+Please check out my complete recap from the 2nd annual Los Angeles Ruby Conference LARubyConf 2010 here.</description>
+    </item>
+    
+    <item>
+      <title>Sparkline Some Interest With Ruby on Rails</title>
+      <link>/2010/01/sparkline-some-interest-with-ruby-on.html</link>
+      <pubDate>Tue, 12 Jan 2010 12:12:00 -0800</pubDate>
+      
+      <guid>/2010/01/sparkline-some-interest-with-ruby-on.html</guid>
+      <description>Recently, I added some sparkline graphs to a Ruby on Rails application. A sparkline is a very small graphic that displays a large amount of information, typically shown over time, and usually embedded in some other text. Invented by the father of modern infographics Edward Tufte, the sparkline has become a fixture of many online applications that want to visually display some stats in a simple, integrated way.
+When it come to adding sparklines into a Ruby on Rails application, there are a couple of different options.</description>
+    </item>
+    
+    <item>
+      <title>Flying Robot: World Tour 2009 Continues</title>
+      <link>/2009/11/flying-robot-world-tour-2009-continues.html</link>
+      <pubDate>Mon, 16 Nov 2009 08:15:00 -0800</pubDate>
+      
+      <guid>/2009/11/flying-robot-world-tour-2009-continues.html</guid>
+      <description>As usual, no blog posts = a lot of other activity here at Flying Robot HQ. Among other personal stuff, my brother Damen Evans and I have been getting ready for the last public demos of @flyingrobot for 2009. And we are going out with style!
+Later this week, we roll up to San Francisco to present at the prestigious RubyConf! Then, next week @flyingrobot and I will fly off to Madrid, Spain, to do our first European appearance at the awesome-looking Conferencia Rails.</description>
+    </item>
+    
+    <item>
+      <title>The FutureRuby Revolution Will Not Be On AOL - Part 2</title>
+      <link>/2009/07/futureruby-revolution-will-not-be-on.html</link>
+      <pubDate>Sat, 25 Jul 2009 09:37:00 -0700</pubDate>
+      
+      <guid>/2009/07/futureruby-revolution-will-not-be-on.html</guid>
+      <description>FutureRuby Day 2 began in a seemingly calm and reflective way. Coffees were sipped, and hangovers nursed. As the self-inflicted wounds from the Pravda-Vodka-Kalashnikov faded, Pete Forde, our leader and spiritual adviser, began a short sermon.
+His message was simple: Vegas is a horrible place to hold RailsConf. And we should live in a manner that follows the &amp;ldquo;Four Agreements&amp;rdquo;. Seriously, yes, he said both of these things.
+Pete told us of the source of his sudden enlightenment: Portland&amp;rsquo;s Jupiter Hotel.</description>
+    </item>
+    
+    <item>
+      <title>I Have Seen The FutureRuby, And It Is Amazing - Part 1</title>
+      <link>/2009/07/i-have-seen-futureruby-and-it-is.html</link>
+      <pubDate>Thu, 16 Jul 2009 17:05:00 -0700</pubDate>
+      
+      <guid>/2009/07/i-have-seen-futureruby-and-it-is.html</guid>
+      <description>It was with tremendous excitement that my brother Damen and I had arrived in Toronto for FutureRuby. Not only were we getting to attend the reprise of what had been by all accounts the &amp;ldquo;Best. Conference. Ever.&amp;rdquo;, but we were going to be speaking about Project Flying Robot.
+There had been many interesting interactions with various security personnel on the journey, thanks to the many small homemade electronic devices that make up our tiny squadron.</description>
+    </item>
+    
+    <item>
+      <title>Getting Ready For Takeoff At FutureRuby</title>
+      <link>/2009/07/getting-ready-for-takeoff-at-futureruby.html</link>
+      <pubDate>Sun, 05 Jul 2009 09:55:00 -0700</pubDate>
+      
+      <guid>/2009/07/getting-ready-for-takeoff-at-futureruby.html</guid>
+      <description>I just realized it has been an entire month since my last post. Sorry! In case you were wondering, the always overambitious plans for Project Flying Robot have taken up more time than expected. And parts. Especially parts.
+Lucky for us, the benefit of a hard deadline approaches: FutureRuby is coming up next week. My brother Damen Evans and I are going to be showing off our latest works in Unmanned Aerial Vehicles (UAV) based on Ruby Arduino Development (RAD).</description>
+    </item>
+    
+    <item>
+      <title>Heroku Has Launched</title>
+      <link>/2009/04/heroku-has-launched.html</link>
+      <pubDate>Wed, 29 Apr 2009 09:28:00 -0700</pubDate>
+      
+      <guid>/2009/04/heroku-has-launched.html</guid>
+      <description>Well, just a very short time after I started using Heroku, they went commercial. Yes, after their very successful beta period, where apparently 24,999 web sites other than mine were already hosting, Heroku is now offering a paid version of their service. I had a sneak peak at the pricing a few days ahead of time, but I was not able to talk. And despite my intentions of blogging this right away, the other demands on my time have kept me occupied till just now.</description>
+    </item>
+    
+    <item>
+      <title>Heroku, Why Haven&#39;t I Been Using You Till Now?</title>
+      <link>/2009/04/heroku-why-havent-i-been-using-you-till.html</link>
+      <pubDate>Tue, 14 Apr 2009 11:23:00 -0700</pubDate>
+      
+      <guid>/2009/04/heroku-why-havent-i-been-using-you-till.html</guid>
+      <description>Last night, I finally got around to deploying something on Heroku, an interesting service founded by my formerly LA-based Ruby programming chums Adam Wiggins, James Lindenbaum, and Orion Henry. I had played with their previous incarnation of the service, now known as &amp;ldquo;Heroku Garden&amp;rdquo; but only recently have I gotten to know a little bit more about the incredible offering they have evolved into.
+Basically, the Heroku crew have addressed the question &amp;ldquo;how can I deploy my Ruby on Rails, Sinatra, or other Rack-based web application into a dynamic cloud of servers with ridiculous ease?</description>
+    </item>
+    
+    <item>
+      <title>LARubyConf 2009 - Blake Mizerany - &#34;Sinatra: the Ultimate Rack Citizen&#34;</title>
+      <link>/2009/04/larubyconf-2009-blake-mizerany-sinatra.html</link>
+      <pubDate>Tue, 07 Apr 2009 12:19:00 -0700</pubDate>
+      
+      <guid>/2009/04/larubyconf-2009-blake-mizerany-sinatra.html</guid>
+      <description>I was very happy when the next presenter at the Los Angeles Ruby Conference 2009 (LARubyConf) was Blake Mizerany, creator of the very cool Ruby micro-framework Sinatra. As long-time readers of this blog know, I am very into Sinatra.
+There has been an incredible amount of work going into Sinatra lately, so I was very interested to catch up on what the team has been up to.
+What is Sinatra? A Ruby Domain Specific Language (DSL) Mapping REST to simple actions</description>
+    </item>
+    
+    <item>
+      <title>LARubyConf 2009 - Jeremy Evans - &#34;Sequel&#34;</title>
+      <link>/2009/04/larubyconf-2009-jeremy-evans-sequel.html</link>
+      <pubDate>Sun, 05 Apr 2009 20:22:00 -0700</pubDate>
+      
+      <guid>/2009/04/larubyconf-2009-jeremy-evans-sequel.html</guid>
+      <description>The next session at the 2009 Los Angeles Ruby Conference (LARubyConf) was Jeremy Evans presenting Sequel, which is a very powerful database toolkit for Ruby.
+Ruby originally had adapters for each database. The problem was that each was very database specific. This was a problem due to both SQL differences, as well as API differences.
+no behavior
+1997 - ruby-postgres was first created.
+2000 - DBI
+2004 - Active Record</description>
+    </item>
+    
+    <item>
+      <title>LARubyConf 2009 - Aaron Patterson - &#34;Journey Thru A Pointy Forest, or You Suck At XML&#34;</title>
+      <link>/2009/04/larubyconf-2009-aaron-patterson-journey.html</link>
+      <pubDate>Sun, 05 Apr 2009 08:49:00 -0700</pubDate>
+      
+      <guid>/2009/04/larubyconf-2009-aaron-patterson-journey.html</guid>
+      <description>The second presentation of the day at Los Angeles Ruby Conference 2009 (LARubyConf) was Aaron Patterson, XML maniac. I had a run at hardcore XML/XSL a few years back, and it has been a while since I walked the razor&amp;rsquo;s edge of the angle bracket. But Aaron is not just an aficionado, he is genuinely obsessed. Given that he is the maintainer of the Nokogiri and Mechanize gems, this makes me happy.</description>
+    </item>
+    
+    <item>
+      <title>LARubyConf 2009 Was A Big Success</title>
+      <link>/2009/04/larubyconf-2009-was-big-success.html</link>
+      <pubDate>Sun, 05 Apr 2009 07:48:00 -0700</pubDate>
+      
+      <guid>/2009/04/larubyconf-2009-was-big-success.html</guid>
+      <description>Yesterday was the first ever Los Angeles Ruby Conference. Despite being located a bit out of the way, down in Tustin, the venue was actually completely amazing. Called the Marconi Automotive Museum, the place was like &amp;ldquo;Robin Master&amp;rsquo;s garage&amp;rdquo; quipped one attendee, being that it was FULL of Ferrari&amp;rsquo;s and other highly valuable and hot sports cars.
+Thanks to the tireless efforts of Coby Randquist and JR Fent, along with a host of others, this first conference was a tremendous success.</description>
+    </item>
+    
+    <item>
+      <title>Project Flying Robot: I Believe I Can Fly</title>
+      <link>/2009/03/project-flying-robot-i-believe-i-can.html</link>
+      <pubDate>Sat, 21 Mar 2009 13:47:00 -0700</pubDate>
+      
+      <guid>/2009/03/project-flying-robot-i-believe-i-can.html</guid>
+      <description>At long last, after many obstacles to be surmounted, yesterday we achieved liftoff. The blimp prototype &amp;ldquo;Rogue 1&amp;rdquo; of our flying_robot project to create a platform for Ruby Arduino Development powered Unmanned Aerial Vehicles has achieved an important milestone.
+After our third complete rewiring of the main circuit board, two burned out Pololu micro serial motor controllers, some time reviewing the schematics of the Blimpduino project, and too many revisions to the basic software to list here, we had finally gotten everything ready for what would hopefully be a successful flight test.</description>
+    </item>
+    
+    <item>
+      <title>Project Flying Robot: By Your Command</title>
+      <link>/2009/03/project-flying-robot-by-your-command.html</link>
+      <pubDate>Tue, 10 Mar 2009 13:52:00 -0700</pubDate>
+      
+      <guid>/2009/03/project-flying-robot-by-your-command.html</guid>
+      <description>Our flying_robot project for Unmanned Aerial Vehicles has been underway for a few weeks now. Much soldering, and playing around with cool Arduino tricks has been taking place. You can read more here, here, here, and here if you need to catch up.
+One aspect that I have mentioned several times, but not gotten into much detail about, is our protocol for communicating with the UAV from the ground station. It is amazing to me, but there is still no dominant digital protocol for controlling UAV&amp;rsquo;s.</description>
+    </item>
+    
+    <item>
+      <title>Should We Call It Mails, or Rurb? Yahuda Katz Clears Things Up At The LA Ruby Meetup</title>
+      <link>/2009/02/should-we-call-it-mails-or-rurb-yahuda.html</link>
+      <pubDate>Fri, 20 Feb 2009 00:08:00 -0800</pubDate>
+      
+      <guid>/2009/02/should-we-call-it-mails-or-rurb-yahuda.html</guid>
+      <description>We just had a fun time at the latest LA Ruby Meetup, once again at UCLA. This time, we had presentations by James Foster from Gemstone, and Yehuda Katz from Engine Yard.
+James Foster was showing MagLev, which is a Ruby VM based on top of the Gemstone Smalltalk VM. Not much to see here, just some Ruby code benchmarks running at about 4-5X faster than Ruby 1.8.6. That is, of course, not a very fair comparison, but no question that this is another Ruby VM to watch.</description>
+    </item>
+    
+    <item>
+      <title>Project Flying Robot: The Adventure Begins</title>
+      <link>/2009/02/project-flying-robot-adventure-begins.html</link>
+      <pubDate>Wed, 18 Feb 2009 08:22:00 -0800</pubDate>
+      
+      <guid>/2009/02/project-flying-robot-adventure-begins.html</guid>
+      <description>I love robots. OK, there, I&amp;rsquo;ve gone and gotten that out into the open. Like many programmers, I have long dreamed of dominating the world with my robot legions. Or failing that, at least getting my RoboSapien to walk around in a little circle by itself.
+Recently, my brother Damen Evans and I decided that we needed to realize our ambitions, and began work on a flying robot. Yes, that is what I said.</description>
+    </item>
+    
+    <item>
+      <title>Los Angeles &#43; Ruby = LARubyConf 2009</title>
+      <link>/2009/01/los-angeles-ruby-larubyconf-2009.html</link>
+      <pubDate>Sat, 31 Jan 2009 09:27:00 -0800</pubDate>
+      
+      <guid>/2009/01/los-angeles-ruby-larubyconf-2009.html</guid>
+      <description>It is with great excitement that I want to tell all of you about the first annual Los Angeles Ruby Conference. Thanks to the fine efforts of a bunch of LA&amp;rsquo;s hardworking Rubyists, and the generous financial support of AT&amp;amp;T Interactive, we are preparing to bring the noise to Los Angeles on April 4, 2009.
+Too many of these wannabe cities have been smoking us with their regional conferences, but no more!</description>
+    </item>
+    
+    <item>
+      <title>Getting Async With Sinatra And Passenger Using spork</title>
+      <link>/2009/01/getting-async-with-sinatra-and.html</link>
+      <pubDate>Wed, 28 Jan 2009 10:31:00 -0800</pubDate>
+      
+      <guid>/2009/01/getting-async-with-sinatra-and.html</guid>
+      <description>Everyone wants it all. In the case of upload processing, this means we want both the convenience of Sinatra coding, plus the performance that a nice process/threading model gives us. Go off and do some work I just assigned you, and don&amp;rsquo;t make me wait around to see you do it.
+If you are using Passenger, it already is buffering your uploads, and not calling your Sinatra application until the upload is complete.</description>
+    </item>
+    
+    <item>
+      <title>Sinatra and Passenger Back On The Rack</title>
+      <link>/2009/01/sinatra-and-passenger-back-on-rack.html</link>
+      <pubDate>Wed, 21 Jan 2009 08:16:00 -0800</pubDate>
+      
+      <guid>/2009/01/sinatra-and-passenger-back-on-rack.html</guid>
+      <description>There is a new release of the Sinatra gem, version 0.9.1. This happens to work out well, since the newest Passenger 2.0.6 has a strong dependency on Rack 0.9, and the previous Sinatra 0.3 simply did not work at all due to dependency on Rack 0.4. The last few days have had some of us apoplectic over Ruby gem version hell.
+And lots of interesting and even important things require all three.</description>
+    </item>
+    
+    <item>
+      <title>RubyConf 2008 - Day 1 - Testing Heresies - Francis Hwang</title>
+      <link>/2008/11/rubyconf-2008-day-1-testing-heresies.html</link>
+      <pubDate>Thu, 13 Nov 2008 09:07:00 -0800</pubDate>
+      
+      <guid>/2008/11/rubyconf-2008-day-1-testing-heresies.html</guid>
+      <description>The sessions for RubyConf 2008 day one were nearly over, when I attending this highly entertaining and informative one. I had missed the chance to see a previous presentation by Francis Hwang, and being as test-obsessed as I am, I was not going to make the same mistake twice.
+Many people are confused over mocks, stubs, and other fakes. Here are the real definitions.
+Gerard Meszaros - Test Doubles
+- dummies - passed around but never used</description>
+    </item>
+    
+    <item>
+      <title>RubyConf 2008 - Day 1 - rush, a shell that will yield to you - Nicholas Schlueter</title>
+      <link>/2008/11/rubyconf-2008-rush-shell-that-will.html</link>
+      <pubDate>Tue, 11 Nov 2008 06:54:00 -0800</pubDate>
+      
+      <guid>/2008/11/rubyconf-2008-rush-shell-that-will.html</guid>
+      <description>I had previously blogged a bit about Rush, the Ruby shell. Well, now Rush must now be its own force to be reckoned with, because this presentation was NOT by Adam Wiggins, the creator of Rush, but was instead by Nicholas Schlueter, the creator of RushMate. If you&amp;rsquo;ve not heard of it, RushMate allows you to use Rush from within TextMate, which translates to being able to write custom commands much more easily.</description>
+    </item>
+    
+    <item>
+      <title>RubyConf 2008 - Day 1</title>
+      <link>/2008/11/rubyconf-2008-day-1.html</link>
+      <pubDate>Mon, 10 Nov 2008 09:58:00 -0800</pubDate>
+      
+      <guid>/2008/11/rubyconf-2008-day-1.html</guid>
+      <description>The crowd of over 400 was happily awaiting the kickoff in Orlando of RubyConf 2008. After brief introductions from Rich Kilmer and David Black, Matz took the stage for his opening keynote.
+Opening Keynote - Matz
+Reasons Behind Ruby
+8 years ago was the 1st International Ruby Conference, and there were only 33 people there. Obviously since then, the community has grown. Matz said he was not going to talk about technical stuff.</description>
+    </item>
+    
+    <item>
+      <title>I Think I&#39;m Comatose</title>
+      <link>/2008/11/i-think-im-comatose.html</link>
+      <pubDate>Tue, 04 Nov 2008 10:50:00 -0800</pubDate>
+      
+      <guid>/2008/11/i-think-im-comatose.html</guid>
+      <description>This last weekend, I upgraded a pretty complex application to the latest Ruby on Rails, and consequently had to upgrade a bunch of the plugins. In the case of Comatose 2.0, this was well timed, as there is a new release.
+If you have never heard of Comatose, it is a very cool mini-CMS that you add to your Rails app as a plugin. For cases where you have an applcation, and you want to put the &amp;lsquo;static&amp;rsquo; pages under the control of the users, while still integrating with your application, Comatose is the best option I have discovered.</description>
+    </item>
+    
+    <item>
+      <title>Cool Like Cucumber</title>
+      <link>/2008/10/cool-like-cucumber.html</link>
+      <pubDate>Sat, 25 Oct 2008 16:15:00 -0700</pubDate>
+      
+      <guid>/2008/10/cool-like-cucumber.html</guid>
+      <description>Ever since I discovered Fitnesse a few years back, I have been increasingly obsessed with the idea of executable specifications and testable requirements. As far as I am concerned, Behavior Driven Development (BDD) is a very appealing way to get the &amp;ldquo;people who need the software&amp;rdquo; and the &amp;ldquo;people who build the software&amp;rdquo; to understand each other.
+For about 2 years, give or take, many Ruby on Rails developers have been switching to RSpec, or at least paying lip-service (giving rspec?</description>
+    </item>
+    
+    <item>
+      <title>In Search Of Search</title>
+      <link>/2008/05/in-search-of-search.html</link>
+      <pubDate>Mon, 19 May 2008 15:09:00 -0700</pubDate>
+      
+      <guid>/2008/05/in-search-of-search.html</guid>
+      <description>My client was having troubles. The site was crashing, seemingly at random. QA was baffled, management concerned. After hunting thru logs, the culprit was found: the ferret search service.
+Despite having configured acts_as_ferret to use the DRb server option, the &amp;ldquo;whole thing&amp;rdquo; would fall apart on a regular basis whenever the ferret daemon would crash&amp;hellip; which was pretty often. The ruby on rails plugin acts_as_ferret would revert to a local mode of operation, which would only make matters worse when competing mongrels would corrupt the index files on disk.</description>
+    </item>
+    
+    <item>
+      <title>Ain&#39;t No Stopping Us Now</title>
+      <link>/2008/05/aint-no-stopping-us-now.html</link>
+      <pubDate>Tue, 13 May 2008 21:05:00 -0700</pubDate>
+      
+      <guid>/2008/05/aint-no-stopping-us-now.html</guid>
+      <description>According to a recent eWeek article, there will be four times more Ruby programmers within five years. Before all the haters start making cracks about it going from one thousand to four thousand professional Rubyists, here is a juicy bit from Mark Driver, Gartner analyst:
+ &amp;ldquo;There are under one million professional Ruby developers now and we&amp;rsquo;re projecting there will be four million plus by 2013.&amp;rdquo;
+ And oh yeah, what about that whole &amp;ldquo;Ruby is for hobbyists&amp;rdquo; misinformation campaign?</description>
+    </item>
+    
+    <item>
+      <title>April Is For AOL</title>
+      <link>/2008/04/april-is-for-aol.html</link>
+      <pubDate>Wed, 23 Apr 2008 08:38:00 -0700</pubDate>
+      
+      <guid>/2008/04/april-is-for-aol.html</guid>
+      <description>Last night was the always fun Los Angeles web application developer Meetup, this time at AOL in Beverly Hills. After navigating a veritable maze of cubes, we found ourselves in a fairly large screening room chock full of AV equipment, accompanied by a large pile of pizza boxes. A few moments later, the throng of LA-based developers shuffled in, ready for the latest and greatest. The prerequisites fulfilled, we got down to some serious techno-babble.</description>
+    </item>
+    
+    <item>
+      <title>Frankie Goes To Facebook</title>
+      <link>/2008/04/frankie-goes-to-facebook.html</link>
+      <pubDate>Tue, 08 Apr 2008 22:04:00 -0700</pubDate>
+      
+      <guid>/2008/04/frankie-goes-to-facebook.html</guid>
+      <description>UPDATED 4/12/2008: Now compatible with Sinatra 0.2.0
+So you want to create a small Facebook application&amp;hellip; seems like it should be a small thing, right? But creating an entire Ruby on Rails application just for a tiny little Facebook application is, at the very least, a bit wasteful. In the case of a overly popular Facebook app you could end up with, as Marc Andreessen put it, a &amp;ldquo;self-inflicted denial of service attack&amp;rdquo;, unless you have both a pretty serious infrastructure to support it, as well as lots of cash to keep that data center running.</description>
+    </item>
+    
+    <item>
+      <title>Merb On The Virge</title>
+      <link>/2008/03/merb-on-virge.html</link>
+      <pubDate>Wed, 05 Mar 2008 15:17:00 -0800</pubDate>
+      
+      <guid>/2008/03/merb-on-virge.html</guid>
+      <description>Merb, the mighty challenger to the current Rails domination of the Ruby web framework conversation, races towards &amp;ldquo;getting very close to being stable api wise&amp;rdquo;. That sounds like a 1.0 release to me!
+Ezra says that the 0.9.1 developer release is ready to take thru its paces. One area where Merb really differs from Ruby on Rails is how Merb is based off of RubyGems. The refactored Merb architecture takes the Merb modularity to a massive 16 gems.</description>
+    </item>
+    
+    <item>
+      <title>Thanks For Paying Attention</title>
+      <link>/2008/03/thanks-for-paying-attention.html</link>
+      <pubDate>Sat, 01 Mar 2008 16:51:00 -0800</pubDate>
+      
+      <guid>/2008/03/thanks-for-paying-attention.html</guid>
+      <description>This last week has brought some very nice and favorable attention to the Dead Programmer Society.
+The ever-popular &amp;ldquo;I&amp;rsquo;d Rather be A Jazz Programmer&amp;rdquo; post popped up again, this time in the stodgy old school publication Computerworld. They ran an article on the &amp;ldquo;Rock Star Programmer&amp;rdquo; meme, and decided that my little post was part of the &amp;ldquo;Kill Rock Stars&amp;rdquo; contrarian perspective they were looking for. Thanks for making me look so good, guys!</description>
+    </item>
+    
+    <item>
+      <title>Rush The Shell</title>
+      <link>/2008/02/rush-shell.html</link>
+      <pubDate>Wed, 20 Feb 2008 14:20:00 -0800</pubDate>
+      
+      <guid>/2008/02/rush-shell.html</guid>
+      <description>I just read the latest posting from Adam Wiggins, very cool dude, hard-core Rubyist, and friend. He has a new project called Rush, the Ruby shell. Adam is one of the guys behind Heroku, which is a pretty amazing pure web browser-based IDE/deployment/hosting solution for Ruby on Rails, if you haven&amp;rsquo;t seen that yet.
+Anyhow, like many of us, Adam seems like he just wants to use Ruby for everything. And when I say everything, I mean EVERYTHING.</description>
+    </item>
+    
+    <item>
+      <title>Everybody Into The Pool</title>
+      <link>/2008/02/everybody-into-pool.html</link>
+      <pubDate>Wed, 20 Feb 2008 11:18:00 -0800</pubDate>
+      
+      <guid>/2008/02/everybody-into-pool.html</guid>
+      <description>A few weeks back, I indulged my current obsession with grid computing, and Amazon&amp;rsquo;s EC2 and S3 services in particular, with a lengthy post. I mentioned how friend Ari Lerner and I had built a really neat solution, and were going to put all of our processing farm goodness into a nice neat gemified package. Well, mostly thanks to Ari, we now have a new Ruby gem called ProcessorPool that uses EC2 and S3 to do all the hard work for you.</description>
+    </item>
+    
+    <item>
+      <title>Ruby.NET, We Hardly Knew Ye</title>
+      <link>/2008/02/rubynet-we-hardly-knew-ye.html</link>
+      <pubDate>Tue, 05 Feb 2008 06:05:00 -0800</pubDate>
+      
+      <guid>/2008/02/rubynet-we-hardly-knew-ye.html</guid>
+      <description>It comes as not entirely surprising that the Wayne Kelly of the Ruby.NET project from down under has finally given up the ship. Microsoft had already grabbed the spotlight with IronRuby and the DLR. Despite some early gains, it seemed that development momentum had peaked, until Ruby.NET finally made its way up onto Google Code and a &amp;ldquo;real&amp;rdquo; open source project.
+How, how will John Lam and team proceed without Ruby.</description>
+    </item>
+    
+    <item>
+      <title>Recaptcha On Rails</title>
+      <link>/2008/02/recaptcha-on-rails.html</link>
+      <pubDate>Fri, 01 Feb 2008 14:54:00 -0800</pubDate>
+      
+      <guid>/2008/02/recaptcha-on-rails.html</guid>
+      <description>UPDATED Oct. 15, 2009 with most current info
+I hate implementing captchas. You know, those annoying things that your users think are deciphering hieroglyphics. I have hated them because I do not want to install a whole massive assemblage of software like ImageMagick/RMagick just to provide some basic protection from spam and bots.
+To avoid this, I had hacked together a simple implementation using some free public captcha. However, a client recently turned on SSL on their signup page, and my free public captcha gave a nasty error cause of the domain name in the SSL certificate not matching the domain of their site.</description>
+    </item>
+    
+    <item>
+      <title>RailsConf 2008 Registration Is Open</title>
+      <link>/2008/01/railsconf-2008-registration-is-open.html</link>
+      <pubDate>Tue, 29 Jan 2008 11:13:00 -0800</pubDate>
+      
+      <guid>/2008/01/railsconf-2008-registration-is-open.html</guid>
+      <description>Get ready, get set, go!! The annual frenzy of registration for RailsConf 2008 has begun.
+Yes, I have already received my registration confirmation. No, I have not received my speaker confirmation&amp;hellip;yet? Oh well, looks like RejectConf again!
+See you all there&amp;hellip; ahem, not all of you, unless you register right now!</description>
+    </item>
+    
+    <item>
+      <title>I Want My API</title>
+      <link>/2008/01/i-want-my-api.html</link>
+      <pubDate>Mon, 28 Jan 2008 22:47:00 -0800</pubDate>
+      
+      <guid>/2008/01/i-want-my-api.html</guid>
+      <description>I just ran into a really great resource for open source API documentation. Called gotAPI, it links in a delightfully searchable way all of the APIs we love, but turn out to not actually know. Well, we know them, just not well enough to have their numbers setup for speed dial on our cell phones. Or our code able to call them directly without looking up a reference first.
+Here is a small sample of ones I will actually use regularly:</description>
+    </item>
+    
+    <item>
+      <title>Beware Of The Merb</title>
+      <link>/2008/01/beware-of-merb.html</link>
+      <pubDate>Mon, 14 Jan 2008 14:56:00 -0800</pubDate>
+      
+      <guid>/2008/01/beware-of-merb.html</guid>
+      <description>Apparently the Merb team was not yet satisfied with just having created a better Rails than Rails itself. Now, they are going after even more conceptual high ground, and creating an even more flexible web development paradigm that incorporates many of the great ideas percolating around the mongrel community.
+According to Yahuda Katz, the next version of Merb will completely revise the existing Merb framework, in order to provide for many more ways to utilize it.</description>
+    </item>
+    
+    <item>
+      <title>On The Grid With EC2</title>
+      <link>/2008/01/on-grid-with-ec2.html</link>
+      <pubDate>Sat, 12 Jan 2008 10:08:00 -0800</pubDate>
+      
+      <guid>/2008/01/on-grid-with-ec2.html</guid>
+      <description>Lately, I have had a chance to get seriously into Amazon&amp;rsquo;s Elastic Compute Cloud (EC2) service. I doubt any reader of this blog is unfamiliar with the existence of EC2, but many of you have probably not even gotten to the tire kicking stage, like I had been until recently.
+Even after attending several sessions about Amazon&amp;rsquo;s EC2 at RailsConf 2007, I still had only a very general idea about the service.</description>
+    </item>
+    
+    <item>
+      <title>Making S3 Folders In Ruby</title>
+      <link>/2008/01/making-s3-folders-in-ruby.html</link>
+      <pubDate>Fri, 11 Jan 2008 17:26:00 -0800</pubDate>
+      
+      <guid>/2008/01/making-s3-folders-in-ruby.html</guid>
+      <description>Amazon&amp;rsquo;s S3 storage service is a really cool way to store and serve up massive quantities of data. Interestingly, it is more like a database than like a file system. Despite the convenience of referring to an object like &amp;ldquo;/path/to/thing.jpg&amp;rdquo; S3 really does not have any separate objects for &amp;ldquo;/path&amp;rdquo; or &amp;ldquo;/path/to&amp;rdquo;. In fact, neither &amp;ldquo;/path&amp;rdquo; nor &amp;ldquo;/path/to&amp;rdquo; even exist.
+This is why, when you store an S3 object, the name it is given is called &amp;ldquo;key&amp;rdquo; instead of &amp;ldquo;filename&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>And Here Comes The Money...</title>
+      <link>/2008/01/and-here-comes-money.html</link>
+      <pubDate>Fri, 11 Jan 2008 09:59:00 -0800</pubDate>
+      
+      <guid>/2008/01/and-here-comes-money.html</guid>
+      <description>I read with great excitement that Engine Yard, my favorite of the Ruby-centric hosting companies, was taking in a round of $3.5 million from Benchmark Capital. I am a big fan of Ezra, and the rest of the crew, and the whole waiting list thing for getting a new slice setup has been a big inhibitor of their growth.
+Funny, however, the press coverage has called EY a &amp;ldquo;Ruby on Rails hosting company&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Money In The Ghetto</title>
+      <link>/2008/01/money-in-ghetto.html</link>
+      <pubDate>Thu, 03 Jan 2008 10:30:00 -0800</pubDate>
+      
+      <guid>/2008/01/money-in-ghetto.html</guid>
+      <description>I keep thinking about Zed Shaw&amp;rsquo;s vitriolic (and newly updated) posting, and one particular aspect about it that seems to bother me. One way of looking at a ghetto is that is keeps people in. Another, is that is keeps outsiders away. In either case, it is an economy, like most any other. And like any economy, there are winners and losers.
+What exactly is Zed complaining about? That the overall level of technical competence is very low, even among many self-proclaimed developers?</description>
+    </item>
+    
+    <item>
+      <title>Zed Is Mad</title>
+      <link>/2008/01/zed-is-mad.html</link>
+      <pubDate>Tue, 01 Jan 2008 15:44:00 -0800</pubDate>
+      
+      <guid>/2008/01/zed-is-mad.html</guid>
+      <description>Zed Shaw has always been a rather curmudgeonly figure. I find him smart and hilarious, but of course many are rather insulted by his &amp;ldquo;tell it like he $%#@! well sees it&amp;rdquo; style. To me, Zed is like the Hunter S. Thompson of our community. The more your believe your own BS, the more he pisses you off.
+Like Hunter S., Zed is a put up or shut up kind of person.</description>
+    </item>
+    
+    <item>
+      <title>Rubinius Maximus</title>
+      <link>/2007/12/rubinius-maximus.html</link>
+      <pubDate>Wed, 05 Dec 2007 18:01:00 -0800</pubDate>
+      
+      <guid>/2007/12/rubinius-maximus.html</guid>
+      <description>I got a little excited when I read of the team assembled right now working on Rubinius up at Engine Yard in San Francisco.
+After following the Ruby VM coopitition for while, and then seeing the Rubinius crew in full effect at RubyConf 2007, I am more convinced than ever that we are going to see some SERIOUS code coming out of these guys&amp;hellip;. and assembling them all in one place is the best way to do it.</description>
+    </item>
+    
+    <item>
+      <title>RubyConf 2007 - Day 3</title>
+      <link>/2007/11/rubyconf-2007-day-3.html</link>
+      <pubDate>Sun, 18 Nov 2007 21:45:00 -0800</pubDate>
+      
+      <guid>/2007/11/rubyconf-2007-day-3.html</guid>
+      <description>As day 3 of RubyConf 2007 began, the breakfast buffet had to remind us of its presence. This time, it was the main sound system that was taken out by the ultra-powerful toasters. When Dr. Nic was asked if he wanted to get started anyhow, he had to give two of his charmingly nasal &amp;ldquo;No&amp;rdquo; rhymes with &amp;ldquo;Pow&amp;rdquo; before MC David Black caught his meaning. This gave some of us a moment to try to catch up on the flurry of RubyConf blogging.</description>
+    </item>
+    
+    <item>
+      <title>RubyConf 2007 - Day 2 - &#34;The Ruby VM Smackdown Begins&#34;</title>
+      <link>/2007/11/rubyconf-2007-day-2-ruby-vm-smackdown.html</link>
+      <pubDate>Tue, 06 Nov 2007 13:38:00 -0800</pubDate>
+      
+      <guid>/2007/11/rubyconf-2007-day-2-ruby-vm-smackdown.html</guid>
+      <description>As the sun rose over the hills of North Carolina, the quiet betrayed a seething fire blazing in the hearts of three development teams. &amp;ldquo;Three teams enter, one team leaves!&amp;rdquo; Yes, I am talking about the main event, people, the one, the only, Ruby VM Smackdown! The room was jam packed, the anticipation was high.
+As good fortune would have it, I was sitting right next to the head of the team who was my personal favorite to win the day.</description>
+    </item>
+    
+    <item>
+      <title>RubyConf 2007 - Day 1 - &#34;Advanced Ruby Class Design&#34; - Jim Weirich</title>
+      <link>/2007/11/rubyconf-2007-day-1-advanced-ruby-class.html</link>
+      <pubDate>Mon, 05 Nov 2007 10:57:00 -0800</pubDate>
+      
+      <guid>/2007/11/rubyconf-2007-day-1-advanced-ruby-class.html</guid>
+      <description>Jim Weirich is a very smart guy. So smart that his presentation was not about complicated classes, but about Ruby itself and how to take advantage of it to simplify things. Jim&amp;rsquo;s background in computing is long and varied, something like a history lesson in programming languages. Here is the abbreviated list:
+FORTRAN &amp;gt; C &amp;gt; Modula 2 &amp;gt; C++ &amp;gt; Eiffel &amp;gt; Java
+and in parallel to this:
+LISP &amp;gt; FORTH &amp;gt; TCL &amp;gt; Perl</description>
+    </item>
+    
+    <item>
+      <title>RubyConf 2007 - Day 1 - &#34;What Makes Code Beautiful&#34; - Marcel Molina</title>
+      <link>/2007/11/rubyconf-2007-day-1-what-makes-code.html</link>
+      <pubDate>Mon, 05 Nov 2007 00:19:00 -0800</pubDate>
+      
+      <guid>/2007/11/rubyconf-2007-day-1-what-makes-code.html</guid>
+      <description>I remember Marcel Molina from the first RailsConf, when the Rails core team was introduced to the audience. What had impressed me at the time, besides his cool glasses, was the fact that Marcel comes from a literature background.
+That makes his take on programming in Ruby very interesting, because he approaches it from an aesthetic perspective, not just a functional one. To Marcel, code must achieve both, for it to be considered beautiful.</description>
+    </item>
+    
+    <item>
+      <title>RubyConf 2007 - Day 1</title>
+      <link>/2007/11/rubyconf-2007-day-1.html</link>
+      <pubDate>Sun, 04 Nov 2007 23:33:00 -0800</pubDate>
+      
+      <guid>/2007/11/rubyconf-2007-day-1.html</guid>
+      <description>Where RailsConf is growing to become a spectacle, RubyConf still has that special, small feeling of sharing. It is like the difference seeing a really great band perform at a small club before they get &amp;ldquo;discovered&amp;rdquo;, and then seeing them again in an arena. Still the same band, but a much different experience. Being here at RubyConf 2007 brings back the joy of hacking Ruby code for its own sake, not just creating the latest and greatest social web application.</description>
+    </item>
+    
+    <item>
+      <title>Sinatra, a Ruby web framework, and Why It Matters</title>
+      <link>/2007/10/sinatra-ruby-web-framework-and-why-it.html</link>
+      <pubDate>Wed, 24 Oct 2007 09:16:00 -0700</pubDate>
+      
+      <guid>/2007/10/sinatra-ruby-web-framework-and-why-it.html</guid>
+      <description>As followers of this blog know, I am very interested in the Ruby language itself, not just web development. But it is undeniable that Ruby has become popular largely due to web development powered by Ruby on Rails. However amazing Rails is, however, it is not the final web framework to be developed in Ruby.
+When Ari Lerner first told me of the Sinatra project, I was interested to see where he was going with it.</description>
+    </item>
+    
+    <item>
+      <title>More Developer Fun In Los Angeles</title>
+      <link>/2007/10/more-developer-fun-in-los-angeles.html</link>
+      <pubDate>Wed, 24 Oct 2007 08:17:00 -0700</pubDate>
+      
+      <guid>/2007/10/more-developer-fun-in-los-angeles.html</guid>
+      <description>Last night was the always entertaining Los Angeles Application Developer Meetup. L.A. is not known for the same massive quantity of developers as the bay area, for example, but having joined forces with the LA Ruby on Rails Meetup crew some time back, the monthly event is still growing.
+This month&amp;rsquo;s was held at the impressive new digs of YellowPages.com, who have been busy building out a huge Ruby on Rails based local search replacement for their venerable 100K+ lines of Java code.</description>
+    </item>
+    
+    <item>
+      <title>Weighing In On The Upcoming Ruby VM Smackdown</title>
+      <link>/2007/09/weighing-in-on-upcoming-ruby-vm.html</link>
+      <pubDate>Mon, 24 Sep 2007 10:43:00 -0700</pubDate>
+      
+      <guid>/2007/09/weighing-in-on-upcoming-ruby-vm.html</guid>
+      <description>Earlier today, I read with great interest the potentially inflammatory post where Ola Bini proclaims the Ruby VM wars already over, and basically divides the Ruby VM empire into two halves, with the center controlled by Rome, err, I mean Rubinius primitives.
+I had already come to this conclusion a while ago. Not because I am smarter than anyone, FAR from it. Probably because I am more superficial, and easily impressed by meaningless characteristics, like how cool is the name Rubinius?</description>
+    </item>
+    
+    <item>
+      <title>RubyConf 2007 =&gt; Ruby VM Smackdown</title>
+      <link>/2007/09/rubyconf-2007-ruby-vm-smackdown.html</link>
+      <pubDate>Fri, 07 Sep 2007 09:43:00 -0700</pubDate>
+      
+      <guid>/2007/09/rubyconf-2007-ruby-vm-smackdown.html</guid>
+      <description>I just registered for RubyConf 2007, which will be held Nov. 2-4 in Charlotte, NC. If you want a more intimate, more hard-core Rubyist experience, than what RailsConf is turning into, RubyConf looks to be it.
+There not being that many tickets available, you better register right now if you want to go. I registered without even looking at the agenda first&amp;hellip; just filled out the registration form, and hoped it&amp;rsquo;s was not too late.</description>
+    </item>
+    
+    <item>
+      <title>IronRuby Lives!</title>
+      <link>/2007/07/ironruby-lives.html</link>
+      <pubDate>Mon, 23 Jul 2007 08:02:00 -0700</pubDate>
+      
+      <guid>/2007/07/ironruby-lives.html</guid>
+      <description>John Lam and company have finally gotten something together to release to the world at large for their IronRuby project. I have not had a chance to play with it yet, but as a hard-core Rubyist I will, of course, have to do so.
+A few interesting observations from how they have chosen to go about developing this project. One is that they are distributing the source code, albeit as part of the Microsoft Permissive License.</description>
+    </item>
+    
+    <item>
+      <title>Ruby Is More Of A Free Love Kind Of Language</title>
+      <link>/2007/07/ruby-is-more-of-free-love-kind-of.html</link>
+      <pubDate>Fri, 13 Jul 2007 08:16:00 -0700</pubDate>
+      
+      <guid>/2007/07/ruby-is-more-of-free-love-kind-of.html</guid>
+      <description>I have been really, really busy lately, which is why I have not had a chance to post anything. I finally caught up on some reading and listening, and John Lam, father of the IronRuby project at Microsoft, has a fun interview on the DotNetRocks podcast. Irrespective of how I may currently feel about the direction over at Microsoft or rock, it is an interesting interview.
+My favorite line has to be where John is describing the cultural differences between the users of Python vs.</description>
+    </item>
+    
+    <item>
+      <title>Ruby/Microsoft?</title>
+      <link>/2007/05/rubymicrosoft.html</link>
+      <pubDate>Wed, 30 May 2007 15:00:00 -0700</pubDate>
+      
+      <guid>/2007/05/rubymicrosoft.html</guid>
+      <description>Martin Fowler just posted on his bliki a little piece entitled RubyMicrosoft. As I read it, I felt a strange chill run down my spine. Perhaps a few words of explanation are needed&amp;hellip;
+At RailsConf recently I stood at the Thoughtworks booth for a moment chatting up Fowler, and embarrassing myself by asking for a photo with him (he doesn&amp;rsquo;t pose for photos with people). Luckily, I was rescued by the arrival of Oli Bini, and an ensuing short discussion about JRuby.</description>
+    </item>
+    
+    <item>
+      <title>RailsConf 2007 - Day 2</title>
+      <link>/2007/05/railsconf-2007-day-2.html</link>
+      <pubDate>Tue, 22 May 2007 10:30:00 -0700</pubDate>
+      
+      <guid>/2007/05/railsconf-2007-day-2.html</guid>
+      <description>After the incredible energy of RailsConf Day 1, Day 2 seemed to slow down the pace a little bit. That was good for me, as I could spend some time catching up with friends both old and new, and not just attending sessions like an information junky. First would come the morning keynote speeches from Cyndi Mitchell of ThoughtWorks, and headliner Tim Bray of Sun Microsystems, with a short interlude from Charles Nutter.</description>
+    </item>
+    
+    <item>
+      <title>RailsConf 2007 - Day 1</title>
+      <link>/2007/05/railsconf-2007-day-1.html</link>
+      <pubDate>Sun, 20 May 2007 18:28:00 -0700</pubDate>
+      
+      <guid>/2007/05/railsconf-2007-day-1.html</guid>
+      <description>I was primed and ready for RailsConf 2007 Day 1. The excitement was in the air, and the crowd was primed. We awaited a day absolutely packed with mind candy. Starting with Chad Fowler, David Heinemeier Hansson, Robert Martin, Adam Keys, Avi Bryant, and Ze Frank. Wow, what a lineup!
+As Chad Fowler took the stage, his ukulele in hand, we eagerly awaited his opening remarks. Chad really did a great thing, by not just giving us the &amp;ldquo;feel-good rah-rah Rails is taking over the world&amp;rdquo; intro speech that most people probably expected.</description>
+    </item>
+    
+    <item>
+      <title>RailsConf 2007 - Sessions (Day 0)</title>
+      <link>/2007/05/railsconf-2007-sessions-day-0.html</link>
+      <pubDate>Sat, 19 May 2007 07:55:00 -0700</pubDate>
+      
+      <guid>/2007/05/railsconf-2007-sessions-day-0.html</guid>
+      <description>Well, I had just got back to my room after day 0 of RailsConf 2007, which was the tutorial sessions before the main conference began. After a fun evening of pizza and beer with the Pragmatic Programmers, I thought I would try to get down some thoughts about the day&amp;rsquo;s events.
+Yesterday, I attended &amp;ldquo;Scaling Rails From The Ground Up&amp;rdquo; followed by &amp;ldquo;Harnessing Capistrano&amp;rdquo;. It is very hard to have tutorial sessions at a conference.</description>
+    </item>
+    
+    <item>
+      <title>Silverlight and Ruby?</title>
+      <link>/2007/04/silverlight-and-ruby.html</link>
+      <pubDate>Mon, 16 Apr 2007 16:04:00 -0700</pubDate>
+      
+      <guid>/2007/04/silverlight-and-ruby.html</guid>
+      <description>Today, Microsoft announced their Silverlight technology platform. I will not bore you, kind reader, with yet another recap of what has already been written by so many others already.
+However, there are a couple of curious details that have piqued my interest. John Lam, of RubyCLR fame, made an interesting comment on his blog earlier today about Silverlight:
+ This was a major reason why I moved my family to the other side of the continent&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>E Is For Editor Envy</title>
+      <link>/2007/03/e-is-for-editor-envy.html</link>
+      <pubDate>Wed, 28 Mar 2007 16:35:00 -0700</pubDate>
+      
+      <guid>/2007/03/e-is-for-editor-envy.html</guid>
+      <description>I love it when I find out about a cool new tool. In this case, it is E, a Windows clone of the ubiquitous Mac text editor TextMate. Looks like this project has been around for awhile, but I just heard of it thanks to a blog entry about creating a Mac-like environment under Windows.
+Installing E is not a small task, although it is not a difficult one. This is due to the fact that E relies heavily on Cygwin to support &amp;ldquo;bundles&amp;rdquo; which is how TextMate creates their oh-so-useful macro and template collections.</description>
+    </item>
+    
+    <item>
+      <title>The Ruby.NET Interview From Down Under</title>
+      <link>/2007/03/rubynet-interview-from-down-under.html</link>
+      <pubDate>Mon, 26 Mar 2007 15:49:00 -0700</pubDate>
+      
+      <guid>/2007/03/rubynet-interview-from-down-under.html</guid>
+      <description>An interview with Dr. Wayne Kelly has been put up on Channel 9, Microsoft&amp;rsquo;s video interview site. Dr. Kelly is head of the Ruby.NET compiler project at the Queensland University of Technology in Australia. As always, I am eager to see progress on the .NET side of the Ruby language wars. I drank my coffee, and put on my phones for the 15 minute interview.
+After watching the video, I must say I am a little underwhelmed.</description>
+    </item>
+    
+    <item>
+      <title>CruiseControl.rb: Continuous Integration Is About To Get Beautiful</title>
+      <link>/2007/03/cruisecontrolrb-continuous-integration.html</link>
+      <pubDate>Tue, 13 Mar 2007 14:09:00 -0700</pubDate>
+      
+      <guid>/2007/03/cruisecontrolrb-continuous-integration.html</guid>
+      <description>At last, Ruby has a real Continuous Integration system, not just some crazy hacked-together solution. Nothing against crazy, hacked-together solutions, but your CI system is not the place for such madness. From those wonderful folks at Thoughtworks, we now have CruiseControl.rb, to join the CruiseControl and CruiseControl.NET offerings for Java and .NET projects respectively.
+I have been a constant user of CruiseControl.NET for all of the MS-platform projects for the last couple of years, and having a powerful, flexible system has been great.</description>
+    </item>
+    
+    <item>
+      <title>JRuby Has Won The Rails Race vs. .NET</title>
+      <link>/2007/03/jruby-has-won-rails-race-vs-net.html</link>
+      <pubDate>Mon, 05 Mar 2007 21:34:00 -0800</pubDate>
+      
+      <guid>/2007/03/jruby-has-won-rails-race-vs-net.html</guid>
+      <description>So now it is official. The latest build from the JRuby team is now running Ruby on Rails in the JRuby runtime. Great work from that team! The Sunsters up top must be gloating right now.
+And Microsoft is still MIA. Despite some hopeful signs of life, the silence is deafening from Ray Ozzie and the .NET camp (is that a band?). MS had better have some damn strong announcement at MIX vis-à-vis Ruby.</description>
+    </item>
+    
+    <item>
+      <title>Now Computerworld Jumps In On The Rails Lovefest</title>
+      <link>/2007/03/now-computerworld-jumps-in-on-rails.html</link>
+      <pubDate>Thu, 01 Mar 2007 14:59:00 -0800</pubDate>
+      
+      <guid>/2007/03/now-computerworld-jumps-in-on-rails.html</guid>
+      <description>According to Computerworld today, Ruby on Rails is the number one of the &amp;ldquo;five most important technologies that you need to know about in 2007.&amp;rdquo; Oh yeah! As I wrote a couple of days ago, now even the oldest of the old school enterprise publications are showing the love for Ruby and for Rails.
+That in itself is quite exciting. Another interesting point to note, is learned by looking over the list of the other four hot technologies.</description>
+    </item>
+    
+    <item>
+      <title>Even eWeek Is Falling For Ruby</title>
+      <link>/2007/02/even-eweek-is-falling-for-ruby.html</link>
+      <pubDate>Mon, 26 Feb 2007 14:47:00 -0800</pubDate>
+      
+      <guid>/2007/02/even-eweek-is-falling-for-ruby.html</guid>
+      <description>Even that stanch old &amp;ldquo;enterprisey&amp;rdquo; publication eWeek has been giving some love to Ruby and Ruby on Rails. Today&amp;rsquo;s most recent article is entitled &amp;ldquo;Ruby, Ruby, When Will You Be Mine?&amp;quot;. Was this supposed to run on Valentine&amp;rsquo;s Day? I&amp;rsquo;m definitely feeling the love in the title.
+Anyhow, the author is all over the JRuby project. Messrs. Nutter et. al. have been building up the energy at the same time as the code base.</description>
+    </item>
+    
+    <item>
+      <title>Format Ruby Code On Your Blog Postings Like The Cool Kids</title>
+      <link>/2007/02/format-ruby-code-on-your-blog-postings.html</link>
+      <pubDate>Mon, 19 Feb 2007 16:41:00 -0800</pubDate>
+      
+      <guid>/2007/02/format-ruby-code-on-your-blog-postings.html</guid>
+      <description>I had noticed that almost all of the cool people post nicely formatted, color coded, beautiful looking Ruby code whenever they post.
+Well, some of the cool people use a style of formatting that defies description&amp;hellip;but I digress.
+Anyhow, I looked at my poor pitiful postings, and felt like a second, or even third class citizen. Everybody&amp;rsquo;s code is looking better than mine! What can be done?! Extreme makeover, Ruby CSS edition.</description>
+    </item>
+    
+    <item>
+      <title>Ruby Blocks, Closures, and Continuations</title>
+      <link>/2007/02/ruby-blocks-closures-and-continuations.html</link>
+      <pubDate>Wed, 14 Feb 2007 12:00:00 -0800</pubDate>
+      
+      <guid>/2007/02/ruby-blocks-closures-and-continuations.html</guid>
+      <description>Recently, while blogging about the Ruby.NET project, it was pointed out to me that I was incorrect about Ruby.NET not supporting closures. Brendan noted that in fact continuations are what is not yet supported. I quickly realized that I was not entirely clear about the differences between a closure and a continuation, except that they both used code blocks. I decided that it must be time that I figured it out.</description>
+    </item>
+    
+    <item>
+      <title>Ruby.NET and REXML: Not Yet</title>
+      <link>/2007/02/rubynet-and-rexml-not-yet.html</link>
+      <pubDate>Wed, 14 Feb 2007 11:15:00 -0800</pubDate>
+      
+      <guid>/2007/02/rubynet-and-rexml-not-yet.html</guid>
+      <description>I finally had a chance to play around with the latest download of the Gardens Point Ruby.NET compiler. At first, I was excited, as my little DSL test application was able to run perfectly. Blocks, instance_eval, singleton classes all worked fine for me. Very cool!
+Then I decided to experiment with the REXML ruby parser. I did so despite the fact that the compiler authors have stated in their project goals that &amp;ldquo;We do not however plan to implement the other Ruby libraries that commonly ship with the Ruby distribution, such as CGI and DBM (except for those implemented 100% in Ruby)&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Ruby.NET Lives!</title>
+      <link>/2007/02/rubynet-lives.html</link>
+      <pubDate>Fri, 09 Feb 2007 10:26:00 -0800</pubDate>
+      
+      <guid>/2007/02/rubynet-lives.html</guid>
+      <description>It has been radio silence for quite a while from the Ruby.NET project. Well, the eagle had landed. There is a new beta release.
+Here is what they have to say for themselves:
+ We are pleased to announce the release of a new Beta (version 0.6) of the Gardens Point Ruby.NET compiler. Implementation is not yet complete but we have now implemented the vast majority of Ruby&amp;rsquo;s builtin classes and modules.</description>
+    </item>
+    
+    <item>
+      <title>I Will Be At RailsConf 2007</title>
+      <link>/2007/02/i-will-be-at-railsconf-2007.html</link>
+      <pubDate>Fri, 02 Feb 2007 14:36:00 -0800</pubDate>
+      
+      <guid>/2007/02/i-will-be-at-railsconf-2007.html</guid>
+      <description>I just checked my email, and saw that registration has just opened for RailsConf 2007. I went to last year&amp;rsquo;s conference, and it was the most interesting and exciting event in the software industry I had been to in years!
+If you are interested in going, I suggest that you register immediately. Last year&amp;rsquo;s event sold out in a couple days. When they added 100 additional spots last year, those sold out in hours!</description>
+    </item>
+    
+    <item>
+      <title>Programming Language Family Tree</title>
+      <link>/2007/01/programming-language-family-tree.html</link>
+      <pubDate>Wed, 31 Jan 2007 10:03:00 -0800</pubDate>
+      
+      <guid>/2007/01/programming-language-family-tree.html</guid>
+      <description>My colleague Michael Hocter just sent me a great link to a diagram showing the history of the evolutions of the major programming languages. I just love this kind of visual representation of information!
+Note how C# has taken ideas from Java&amp;hellip;then Java goes and draws inspiration from C#. Also note how C# 2.0 takes its inspiration from Ruby. The two programming languages that drew from the most other languages (five) were Oak, which turned into Java, and Ruby.</description>
+    </item>
+    
+    <item>
+      <title>Ruby Domain Specific Languages - The Basics (Part 4)</title>
+      <link>/2006/11/ruby-domain-specific-languages-basics_27.html</link>
+      <pubDate>Fri, 12 Jan 2007 16:00:00 -0800</pubDate>
+      
+      <guid>/2006/11/ruby-domain-specific-languages-basics_27.html</guid>
+      <description>In the previous three entries in this series of postings, I have been exploring the basics of creating domain specific languages using Ruby. Since I cannot disclose details of my big financial service client&amp;rsquo;s DSL, I am using this made up example to illustrate the techniques that are useful when building your own Ruby DSL. So far we have created a &amp;ldquo;PetShop&amp;rdquo; domain that allows us to interact with the Pets.</description>
+    </item>
+    
+    <item>
+      <title>Merb Is The Word</title>
+      <link>/2006/12/merb-is-word.html</link>
+      <pubDate>Thu, 14 Dec 2006 10:29:00 -0800</pubDate>
+      
+      <guid>/2006/12/merb-is-word.html</guid>
+      <description>I have been playing around with Merb, which is a very cool project from Ezra Zygmuntowicz. Merb combines the Mongrel web server with a lightweight Ruby web framework. It has way less stuff in it than Rails, but is somewhat more than Camping.
+Where this all started, was that I was looking for some way to use Mongrel to create a new REST web service for a client. This service has no UI, and basically just needs to front end a Ruby DSL that I have been working on.</description>
+    </item>
+    
+    <item>
+      <title>That Ruby Is So Hot Right Now...</title>
+      <link>/2006/12/that-ruby-is-so-hot-right-now.html</link>
+      <pubDate>Fri, 08 Dec 2006 10:35:00 -0800</pubDate>
+      
+      <guid>/2006/12/that-ruby-is-so-hot-right-now.html</guid>
+      <description>I was just reading the latest stats from the TIOBE Programming Community Index. What is this index? They say themselves that it &amp;ldquo;gives an indication of the popularity of programming languages.&amp;rdquo; Yes, I know what Mark Twain had to say about stats, but I still love reading them! Anyhow, the latest and greatest December 2006 stats are fascinating as usual.
+Ruby is still surging in popularity, in fact it has had the biggest rise in popularity over the last year of any language in the top 20.</description>
+    </item>
+    
+    <item>
+      <title>RubySSPI Gets Thru The Firewall</title>
+      <link>/2006/12/rubysspi-gets-thru-firewall.html</link>
+      <pubDate>Fri, 01 Dec 2006 11:00:00 -0800</pubDate>
+      
+      <guid>/2006/12/rubysspi-gets-thru-firewall.html</guid>
+      <description>One of the biggest problem that Guerilla Rubyists have had getting our favorite language into the big companies that pay our bills, has been the corporate firewall. Using corporate Windows machines, behind corporate firewalls that use NTLM authentication to the corporate domain, has meant &amp;ldquo;no Ruby programmatic access to resources on the other side of the firewall.&amp;rdquo; In other words, no RubyGems! Having to try to download every Gem (and every Gem that the Gem you want to install depends on) for a local install it at the very least a big pain in the behind.</description>
+    </item>
+    
+    <item>
+      <title>New Hebruby Release</title>
+      <link>/2006/11/new-hebruby-release.html</link>
+      <pubDate>Sat, 25 Nov 2006 13:20:00 -0800</pubDate>
+      
+      <guid>/2006/11/new-hebruby-release.html</guid>
+      <description>I have just released a new update of Hebruby, the Ruby hebrew date conversion library. It is now available as a proper Ruby gem, and has much improved documentation. If your Rails application needs to convert from julian date to a hebrew date, or from a hebrew date to a julian date, or display a date in hebrew (either in hebrew or transliterated into english) this gem is for you.</description>
+    </item>
+    
+    <item>
+      <title>Ruby Domain Specific Languages - The Basics (Part 3)</title>
+      <link>/2006/11/ruby-domain-specific-languages-basics_19.html</link>
+      <pubDate>Sun, 19 Nov 2006 15:00:00 -0800</pubDate>
+      
+      <guid>/2006/11/ruby-domain-specific-languages-basics_19.html</guid>
+      <description>This is another installment in a series about creating domain specific languages with Ruby. In part 1 and part 2 of this series, I created a simple Ruby DSL to describe the relationship between Pets and Persons. Now I will extend the DSL, and use some cool Ruby metaprogramming tricks to demonstrate the power and benefits of using Ruby to create an internal DSL.
+First, I want to simplify the syntax for declaring things in our DSL.</description>
+    </item>
+    
+    <item>
+      <title>Ruby Domain Specific Languages - The Basics (Part 2)</title>
+      <link>/2006/11/ruby-domain-specific-languages-basics_08.html</link>
+      <pubDate>Wed, 08 Nov 2006 12:29:00 -0800</pubDate>
+      
+      <guid>/2006/11/ruby-domain-specific-languages-basics_08.html</guid>
+      <description>Previously, I was exploring the basics of DSL creation using Ruby. This post continues sharing my lessons learned while developing a prototype of a domain specific language in the mortgage industry. Since I cannot share the actual code itself belonging to my client, I will continue to extract the useful concepts into these simple examples.
+Last time we created a simple Animal DSL class. The important part of that class is this bit that makes sure our DSL like syntax works for the declarative methods:</description>
+    </item>
+    
+    <item>
+      <title>Ruby Domain Specific Languages - The Basics (Part 1)</title>
+      <link>/2006/11/ruby-domain-specific-languages-basics.html</link>
+      <pubDate>Sat, 04 Nov 2006 16:36:00 -0800</pubDate>
+      
+      <guid>/2006/11/ruby-domain-specific-languages-basics.html</guid>
+      <description>I have been working on a prototype of a Ruby domain specific language for one of my clients, a very large financial services company. I have learned a whole bunch of really interesting lessons, which I will share over a short series of posts as I make more progress.
+The first thing I tried to do was create a basic bit of DSL tastiness like this:
+class Dog &amp;lt; Animal number\_of\_legs 4 end class Bird &amp;lt; Animal number\_of\_legs 2 end class Snail &amp;lt; Animal number\_of\_legs 0 end My first implementation of the Animal class looked like this:</description>
+    </item>
+    
+    <item>
+      <title>Ruby Can Now Take Over The World</title>
+      <link>/2006/10/ruby-can-now-take-over-world.html</link>
+      <pubDate>Mon, 23 Oct 2006 20:34:00 -0700</pubDate>
+      
+      <guid>/2006/10/ruby-can-now-take-over-world.html</guid>
+      <description>I am still overwhelmed with excitement about the big news that John Lam, creator of RubyCLR has accepted a full time job with Microsoft. John&amp;rsquo;s blog has the details here.
+MS had already jumped into dynamic languages with the acquisition of IronPython. Now it only a matter of time until &amp;ldquo;Ruby#&amp;rdquo; or whatever MS will call it (since there is already a Ruby.NET project, which is heading in yet another direction).</description>
+    </item>
+    
+  </channel>
+</rss>

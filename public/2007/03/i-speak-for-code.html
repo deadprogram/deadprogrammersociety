@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>I Speak For The Code - Dead Programmer SOciety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/2007/03/i-speak-for-code.html" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6b89cc86c0b843a772cdd6c6a8b7e11c2116c7933f6163d2ef225a87e1d2c121.css">
+  
+
+  
+    
+    <meta property="og:title" content="I Speak For The Code"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/2007/03/i-speak-for-code.html"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@deadprogram"/>
+    <meta name="twitter:creator" content="@deadprogram"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Dead Programmer SOciety</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>I Speak For The Code<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="http://3.bp.blogspot.com/_SgxaAaUGqzY/RfjBjNYIkgI/AAAAAAAAAAk/34WaJhSA0SI/s1600-h/lorax.gif"><img src="http://3.bp.blogspot.com/_SgxaAaUGqzY/RfjBjNYIkgI/AAAAAAAAAAk/34WaJhSA0SI/s200/lorax.gif" alt=""></a>Recently I was in a client meeting with a bunch of managers to discuss some very complex changes that were being proposed for an existing system. I was invited to the meeting so I could &ldquo;speak for the code&rdquo;, which to them meant that I could validate the ideas of the group based on my knowledge of the code base.</p>
+<p>After the meeting ended, I kept mulling over that phrase &ldquo;speaking for the code&rdquo;. The more I did, the more I realized the parallels between &ldquo;speaking for the code&rdquo; as an architect or lead developer, and the Lorax &ldquo;speaking for the trees&rdquo; in the <a href="http://en.wikipedia.org/wiki/The_Lorax">Dr. Seuss story of the same name</a>.</p>
+<p>So here goes my attempt to illustrate some lessons about best practices in software development, inspired by the story of the Lorax&hellip;</p>
+<blockquote>
+<p>At the far end of town where the Grickle-grass grows and the wind smells slow-and sour when it blows and no birds ever sing excepting old crows&hellip;is the Street of the Lifted Lorax.<br>
+And deep in the Grickle-grass, some people say, if you look deep enough you can still see, today, where the Lorax once stood just as long as it could before somebody lifted the Lorax away.</p>
+</blockquote>
+<p>Our story begins looking at what remains of a once thriving software application, now gone to ruin. What went wrong?</p>
+<blockquote>
+<p>What was the Lorax?<br>
+Any why was it there?<br>
+And why was it lifted and taken somewhere from the far end of town where the Grickle-grass grows?<br>
+The old Once-ler still lives here.<br>
+Ask him. He knows.</p>
+</blockquote>
+<p>Perhaps the Lorax was the original system architect. But he is gone now, leaving behind Once-ler who is now in charge of the project.</p>
+<blockquote>
+<p>You won´t see the Once-ler.<br>
+Don´t knock at his door.<br>
+He stays in his Lerkim on top of his store.<br>
+He stays in his Lerkim, cold under the roof,<br>
+where he makes his own clothes<br>
+out of miff-muffered moof.<br>
+And on special dank midnights in August,<br>
+he peeks out of the shutters<br>
+and sometimes he speaks<br>
+and tells how the Lorax was lifted away.<br>
+He´ll tell you, perhaps&hellip; if you´re willing to pay.<br>
+Then he hides what you paid him away in his Snuvv,<br>
+his secret strange hole in his gruvvulous glove.<br>
+Then he grunts, I will call you by Whisper-ma-Phone,<br>
+for the secrets I tell you are for your ears alone.</p>
+</blockquote>
+<p>The Once-ler is the <a href="http://www.laputan.org/mud/">swamp guide</a> project manager or developer who remains behind, holding on tightly to the secrets of the system.</p>
+<blockquote>
+<p>Now I´ll tell you, he says, with his teeth sounding gray,<br>
+how the Lorax got lifted and taken away&hellip;<br>
+It all started way back&hellip; such a long, long time back&hellip;</p>
+<p>Way back in the days when the grass was still green<br>
+and the pond was still wet<br>
+and the clouds were still clean,<br>
+and the song of the Swomee-Swans rang out in space&hellip;<br>
+one morning, I came to this glorious place.<br>
+And I first saw the trees! The Truffula Trees!<br>
+The bright-colored tufts of the Truffula Trees!<br>
+Mile after mile in the fresh morning breeze.</p>
+<p>And under the trees, I saw Brown Bar-ba-loots<br>
+frisking about in their Bar-ba-loot suits<br>
+as they played in the shade and ate Truffula Fruits.</p>
+<p>From the rippulous pond came the comfortable sound<br>
+of the Humming-Fish humming while splashing around.</p>
+</blockquote>
+<p>The original system was a fine merger of art and science. It provided for all of the inhabitants of its <a href="http://codebetter.com/blogs/jeremy.miller/archive/2006/08/13/148258.aspx">software ecosystem</a> (users, developers, testers, etc.) by using practices that conserved the ecology of the system. It was able to successfully grow from its origin to a useful level of functionality while preserving the environment of the code base.</p>
+<blockquote>
+<p>In no time at all, I had built a small shop.<br>
+Then I chopped down a Truffula Tree with one chop.<br>
+And with great skillful skill and with great speedy speed,<br>
+I took the soft tuft. And I knitted a Thneed!</p>
+<p>The instand I´d finished, I heard a ga-Zump!<br>
+I looked.<br>
+I saw something pop out of the stump<br>
+of the tree I´d chopped down. It was sort of a man.<br>
+Describe him?&hellip;That´s hard. I don´t know if I can.</p>
+<p>He was shortish. And oldish.<br>
+And brownish. And mossy.<br>
+And he spoke with a voice<br>
+that was sharpish and bossy.</p>
+<p>Mister! he said with a sawdusty sneeze,<br>
+I am the Lorax. I speak for the trees.<br>
+I speak for the trees, for the trees have no tongues.<br>
+And I´m asking you, sir, at the top of my lungs&ndash;<br>
+he was very upset as he shouted and puffed&ndash;<br>
+What´s that THING you´ve made out of my Truffula tuft?</p>
+</blockquote>
+<p>The Once-ler took the original application in a direction that it was not architected to take, in a way that disturbed the equilibrium enough to attract the ire of the Lorax, who is the guardian for the system&rsquo;s logical integrity.</p>
+<blockquote>
+<p>Look, Lorax, I said. There´s no cause for alarm.<br>
+I chopped just one tree. I am doing no harm.<br>
+I´m being quite useful. This thing is a Thneed.<br>
+A Thneed´s a Fine-Something-That-All-People-Need!<br>
+It´s a shirt. It´s a sock. It´s a glove. It´s a hat.<br>
+But it has other uses. Yes, far beyond that.<br>
+You can use it for carpets. For pillows! For sheets!<br>
+Or curtains! Or covers for bicycle seats!<br>
+The Lorax said,<br>
+Sir! You are crazy with greed.<br>
+There is no one on earth<br>
+who would buy that fool Thneed!</p>
+</blockquote>
+<p>The Once-ler is utterly convinced of his own ideas regarding the directions for the system, and is not interested in listening to the warnings of the Lorax. He thinks he knows what the users need, and how to make the system fill that need. Or perhaps he is using the wrong design patterns, or too many different patterns, or some classic <a href="http://www.agilemodeling.com/essays/enterpriseModelingAntiPatterns.htm">anti-patterns</a>.</p>
+<blockquote>
+<p>And, in no time at all,<br>
+in the factory I built,<br>
+the whole Once-ler Family<br>
+was working full tilt.<br>
+We were all knitting Thneeds<br>
+just as busy as bees,<br>
+to the sound of the chopping<br>
+of Truffula Trees.</p>
+<p>Then&hellip;<br>
+Oh! Baby! Oh!<br>
+How my business did grow!<br>
+Now, chopping one tree<br>
+at a time<br>
+was too slow.</p>
+<p>So I quickly invented my Super-Axe-Hacker<br>
+which whacked off four Truffula Trees at one smacker.<br>
+We were making Thneeds<br>
+four times as fast as before!<br>
+And that Lorax?&hellip; He didn´t show up any more.</p>
+</blockquote>
+<p>Now the Once-ler is scaling up the project, using all of his old buddies. Now four times <a href="http://en.wikipedia.org/wiki/The_Mythical_Man-Month">more staffing</a> than before. Not only that, but with such confidence in his vision that he doesn&rsquo;t miss the fact that the crucial architectural knowledge of the Lorax is no longer guiding the project.</p>
+<blockquote>
+<p>But the next week he knocked on my new office door.<br>
+He snapped, I´m the Lorax who speaks for the trees<br>
+which you seem to be chopping as fast as you please.<br>
+But I´m also in charge of the Brown Bar-ba-loots<br>
+who played in the shade in their Bar-ba-loot suits<br>
+and happily lived, eating Truffula Fruits.<br>
+NOW&hellip;thanks to your hacking my trees to the ground,<br>
+there´s not enough Truffula Fruit to go ´round.<br>
+And my poor Bar-ba-loots are all getting the crummies<br>
+because they have gas, and no food, in their tummies!</p>
+<p>They loved living here. But I can´t let them stay.<br>
+They´ll have to find food. And I hope that they may.<br>
+Good luck, boys, he cried. And he sent them away.</p>
+<p>I, the Once-ler, felt sad as I watched them all go.<br>
+BUT&hellip; business is business! And business must grow<br>
+regardless of crummies in tummies, you know.</p>
+</blockquote>
+<p>The Once-ler is willing to do anything at all to the code base, including losing the architectural consistency of the system, in order to implement his new vision for the project. Or lose anyone at all on the project team, for that matter, to maintain control over the project. Too bad Once-ler doesn&rsquo;t realize that once the tipping point of architectural instability is reached, a system can become unreliable and unmaintainable very quickly.</p>
+<blockquote>
+<p>And then I got mad. I got terribly mad.<br>
+I yelled at the Lorax, Now listen here, Dad!<br>
+All you do is yap-yap and say, Bad! Bad! Bad! Bad!<br>
+Well, I have my rights, sir, and I´m telling you<br>
+I intend to go on doing just what I do!<br>
+And, for your information, you Lorax, I´m figgering on biggering<br>
+and BIGGERING and BIGGERING and BIGGERING,<br>
+turning MORE Truffula Trees into Thneeds<br>
+which everyone, EVERYONE, EVERYONE needs!</p>
+<p>And at that very moment, we heard a loud whack!<br>
+From outside in the fields came a sickening smack<br>
+of an axe on a tree. Then we heard the tree fall.<br>
+The very last Truffula Tree of them all!</p>
+</blockquote>
+<p>Did you see THAT coming? Of course you did! Once the <a href="http://www.martinfowler.com/bliki/TechnicalDebt.html">technical debt</a> of the system exceeded the available resources, the application went bankrupt.</p>
+<blockquote>
+<p>No more trees. No more Thneeds. No more work to be done.<br>
+So, in no time, my uncles and aunts, every one,<br>
+all waved me good-bye. They jumped into my cars<br>
+and drove away under the smoke-smuggered stars.</p>
+<p>Now all that was left ´neath the bad-smelling sky<br>
+was my big empty factory&hellip; the Lorax&hellip; and I.</p>
+</blockquote>
+<p>Once the project&rsquo;s future prospects are bleak, project funding or company revenues dry up. As a result, key resources leave. When this vicious cycle begins, there may be no stopping it.</p>
+<blockquote>
+<p>The Lorax said nothing. Just gave me a glance&hellip;<br>
+just gave me a very sad, sad backward glance&hellip;<br>
+as he lifted himself by the seat of his pants.<br>
+And I´ll never forget the grim look on his face<br>
+when he heisted himself and took leave of this place,<br>
+through a hole in the smog, without leaving a trace.</p>
+<p>And all that the Lorax left here in this mess<br>
+was a small pile of rocks, with one word&hellip;<br>
+UNLESS.</p>
+</blockquote>
+<p>If you are an architect or dev lead, you are probably sympathizing with the Lorax as you sometimes feel like you are &ldquo;defending&rdquo; your system. If you are a hiring manager or recruiter reading this blog, perhaps at this point in the story you are getting a idea about why it is hard to recruit and retain the best system architects and developers to work on toxic projects.</p>
+<blockquote>
+<p>But now, says the Once-ler,<br>
+Now that you´re here, the word of the Lorax seems perfectly clear.<br>
+UNLESS someone like you cares a whole awful lot,<br>
+nothing is going to get better. It´s not. SO&hellip;<br>
+Catch! calls the Once-ler. He lets something fall.<br>
+It´s a Truffula Seed. It´s the last one of all!<br>
+You´re in charge of the last of the Truffula Seeds.<br>
+And Truffula Trees are what everyone needs.<br>
+Plant a new Truffula. Treat it with care.<br>
+Give it clean water. And feed it fresh air.<br>
+Grow a forest. Protect it from axes that hack.<br>
+Then the Lorax and all of his friends may come back.</p>
+</blockquote>
+<p>System architects, let a thousand flowers bloom. Fight for your systems.</p>
+<p>RIP, Dr. Seuss. We miss your wisdom.</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/deadprogram" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/deadprogram" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/deadprogram/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.575671c6da23c3563d465f9cfa3d2857fc0239531a2e8ea1fb6812017653b4d7.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

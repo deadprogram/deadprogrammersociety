@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ubuntu on Dead Programmer SOciety</title>
+    <link>/tags/ubuntu/</link>
+    <description>Recent content in ubuntu on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Oct 2009 11:19:00 -0700</lastBuildDate><atom:link href="/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PostgreSQL on Ubuntu on EC2: Backing It All Up</title>
+      <link>/2009/10/postgresql-on-ubuntu-on-ec2-backing-it.html</link>
+      <pubDate>Sat, 10 Oct 2009 11:19:00 -0700</pubDate>
+      
+      <guid>/2009/10/postgresql-on-ubuntu-on-ec2-backing-it.html</guid>
+      <description>This post continues what I started with &amp;ldquo;PostgreSQL on Ubuntu on EC2: The Installation Guide&amp;rdquo;. Once you have your PostgreSQL database server instance running, you will need to backup two different things: your database data, and the instance itself. The database data will be backed up using Elastic Block Storage (EBS) snapshots. Once we have the instance running the backups correctly, we will then create an Amazon Machine Image (AMI) that will allow you to launch a new instance to replace the database server in case it goes down.</description>
+    </item>
+    
+    <item>
+      <title>On The Grid With EC2</title>
+      <link>/2008/01/on-grid-with-ec2.html</link>
+      <pubDate>Sat, 12 Jan 2008 10:08:00 -0800</pubDate>
+      
+      <guid>/2008/01/on-grid-with-ec2.html</guid>
+      <description>Lately, I have had a chance to get seriously into Amazon&amp;rsquo;s Elastic Compute Cloud (EC2) service. I doubt any reader of this blog is unfamiliar with the existence of EC2, but many of you have probably not even gotten to the tire kicking stage, like I had been until recently.
+Even after attending several sessions about Amazon&amp;rsquo;s EC2 at RailsConf 2007, I still had only a very general idea about the service.</description>
+    </item>
+    
+  </channel>
+</rss>

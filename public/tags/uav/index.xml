@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>uav on Dead Programmer SOciety</title>
+    <link>/tags/uav/</link>
+    <description>Recent content in uav on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Jul 2009 09:55:00 -0700</lastBuildDate><atom:link href="/tags/uav/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Ready For Takeoff At FutureRuby</title>
+      <link>/2009/07/getting-ready-for-takeoff-at-futureruby.html</link>
+      <pubDate>Sun, 05 Jul 2009 09:55:00 -0700</pubDate>
+      
+      <guid>/2009/07/getting-ready-for-takeoff-at-futureruby.html</guid>
+      <description>I just realized it has been an entire month since my last post. Sorry! In case you were wondering, the always overambitious plans for Project Flying Robot have taken up more time than expected. And parts. Especially parts.
+Lucky for us, the benefit of a hard deadline approaches: FutureRuby is coming up next week. My brother Damen Evans and I are going to be showing off our latest works in Unmanned Aerial Vehicles (UAV) based on Ruby Arduino Development (RAD).</description>
+    </item>
+    
+    <item>
+      <title>Project Flying Robot: Supporting The Blimpduino</title>
+      <link>/2009/05/project-flying-robot-supporting.html</link>
+      <pubDate>Wed, 03 Jun 2009 21:12:00 -0700</pubDate>
+      
+      <guid>/2009/05/project-flying-robot-supporting.html</guid>
+      <description>As Maker Faire approached, my brother Damen and I were very busy working on something cool: support for the now-shipping Blimpduino kit!
+Thanks to the tireless efforts of Chris Anderson and Jordi Muñoz, the long awaited Blimpduino kit is now shipping at Makershed. As readers of this blog know, we have drawn a lot of inspiration from the Blimpduino. Now, we actually have 2 of them, and you can get your own.</description>
+    </item>
+    
+    <item>
+      <title>Project Flying Robot: I Believe I Can Fly</title>
+      <link>/2009/03/project-flying-robot-i-believe-i-can.html</link>
+      <pubDate>Sat, 21 Mar 2009 13:47:00 -0700</pubDate>
+      
+      <guid>/2009/03/project-flying-robot-i-believe-i-can.html</guid>
+      <description>At long last, after many obstacles to be surmounted, yesterday we achieved liftoff. The blimp prototype &amp;ldquo;Rogue 1&amp;rdquo; of our flying_robot project to create a platform for Ruby Arduino Development powered Unmanned Aerial Vehicles has achieved an important milestone.
+After our third complete rewiring of the main circuit board, two burned out Pololu micro serial motor controllers, some time reviewing the schematics of the Blimpduino project, and too many revisions to the basic software to list here, we had finally gotten everything ready for what would hopefully be a successful flight test.</description>
+    </item>
+    
+    <item>
+      <title>Project Flying Robot: Better To Burn Out Than Fade Away?</title>
+      <link>/2009/03/project-flying-robot-better-to-burn-out.html</link>
+      <pubDate>Sun, 15 Mar 2009 17:57:00 -0700</pubDate>
+      
+      <guid>/2009/03/project-flying-robot-better-to-burn-out.html</guid>
+      <description>We had made incredible strides forward in our construction of &amp;ldquo;Rogue 1&amp;rdquo; our autonomous blimp that we are building as the first implementation of flying_robot, our Arduino-framework for Unmanned Aerial Vehicles based on top of Ruby Arduino Development (RAD). We are also heavily influenced by the cool Blimpduino project. We were finally ready for a live test&amp;hellip; or so we thought. We inflated our envelope, and my brother attached the gondola that he has been carefully constructing.</description>
+    </item>
+    
+    <item>
+      <title>Project Flying Robot: A Compass, Two Motors, And A Servo</title>
+      <link>/2009/02/project-flying-robot-compass-two-motors.html</link>
+      <pubDate>Thu, 26 Feb 2009 11:01:00 -0800</pubDate>
+      
+      <guid>/2009/02/project-flying-robot-compass-two-motors.html</guid>
+      <description>Last weekend was a fantastic hardware/software jam session with my brother Damen, working on our autonomous Ruby Arduino Development (RAD) powered blimp. Lots of little pieces had been coming in the mail, my brother had been soldering, and I had been programming away. Both of us were eager to start putting it all together.
+The first item of business was getting our bearings. We had acquired from Sparkfun a very cool HMC6352 digital compass module.</description>
+    </item>
+    
+    <item>
+      <title>Project Flying Robot: Getting All XBee With It</title>
+      <link>/2009/02/project-flying-robot-getting-all-xbee.html</link>
+      <pubDate>Sun, 22 Feb 2009 10:38:00 -0800</pubDate>
+      
+      <guid>/2009/02/project-flying-robot-getting-all-xbee.html</guid>
+      <description>We have been making some amazing progress on our flying_robot project. This post is actually from almost a week ago, but I have not had time to catch up blogging with what we have been getting accomplished.
+As I had mentioned in my first posting, one of the reasons that we did not simply copy the Blimpduino, is that we do not want to use a standard R/C controller for manual control.</description>
+    </item>
+    
+    <item>
+      <title>Project Flying Robot: The Adventure Begins</title>
+      <link>/2009/02/project-flying-robot-adventure-begins.html</link>
+      <pubDate>Wed, 18 Feb 2009 08:22:00 -0800</pubDate>
+      
+      <guid>/2009/02/project-flying-robot-adventure-begins.html</guid>
+      <description>I love robots. OK, there, I&amp;rsquo;ve gone and gotten that out into the open. Like many programmers, I have long dreamed of dominating the world with my robot legions. Or failing that, at least getting my RoboSapien to walk around in a little circle by itself.
+Recently, my brother Damen Evans and I decided that we needed to realize our ambitions, and began work on a flying robot. Yes, that is what I said.</description>
+    </item>
+    
+  </channel>
+</rss>

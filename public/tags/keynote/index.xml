@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>keynote on Dead Programmer SOciety</title>
+    <link>/tags/keynote/</link>
+    <description>Recent content in keynote on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Apr 2009 10:12:00 -0700</lastBuildDate><atom:link href="/tags/keynote/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LARubyConf 2009 - Jim Weirich - &#34;The Grand Unified Thoery of Software Development</title>
+      <link>/2009/04/larubyconf-2009-jim-weirich-grand.html</link>
+      <pubDate>Wed, 08 Apr 2009 10:12:00 -0700</pubDate>
+      
+      <guid>/2009/04/larubyconf-2009-jim-weirich-grand.html</guid>
+      <description>As the 2009 Los Angeles Ruby Conference (LARubyConf) drew to a close, our keynote speaker Jim Weirich took the podium. I have seen Jim speak several times, and he is both intelligent, as well as down to earth, which is a rare combination indeed.
+The subject of his keynote would be anything but down to earth. In fact, it would have to be one of the most ambitious talks I have ever seen at a Ruby conference.</description>
+    </item>
+    
+  </channel>
+</rss>

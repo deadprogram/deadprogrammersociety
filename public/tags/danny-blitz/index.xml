@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>danny blitz on Dead Programmer SOciety</title>
+    <link>/tags/danny-blitz/</link>
+    <description>Recent content in danny blitz on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Apr 2009 20:51:00 -0700</lastBuildDate><atom:link href="/tags/danny-blitz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LARubyConf 2009 - Danny Blitz - &#34;Herding Tigers: Software Development and the Art of War&#34;</title>
+      <link>/2009/04/larubyconf-2009-danny-blitz-herding.html</link>
+      <pubDate>Sun, 05 Apr 2009 20:51:00 -0700</pubDate>
+      
+      <guid>/2009/04/larubyconf-2009-danny-blitz-herding.html</guid>
+      <description>I had no idea what I was about to experience at Los Angeles Ruby Conference 2009 (LARubyConf) when Danny Blitz took the podium as the next presenter. I had seen him hanging out with his distinctive pompadour, tattoos, and leather jacket. He is a big guy, and hard to miss. But he had been pretty quiet till then, which was about to change radically.
+Herding Cats is a term commonly used when describing the management of software teams.</description>
+    </item>
+    
+  </channel>
+</rss>

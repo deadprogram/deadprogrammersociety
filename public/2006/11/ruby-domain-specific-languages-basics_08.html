@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Ruby Domain Specific Languages - The Basics (Part 2) - Dead Programmer SOciety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/2006/11/ruby-domain-specific-languages-basics_08.html" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6b89cc86c0b843a772cdd6c6a8b7e11c2116c7933f6163d2ef225a87e1d2c121.css">
+  
+
+  
+    
+    <meta property="og:title" content="Ruby Domain Specific Languages - The Basics (Part 2)"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/2006/11/ruby-domain-specific-languages-basics_08.html"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@deadprogram"/>
+    <meta name="twitter:creator" content="@deadprogram"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Dead Programmer SOciety</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Ruby Domain Specific Languages - The Basics (Part 2)<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="http://photos1.blogger.com/blogger/4812/3999/1600/240px-Circus_Lion_Tamer.jpg"><img src="http://photos1.blogger.com/blogger/4812/3999/200/240px-Circus_Lion_Tamer.jpg" alt=""></a>Previously, I was <a href="http://deadprogrammersociety.blogspot.com/2006/11/ruby-domain-specific-languages-basics.html">exploring the basics of DSL creation using Ruby</a>. This post continues sharing my lessons learned while developing a prototype of a domain specific language in the mortgage industry. Since I cannot share the actual code itself belonging to my client, I will continue to extract the useful concepts into these simple examples.</p>
+<p>Last time we created a simple Animal DSL class. The important part of that class is this bit that makes sure our DSL like syntax works for the declarative methods:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+class Animal  
+ attr\_accessor :number\_of\_legs  
+   
+ def self.number\_of\_legs(number\_of\_legs)    
+  @number\_of\_legs = number\_of\_legs   
+ end  
+  
+ def initialize  
+  self.class.instance\_variables.each do |var|  
+   instance\_variable\_set(var, self.class.instance\_variable\_get(var))  
+  end  
+ end  
+end  
+
+</code></pre></div><p>Now we will create a Person class that can interact with the Animals. Each Person will have a temperament (either mean or nice), and will be carrying some kind of food in their pocket to feed their pet. We will define people using our DSL as follows:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+class Dorothy &lt; Person  
+ temperament :nice  
+ food :sunflower\_seeds, :carrot\_juice  
+end  
+  
+class Witch &lt; Person  
+ temperament :mean  
+ food :cheetos, :soda  
+end  
+
+</code></pre></div><p>The implementation is very similar to the basic Animal class</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+class Person &lt; Animal  
+ attr\_accessor :temperament  
+   
+ def self.temperament(type)  
+  @temperament = type  
+ end  
+   
+ def self.food(\*types\_of\_food)  
+  @food ||= \[\]  
+  types\_of\_food.each do |food|  
+   @food &lt;&lt; food  
+  end  
+ end  
+   
+ def has\_food?(type\_of\_food)  
+  @food.include?(type\_of\_food)  
+ end  
+end  
+
+</code></pre></div><p>Since we are working with an array, the self.food method has a variable number of parameters, represented using the asterisk in front of the parameters list. The cool little idiom @food ||= [] returns with the current @food variable, or if it is nil, returns an empty array. There is also a has_food? method to tell us if a person is carrying a certain type of food.</p>
+<p>Now let us introduce the Pet. We will use the power of Ruby blocks to tell each pet the rules about when it likes a person, or not. Here is the DSL we want to use for the Pets:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+class Toto &lt; Pet  
+ friend\_test do |person|  
+  true unless person.temperament == :mean # I like anyone who is not mean  
+ end  
+  
+end  
+  
+class Tweety &lt; Pet  
+ friend\_test do |person|  
+  true if person.has\_food?(:sunflower\_seeds) # I like anyone who has sunflower seeds  
+ end  
+end  
+  
+class Slugworth &lt; Pet  
+ friend\_test do |person|  
+  true # I like anyone  
+ end  
+end  
+
+</code></pre></div><p>And now the implementation of the Pet class:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+class Pet &lt; Animal  
+ def self.friend\_test(&amp;test)  
+  @friend\_test = test  
+ end  
+   
+ def is\_friend?(person)  
+  @friend\_test.call(person) == true  
+ end   
+end  
+
+</code></pre></div><p>The friend_test method stores a block containing the test for that Pet, and the is_friend? method tests to see if a Pet will be friendly toward a particular Person.<br>
+Last, we put it all together with some simple code to display the interactions between the People and the Pets:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+dog = Toto.new  
+bird = Tweety.new  
+snail = Slugworth.new  
+  
+person = Dorothy.new  
+puts &#34;#{dog.class.name} is a friend of #{person.class.name}: #{dog.is\_friend?(person)}&#34;  
+puts &#34;#{bird.class.name} is a friend of #{person.class.name}: #{bird.is\_friend?(person)}&#34;  
+puts &#34;#{snail.class.name} is a friend of #{person.class.name}: #{snail.is\_friend?(person)}&#34;  
+puts  
+  
+person = Witch.new  
+puts &#34;#{dog.class.name} is a friend of #{person.class.name}: #{dog.is\_friend?(person)}&#34;  
+puts &#34;#{bird.class.name} is a friend of #{person.class.name}: #{bird.is\_friend?(person)}&#34;  
+puts &#34;#{snail.class.name} is a friend of #{person.class.name}: #{snail.is\_friend?(person)}&#34;  
+
+</code></pre></div><p>The result of running this code is:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+Toto is a friend of Dorothy: true  
+Tweety is a friend of Dorothy: true  
+Slugworth is a friend of Dorothy: true  
+  
+Toto is a friend of Witch: false  
+Tweety is a friend of Witch: false  
+Slugworth is a friend of Witch: true  
+
+</code></pre></div><p>Using this simple Ruby DSL approach, it is very easy to add a new Person or Pet, just by entering the rules that define its behavior. As the objects in a system become more complex, one of the best ways to manage that complexity is to create an abstraction that hides the ugly bits.</p>
+<p>Here is the full code for this example:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+class Animal  
+ attr\_accessor :number\_of\_legs  
+   
+ def self.number\_of\_legs(number\_of\_legs)    
+  @number\_of\_legs = number\_of\_legs   
+ end  
+  
+ def initialize  
+  self.class.instance\_variables.each do |var|  
+   instance\_variable\_set(var, self.class.instance\_variable\_get(var))  
+  end  
+ end  
+end  
+  
+class Person &lt; Animal  
+ attr\_accessor :temperament  
+   
+ def self.temperament(type)  
+  @temperament = type  
+ end  
+   
+ def self.food(\*types\_of\_food)  
+  @food ||= \[\]  
+  types\_of\_food.each do |food|  
+   @food &lt;&lt; food  
+  end  
+ end  
+   
+ def has\_food?(type\_of\_food)  
+  @food.include?(type\_of\_food)  
+ end  
+end  
+  
+class Pet &lt; Animal  
+ def self.friend\_test(&amp;test)  
+  @friend\_test = test  
+ end  
+   
+ def is\_friend?(person)  
+  @friend\_test.call(person) == true  
+ end   
+end  
+  
+  
+class Toto &lt; Pet  
+ friend\_test do |person|  
+  true unless person.temperament == :mean  
+ end  
+  
+end  
+  
+class Tweety &lt; Pet  
+ friend\_test do |person|  
+  person.has\_food?(:sunflower\_seeds)   
+ end  
+end  
+  
+class Slugworth &lt; Pet  
+ friend\_test do |person|  
+  true  
+ end  
+end  
+  
+class Dorothy &lt; Person  
+ temperament :nice  
+ food :sunflower\_seeds, :carrot\_juice  
+end  
+  
+class Witch &lt; Person  
+ temperament :mean  
+ food :cheetos, :soda  
+end  
+  
+  
+dog = Toto.new  
+bird = Tweety.new  
+snail = Slugworth.new  
+  
+person = Dorothy.new  
+puts &#34;#{dog.class.name} is a friend of #{person.class.name}: #{dog.is\_friend?(person)}&#34;  
+puts &#34;#{bird.class.name} is a friend of #{person.class.name}: #{bird.is\_friend?(person)}&#34;  
+puts &#34;#{snail.class.name} is a friend of #{person.class.name}: #{snail.is\_friend?(person)}&#34;  
+puts  
+  
+person = Witch.new  
+puts &#34;#{dog.class.name} is a friend of #{person.class.name}: #{dog.is\_friend?(person)}&#34;  
+puts &#34;#{bird.class.name} is a friend of #{person.class.name}: #{bird.is\_friend?(person)}&#34;  
+puts &#34;#{snail.class.name} is a friend of #{person.class.name}: #{snail.is\_friend?(person)}&#34;  
+
+</code></pre></div>
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/deadprogram" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/deadprogram" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/deadprogram/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.575671c6da23c3563d465f9cfa3d2857fc0239531a2e8ea1fb6812017653b4d7.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

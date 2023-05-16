@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>s3 folders on Dead Programmer SOciety</title>
+    <link>/tags/s3-folders/</link>
+    <description>Recent content in s3 folders on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Jan 2008 17:26:00 -0800</lastBuildDate><atom:link href="/tags/s3-folders/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making S3 Folders In Ruby</title>
+      <link>/2008/01/making-s3-folders-in-ruby.html</link>
+      <pubDate>Fri, 11 Jan 2008 17:26:00 -0800</pubDate>
+      
+      <guid>/2008/01/making-s3-folders-in-ruby.html</guid>
+      <description>Amazon&amp;rsquo;s S3 storage service is a really cool way to store and serve up massive quantities of data. Interestingly, it is more like a database than like a file system. Despite the convenience of referring to an object like &amp;ldquo;/path/to/thing.jpg&amp;rdquo; S3 really does not have any separate objects for &amp;ldquo;/path&amp;rdquo; or &amp;ldquo;/path/to&amp;rdquo;. In fact, neither &amp;ldquo;/path&amp;rdquo; nor &amp;ldquo;/path/to&amp;rdquo; even exist.
+This is why, when you store an S3 object, the name it is given is called &amp;ldquo;key&amp;rdquo; instead of &amp;ldquo;filename&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

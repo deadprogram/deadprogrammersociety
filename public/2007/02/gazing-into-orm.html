@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Gazing Into The ORM - Dead Programmer SOciety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/2007/02/gazing-into-orm.html" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6b89cc86c0b843a772cdd6c6a8b7e11c2116c7933f6163d2ef225a87e1d2c121.css">
+  
+
+  
+    
+    <meta property="og:title" content="Gazing Into The ORM"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/2007/02/gazing-into-orm.html"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@deadprogram"/>
+    <meta name="twitter:creator" content="@deadprogram"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Dead Programmer SOciety</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Gazing Into The ORM<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="http://www.tolkientown.com/images/gallery/2206/pippinorbbutton2"><img src="http://www.tolkientown.com/images/gallery/2206/pippinorbbutton2" alt=""></a>Jeremy Miller has an <a href="http://codebetter.com/blogs/jeremy.miller/archive/2007/02/23/Don_2700_t-Let-the-Database-Dictate-Your-Object-Model.aspx">interesting post today</a> regarding <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">Object Relation Mapping (ORM)</a>. Droves of developers are now flocking to ORMs via <a href="http://www.rubyonrails.org/">Ruby on Rails</a>, <a href="http://www.castleproject.org/">Castle</a>, or one of the other many projects in this space, so it is good to have people like Jeremy exploring from a real implementation perspective.</p>
+<p>Anyhow, his post really is concerned with applications that use an existing database, have a large amount of logical processing. Simply applying an ORM without considering the logical implications of the data, not only fails to take advantage of the power of ORMs, but falls into a bit of a quagmire, with potentially a very non-DRY result.</p>
+<p>Some of the specific examples he cites are:</p>
+<blockquote>
+<ul>
+<li>Big tables don&rsquo;t map to a single object.  I don&rsquo;t think it&rsquo;s possible that a class with a 100 different properties can possibly be cohesive.  We&rsquo;d be much better off in terms of writing business logic if that 100 column table is modelled in the middle tier by a half dozen classes, each with a cohesive responsibility.  It may make perfect sense to have only one table for the entire object hierarchy, but big classes are almost always a bad thing.</li>
+<li><a href="http://www.codinghorror.com/blog/archives/000589.html">Data Clump and Primitive Obsession code smells</a>.  A database row is naturally flat.  I want to do a bigger post on this later, but think about a database table(s) with lot&rsquo;s of something_currency/something_amount combinations.  There&rsquo;s a separate object for <a href="http://www.martinfowler.com/eaaCatalog/money.html">Money</a> wanting to come out.  If you make your business objects pure representations of the database you could easily end up with a large amount of duplicate logic around currency and quantity conversions.</li>
+<li>Natural cases for polymorphism in your object model.  I think the roughest part of O/R mapping is handling polymorphism inside the database.  Check out Fowler&rsquo;s patterns on <a href="http://www.martinfowler.com/eaaCatalog/">database mappings for inheritance</a>.</li>
+</ul>
+</blockquote>
+<p>He then goes on to make an important point regarding the role of the database in the software architecture of your application. Basically there are only two perspectives that make any sense:</p>
+<blockquote>
+<ul>
+<li>The database is paramount, and the system is expressed and understood in terms of the tables and rows in the database.  The application code and even user interface is just a conduit to get information back and forth into the database.  You design the database first and then build the business and data layers to match the database.  In the .Net world we might just consume raw DataSet&rsquo;s in the application, effectively just working with the database tables offline.</li>
+<li>The behavior of the system, primarily in the middle tier and user interface, is paramount, and the database is &ldquo;just&rdquo; a means to persist the state of the system.  The database is either built to match the business classes or designed somewhat independently.</li>
+</ul>
+</blockquote>
+<p>So in the case of an application that has significant business logic, it would seem to me that the second case is quite preferable. However, in the case where a legacy database is involved, how can we really avoid the first? I have seen many applications get stuck in that quagmire myself, and one real problem is that the business logic becomes a lot harder to represent cleanly when having to preserve the existing database schema&rsquo;s problems. Especially when trying to achieve a very DSL like approach for business service layers. The less that the domain experts have to understand the database, and can just speak in terms of domain concepts, the better!</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/deadprogram" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/deadprogram" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/deadprogram/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.575671c6da23c3563d465f9cfa3d2857fc0239531a2e8ea1fb6812017653b4d7.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

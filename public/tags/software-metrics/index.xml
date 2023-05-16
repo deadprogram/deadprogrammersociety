@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software metrics on Dead Programmer SOciety</title>
+    <link>/tags/software-metrics/</link>
+    <description>Recent content in software metrics on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Nov 2006 20:41:00 -0800</lastBuildDate><atom:link href="/tags/software-metrics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Dark Side Of Metrics</title>
+      <link>/2006/11/dark-side-of-metrics.html</link>
+      <pubDate>Mon, 13 Nov 2006 20:41:00 -0800</pubDate>
+      
+      <guid>/2006/11/dark-side-of-metrics.html</guid>
+      <description>I have usually been in favor of measurement of any possible aspect of the software development process. Proper techniques of gathering and analyzing metrics have been espoused since Capers Jones created the study of software measurement. I was first introduced to many of these concepts in the writings of Steve McConnell, particularly when his book Rapid Development first came out. If a thing cannot be measured, it cannot be easily studied or improved.</description>
+    </item>
+    
+  </channel>
+</rss>

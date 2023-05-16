@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>railsconf2007 on Dead Programmer SOciety</title>
+    <link>/tags/railsconf2007/</link>
+    <description>Recent content in railsconf2007 on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 May 2007 15:00:00 -0700</lastBuildDate><atom:link href="/tags/railsconf2007/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ruby/Microsoft?</title>
+      <link>/2007/05/rubymicrosoft.html</link>
+      <pubDate>Wed, 30 May 2007 15:00:00 -0700</pubDate>
+      
+      <guid>/2007/05/rubymicrosoft.html</guid>
+      <description>Martin Fowler just posted on his bliki a little piece entitled RubyMicrosoft. As I read it, I felt a strange chill run down my spine. Perhaps a few words of explanation are needed&amp;hellip;
+At RailsConf recently I stood at the Thoughtworks booth for a moment chatting up Fowler, and embarrassing myself by asking for a photo with him (he doesn&amp;rsquo;t pose for photos with people). Luckily, I was rescued by the arrival of Oli Bini, and an ensuing short discussion about JRuby.</description>
+    </item>
+    
+    <item>
+      <title>RailsConf 2007 - Day 3</title>
+      <link>/2007/05/railsconf-2007-day-3.html</link>
+      <pubDate>Wed, 23 May 2007 07:02:00 -0700</pubDate>
+      
+      <guid>/2007/05/railsconf-2007-day-3.html</guid>
+      <description>By the time we got to RailsConf Day 3, only the most hard core remained. In other words, almost everyone. And we were glad to have stuck around, because some of the best content of the entire conference was yet to come. David Black, introduced two integral members of the Ruby on Rails team, Jamis Buck and Michael &amp;ldquo;Koz&amp;rdquo; Koziarski, the co-authors of the seminal &amp;ldquo;Rails Way&amp;rdquo; blog.
+The Rails Way</description>
+    </item>
+    
+    <item>
+      <title>RailsConf 2007 - Day 2</title>
+      <link>/2007/05/railsconf-2007-day-2.html</link>
+      <pubDate>Tue, 22 May 2007 10:30:00 -0700</pubDate>
+      
+      <guid>/2007/05/railsconf-2007-day-2.html</guid>
+      <description>After the incredible energy of RailsConf Day 1, Day 2 seemed to slow down the pace a little bit. That was good for me, as I could spend some time catching up with friends both old and new, and not just attending sessions like an information junky. First would come the morning keynote speeches from Cyndi Mitchell of ThoughtWorks, and headliner Tim Bray of Sun Microsystems, with a short interlude from Charles Nutter.</description>
+    </item>
+    
+    <item>
+      <title>RailsConf 2007 - Day 1</title>
+      <link>/2007/05/railsconf-2007-day-1.html</link>
+      <pubDate>Sun, 20 May 2007 18:28:00 -0700</pubDate>
+      
+      <guid>/2007/05/railsconf-2007-day-1.html</guid>
+      <description>I was primed and ready for RailsConf 2007 Day 1. The excitement was in the air, and the crowd was primed. We awaited a day absolutely packed with mind candy. Starting with Chad Fowler, David Heinemeier Hansson, Robert Martin, Adam Keys, Avi Bryant, and Ze Frank. Wow, what a lineup!
+As Chad Fowler took the stage, his ukulele in hand, we eagerly awaited his opening remarks. Chad really did a great thing, by not just giving us the &amp;ldquo;feel-good rah-rah Rails is taking over the world&amp;rdquo; intro speech that most people probably expected.</description>
+    </item>
+    
+    <item>
+      <title>RailsConf 2007 - Sessions (Day 0)</title>
+      <link>/2007/05/railsconf-2007-sessions-day-0.html</link>
+      <pubDate>Sat, 19 May 2007 07:55:00 -0700</pubDate>
+      
+      <guid>/2007/05/railsconf-2007-sessions-day-0.html</guid>
+      <description>Well, I had just got back to my room after day 0 of RailsConf 2007, which was the tutorial sessions before the main conference began. After a fun evening of pizza and beer with the Pragmatic Programmers, I thought I would try to get down some thoughts about the day&amp;rsquo;s events.
+Yesterday, I attended &amp;ldquo;Scaling Rails From The Ground Up&amp;rdquo; followed by &amp;ldquo;Harnessing Capistrano&amp;rdquo;. It is very hard to have tutorial sessions at a conference.</description>
+    </item>
+    
+    <item>
+      <title>Packing For RailsConf 2007</title>
+      <link>/2007/05/packing-for-railsconf-2007.html</link>
+      <pubDate>Wed, 16 May 2007 16:15:00 -0700</pubDate>
+      
+      <guid>/2007/05/packing-for-railsconf-2007.html</guid>
+      <description>I am packing my stuff for RailsConf 2007, and I am pretty excited. Last year&amp;rsquo;s conference was the best event I had been to in years! The growth in the momentum and enthusiasm in the Rails community has only accelerated in the last year, and I am giddy at the prospect of more fun brain candy!
+I will be blogging from the conference, but not moment to moment like some quicker multitaskers.</description>
+    </item>
+    
+  </channel>
+</rss>

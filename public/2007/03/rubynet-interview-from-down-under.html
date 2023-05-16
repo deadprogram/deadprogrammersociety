@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>The Ruby.NET Interview From Down Under - Dead Programmer SOciety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/2007/03/rubynet-interview-from-down-under.html" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6b89cc86c0b843a772cdd6c6a8b7e11c2116c7933f6163d2ef225a87e1d2c121.css">
+  
+
+  
+    
+    <meta property="og:title" content="The Ruby.NET Interview From Down Under"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/2007/03/rubynet-interview-from-down-under.html"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@deadprogram"/>
+    <meta name="twitter:creator" content="@deadprogram"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Dead Programmer SOciety</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>The Ruby.NET Interview From Down Under<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="http://2.bp.blogspot.com/_SgxaAaUGqzY/RghTAsYV18I/AAAAAAAAAAs/gV1gCyi5Oe0/s1600-h/koala.jpg"><img src="http://2.bp.blogspot.com/_SgxaAaUGqzY/RghTAsYV18I/AAAAAAAAAAs/gV1gCyi5Oe0/s200/koala.jpg" alt=""></a>An <a href="http://channel9.msdn.com/showpost.aspx?postid=295197">interview with Dr. Wayne Kelly</a> has been put up on <a href="http://channel9.msdn.com">Channel 9</a>, Microsoft&rsquo;s video interview site. Dr. Kelly is head of the Ruby.NET compiler project at the <a href="http://www.qut.edu.au/">Queensland University of Technology in Australia</a>. As always, I am eager to see progress on the .NET side of the <a href="http://deadprogrammersociety.blogspot.com/2007/03/jruby-has-won-rails-race-vs-net.html">Ruby language wars</a>. I drank my coffee, and put on my phones for the 15 minute interview.</p>
+<p>After watching the video, I must say I am a little underwhelmed. Not to disparage the fine work of the good doctor on this worthy project, far from it. But I was not impressed by his comments about his lack of familiarity with the Ruby language itself. &ldquo;If I was going to do any real Ruby programming, I would have to have the pickaxe book at my side to help me with the syntax, &quot; says Dr. Kelly midway thru the interview.</p>
+<p>Compare that to a zealous Ruby language fan like <a href="http://ola-bini.blogspot.com/search/label/ruby">Ola Bini</a> with the JRuby team. And I say this as a long time detractor of Java! How DARE they flaunt their superiority.</p>
+<p>There were a couple of interesting points, one of which was the trouble with implementing the Ruby.NET compiler by directly matching Ruby language methods to CLR methods. The collection of CLR methods for an assembly being set at compile time, vs. Ruby class and instance methods which are a very fluid and wonderful thing and can be created at any time.</p>
+<p>It was also curious that he said they are not using any of the .NET techniques being pioneered by the IronPython team, like use of dynamic delegates and Lightweight Code Generation. I was really expecting that they would be. At least I would be, if I were them.</p>
+<p>Dr. Kelly was apologetic over his team&rsquo;s missing their self-imposed monthly delivery of updated code. He was so understated, that by the end of the interview I got the feeling that &ldquo;under promise and over deliver&rdquo; wasn&rsquo;t just cliche, but it was this guy&rsquo;s personal mantra. I hope I got the correct impression.</p>
+<p>Let&rsquo;s see some bits, boys! Keep those updates coming&hellip;the race isn&rsquo;t over yet.</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/deadprogram" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/deadprogram" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/deadprogram/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.575671c6da23c3563d465f9cfa3d2857fc0239531a2e8ea1fb6812017653b4d7.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

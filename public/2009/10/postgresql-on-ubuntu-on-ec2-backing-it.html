@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>PostgreSQL on Ubuntu on EC2: Backing It All Up - Dead Programmer SOciety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/2009/10/postgresql-on-ubuntu-on-ec2-backing-it.html" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6b89cc86c0b843a772cdd6c6a8b7e11c2116c7933f6163d2ef225a87e1d2c121.css">
+  
+
+  
+    
+    <meta property="og:title" content="PostgreSQL on Ubuntu on EC2: Backing It All Up"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/2009/10/postgresql-on-ubuntu-on-ec2-backing-it.html"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@deadprogram"/>
+    <meta name="twitter:creator" content="@deadprogram"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Dead Programmer SOciety</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>PostgreSQL on Ubuntu on EC2: Backing It All Up<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="http://1.bp.blogspot.com/_1luLRXKoJM8/SJPNIpIJamI/AAAAAAAAGnQ/QgxlU54iRrU/s400/dean%2Bback.jpg"><img src="http://1.bp.blogspot.com/_1luLRXKoJM8/SJPNIpIJamI/AAAAAAAAGnQ/QgxlU54iRrU/s400/dean%2Bback.jpg" alt=""></a>This post continues what I started with <a href="http://deadprogrammersociety.blogspot.com/2009/08/postgresql-on-ubuntu-on-ec2.html">&ldquo;PostgreSQL on Ubuntu on EC2: The Installation Guide&rdquo;</a>. Once you have your PostgreSQL database server instance running, you will need to backup two different things: your database data, and the instance itself. The database data will be backed up using Elastic Block Storage (EBS) snapshots. Once we have the instance running the backups correctly, we will then create an Amazon Machine Image (AMI) that will allow you to launch a new instance to replace the database server in case it goes down.</p>
+<p><strong>Backing Up The Database</strong><br>
+First, we need to connect to our database server instance via SSH using the ubuntu user.</p>
+<p>We will need to install some dependencies to get our backup script to run:<br>
+<code>sudo apt-get install build-essential   sudo apt-get install ruby1.8-dev   sudo apt-get install rubygems   sudo gem update --system  </code></p>
+<p>You will need to tweak RubyGems so that the update works correctly, as <a href="http://www.videc.at/2009/04/30/rubygems-undefined-method-manage_gems-for-gemmodule-nomethoderror/">described here</a>.</p>
+<p>Now you can install Gemcutter, which is the new ultra cool repository for gems:<br>
+<code>sudo gem install gemcutter   sudo gem tumble  </code></p>
+<p>Finally we are ready to install the Amazon EC2 rubygem:<br>
+<code>sudo gem install amazon-ec2  </code></p>
+<p>Now we can create our backup script. Save this code into the ~/ directory under the name backup_database.rb. You will need to substitute the Amazon ACCESS_KEY_ID and SECRET_ACCESS_KEY, as well and entering the correct EBS volume for the DATABASE_VOLUME constant:<br>
+`<br>
+#!/usr/bin/env ruby</p>
+<p>require &lsquo;rubygems&rsquo;<br>
+require &lsquo;AWS&rsquo;</p>
+<p>ACCESS_KEY_ID = &lsquo;YOUR_ACCESS_KEY&rsquo;<br>
+SECRET_ACCESS_KEY = &lsquo;YOUR_SECRET_ACCESS_KEY&rsquo;<br>
+DATABASE_VOLUME = &lsquo;vol-XXXXXXXX&rsquo;</p>
+<p>puts &ldquo;Starting database snapshot&hellip;&rdquo;<br>
+ec2 = AWS::EC2::Base.new(:access_key_id =&gt; ACCESS_KEY_ID, :secret_access_key =&gt; SECRET_ACCESS_KEY)<br>
+ec2.create_snapshot(:volume_id =&gt; DATABASE_VOLUME)<br>
+puts &ldquo;Database snapshot completed.&rdquo;<br>
+`</p>
+<p>Due to the finicky way that Ruby runs as part of a cron job, we are best off creating a shell script that then runs the Ruby backup script. Save this code into the ~/ directory under the name backup_db.sh:<br>
+<code>#!/bin/sh   cd /home/ubuntu   ruby /home/ubuntu/backup_database.rb  </code></p>
+<p>Don&rsquo;t forget to make the backup shell script executable:<br>
+<code>chmod +x /home/ubuntu/backup_db.sh  </code></p>
+<p>Now we just need to configure this script to run as part of a cron job, so that the backups take place automatically. The crontab command brings up the list of configured cron tasks for the current user:<br>
+<code>crontab -e  </code></p>
+<p>This example crontab entry runs the backup daily at midnight, but you may want it to run more frequently:<br>
+<code>0 0 * * * /home/ubuntu/backup_db.sh  </code></p>
+<p>At this point, you should have a fully functional automated backup system. Verify after midnight that the script has run as you expect, by looking to see if a new snapshot has been created, using Elastifox or however you administrate your EC2 instances.</p>
+<p><strong>Creating The AMI</strong><br>
+Creating the AMI to backup the entire database instance is pretty easy. First, you need to upload the PEM files. Remember you are authenticating as the &ldquo;ubuntu&rdquo; user:<br>
+<code>scp -i id_rsa-gsg-keypair pk-YOUR.pem cert-YOUR.pem ubuntu@domU-12-34-31-00-00-05.usma1.compute.amazonaws.com:  </code></p>
+<p>Use your SSH connection into the database server instance to copy the PEM files to the /mnt directory:<br>
+<code>sudo cp /home/ubuntu/*.pem /mnt  </code></p>
+<p>Now create the bundle. Make sure you use your Amazon account number (without dashes) as the value for the -u parameter. This can take quite a while, so do not get impatient:<br>
+<code>sudo ec2-bundle-vol -d /mnt -k /mnt/pk-YOUR.pem -c /mnt/cert-YOUR.pem -r i386 -u YOURUSERACCOUNTNUMBER  </code></p>
+<p>You can now upload the bundle to your Amazon S3 account, in preparation for making available as an AMI. Use something versioned for the -b parameter which is the name of the bundle:<br>
+<code>sudo ec2-upload-bundle -b my-database-server-1.0-ami -m /mnt/image.manifest.xml -a YOUR_ACCESS_KEY -s YOUR_SECRET_ACCESS_KEY  </code></p>
+<p>Final step is going back to your local machine, and making the newly created bundle available to be used to start a new instance:<br>
+<code>ec2-register my-database-server-1.0-ami/image.manifest.xml  </code></p>
+<p>You can now now launch a brand new database server instance based on this AMI, and it will be a clone of your existing database server. This is the procedure you would follow if you need to restore your database server instance from backups.</p>
+<p><strong>Restoring Your Database Server From The Backups</strong><br>
+In the case that something goes terribly terribly wrong, you can get back to normal as follows:<br>
+- startup a new EBS volume from your most recent snapshot backup,<br>
+- start up a new server from your database AMI<br>
+- configure your new server instance to use the new volume started from the backup data<br>
+- switch your elastic IP to point to the new server, or update the references in your application to point to the new server</p>
+<p>This concludes part 2 of the great PostgreSQL config post for the EC2 cloud. Hopefully it will help you with a nice simple way to take the basic PostgreSQL instance that you got up and running on Ubuntu/EC2 using the directions in the <a href="http://deadprogrammersociety.blogspot.com/2009/08/postgresql-on-ubuntu-on-ec2.html">part 1 post</a>, and add the confidence that backed up data and a completely reproducible configuration provides.</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/deadprogram" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/deadprogram" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/deadprogram/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.575671c6da23c3563d465f9cfa3d2857fc0239531a2e8ea1fb6812017653b4d7.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

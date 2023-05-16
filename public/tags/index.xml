@@ -1,0 +1,1559 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Dead Programmer SOciety</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Nov 2010 23:05:00 -0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>google analytics</title>
+      <link>/tags/google-analytics/</link>
+      <pubDate>Tue, 30 Nov 2010 23:05:00 -0800</pubDate>
+      
+      <guid>/tags/google-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rails</title>
+      <link>/tags/rails/</link>
+      <pubDate>Tue, 30 Nov 2010 23:05:00 -0800</pubDate>
+      
+      <guid>/tags/rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby</title>
+      <link>/tags/ruby/</link>
+      <pubDate>Tue, 30 Nov 2010 23:05:00 -0800</pubDate>
+      
+      <guid>/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby on rails</title>
+      <link>/tags/ruby-on-rails/</link>
+      <pubDate>Tue, 30 Nov 2010 23:05:00 -0800</pubDate>
+      
+      <guid>/tags/ruby-on-rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rubyconf</title>
+      <link>/tags/rubyconf/</link>
+      <pubDate>Wed, 17 Nov 2010 07:20:00 -0800</pubDate>
+      
+      <guid>/tags/rubyconf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rubyconf2010</title>
+      <link>/tags/rubyconf2010/</link>
+      <pubDate>Wed, 17 Nov 2010 07:20:00 -0800</pubDate>
+      
+      <guid>/tags/rubyconf2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AdaLovelaceDay10</title>
+      <link>/tags/adalovelaceday10/</link>
+      <pubDate>Wed, 24 Mar 2010 09:44:00 -0700</pubDate>
+      
+      <guid>/tags/adalovelaceday10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AdaLovelaceDay2010</title>
+      <link>/tags/adalovelaceday2010/</link>
+      <pubDate>Wed, 24 Mar 2010 09:44:00 -0700</pubDate>
+      
+      <guid>/tags/adalovelaceday2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>female programmers</title>
+      <link>/tags/female-programmers/</link>
+      <pubDate>Wed, 24 Mar 2010 09:44:00 -0700</pubDate>
+      
+      <guid>/tags/female-programmers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ec2</title>
+      <link>/tags/ec2/</link>
+      <pubDate>Thu, 04 Mar 2010 10:30:00 -0800</pubDate>
+      
+      <guid>/tags/ec2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>engine yard</title>
+      <link>/tags/engine-yard/</link>
+      <pubDate>Thu, 04 Mar 2010 10:30:00 -0800</pubDate>
+      
+      <guid>/tags/engine-yard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ey-cloud</title>
+      <link>/tags/ey-cloud/</link>
+      <pubDate>Thu, 04 Mar 2010 10:30:00 -0800</pubDate>
+      
+      <guid>/tags/ey-cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>los angeles rubyconf</title>
+      <link>/tags/los-angeles-rubyconf/</link>
+      <pubDate>Mon, 22 Feb 2010 11:40:00 -0800</pubDate>
+      
+      <guid>/tags/los-angeles-rubyconf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>android</title>
+      <link>/tags/android/</link>
+      <pubDate>Mon, 18 Jan 2010 08:30:00 -0800</pubDate>
+      
+      <guid>/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>/tags/git/</link>
+      <pubDate>Mon, 18 Jan 2010 08:30:00 -0800</pubDate>
+      
+      <guid>/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iphone</title>
+      <link>/tags/iphone/</link>
+      <pubDate>Mon, 18 Jan 2010 08:30:00 -0800</pubDate>
+      
+      <guid>/tags/iphone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mobile</title>
+      <link>/tags/mobile/</link>
+      <pubDate>Mon, 18 Jan 2010 08:30:00 -0800</pubDate>
+      
+      <guid>/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>phonegap</title>
+      <link>/tags/phonegap/</link>
+      <pubDate>Mon, 18 Jan 2010 08:30:00 -0800</pubDate>
+      
+      <guid>/tags/phonegap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>charting</title>
+      <link>/tags/charting/</link>
+      <pubDate>Tue, 12 Jan 2010 12:12:00 -0800</pubDate>
+      
+      <guid>/tags/charting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sparkline</title>
+      <link>/tags/sparkline/</link>
+      <pubDate>Tue, 12 Jan 2010 12:12:00 -0800</pubDate>
+      
+      <guid>/tags/sparkline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>code2009</title>
+      <link>/tags/code2009/</link>
+      <pubDate>Thu, 31 Dec 2009 09:07:00 -0800</pubDate>
+      
+      <guid>/tags/code2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flying robot</title>
+      <link>/tags/flying-robot/</link>
+      <pubDate>Mon, 16 Nov 2009 08:15:00 -0800</pubDate>
+      
+      <guid>/tags/flying-robot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postgres</title>
+      <link>/tags/postgres/</link>
+      <pubDate>Sat, 10 Oct 2009 11:19:00 -0700</pubDate>
+      
+      <guid>/tags/postgres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>/tags/ubuntu/</link>
+      <pubDate>Sat, 10 Oct 2009 11:19:00 -0700</pubDate>
+      
+      <guid>/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ebs</title>
+      <link>/tags/ebs/</link>
+      <pubDate>Sat, 15 Aug 2009 01:27:00 -0700</pubDate>
+      
+      <guid>/tags/ebs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xfs</title>
+      <link>/tags/xfs/</link>
+      <pubDate>Sat, 15 Aug 2009 01:27:00 -0700</pubDate>
+      
+      <guid>/tags/xfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>futureruby</title>
+      <link>/tags/futureruby/</link>
+      <pubDate>Sat, 25 Jul 2009 09:37:00 -0700</pubDate>
+      
+      <guid>/tags/futureruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>arduino</title>
+      <link>/tags/arduino/</link>
+      <pubDate>Sun, 05 Jul 2009 09:55:00 -0700</pubDate>
+      
+      <guid>/tags/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby arduino development</title>
+      <link>/tags/ruby-arduino-development/</link>
+      <pubDate>Sun, 05 Jul 2009 09:55:00 -0700</pubDate>
+      
+      <guid>/tags/ruby-arduino-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uav</title>
+      <link>/tags/uav/</link>
+      <pubDate>Sun, 05 Jul 2009 09:55:00 -0700</pubDate>
+      
+      <guid>/tags/uav/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unmanned aerial vehicles</title>
+      <link>/tags/unmanned-aerial-vehicles/</link>
+      <pubDate>Sun, 05 Jul 2009 09:55:00 -0700</pubDate>
+      
+      <guid>/tags/unmanned-aerial-vehicles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blimpduino</title>
+      <link>/tags/blimpduino/</link>
+      <pubDate>Wed, 03 Jun 2009 21:12:00 -0700</pubDate>
+      
+      <guid>/tags/blimpduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>railsconf</title>
+      <link>/tags/railsconf/</link>
+      <pubDate>Sun, 17 May 2009 15:17:00 -0700</pubDate>
+      
+      <guid>/tags/railsconf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>railsconf 2009</title>
+      <link>/tags/railsconf-2009/</link>
+      <pubDate>Sun, 17 May 2009 15:17:00 -0700</pubDate>
+      
+      <guid>/tags/railsconf-2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud computing</title>
+      <link>/tags/cloud-computing/</link>
+      <pubDate>Wed, 29 Apr 2009 09:28:00 -0700</pubDate>
+      
+      <guid>/tags/cloud-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>heroku</title>
+      <link>/tags/heroku/</link>
+      <pubDate>Wed, 29 Apr 2009 09:28:00 -0700</pubDate>
+      
+      <guid>/tags/heroku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rack</title>
+      <link>/tags/rack/</link>
+      <pubDate>Wed, 29 Apr 2009 09:28:00 -0700</pubDate>
+      
+      <guid>/tags/rack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sinatra</title>
+      <link>/tags/sinatra/</link>
+      <pubDate>Tue, 14 Apr 2009 11:23:00 -0700</pubDate>
+      
+      <guid>/tags/sinatra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>keynote</title>
+      <link>/tags/keynote/</link>
+      <pubDate>Wed, 08 Apr 2009 10:12:00 -0700</pubDate>
+      
+      <guid>/tags/keynote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>larubyconf</title>
+      <link>/tags/larubyconf/</link>
+      <pubDate>Wed, 08 Apr 2009 10:12:00 -0700</pubDate>
+      
+      <guid>/tags/larubyconf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>larubyconf2009</title>
+      <link>/tags/larubyconf2009/</link>
+      <pubDate>Wed, 08 Apr 2009 10:12:00 -0700</pubDate>
+      
+      <guid>/tags/larubyconf2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>agile development</title>
+      <link>/tags/agile-development/</link>
+      <pubDate>Sun, 05 Apr 2009 20:51:00 -0700</pubDate>
+      
+      <guid>/tags/agile-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>danny blitz</title>
+      <link>/tags/danny-blitz/</link>
+      <pubDate>Sun, 05 Apr 2009 20:51:00 -0700</pubDate>
+      
+      <guid>/tags/danny-blitz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sequel</title>
+      <link>/tags/sequel/</link>
+      <pubDate>Sun, 05 Apr 2009 20:22:00 -0700</pubDate>
+      
+      <guid>/tags/sequel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xml</title>
+      <link>/tags/xml/</link>
+      <pubDate>Sun, 05 Apr 2009 08:49:00 -0700</pubDate>
+      
+      <guid>/tags/xml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby waves</title>
+      <link>/tags/ruby-waves/</link>
+      <pubDate>Sun, 05 Apr 2009 08:35:00 -0700</pubDate>
+      
+      <guid>/tags/ruby-waves/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>twitter</title>
+      <link>/tags/twitter/</link>
+      <pubDate>Tue, 31 Mar 2009 12:28:00 -0700</pubDate>
+      
+      <guid>/tags/twitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AdaLovelaceDay09</title>
+      <link>/tags/adalovelaceday09/</link>
+      <pubDate>Tue, 24 Mar 2009 09:59:00 -0700</pubDate>
+      
+      <guid>/tags/adalovelaceday09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rad</title>
+      <link>/tags/rad/</link>
+      <pubDate>Sun, 15 Mar 2009 17:57:00 -0700</pubDate>
+      
+      <guid>/tags/rad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>user interface</title>
+      <link>/tags/user-interface/</link>
+      <pubDate>Fri, 06 Mar 2009 11:35:00 -0800</pubDate>
+      
+      <guid>/tags/user-interface/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web development</title>
+      <link>/tags/web-development/</link>
+      <pubDate>Fri, 06 Mar 2009 11:35:00 -0800</pubDate>
+      
+      <guid>/tags/web-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dorkboard</title>
+      <link>/tags/dorkboard/</link>
+      <pubDate>Sat, 28 Feb 2009 08:53:00 -0800</pubDate>
+      
+      <guid>/tags/dorkboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>railsconf2009</title>
+      <link>/tags/railsconf2009/</link>
+      <pubDate>Fri, 27 Feb 2009 15:07:00 -0800</pubDate>
+      
+      <guid>/tags/railsconf2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>digital compass</title>
+      <link>/tags/digital-compass/</link>
+      <pubDate>Thu, 26 Feb 2009 11:01:00 -0800</pubDate>
+      
+      <guid>/tags/digital-compass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hmc6352</title>
+      <link>/tags/hmc6352/</link>
+      <pubDate>Thu, 26 Feb 2009 11:01:00 -0800</pubDate>
+      
+      <guid>/tags/hmc6352/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>instruments</title>
+      <link>/tags/instruments/</link>
+      <pubDate>Thu, 26 Feb 2009 11:01:00 -0800</pubDate>
+      
+      <guid>/tags/instruments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pololu</title>
+      <link>/tags/pololu/</link>
+      <pubDate>Thu, 26 Feb 2009 11:01:00 -0800</pubDate>
+      
+      <guid>/tags/pololu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jazz</title>
+      <link>/tags/jazz/</link>
+      <pubDate>Wed, 25 Feb 2009 17:28:00 -0800</pubDate>
+      
+      <guid>/tags/jazz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>/tags/music/</link>
+      <pubDate>Wed, 25 Feb 2009 17:28:00 -0800</pubDate>
+      
+      <guid>/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>capistrano</title>
+      <link>/tags/capistrano/</link>
+      <pubDate>Wed, 25 Feb 2009 09:38:00 -0800</pubDate>
+      
+      <guid>/tags/capistrano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open source development</title>
+      <link>/tags/open-source-development/</link>
+      <pubDate>Wed, 25 Feb 2009 09:38:00 -0800</pubDate>
+      
+      <guid>/tags/open-source-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wireless</title>
+      <link>/tags/wireless/</link>
+      <pubDate>Sun, 22 Feb 2009 10:38:00 -0800</pubDate>
+      
+      <guid>/tags/wireless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xbee</title>
+      <link>/tags/xbee/</link>
+      <pubDate>Sun, 22 Feb 2009 10:38:00 -0800</pubDate>
+      
+      <guid>/tags/xbee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zigbee</title>
+      <link>/tags/zigbee/</link>
+      <pubDate>Sun, 22 Feb 2009 10:38:00 -0800</pubDate>
+      
+      <guid>/tags/zigbee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>los angeles</title>
+      <link>/tags/los-angeles/</link>
+      <pubDate>Fri, 20 Feb 2009 00:08:00 -0800</pubDate>
+      
+      <guid>/tags/los-angeles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>merb</title>
+      <link>/tags/merb/</link>
+      <pubDate>Fri, 20 Feb 2009 00:08:00 -0800</pubDate>
+      
+      <guid>/tags/merb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>apache</title>
+      <link>/tags/apache/</link>
+      <pubDate>Tue, 10 Feb 2009 09:37:00 -0800</pubDate>
+      
+      <guid>/tags/apache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jquery</title>
+      <link>/tags/jquery/</link>
+      <pubDate>Tue, 10 Feb 2009 09:37:00 -0800</pubDate>
+      
+      <guid>/tags/jquery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>json-p</title>
+      <link>/tags/json-p/</link>
+      <pubDate>Tue, 10 Feb 2009 09:37:00 -0800</pubDate>
+      
+      <guid>/tags/json-p/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jsonp</title>
+      <link>/tags/jsonp/</link>
+      <pubDate>Tue, 10 Feb 2009 09:37:00 -0800</pubDate>
+      
+      <guid>/tags/jsonp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>passenger</title>
+      <link>/tags/passenger/</link>
+      <pubDate>Tue, 10 Feb 2009 09:37:00 -0800</pubDate>
+      
+      <guid>/tags/passenger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>upload progress</title>
+      <link>/tags/upload-progress/</link>
+      <pubDate>Tue, 10 Feb 2009 09:37:00 -0800</pubDate>
+      
+      <guid>/tags/upload-progress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kids</title>
+      <link>/tags/kids/</link>
+      <pubDate>Sat, 07 Feb 2009 08:37:00 -0800</pubDate>
+      
+      <guid>/tags/kids/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kids programming</title>
+      <link>/tags/kids-programming/</link>
+      <pubDate>Sat, 07 Feb 2009 08:37:00 -0800</pubDate>
+      
+      <guid>/tags/kids-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>async</title>
+      <link>/tags/async/</link>
+      <pubDate>Wed, 28 Jan 2009 10:31:00 -0800</pubDate>
+      
+      <guid>/tags/async/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>asynchronous processing</title>
+      <link>/tags/asynchronous-processing/</link>
+      <pubDate>Wed, 28 Jan 2009 10:31:00 -0800</pubDate>
+      
+      <guid>/tags/asynchronous-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multithreading</title>
+      <link>/tags/multithreading/</link>
+      <pubDate>Wed, 28 Jan 2009 10:31:00 -0800</pubDate>
+      
+      <guid>/tags/multithreading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spork</title>
+      <link>/tags/spork/</link>
+      <pubDate>Wed, 28 Jan 2009 10:31:00 -0800</pubDate>
+      
+      <guid>/tags/spork/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>democracy</title>
+      <link>/tags/democracy/</link>
+      <pubDate>Wed, 28 Jan 2009 08:21:00 -0800</pubDate>
+      
+      <guid>/tags/democracy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jury service</title>
+      <link>/tags/jury-service/</link>
+      <pubDate>Wed, 28 Jan 2009 08:21:00 -0800</pubDate>
+      
+      <guid>/tags/jury-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grep</title>
+      <link>/tags/grep/</link>
+      <pubDate>Fri, 23 Jan 2009 08:58:00 -0800</pubDate>
+      
+      <guid>/tags/grep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>textmate</title>
+      <link>/tags/textmate/</link>
+      <pubDate>Fri, 23 Jan 2009 08:58:00 -0800</pubDate>
+      
+      <guid>/tags/textmate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>integrity</title>
+      <link>/tags/integrity/</link>
+      <pubDate>Wed, 21 Jan 2009 08:16:00 -0800</pubDate>
+      
+      <guid>/tags/integrity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rubyconf 2008</title>
+      <link>/tags/rubyconf-2008/</link>
+      <pubDate>Thu, 13 Nov 2008 09:07:00 -0800</pubDate>
+      
+      <guid>/tags/rubyconf-2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rubyconf2008</title>
+      <link>/tags/rubyconf2008/</link>
+      <pubDate>Thu, 13 Nov 2008 09:07:00 -0800</pubDate>
+      
+      <guid>/tags/rubyconf2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test-driven development</title>
+      <link>/tags/test-driven-development/</link>
+      <pubDate>Thu, 13 Nov 2008 09:07:00 -0800</pubDate>
+      
+      <guid>/tags/test-driven-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rush</title>
+      <link>/tags/rush/</link>
+      <pubDate>Tue, 11 Nov 2008 06:54:00 -0800</pubDate>
+      
+      <guid>/tags/rush/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rush shell</title>
+      <link>/tags/rush-shell/</link>
+      <pubDate>Tue, 11 Nov 2008 06:54:00 -0800</pubDate>
+      
+      <guid>/tags/rush-shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rubinius</title>
+      <link>/tags/rubinius/</link>
+      <pubDate>Mon, 10 Nov 2008 21:21:00 -0800</pubDate>
+      
+      <guid>/tags/rubinius/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby vm</title>
+      <link>/tags/ruby-vm/</link>
+      <pubDate>Mon, 10 Nov 2008 10:13:00 -0800</pubDate>
+      
+      <guid>/tags/ruby-vm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vote</title>
+      <link>/tags/vote/</link>
+      <pubDate>Tue, 04 Nov 2008 13:50:00 -0800</pubDate>
+      
+      <guid>/tags/vote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>comatose</title>
+      <link>/tags/comatose/</link>
+      <pubDate>Tue, 04 Nov 2008 10:50:00 -0800</pubDate>
+      
+      <guid>/tags/comatose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>halloween</title>
+      <link>/tags/halloween/</link>
+      <pubDate>Fri, 31 Oct 2008 09:24:00 -0700</pubDate>
+      
+      <guid>/tags/halloween/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>msysgit</title>
+      <link>/tags/msysgit/</link>
+      <pubDate>Sun, 26 Oct 2008 10:15:00 -0700</pubDate>
+      
+      <guid>/tags/msysgit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>subversion</title>
+      <link>/tags/subversion/</link>
+      <pubDate>Sun, 26 Oct 2008 10:15:00 -0700</pubDate>
+      
+      <guid>/tags/subversion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>svn</title>
+      <link>/tags/svn/</link>
+      <pubDate>Sun, 26 Oct 2008 10:15:00 -0700</pubDate>
+      
+      <guid>/tags/svn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bdd</title>
+      <link>/tags/bdd/</link>
+      <pubDate>Sat, 25 Oct 2008 16:15:00 -0700</pubDate>
+      
+      <guid>/tags/bdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cucumber</title>
+      <link>/tags/cucumber/</link>
+      <pubDate>Sat, 25 Oct 2008 16:15:00 -0700</pubDate>
+      
+      <guid>/tags/cucumber/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rspec</title>
+      <link>/tags/rspec/</link>
+      <pubDate>Sat, 25 Oct 2008 16:15:00 -0700</pubDate>
+      
+      <guid>/tags/rspec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>railsconf 2008</title>
+      <link>/tags/railsconf-2008/</link>
+      <pubDate>Sun, 08 Jun 2008 21:14:00 -0700</pubDate>
+      
+      <guid>/tags/railsconf-2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>railsconf2008</title>
+      <link>/tags/railsconf2008/</link>
+      <pubDate>Sun, 08 Jun 2008 21:14:00 -0700</pubDate>
+      
+      <guid>/tags/railsconf2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>going public</title>
+      <link>/tags/going-public/</link>
+      <pubDate>Wed, 04 Jun 2008 11:31:00 -0700</pubDate>
+      
+      <guid>/tags/going-public/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>public transportation</title>
+      <link>/tags/public-transportation/</link>
+      <pubDate>Wed, 04 Jun 2008 11:31:00 -0700</pubDate>
+      
+      <guid>/tags/public-transportation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>electric car</title>
+      <link>/tags/electric-car/</link>
+      <pubDate>Tue, 27 May 2008 18:40:00 -0700</pubDate>
+      
+      <guid>/tags/electric-car/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oil dependency</title>
+      <link>/tags/oil-dependency/</link>
+      <pubDate>Tue, 27 May 2008 18:40:00 -0700</pubDate>
+      
+      <guid>/tags/oil-dependency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>behavioral finance</title>
+      <link>/tags/behavioral-finance/</link>
+      <pubDate>Tue, 27 May 2008 10:00:00 -0700</pubDate>
+      
+      <guid>/tags/behavioral-finance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>free</title>
+      <link>/tags/free/</link>
+      <pubDate>Tue, 27 May 2008 10:00:00 -0700</pubDate>
+      
+      <guid>/tags/free/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zero effect</title>
+      <link>/tags/zero-effect/</link>
+      <pubDate>Tue, 27 May 2008 10:00:00 -0700</pubDate>
+      
+      <guid>/tags/zero-effect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mars</title>
+      <link>/tags/mars/</link>
+      <pubDate>Sun, 25 May 2008 16:58:00 -0700</pubDate>
+      
+      <guid>/tags/mars/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>space</title>
+      <link>/tags/space/</link>
+      <pubDate>Sun, 25 May 2008 16:58:00 -0700</pubDate>
+      
+      <guid>/tags/space/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>china</title>
+      <link>/tags/china/</link>
+      <pubDate>Thu, 22 May 2008 07:40:00 -0700</pubDate>
+      
+      <guid>/tags/china/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>freedom</title>
+      <link>/tags/freedom/</link>
+      <pubDate>Thu, 22 May 2008 07:40:00 -0700</pubDate>
+      
+      <guid>/tags/freedom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>police state</title>
+      <link>/tags/police-state/</link>
+      <pubDate>Thu, 22 May 2008 07:40:00 -0700</pubDate>
+      
+      <guid>/tags/police-state/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>surveillance</title>
+      <link>/tags/surveillance/</link>
+      <pubDate>Thu, 22 May 2008 07:40:00 -0700</pubDate>
+      
+      <guid>/tags/surveillance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>acts_as_ferret</title>
+      <link>/tags/acts_as_ferret/</link>
+      <pubDate>Mon, 19 May 2008 15:09:00 -0700</pubDate>
+      
+      <guid>/tags/acts_as_ferret/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ferret</title>
+      <link>/tags/ferret/</link>
+      <pubDate>Mon, 19 May 2008 15:09:00 -0700</pubDate>
+      
+      <guid>/tags/ferret/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mysql</title>
+      <link>/tags/mysql/</link>
+      <pubDate>Mon, 19 May 2008 15:09:00 -0700</pubDate>
+      
+      <guid>/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sphinx</title>
+      <link>/tags/sphinx/</link>
+      <pubDate>Mon, 19 May 2008 15:09:00 -0700</pubDate>
+      
+      <guid>/tags/sphinx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thinking sphinx</title>
+      <link>/tags/thinking-sphinx/</link>
+      <pubDate>Mon, 19 May 2008 15:09:00 -0700</pubDate>
+      
+      <guid>/tags/thinking-sphinx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming languages</title>
+      <link>/tags/programming-languages/</link>
+      <pubDate>Tue, 13 May 2008 21:05:00 -0700</pubDate>
+      
+      <guid>/tags/programming-languages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>microsoft</title>
+      <link>/tags/microsoft/</link>
+      <pubDate>Fri, 02 May 2008 14:29:00 -0700</pubDate>
+      
+      <guid>/tags/microsoft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>softer side of development</title>
+      <link>/tags/softer-side-of-development/</link>
+      <pubDate>Fri, 02 May 2008 14:29:00 -0700</pubDate>
+      
+      <guid>/tags/softer-side-of-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>facebook</title>
+      <link>/tags/facebook/</link>
+      <pubDate>Wed, 23 Apr 2008 08:38:00 -0700</pubDate>
+      
+      <guid>/tags/facebook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>facebooker</title>
+      <link>/tags/facebooker/</link>
+      <pubDate>Wed, 23 Apr 2008 08:38:00 -0700</pubDate>
+      
+      <guid>/tags/facebooker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>frankie</title>
+      <link>/tags/frankie/</link>
+      <pubDate>Wed, 23 Apr 2008 08:38:00 -0700</pubDate>
+      
+      <guid>/tags/frankie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grid computing</title>
+      <link>/tags/grid-computing/</link>
+      <pubDate>Wed, 23 Apr 2008 08:38:00 -0700</pubDate>
+      
+      <guid>/tags/grid-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cool stuff</title>
+      <link>/tags/cool-stuff/</link>
+      <pubDate>Thu, 17 Apr 2008 07:51:00 -0700</pubDate>
+      
+      <guid>/tags/cool-stuff/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>history</title>
+      <link>/tags/history/</link>
+      <pubDate>Thu, 17 Apr 2008 07:51:00 -0700</pubDate>
+      
+      <guid>/tags/history/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>knowledge</title>
+      <link>/tags/knowledge/</link>
+      <pubDate>Thu, 17 Apr 2008 07:51:00 -0700</pubDate>
+      
+      <guid>/tags/knowledge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>math</title>
+      <link>/tags/math/</link>
+      <pubDate>Thu, 17 Apr 2008 07:51:00 -0700</pubDate>
+      
+      <guid>/tags/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kill rock stars</title>
+      <link>/tags/kill-rock-stars/</link>
+      <pubDate>Sat, 01 Mar 2008 16:51:00 -0800</pubDate>
+      
+      <guid>/tags/kill-rock-stars/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>press</title>
+      <link>/tags/press/</link>
+      <pubDate>Sat, 01 Mar 2008 16:51:00 -0800</pubDate>
+      
+      <guid>/tags/press/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unix</title>
+      <link>/tags/unix/</link>
+      <pubDate>Wed, 20 Feb 2008 14:20:00 -0800</pubDate>
+      
+      <guid>/tags/unix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>s3</title>
+      <link>/tags/s3/</link>
+      <pubDate>Wed, 20 Feb 2008 11:18:00 -0800</pubDate>
+      
+      <guid>/tags/s3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>robotics</title>
+      <link>/tags/robotics/</link>
+      <pubDate>Tue, 05 Feb 2008 07:35:00 -0800</pubDate>
+      
+      <guid>/tags/robotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ironruby</title>
+      <link>/tags/ironruby/</link>
+      <pubDate>Tue, 05 Feb 2008 06:05:00 -0800</pubDate>
+      
+      <guid>/tags/ironruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby.net</title>
+      <link>/tags/ruby.net/</link>
+      <pubDate>Tue, 05 Feb 2008 06:05:00 -0800</pubDate>
+      
+      <guid>/tags/ruby.net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>recaptcha</title>
+      <link>/tags/recaptcha/</link>
+      <pubDate>Fri, 01 Feb 2008 14:54:00 -0800</pubDate>
+      
+      <guid>/tags/recaptcha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>patents</title>
+      <link>/tags/patents/</link>
+      <pubDate>Tue, 29 Jan 2008 08:27:00 -0800</pubDate>
+      
+      <guid>/tags/patents/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>s3 folders</title>
+      <link>/tags/s3-folders/</link>
+      <pubDate>Fri, 11 Jan 2008 17:26:00 -0800</pubDate>
+      
+      <guid>/tags/s3-folders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>business</title>
+      <link>/tags/business/</link>
+      <pubDate>Thu, 03 Jan 2008 10:30:00 -0800</pubDate>
+      
+      <guid>/tags/business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rubyconf 2007</title>
+      <link>/tags/rubyconf-2007/</link>
+      <pubDate>Mon, 19 Nov 2007 05:52:00 -0800</pubDate>
+      
+      <guid>/tags/rubyconf-2007/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rubyconf2007</title>
+      <link>/tags/rubyconf2007/</link>
+      <pubDate>Mon, 19 Nov 2007 05:52:00 -0800</pubDate>
+      
+      <guid>/tags/rubyconf2007/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>werewolf</title>
+      <link>/tags/werewolf/</link>
+      <pubDate>Mon, 19 Nov 2007 05:52:00 -0800</pubDate>
+      
+      <guid>/tags/werewolf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jruby</title>
+      <link>/tags/jruby/</link>
+      <pubDate>Tue, 06 Nov 2007 13:38:00 -0800</pubDate>
+      
+      <guid>/tags/jruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>silverlight</title>
+      <link>/tags/silverlight/</link>
+      <pubDate>Tue, 06 Nov 2007 13:38:00 -0800</pubDate>
+      
+      <guid>/tags/silverlight/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sun</title>
+      <link>/tags/sun/</link>
+      <pubDate>Tue, 06 Nov 2007 13:38:00 -0800</pubDate>
+      
+      <guid>/tags/sun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>good code</title>
+      <link>/tags/good-code/</link>
+      <pubDate>Mon, 05 Nov 2007 10:57:00 -0800</pubDate>
+      
+      <guid>/tags/good-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software architecture</title>
+      <link>/tags/software-architecture/</link>
+      <pubDate>Mon, 05 Nov 2007 10:57:00 -0800</pubDate>
+      
+      <guid>/tags/software-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>domain specific languages</title>
+      <link>/tags/domain-specific-languages/</link>
+      <pubDate>Wed, 24 Oct 2007 09:16:00 -0700</pubDate>
+      
+      <guid>/tags/domain-specific-languages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cruisecontrol.rb</title>
+      <link>/tags/cruisecontrol.rb/</link>
+      <pubDate>Wed, 24 Oct 2007 08:17:00 -0700</pubDate>
+      
+      <guid>/tags/cruisecontrol.rb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>databases</title>
+      <link>/tags/databases/</link>
+      <pubDate>Fri, 19 Oct 2007 07:52:00 -0700</pubDate>
+      
+      <guid>/tags/databases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>venture capital</title>
+      <link>/tags/venture-capital/</link>
+      <pubDate>Wed, 10 Oct 2007 16:17:00 -0700</pubDate>
+      
+      <guid>/tags/venture-capital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visualization</title>
+      <link>/tags/visualization/</link>
+      <pubDate>Wed, 08 Aug 2007 18:11:00 -0700</pubDate>
+      
+      <guid>/tags/visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>beer</title>
+      <link>/tags/beer/</link>
+      <pubDate>Thu, 26 Jul 2007 22:39:00 -0700</pubDate>
+      
+      <guid>/tags/beer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ai</title>
+      <link>/tags/ai/</link>
+      <pubDate>Sat, 21 Jul 2007 09:14:00 -0700</pubDate>
+      
+      <guid>/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>continuous integration</title>
+      <link>/tags/continuous-integration/</link>
+      <pubDate>Sun, 24 Jun 2007 09:00:00 -0700</pubDate>
+      
+      <guid>/tags/continuous-integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>testdriven.net</title>
+      <link>/tags/testdriven.net/</link>
+      <pubDate>Fri, 01 Jun 2007 21:01:00 -0700</pubDate>
+      
+      <guid>/tags/testdriven.net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>railsconf2007</title>
+      <link>/tags/railsconf2007/</link>
+      <pubDate>Wed, 30 May 2007 15:00:00 -0700</pubDate>
+      
+      <guid>/tags/railsconf2007/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>railsconf on beer</title>
+      <link>/tags/railsconf-on-beer/</link>
+      <pubDate>Tue, 22 May 2007 10:30:00 -0700</pubDate>
+      
+      <guid>/tags/railsconf-on-beer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vacation</title>
+      <link>/tags/vacation/</link>
+      <pubDate>Thu, 10 May 2007 07:26:00 -0700</pubDate>
+      
+      <guid>/tags/vacation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>attachment_fu</title>
+      <link>/tags/attachment_fu/</link>
+      <pubDate>Thu, 26 Apr 2007 13:25:00 -0700</pubDate>
+      
+      <guid>/tags/attachment_fu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mac</title>
+      <link>/tags/mac/</link>
+      <pubDate>Tue, 10 Apr 2007 00:17:00 -0700</pubDate>
+      
+      <guid>/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>e the editor</title>
+      <link>/tags/e-the-editor/</link>
+      <pubDate>Wed, 28 Mar 2007 16:35:00 -0700</pubDate>
+      
+      <guid>/tags/e-the-editor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aptana</title>
+      <link>/tags/aptana/</link>
+      <pubDate>Mon, 12 Mar 2007 21:00:00 -0700</pubDate>
+      
+      <guid>/tags/aptana/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>radrails</title>
+      <link>/tags/radrails/</link>
+      <pubDate>Mon, 12 Mar 2007 21:00:00 -0700</pubDate>
+      
+      <guid>/tags/radrails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vista</title>
+      <link>/tags/vista/</link>
+      <pubDate>Mon, 12 Feb 2007 09:49:00 -0800</pubDate>
+      
+      <guid>/tags/vista/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OSX</title>
+      <link>/tags/osx/</link>
+      <pubDate>Thu, 08 Feb 2007 19:10:00 -0800</pubDate>
+      
+      <guid>/tags/osx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>/tags/windows/</link>
+      <pubDate>Thu, 08 Feb 2007 19:10:00 -0800</pubDate>
+      
+      <guid>/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>be prepared</title>
+      <link>/tags/be-prepared/</link>
+      <pubDate>Thu, 01 Feb 2007 17:33:00 -0800</pubDate>
+      
+      <guid>/tags/be-prepared/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hebruby</title>
+      <link>/tags/hebruby/</link>
+      <pubDate>Sat, 25 Nov 2006 13:20:00 -0800</pubDate>
+      
+      <guid>/tags/hebruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software metrics</title>
+      <link>/tags/software-metrics/</link>
+      <pubDate>Mon, 13 Nov 2006 20:41:00 -0800</pubDate>
+      
+      <guid>/tags/software-metrics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

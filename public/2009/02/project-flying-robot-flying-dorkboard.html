@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Project Flying Robot: The Flying Dorkboard - Dead Programmer SOciety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/2009/02/project-flying-robot-flying-dorkboard.html" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6b89cc86c0b843a772cdd6c6a8b7e11c2116c7933f6163d2ef225a87e1d2c121.css">
+  
+
+  
+    
+    <meta property="og:title" content="Project Flying Robot: The Flying Dorkboard"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/2009/02/project-flying-robot-flying-dorkboard.html"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@deadprogram"/>
+    <meta name="twitter:creator" content="@deadprogram"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Dead Programmer SOciety</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Project Flying Robot: The Flying Dorkboard<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="http://3.bp.blogspot.com/_2iIswAD6O1U/SaRAXOWcBSI/AAAAAAAAAAw/t2qntX2W2lA/s320/Pictures+122.jpg"><img src="http://3.bp.blogspot.com/_2iIswAD6O1U/SaRAXOWcBSI/AAAAAAAAAAw/t2qntX2W2lA/s320/Pictures+122.jpg" alt=""></a>As we proceeded along with our <a href="http://github.com/deadprogrammer/flying_robot/tree/master">flying_robot</a> project, one thing became abundantly clear: weight matters. The <a href="http://www.arduino.cc/en/Main/ArduinoBoardDiecimila">Arduino Diecimilla</a> that we had been using up to this point, although a fine package for beginners, was just not going to make it when it came time to weigh in. Yes, there is the <a href="http://www.arduino.cc/en/Main/ArduinoBoardNano">Arduino Nano</a>, but it is not a cheap device. Also, it has a few options that were not important to us, like the integrated USB, since we planned on only using <a href="http://www.digi.com/technology/wireless/products.jsp">XBee</a> based communication with the blimp.</p>
+<p>I had been doing some research, and have learned a lot more about this whole Arduino ecosystem. There is incredible work being done by people like <a href="http://www.ladyada.net/">ladyada</a>, and many others too numerous to list here. There are many variations on the Arduino, like the <a href="http://www.ladyada.net/make/boarduino/">Boarduino</a>, <a href="http://www.wulfden.org/TheShoppe/freeduino/sanguino.shtml">Sanguino</a>, and so many others.</p>
+<p>However, one option in particular caught my attention, called the <a href="http://dorkbotpdx.org/wiki/dorkboard">Dorkboard</a>. This thing is small, I mean tiny. Especially considering that it does not use the surface mount version of the ATMega microcontroller. And it has almost nothing on the board itself. You need to provide both power, and an interface to communicate with it, in our case, using the XBee modems.</p>
+<p>This highly stripped down, minimalist approach was exactly what we had been looking for! Cheap, simple, light, and having everything that one needs from any Arduino/Freeduino platform. I ordered a few of the kits, and they were shipped from <a href="http://www.wulfden.org/TheShoppe/products.shtml">Wulfden</a> just a few days later.</p>
+<p>Once they came in, my brother was eager to get right into one. I dropped off the package, and he had soldered up one, plus the power supply, in less then an hour. We had the <a href="http://wulfden.org/TheShoppe/pa/index.shtml">USB-BUB</a> interface, so we just plugged it in. Once we had all the cable pinout correct, and we had downloaded the &ldquo;hello, LED&rdquo; code from <a href="http://rad.rubyforge.org/">RAD</a>, we were watching it flash under our command.</p>
+<p>The brain of our flying robot was ready! Now we needed a way to communicate with it, and update its code, all wirelessly. The next step, would be building an XBee breakout board, and doing some XBee hardware/firmware hacking&hellip;</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/deadprogram" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/deadprogram" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/deadprogram/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.575671c6da23c3563d465f9cfa3d2857fc0239531a2e8ea1fb6812017653b4d7.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

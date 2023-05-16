@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>databases on Dead Programmer SOciety</title>
+    <link>/tags/databases/</link>
+    <description>Recent content in databases on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Oct 2007 07:52:00 -0700</lastBuildDate><atom:link href="/tags/databases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is Your Database Getting Tired?</title>
+      <link>/2007/10/is-your-database-getting-tired.html</link>
+      <pubDate>Fri, 19 Oct 2007 07:52:00 -0700</pubDate>
+      
+      <guid>/2007/10/is-your-database-getting-tired.html</guid>
+      <description>Is your database getting old and tired? Mike Stonebraker thinks so. Stonebraker is a database guru and long-time researcher, and when I say database guru I mean one of the founders of Ingres, and former CTO of Informix, not just some guy who knows how to debug a stored procedure.
+Here is a juicy quote from a recent article published by MIT of which he is one of the authors:</description>
+    </item>
+    
+    <item>
+      <title>Gazing Into The ORM</title>
+      <link>/2007/02/gazing-into-orm.html</link>
+      <pubDate>Fri, 23 Feb 2007 08:24:00 -0800</pubDate>
+      
+      <guid>/2007/02/gazing-into-orm.html</guid>
+      <description>Jeremy Miller has an interesting post today regarding Object Relation Mapping (ORM). Droves of developers are now flocking to ORMs via Ruby on Rails, Castle, or one of the other many projects in this space, so it is good to have people like Jeremy exploring from a real implementation perspective.
+Anyhow, his post really is concerned with applications that use an existing database, have a large amount of logical processing. Simply applying an ORM without considering the logical implications of the data, not only fails to take advantage of the power of ORMs, but falls into a bit of a quagmire, with potentially a very non-DRY result.</description>
+    </item>
+    
+  </channel>
+</rss>

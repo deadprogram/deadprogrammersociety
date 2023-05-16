@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>agile development on Dead Programmer SOciety</title>
+    <link>/tags/agile-development/</link>
+    <description>Recent content in agile development on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Apr 2009 20:51:00 -0700</lastBuildDate><atom:link href="/tags/agile-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LARubyConf 2009 - Danny Blitz - &#34;Herding Tigers: Software Development and the Art of War&#34;</title>
+      <link>/2009/04/larubyconf-2009-danny-blitz-herding.html</link>
+      <pubDate>Sun, 05 Apr 2009 20:51:00 -0700</pubDate>
+      
+      <guid>/2009/04/larubyconf-2009-danny-blitz-herding.html</guid>
+      <description>I had no idea what I was about to experience at Los Angeles Ruby Conference 2009 (LARubyConf) when Danny Blitz took the podium as the next presenter. I had seen him hanging out with his distinctive pompadour, tattoos, and leather jacket. He is a big guy, and hard to miss. But he had been pretty quiet till then, which was about to change radically.
+Herding Cats is a term commonly used when describing the management of software teams.</description>
+    </item>
+    
+    <item>
+      <title>Stop The Bug-Based Development</title>
+      <link>/2007/09/stop-bug-based-development.html</link>
+      <pubDate>Mon, 24 Sep 2007 11:27:00 -0700</pubDate>
+      
+      <guid>/2007/09/stop-bug-based-development.html</guid>
+      <description>I enjoyed reading Phil Haack&amp;rsquo;s little &amp;ldquo;you&amp;rsquo;re either with us or against us&amp;rdquo; diatribe from earlier today, where he rails against non-test-driven development. I only differ in that I prefer to call it Bug-Based Development (BBD).
+So are you one of those fifth-column types who is providing aid and comfort to the enemy? Draw a line in the sand&amp;hellip; never make your troops take casualties retaking the same ground twice&amp;hellip; no bastard ever won a war by dying for his country.</description>
+    </item>
+    
+    <item>
+      <title>I Speak For The Code</title>
+      <link>/2007/03/i-speak-for-code.html</link>
+      <pubDate>Wed, 14 Mar 2007 15:14:00 -0700</pubDate>
+      
+      <guid>/2007/03/i-speak-for-code.html</guid>
+      <description>Recently I was in a client meeting with a bunch of managers to discuss some very complex changes that were being proposed for an existing system. I was invited to the meeting so I could &amp;ldquo;speak for the code&amp;rdquo;, which to them meant that I could validate the ideas of the group based on my knowledge of the code base.
+After the meeting ended, I kept mulling over that phrase &amp;ldquo;speaking for the code&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Iteration At Jet Speed</title>
+      <link>/2007/02/iteration-at-jet-speed.html</link>
+      <pubDate>Thu, 08 Feb 2007 19:08:00 -0800</pubDate>
+      
+      <guid>/2007/02/iteration-at-jet-speed.html</guid>
+      <description>Jeff Atwood&amp;rsquo;s blog has some excellent points about agile software development, based on a cool article by Roger Sessions from MSDN.
+Sessions notes the concept of the iconoclastic Col. John Boyd that speed of iteration beats quality of iteration.
+ Boyd decided that the primary determinant to winning dogfights was not observing, orienting, planning, or acting better. The primary determinant to winning dogfights was observing, orienting, planning, and acting faster. In other words, how quickly one could iterate.</description>
+    </item>
+    
+    <item>
+      <title>Time For A Little Story</title>
+      <link>/2007/02/time-for-little-story.html</link>
+      <pubDate>Wed, 07 Feb 2007 17:40:00 -0800</pubDate>
+      
+      <guid>/2007/02/time-for-little-story.html</guid>
+      <description>Brian Marick has a great example of how to break a software feature up into user stories.
+Note how looking at smaller units of granularity make it so much easier to understand, then just trying to identify an entire feature all at once.
+Also note how much value even the simplest pictures add to the stories. However, a picture is not enough. I personally love to see video of the whiteboard conversations for documenting the user stories.</description>
+    </item>
+    
+    <item>
+      <title>People are communicating beings</title>
+      <link>/2007/01/people-are-communicating-beings.html</link>
+      <pubDate>Wed, 31 Jan 2007 10:30:00 -0800</pubDate>
+      
+      <guid>/2007/01/people-are-communicating-beings.html</guid>
+      <description>I ran into this older article from Alistair Cockburn the other day called Characterizing people as non-linear, first-order components in software development.
+What Dr. Cockburn is talking about, is that very agile of ideas that people are the central focus for any software development effort. Developing software is not just a sausage factory of requirement documents, source code documents, and unit test plan documents. The people are what is important, not the documents.</description>
+    </item>
+    
+    <item>
+      <title>The Folly of Accountabalism</title>
+      <link>/2007/01/folly-of-accountabalism.html</link>
+      <pubDate>Mon, 29 Jan 2007 14:41:00 -0800</pubDate>
+      
+      <guid>/2007/01/folly-of-accountabalism.html</guid>
+      <description>The Harvard Business Review has published their list of 20 breakthrough ideas for 2007. There are several ideas on this list with particular appeal to me. One that stands out is David Weinberger&amp;rsquo;s &amp;ldquo;Folly of Accountabalism&amp;rdquo; which insists that &amp;ldquo;Accountability has gone horribly wrong. It has become &amp;lsquo;accountabalism,&amp;rsquo; the practice of eating sacrificial victims in an attempt to magically ward off evil.&amp;rdquo;
+Dr. Weinberger is referring to the emphasis on corporate management and compliance that has come to dominate modern American business.</description>
+    </item>
+    
+    <item>
+      <title>Speaking The Same Language</title>
+      <link>/2007/01/speaking-same-language.html</link>
+      <pubDate>Tue, 23 Jan 2007 09:40:00 -0800</pubDate>
+      
+      <guid>/2007/01/speaking-same-language.html</guid>
+      <description>The art of successful software development is matching the delivered software to the needs of the users. Achieving this requires that the developers and the users speak the same language regarding the problem to be solved. James Shore has a new chapter called Ubiquitous Language in his upcoming agile development book that summarizes this idea nicely.
+Martin Fowler&amp;rsquo;s seminal article on Language Workbenches also has really influenced my thinking. I guess the difference to me is that where Ubiquitous Language is about getting the developers to understand what the users are talking about, Language Workbenches are about building software systems using tools to translate the domain specific language into runnable code.</description>
+    </item>
+    
+    <item>
+      <title>The Dark Side Of Metrics</title>
+      <link>/2006/11/dark-side-of-metrics.html</link>
+      <pubDate>Mon, 13 Nov 2006 20:41:00 -0800</pubDate>
+      
+      <guid>/2006/11/dark-side-of-metrics.html</guid>
+      <description>I have usually been in favor of measurement of any possible aspect of the software development process. Proper techniques of gathering and analyzing metrics have been espoused since Capers Jones created the study of software measurement. I was first introduced to many of these concepts in the writings of Steve McConnell, particularly when his book Rapid Development first came out. If a thing cannot be measured, it cannot be easily studied or improved.</description>
+    </item>
+    
+    <item>
+      <title>The Planning Game Vs. The Crying Game</title>
+      <link>/2006/11/planning-game-vs-crying-game.html</link>
+      <pubDate>Wed, 08 Nov 2006 10:14:00 -0800</pubDate>
+      
+      <guid>/2006/11/planning-game-vs-crying-game.html</guid>
+      <description>James Shore just posted a very cool chapterette from his upcoming book on agile development called &amp;ldquo;The Planning Game&amp;rdquo;. The concept simply enough is that customers and developers work together to plan what features are going to be implemented, and in what order. Customers know what features have the most value to the business, so they get to choose the order in which features are developed. Developers know about the costs, so they get to say how long something is going to take.</description>
+    </item>
+    
+    <item>
+      <title>Toward A Test-Driven Culture</title>
+      <link>/2006/10/toward-test-driven-culture.html</link>
+      <pubDate>Mon, 23 Oct 2006 14:43:00 -0700</pubDate>
+      
+      <guid>/2006/10/toward-test-driven-culture.html</guid>
+      <description>We all have to move to a test-driven culture. We cannot think about testing as an afterthought, or as a necessary evil. Testing has to be baked into the culture of software development the same way that testing is baked into Ruby on Rails. It is there right from the beginning, and makes you feel guilty when you DON&amp;rsquo;T do it. The DNA of software development has to evolve to grow systems with neurons that make it so that a lack of testing feels like sticking your hand into a wall socket; you notice right away when it happens, and you take immediate action to make it stop.</description>
+    </item>
+    
+    <item>
+      <title>Architect Is Not An Honorary Title</title>
+      <link>/2006/10/architect-is-not-honorary-title.html</link>
+      <pubDate>Thu, 12 Oct 2006 10:13:00 -0700</pubDate>
+      
+      <guid>/2006/10/architect-is-not-honorary-title.html</guid>
+      <description>The job title &amp;ldquo;architect&amp;rdquo; seems to mean something different inside every organization. At far too many companies, it is almost an honorary title, being reserved as a promotion for long-term company loyalists who &amp;ldquo;know the business&amp;rdquo;, instead of actually meaning anything related to the overarching technical design required for the successful release of quality software.
+Knowing the business is great. In fact, knowing the business is essential. I hope that business experts abound within your organization.</description>
+    </item>
+    
+    <item>
+      <title>Programming Zombies Will Crush You</title>
+      <link>/2006/10/programming-zombies-will-crush-you.html</link>
+      <pubDate>Wed, 11 Oct 2006 14:04:00 -0700</pubDate>
+      
+      <guid>/2006/10/programming-zombies-will-crush-you.html</guid>
+      <description>This post on the &amp;ldquo;Creating Passionate Users&amp;rdquo; blog really sums up what makes a Dead Programmer, well&amp;hellip;.dead!
+http://headrush.typepad.com/creating_passionate_users/2006/10/knocking_the_ex.html
+A colleague of mine once quipped, &amp;ldquo;Why is it that at some point in most people&amp;rsquo;s career, they suddenly decide that they now know everything and don&amp;rsquo;t have anything else to learn?&amp;rdquo;. That is around the point that they are past the point of no return converging on the &amp;ldquo;micro-manage every detail&amp;rdquo; side of the &amp;ldquo;Zombie Function&amp;rdquo; graph.</description>
+    </item>
+    
+    <item>
+      <title>Too Skilled For Programming?</title>
+      <link>/2006/10/too-skilled-for-programming.html</link>
+      <pubDate>Wed, 11 Oct 2006 12:01:00 -0700</pubDate>
+      
+      <guid>/2006/10/too-skilled-for-programming.html</guid>
+      <description>This classic bit of wisdom from David Dossot explains many things about management philosophy that frequently make little sense to developers. If you ever wondered how some people ended up in management, the answer is here:
+http://perso.wanadoo.fr/lothar/datastore/TooSkilledForProgramming.pdf
+In a world where taller people tend to more successful, I guess it makes sense. But logic has nothing to do with it! And things that lack logic offend the sensibilities of any self-respecting Dead Programmer&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

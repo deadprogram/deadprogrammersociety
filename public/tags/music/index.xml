@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>music on Dead Programmer SOciety</title>
+    <link>/tags/music/</link>
+    <description>Recent content in music on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Feb 2009 17:28:00 -0800</lastBuildDate><atom:link href="/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prepare For The RailsConf 2009 Jam Session</title>
+      <link>/2009/02/prepare-for-railsconf-2009-jam-session.html</link>
+      <pubDate>Wed, 25 Feb 2009 17:28:00 -0800</pubDate>
+      
+      <guid>/2009/02/prepare-for-railsconf-2009-jam-session.html</guid>
+      <description>I will be running the music BOF at RailsConf 2009 in Las Vegas. What does that mean? We&amp;rsquo;re gonna get down. All styles will be represented, so if you have an instrument or a voice, bring it.
+We have a Google group started here.</description>
+    </item>
+    
+  </channel>
+</rss>

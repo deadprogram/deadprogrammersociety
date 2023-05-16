@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>robotics on Dead Programmer SOciety</title>
+    <link>/tags/robotics/</link>
+    <description>Recent content in robotics on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Feb 2008 07:35:00 -0800</lastBuildDate><atom:link href="/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>You Got Your DS In My Robot</title>
+      <link>/2008/02/you-got-your-ds-in-my-robot.html</link>
+      <pubDate>Tue, 05 Feb 2008 07:35:00 -0800</pubDate>
+      
+      <guid>/2008/02/you-got-your-ds-in-my-robot.html</guid>
+      <description>The French press may be reeling in financial scandal, but the cool kids there are still concentrating on what is really important: drinking wine and controlling an open source robot with a heavily modded Nintendo DS.
+The Pekee Mobile Robot and a whole bunch of DS hacking. That in itself just sounds like hours of fun. But then can you just imagine real-world robotic battles in your living room, fought remote controlled by DS.</description>
+    </item>
+    
+    <item>
+      <title>Eventually The Machines Will Win</title>
+      <link>/2007/07/eventually-machines-will-win.html</link>
+      <pubDate>Sat, 21 Jul 2007 09:14:00 -0700</pubDate>
+      
+      <guid>/2007/07/eventually-machines-will-win.html</guid>
+      <description>I have never been a big checkers fan. Good thing, cause I would have had to give up the game after the recent &amp;ldquo;solution&amp;rdquo; of the game by a team of Canadian computer scientists. Every possible move of every possible game has been mapped, and a checkers playing program can take each of these into account before deciding on its next move. No human player has such ability.
+Actually, as it turns out, the best possible outcome in a game of checkers, given two players who each make perfect moves, is a draw.</description>
+    </item>
+    
+    <item>
+      <title>The Robotic Revolution</title>
+      <link>/2007/05/robotic-revolution.html</link>
+      <pubDate>Tue, 15 May 2007 10:54:00 -0700</pubDate>
+      
+      <guid>/2007/05/robotic-revolution.html</guid>
+      <description>The upcoming RailsConf 2007 is not the only revolutionary conference that is going on this week. At that epicenter of robotics and artificial intelligence research Boston, MA is the RoboBusiness Conference and Expo featuring everybody who is anybody in the biz such as iRobot.
+CNET has a pretty good interview with Rodney Brooks, the CTO of iRobot. Despite the popularity of the Roomba, the robotics revolution has hardly begun. Brooks makes the interesting observation that not only will we see more autonomous robots wandering around like the Roomba, but even more embedded robotics like the self-parking feature on the Lexus.</description>
+    </item>
+    
+    <item>
+      <title>The Wigglebot Cometh</title>
+      <link>/2007/02/wigglebot-cometh.html</link>
+      <pubDate>Fri, 23 Feb 2007 17:22:00 -0800</pubDate>
+      
+      <guid>/2007/02/wigglebot-cometh.html</guid>
+      <description>I saw this very interesting robot today. Not only can it crawl, shimmy, roll, and walk, but it does so by combining a small group of autonomous, modular, self-reconfiguring bots that operate together as a unit. Very cool!
+Transformers, indeed. Have I mentioned that I want a set of Lego Mindstorms NXT for my birthday? I would love to mess around with ruby-nxt or the Microsoft Robotics Studio.</description>
+    </item>
+    
+  </channel>
+</rss>

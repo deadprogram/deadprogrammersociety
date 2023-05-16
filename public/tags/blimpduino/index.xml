@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blimpduino on Dead Programmer SOciety</title>
+    <link>/tags/blimpduino/</link>
+    <description>Recent content in blimpduino on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Jun 2009 21:12:00 -0700</lastBuildDate><atom:link href="/tags/blimpduino/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Flying Robot: Supporting The Blimpduino</title>
+      <link>/2009/05/project-flying-robot-supporting.html</link>
+      <pubDate>Wed, 03 Jun 2009 21:12:00 -0700</pubDate>
+      
+      <guid>/2009/05/project-flying-robot-supporting.html</guid>
+      <description>As Maker Faire approached, my brother Damen and I were very busy working on something cool: support for the now-shipping Blimpduino kit!
+Thanks to the tireless efforts of Chris Anderson and Jordi Muñoz, the long awaited Blimpduino kit is now shipping at Makershed. As readers of this blog know, we have drawn a lot of inspiration from the Blimpduino. Now, we actually have 2 of them, and you can get your own.</description>
+    </item>
+    
+  </channel>
+</rss>

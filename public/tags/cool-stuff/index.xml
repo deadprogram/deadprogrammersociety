@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cool stuff on Dead Programmer SOciety</title>
+    <link>/tags/cool-stuff/</link>
+    <description>Recent content in cool stuff on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Apr 2008 07:51:00 -0700</lastBuildDate><atom:link href="/tags/cool-stuff/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Archimedes Codex</title>
+      <link>/2008/04/archimedes-codex.html</link>
+      <pubDate>Thu, 17 Apr 2008 07:51:00 -0700</pubDate>
+      
+      <guid>/2008/04/archimedes-codex.html</guid>
+      <description>Archimedes was a very cool dude. When you think of inventor/intellectuals these days, we have been trained to imagine a fairly wimpy, bookish kind of person. Not so for Archie, he was also a bad-ass who defended his beloved city of Syracuse to the death at the hands of Roman invaders. Archimedes invented what for the day, were some freaky advanced technologies.
+Well, new information has been discovered about him, thanks to the painstaking work by Will Noel at the Walters Art Museum of New York.</description>
+    </item>
+    
+    <item>
+      <title>Excuse Me, While I Kiss The Sky</title>
+      <link>/2008/03/excuse-me-while-i-kiss-sky.html</link>
+      <pubDate>Thu, 13 Mar 2008 17:42:00 -0700</pubDate>
+      
+      <guid>/2008/03/excuse-me-while-i-kiss-sky.html</guid>
+      <description>The demo that Microsoft showed at TED of Robert Scoble crying, ahem, I mean their future Microsoft Worldwide Telescope or whatever, looks really neat. In the meantime, those provocateurs over at Google have just put live Google Sky, a fully browser based version of their Google Earth software that started this whole &amp;ldquo;star wars&amp;rdquo; virtual astronomy competition thing in the first place.
+I suppose since so many people cannot see the stars anymore, that we need virtual astronomy more than ever.</description>
+    </item>
+    
+    <item>
+      <title>The Telepathy Machine Demo</title>
+      <link>/2008/03/telepathy-machine-demo.html</link>
+      <pubDate>Thu, 13 Mar 2008 11:00:00 -0700</pubDate>
+      
+      <guid>/2008/03/telepathy-machine-demo.html</guid>
+      <description>I just saw an amazing demo of communication without speaking. No, not instant messaging, or sign language. Instead, scientists at Ambient Corporation have succeeded in tapping into the nervous system that control speech, and translate that into digitized speech. Michael Callahan showed off their demo at the Texas Instruments developer conference. Wow, this is a long way from my TI-99/4!
+Applications for secret agents, people who suffer from ALS, and people who cannot shut up when on the subway will be forthcoming.</description>
+    </item>
+    
+    <item>
+      <title>You Got Your DS In My Robot</title>
+      <link>/2008/02/you-got-your-ds-in-my-robot.html</link>
+      <pubDate>Tue, 05 Feb 2008 07:35:00 -0800</pubDate>
+      
+      <guid>/2008/02/you-got-your-ds-in-my-robot.html</guid>
+      <description>The French press may be reeling in financial scandal, but the cool kids there are still concentrating on what is really important: drinking wine and controlling an open source robot with a heavily modded Nintendo DS.
+The Pekee Mobile Robot and a whole bunch of DS hacking. That in itself just sounds like hours of fun. But then can you just imagine real-world robotic battles in your living room, fought remote controlled by DS.</description>
+    </item>
+    
+    <item>
+      <title>Lord Raise Me Up</title>
+      <link>/2007/08/lord-raise-me-up.html</link>
+      <pubDate>Tue, 07 Aug 2007 07:23:00 -0700</pubDate>
+      
+      <guid>/2007/08/lord-raise-me-up.html</guid>
+      <description>As usual, human ingenuity has raised science to a new height. In this case, a very small height, but let us not quibble about a few details. UK researchers have discovered a way to circumvent the Casimir force, which is what causes very small things to clump together. By using a clever type of lens, the researchers were able to reverse the Casimir force in their experiment.
+Despite the fun headlines, this does not mean repulsors for the masses.</description>
+    </item>
+    
+    <item>
+      <title>Eventually The Machines Will Win</title>
+      <link>/2007/07/eventually-machines-will-win.html</link>
+      <pubDate>Sat, 21 Jul 2007 09:14:00 -0700</pubDate>
+      
+      <guid>/2007/07/eventually-machines-will-win.html</guid>
+      <description>I have never been a big checkers fan. Good thing, cause I would have had to give up the game after the recent &amp;ldquo;solution&amp;rdquo; of the game by a team of Canadian computer scientists. Every possible move of every possible game has been mapped, and a checkers playing program can take each of these into account before deciding on its next move. No human player has such ability.
+Actually, as it turns out, the best possible outcome in a game of checkers, given two players who each make perfect moves, is a draw.</description>
+    </item>
+    
+    <item>
+      <title>I Have Seen The Future</title>
+      <link>/2007/03/i-have-seen-future.html</link>
+      <pubDate>Wed, 21 Mar 2007 15:09:00 -0700</pubDate>
+      
+      <guid>/2007/03/i-have-seen-future.html</guid>
+      <description>The amazing artistic visions of computer science researcher Andrei State combine both grace and utility. I am reminded of how I felt first seeing the original Apple Knowledge Navigator video&amp;hellip;a peek just around the corner into the future.
+Check out Andrei&amp;rsquo;s technical section of the really neat ARTA GRAFICA website. Thank you to my friend Dan Rasmus and his cool &amp;ldquo;Future of Information Work&amp;rdquo; blog for turning me on to this&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>The Wigglebot Cometh</title>
+      <link>/2007/02/wigglebot-cometh.html</link>
+      <pubDate>Fri, 23 Feb 2007 17:22:00 -0800</pubDate>
+      
+      <guid>/2007/02/wigglebot-cometh.html</guid>
+      <description>I saw this very interesting robot today. Not only can it crawl, shimmy, roll, and walk, but it does so by combining a small group of autonomous, modular, self-reconfiguring bots that operate together as a unit. Very cool!
+Transformers, indeed. Have I mentioned that I want a set of Lego Mindstorms NXT for my birthday? I would love to mess around with ruby-nxt or the Microsoft Robotics Studio.</description>
+    </item>
+    
+    <item>
+      <title>Fabbers Gone Wild</title>
+      <link>/2007/01/fabbers-gone-wild.html</link>
+      <pubDate>Thu, 25 Jan 2007 17:51:00 -0800</pubDate>
+      
+      <guid>/2007/01/fabbers-gone-wild.html</guid>
+      <description>Why stop at fabbing a chocolate bar when you can just fab your own whole factory?
+According to Behrokh Khoshnevis, a USC Engineering researcher, &amp;ldquo;The goal is to be able to completely construct a one-story, 2000-square foot home on site, in one day and without using human hands.&amp;rdquo;
+Seems like a scene from Manna to me, doesn&amp;rsquo;t it?</description>
+    </item>
+    
+    <item>
+      <title>When We Were Fab</title>
+      <link>/2007/01/when-we-were-fab.html</link>
+      <pubDate>Fri, 19 Jan 2007 20:35:00 -0800</pubDate>
+      
+      <guid>/2007/01/when-we-were-fab.html</guid>
+      <description>A fabber is a machine that can make three-dimensional objects just like a printer can print in two-dimensions on a a piece of paper. Only recently had this technology escaped the realm of science fiction into the still unreal world of government and large-budget research labs&amp;hellip;which is ironic given that the purpose of fabbers is to produce highly specialized items at very low cost.
+Well, thanks to an open-source hardware/software project called Fab@Home, the technology is reaching out to the home enthusiast.</description>
+    </item>
+    
+    <item>
+      <title>Optimus Mini Three is Prime</title>
+      <link>/2007/01/optimus-mini-three-is-prime.html</link>
+      <pubDate>Thu, 18 Jan 2007 09:38:00 -0800</pubDate>
+      
+      <guid>/2007/01/optimus-mini-three-is-prime.html</guid>
+      <description>Time again for another incredibly cool looking device&amp;hellip; the Optimus Mini Three Keyboard. The description on their site says &amp;ldquo;Optimus mini is an auxiliary keyboard with three keys, each complete with an OLED screen displaying the current function.&amp;rdquo;
+They call it a keyboard, but I think that is quite the understatement. It is really like an external display surface that you can press. Drivers for Win32, MacOS and Linux are available.</description>
+    </item>
+    
+    <item>
+      <title>Gmail For Mobile Rocks</title>
+      <link>/2006/11/gmail-for-mobile-rocks.html</link>
+      <pubDate>Thu, 02 Nov 2006 09:41:00 -0800</pubDate>
+      
+      <guid>/2006/11/gmail-for-mobile-rocks.html</guid>
+      <description>I just installed the brand new Gmail for Mobile on my Motorola RAZR. In just a matter of a couple moments, I was looking at my Gmail inbox! Gmail for Mobile is a Java-applet that runs on your Java enabled phone. Keeping the network traffic down this way is a lot better option that a WAP-based email solution, which is what I had tried and abandoned previously.
+Not having a QWERTY keyboard is a big limitation for smartphones especially where something heavily textual like email is concerned.</description>
+    </item>
+    
+    <item>
+      <title>The Coolest New Device I&#39;ve Seen For A While</title>
+      <link>/2006/10/coolest-new-device-ive-seen-for-while.html</link>
+      <pubDate>Sun, 22 Oct 2006 10:19:00 -0700</pubDate>
+      
+      <guid>/2006/10/coolest-new-device-ive-seen-for-while.html</guid>
+      <description>I just saw a really neat new gadget called &amp;ldquo;The Device Patented Process Indicating Apparatus &amp;quot; for the first time. Check it out at http://www.processindicator.com/
+It is a USB device that can be connected to take whatever data feed you desire, and use the &amp;ldquo;inscrutable dials&amp;rdquo;, Ethereal Glowing Tube (EGT), and incandescent lamp on &amp;ldquo;The Device&amp;rdquo; to indicate whatever status you want. &amp;ldquo;The build is broken&amp;rdquo;, &amp;ldquo;sales are up&amp;rdquo;, or &amp;ldquo;there is a soccer game today&amp;rdquo; are only some of the neat automation possibilities that come to my mind without much effort.</description>
+    </item>
+    
+  </channel>
+</rss>

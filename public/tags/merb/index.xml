@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>merb on Dead Programmer SOciety</title>
+    <link>/tags/merb/</link>
+    <description>Recent content in merb on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Feb 2009 00:08:00 -0800</lastBuildDate><atom:link href="/tags/merb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Should We Call It Mails, or Rurb? Yahuda Katz Clears Things Up At The LA Ruby Meetup</title>
+      <link>/2009/02/should-we-call-it-mails-or-rurb-yahuda.html</link>
+      <pubDate>Fri, 20 Feb 2009 00:08:00 -0800</pubDate>
+      
+      <guid>/2009/02/should-we-call-it-mails-or-rurb-yahuda.html</guid>
+      <description>We just had a fun time at the latest LA Ruby Meetup, once again at UCLA. This time, we had presentations by James Foster from Gemstone, and Yehuda Katz from Engine Yard.
+James Foster was showing MagLev, which is a Ruby VM based on top of the Gemstone Smalltalk VM. Not much to see here, just some Ruby code benchmarks running at about 4-5X faster than Ruby 1.8.6. That is, of course, not a very fair comparison, but no question that this is another Ruby VM to watch.</description>
+    </item>
+    
+    <item>
+      <title>Merb On The Virge</title>
+      <link>/2008/03/merb-on-virge.html</link>
+      <pubDate>Wed, 05 Mar 2008 15:17:00 -0800</pubDate>
+      
+      <guid>/2008/03/merb-on-virge.html</guid>
+      <description>Merb, the mighty challenger to the current Rails domination of the Ruby web framework conversation, races towards &amp;ldquo;getting very close to being stable api wise&amp;rdquo;. That sounds like a 1.0 release to me!
+Ezra says that the 0.9.1 developer release is ready to take thru its paces. One area where Merb really differs from Ruby on Rails is how Merb is based off of RubyGems. The refactored Merb architecture takes the Merb modularity to a massive 16 gems.</description>
+    </item>
+    
+    <item>
+      <title>Beware Of The Merb</title>
+      <link>/2008/01/beware-of-merb.html</link>
+      <pubDate>Mon, 14 Jan 2008 14:56:00 -0800</pubDate>
+      
+      <guid>/2008/01/beware-of-merb.html</guid>
+      <description>Apparently the Merb team was not yet satisfied with just having created a better Rails than Rails itself. Now, they are going after even more conceptual high ground, and creating an even more flexible web development paradigm that incorporates many of the great ideas percolating around the mongrel community.
+According to Yahuda Katz, the next version of Merb will completely revise the existing Merb framework, in order to provide for many more ways to utilize it.</description>
+    </item>
+    
+    <item>
+      <title>And Here Comes The Money...</title>
+      <link>/2008/01/and-here-comes-money.html</link>
+      <pubDate>Fri, 11 Jan 2008 09:59:00 -0800</pubDate>
+      
+      <guid>/2008/01/and-here-comes-money.html</guid>
+      <description>I read with great excitement that Engine Yard, my favorite of the Ruby-centric hosting companies, was taking in a round of $3.5 million from Benchmark Capital. I am a big fan of Ezra, and the rest of the crew, and the whole waiting list thing for getting a new slice setup has been a big inhibitor of their growth.
+Funny, however, the press coverage has called EY a &amp;ldquo;Ruby on Rails hosting company&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Sinatra, a Ruby web framework, and Why It Matters</title>
+      <link>/2007/10/sinatra-ruby-web-framework-and-why-it.html</link>
+      <pubDate>Wed, 24 Oct 2007 09:16:00 -0700</pubDate>
+      
+      <guid>/2007/10/sinatra-ruby-web-framework-and-why-it.html</guid>
+      <description>As followers of this blog know, I am very interested in the Ruby language itself, not just web development. But it is undeniable that Ruby has become popular largely due to web development powered by Ruby on Rails. However amazing Rails is, however, it is not the final web framework to be developed in Ruby.
+When Ari Lerner first told me of the Sinatra project, I was interested to see where he was going with it.</description>
+    </item>
+    
+    <item>
+      <title>More Developer Fun In Los Angeles</title>
+      <link>/2007/10/more-developer-fun-in-los-angeles.html</link>
+      <pubDate>Wed, 24 Oct 2007 08:17:00 -0700</pubDate>
+      
+      <guid>/2007/10/more-developer-fun-in-los-angeles.html</guid>
+      <description>Last night was the always entertaining Los Angeles Application Developer Meetup. L.A. is not known for the same massive quantity of developers as the bay area, for example, but having joined forces with the LA Ruby on Rails Meetup crew some time back, the monthly event is still growing.
+This month&amp;rsquo;s was held at the impressive new digs of YellowPages.com, who have been busy building out a huge Ruby on Rails based local search replacement for their venerable 100K+ lines of Java code.</description>
+    </item>
+    
+    <item>
+      <title>Merb Is The Word</title>
+      <link>/2006/12/merb-is-word.html</link>
+      <pubDate>Thu, 14 Dec 2006 10:29:00 -0800</pubDate>
+      
+      <guid>/2006/12/merb-is-word.html</guid>
+      <description>I have been playing around with Merb, which is a very cool project from Ezra Zygmuntowicz. Merb combines the Mongrel web server with a lightweight Ruby web framework. It has way less stuff in it than Rails, but is somewhat more than Camping.
+Where this all started, was that I was looking for some way to use Mongrel to create a new REST web service for a client. This service has no UI, and basically just needs to front end a Ruby DSL that I have been working on.</description>
+    </item>
+    
+  </channel>
+</rss>

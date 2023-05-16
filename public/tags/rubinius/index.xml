@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rubinius on Dead Programmer SOciety</title>
+    <link>/tags/rubinius/</link>
+    <description>Recent content in Rubinius on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Nov 2008 21:21:00 -0800</lastBuildDate><atom:link href="/tags/rubinius/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RubyConf 2008 - Rubinius - Evan Phoenix</title>
+      <link>/2008/11/rubyconf-2008-rubinius-evan-phoenix.html</link>
+      <pubDate>Mon, 10 Nov 2008 21:21:00 -0800</pubDate>
+      
+      <guid>/2008/11/rubyconf-2008-rubinius-evan-phoenix.html</guid>
+      <description>The Ruby VM wonkiness continued at RubyConf 2008 - Day 1. Next up we heard the &amp;ldquo;State of Rubinius&amp;rdquo; address on the status of the anointed heir to the Ruby federation. Evan Phoenix is a fun guy, and it proved to be a both informative and enjoyable session.
+Evan says Rubinius is &amp;ldquo;meta-circular-ish&amp;rdquo;, and slow, but getting faster. They have a new VM that is written in C++, which is a sharp tool, and as such, it is possible to poke your eye out.</description>
+    </item>
+    
+    <item>
+      <title>And Here Comes The Money...</title>
+      <link>/2008/01/and-here-comes-money.html</link>
+      <pubDate>Fri, 11 Jan 2008 09:59:00 -0800</pubDate>
+      
+      <guid>/2008/01/and-here-comes-money.html</guid>
+      <description>I read with great excitement that Engine Yard, my favorite of the Ruby-centric hosting companies, was taking in a round of $3.5 million from Benchmark Capital. I am a big fan of Ezra, and the rest of the crew, and the whole waiting list thing for getting a new slice setup has been a big inhibitor of their growth.
+Funny, however, the press coverage has called EY a &amp;ldquo;Ruby on Rails hosting company&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Rubinius Maximus</title>
+      <link>/2007/12/rubinius-maximus.html</link>
+      <pubDate>Wed, 05 Dec 2007 18:01:00 -0800</pubDate>
+      
+      <guid>/2007/12/rubinius-maximus.html</guid>
+      <description>I got a little excited when I read of the team assembled right now working on Rubinius up at Engine Yard in San Francisco.
+After following the Ruby VM coopitition for while, and then seeing the Rubinius crew in full effect at RubyConf 2007, I am more convinced than ever that we are going to see some SERIOUS code coming out of these guys&amp;hellip;. and assembling them all in one place is the best way to do it.</description>
+    </item>
+    
+    <item>
+      <title>RubyConf 2007 - Day 2 - &#34;The Ruby VM Smackdown Begins&#34;</title>
+      <link>/2007/11/rubyconf-2007-day-2-ruby-vm-smackdown.html</link>
+      <pubDate>Tue, 06 Nov 2007 13:38:00 -0800</pubDate>
+      
+      <guid>/2007/11/rubyconf-2007-day-2-ruby-vm-smackdown.html</guid>
+      <description>As the sun rose over the hills of North Carolina, the quiet betrayed a seething fire blazing in the hearts of three development teams. &amp;ldquo;Three teams enter, one team leaves!&amp;rdquo; Yes, I am talking about the main event, people, the one, the only, Ruby VM Smackdown! The room was jam packed, the anticipation was high.
+As good fortune would have it, I was sitting right next to the head of the team who was my personal favorite to win the day.</description>
+    </item>
+    
+    <item>
+      <title>Weighing In On The Upcoming Ruby VM Smackdown</title>
+      <link>/2007/09/weighing-in-on-upcoming-ruby-vm.html</link>
+      <pubDate>Mon, 24 Sep 2007 10:43:00 -0700</pubDate>
+      
+      <guid>/2007/09/weighing-in-on-upcoming-ruby-vm.html</guid>
+      <description>Earlier today, I read with great interest the potentially inflammatory post where Ola Bini proclaims the Ruby VM wars already over, and basically divides the Ruby VM empire into two halves, with the center controlled by Rome, err, I mean Rubinius primitives.
+I had already come to this conclusion a while ago. Not because I am smarter than anyone, FAR from it. Probably because I am more superficial, and easily impressed by meaningless characteristics, like how cool is the name Rubinius?</description>
+    </item>
+    
+  </channel>
+</rss>

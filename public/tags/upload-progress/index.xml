@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>upload progress on Dead Programmer SOciety</title>
+    <link>/tags/upload-progress/</link>
+    <description>Recent content in upload progress on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Feb 2009 09:37:00 -0800</lastBuildDate><atom:link href="/tags/upload-progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JSON-P Makes Progress Cross Domains With Apache, Passenger, and jQuery</title>
+      <link>/2009/02/json-p-makes-progress-cross-domains.html</link>
+      <pubDate>Tue, 10 Feb 2009 09:37:00 -0800</pubDate>
+      
+      <guid>/2009/02/json-p-makes-progress-cross-domains.html</guid>
+      <description>As yet another part of the be-all, end-all media upload processing solution, my client wanted to provide a nice progress bar for tracking the status of file uploads. Let me note, that providing user feedback as to the state of an extended upload turns out to be a very important UI feature.
+Luckily, the problem of a nice way to track file upload progress had already been solved several times. My own platform of choice at the moment is Apache running with Passenger, and cool dude Peter Sarnacki aka drogomir had kindly provided a handy version of the same JSON based file upload progress tracking that had been done so well on nginx, except this time for Apache in the form of apache-upload-progress-module.</description>
+    </item>
+    
+  </channel>
+</rss>

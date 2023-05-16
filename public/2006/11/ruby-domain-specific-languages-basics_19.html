@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Ruby Domain Specific Languages - The Basics (Part 3) - Dead Programmer SOciety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="/2006/11/ruby-domain-specific-languages-basics_19.html" />
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6b89cc86c0b843a772cdd6c6a8b7e11c2116c7933f6163d2ef225a87e1d2c121.css">
+  
+
+  
+    
+    <meta property="og:title" content="Ruby Domain Specific Languages - The Basics (Part 3)"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/2006/11/ruby-domain-specific-languages-basics_19.html"/>
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@deadprogram"/>
+    <meta name="twitter:creator" content="@deadprogram"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-about">
+                    <a href="/about/">About</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="/tags/">Tags</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Dead Programmer SOciety</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-about ">
+        <a href="/about/">
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Ruby Domain Specific Languages - The Basics (Part 3)<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p><a href="http://www.grandtline.com/images/marketville/pete.jpg"><img src="http://www.grandtline.com/images/marketville/pete.jpg" alt=""></a>This is another installment in a series about creating domain specific languages with Ruby. In <a href="http://deadprogrammersociety.blogspot.com/2006/11/ruby-domain-specific-languages-basics.html">part 1</a> and <a href="http://deadprogrammersociety.blogspot.com/2006/11/ruby-domain-specific-languages-basics_08.html">part 2</a> of this series, I created a simple Ruby <a href="http://en.wikipedia.org/wiki/Domain_Specific_Language">DSL</a> to describe the relationship between Pets and Persons. Now I will extend the DSL, and use some cool Ruby metaprogramming tricks to demonstrate the power and benefits of using Ruby to create an <a href="http://www.martinfowler.com/articles/languageWorkbench.html#InternalDsl">internal DSL</a>.<br>
+First, I want to simplify the syntax for declaring things in our DSL. Getting rid of the class definition stuff can make it a lot easier for domain experts to read. A simple, cool declarative style like <a href="http://rake.rubyforge.org/">Rake</a> is what we want to end up with, something like this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+person &#34;Dorothy&#34; do  
+   temperament :nice  
+   food :sunflower\_seeds, :carrot\_juice  
+end  
+
+</code></pre></div><p>Furthermore, I want to extend our DSL to put all of the descriptions of Pets and Persons together into a PetShop. Here is our PetShop DSL:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+shop = PetShop.create do  
+   pet &#34;Toto&#34; do  
+      friend\_test do |person|  
+         true unless person.temperament == :mean  
+      end  
+   end  
+  
+   pet &#34;Tweety&#34; do  
+      friend\_test do |person|  
+         person.has\_food?(:sunflower\_seeds)  
+      end  
+   end  
+  
+   pet &#34;Slugworth&#34; do  
+      friend\_test do |person|  
+         true # I like anyone  
+      end  
+   end  
+  
+   person &#34;Dorothy&#34; do  
+      temperament :nice  
+      food :sunflower\_seeds, :carrot\_juice  
+   end  
+  
+   person &#34;Witch&#34; do  
+      temperament :mean  
+      food :cheetos, :soda  
+   end  
+end  
+
+</code></pre></div><p>One interesting technique used is declaring the &ldquo;pet&rdquo; within the &ldquo;do-end&rdquo; block for the &ldquo;petshop&rdquo; object:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+shop = PetShop.create do  
+   pet &#34;Toto&#34; do  
+      friend\_test do |person|  
+         true unless person.temperament == :mean  
+      end  
+   end  
+  
+...  
+end  
+
+</code></pre></div><p>The little bit of DSL niceness is achieved using the class_eval method. The block of code within the &ldquo;do&rdquo; block is called in the context of the newly created object. Here is the Ruby code that achieves this for a new Pet:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+def self.pet(name, &amp;blk)  
+   @pets = Hash.new  
+   p = Pet.new(name)  
+   p.class.class\_eval(&amp;blk) if block\_given?  
+   @pets\[name\] = p  
+   p.copyvars  
+end  
+
+</code></pre></div><p>Now that we have declared all of the Pets and Persons in to the context of a PetShop, we can test the relationships between Pets and Persons is a more general purpose way then in my previous post. The older, more fragile code was this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+dog = Toto.new  
+bird = Tweety.new  
+snail = Slugworth.new  
+  
+person = Dorothy.new  
+puts &#34;#{dog.class.name} is a friend of #{person.class.name}: #{dog.is\_friend?(person)}&#34;  
+puts &#34;#{bird.class.name} is a friend of #{person.class.name}: #{bird.is\_friend?(person)}&#34;  
+puts &#34;#{snail.class.name} is a friend of #{person.class.name}: #{snail.is\_friend?(person)}&#34;  
+puts  
+  
+person = Witch.new  
+puts &#34;#{dog.class.name} is a friend of #{person.class.name}: #{dog.is\_friend?(person)}&#34;  
+puts &#34;#{bird.class.name} is a friend of #{person.class.name}: #{bird.is\_friend?(person)}&#34;  
+puts  
+
+</code></pre></div><p>The new, cleaner code is like this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+shop.people.each\_value do person  
+   shop.pets.each\_value do pet  
+      puts &#34;Is #{pet.name} a friend of #{person.name}? #{pet.is\_friend?(person)}&#34;  
+   end  
+end  
+
+</code></pre></div><p>And here is the output when we run the program:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+Is Toto a friend of Witch? false  
+Is Slugworth a friend of Witch? true  
+Is Tweety a friend of Witch? false  
+Is Toto a friend of Dorothy? true  
+Is Slugworth a friend of Dorothy? true  
+Is Tweety a friend of Dorothy? true  
+
+</code></pre></div><p>We have simplified the syntax of our domain specific language, and added some additional functionality. We have also been able to reduce the amount of Ruby code required at the same time.</p>
+<p>Here is the final version of the code:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">  
+class DSLThing  
+ def copyvars  
+  self.class.instance\_variables.each do |var|  
+   instance\_variable\_set(var, self.class.instance\_variable\_get(var))  
+  end   
+ end  
+end  
+  
+class PetShop &lt; DSLThing  
+ attr\_accessor :pets, :people  
+   
+ def self.create(&amp;block)  
+  f = PetShop.new  
+  f.class.class\_eval(&amp;block) if block\_given?  
+  f.copyvars    
+  return f  
+ end  
+   
+ def self.pet(name, &amp;blk)  
+  @pets ||= Hash.new  
+  p = Pet.new(name)  
+  p.class.class\_eval(&amp;blk) if block\_given?  
+  @pets\[name\] = p  
+  p.copyvars    
+ end  
+   
+ def self.person(name, &amp;blk)  
+  @people ||= Hash.new  
+  p = Person.new(name)  
+  p.class.class\_eval(&amp;blk)  
+  @people\[name\] = p  
+  p.copyvars    
+ end  
+end  
+  
+class Animal &lt; DSLThing  
+ attr\_accessor :name  
+   
+ def initialize(name=nil)  
+  @name = name  
+ end  
+end  
+  
+class Person &lt; Animal  
+ attr\_accessor :temperament  
+   
+ def initialize(name=nil)  
+  super  
+ end  
+   
+ def self.temperament(type)  
+  @temperament = type  
+ end  
+   
+ def self.food(\*types\_of\_food)  
+  @food = \[\]  
+  types\_of\_food.each do |food|  
+   @food &lt;&lt; food  
+  end  
+ end  
+   
+ def has\_food?(type\_of\_food)  
+  @food.include?(type\_of\_food)  
+ end  
+end  
+  
+class Pet &lt; Animal  
+ def initialize(name=nil)  
+  super  
+ end  
+   
+ def self.friend\_test(&amp;test)  
+  @friend\_test = test  
+ end  
+   
+ def is\_friend?(person)  
+  @friend\_test.call(person) == true  
+ end   
+end  
+  
+shop = PetShop.create do  
+ pet &#34;Toto&#34; do  
+  friend\_test do |person|  
+   true unless person.temperament == :mean  
+  end  
+ end  
+  
+ pet &#34;Tweety&#34; do  
+  friend\_test do |person|  
+   person.has\_food?(:sunflower\_seeds)   
+  end  
+ end  
+  
+ pet &#34;Slugworth&#34; do  
+  friend\_test do |person|  
+   true # I like anyone  
+  end  
+ end  
+  
+ person &#34;Dorothy&#34; do  
+  temperament :nice  
+  food :sunflower\_seeds, :carrot\_juice  
+ end  
+  
+ person &#34;Witch&#34; do  
+  temperament :mean  
+  food :cheetos, :soda  
+ end  
+end  
+  
+shop.people.each\_value do |person|  
+ shop.pets.each\_value do |pet|  
+  puts &#34;Is #{pet.name} a friend of #{person.name}? #{pet.is\_friend?(person)}&#34;   
+ end  
+end  
+
+</code></pre></div>
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/deadprogram" title="twitter" target="_blank" rel="noopener">
+          <img src="/images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/deadprogram" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/deadprogram/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.575671c6da23c3563d465f9cfa3d2857fc0239531a2e8ea1fb6812017653b4d7.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+
+</body>
+</html>

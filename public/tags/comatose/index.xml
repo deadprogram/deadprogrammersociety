@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>comatose on Dead Programmer SOciety</title>
+    <link>/tags/comatose/</link>
+    <description>Recent content in comatose on Dead Programmer SOciety</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Nov 2008 10:50:00 -0800</lastBuildDate><atom:link href="/tags/comatose/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I Think I&#39;m Comatose</title>
+      <link>/2008/11/i-think-im-comatose.html</link>
+      <pubDate>Tue, 04 Nov 2008 10:50:00 -0800</pubDate>
+      
+      <guid>/2008/11/i-think-im-comatose.html</guid>
+      <description>This last weekend, I upgraded a pretty complex application to the latest Ruby on Rails, and consequently had to upgrade a bunch of the plugins. In the case of Comatose 2.0, this was well timed, as there is a new release.
+If you have never heard of Comatose, it is a very cool mini-CMS that you add to your Rails app as a plugin. For cases where you have an applcation, and you want to put the &amp;lsquo;static&amp;rsquo; pages under the control of the users, while still integrating with your application, Comatose is the best option I have discovered.</description>
+    </item>
+    
+  </channel>
+</rss>
