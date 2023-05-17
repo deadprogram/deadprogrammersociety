@@ -12,7 +12,7 @@ tags:
 - ruby on rails
 ---
 
-[![](http://www.backtothe80s.com/images/direstra_moneyfor_video.jpg)](http://www.backtothe80s.com/images/direstra_moneyfor_video.jpg)I just ran into a really great resource for open source API documentation. Called [gotAPI](http://www.gotapi.com), it links in a delightfully searchable way all of the APIs we love, but turn out to not actually know. Well, we know them, just not well enough to have their numbers setup for speed dial on our cell phones. Or our code able to call them directly without looking up a reference first.  
+I just ran into a really great resource for open source API documentation. Called [gotAPI](http://www.gotapi.com), it links in a delightfully searchable way all of the APIs we love, but turn out to not actually know. Well, we know them, just not well enough to have their numbers setup for speed dial on our cell phones. Or our code able to call them directly without looking up a reference first.  
   
 Here is a small sample of ones I will actually use regularly:  
 

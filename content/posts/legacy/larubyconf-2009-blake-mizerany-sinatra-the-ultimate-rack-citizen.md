@@ -11,7 +11,9 @@ tags:
 - larubyconf
 ---
 
-[![](http://1.bp.blogspot.com/_SgxaAaUGqzY/SduqsU4uYRI/AAAAAAAABuc/jJNFX8yokJk/s200/Picture+1.png)](http://1.bp.blogspot.com/_SgxaAaUGqzY/SduqsU4uYRI/AAAAAAAABuc/jJNFX8yokJk/s1600-h/Picture+1.png)I was very happy when the next presenter at the [Los Angeles Ruby Conference 2009 (LARubyConf)](http://www.larubyconf.com/) was [Blake Mizerany](https://twitter.com/bmizerany), creator of the very cool Ruby micro-framework [Sinatra](http://sinatrarb.com). As long-time readers of this blog know, I am very into Sinatra.  
+[![](http://1.bp.blogspot.com/_SgxaAaUGqzY/SduqsU4uYRI/AAAAAAAABuc/jJNFX8yokJk/s200/Picture+1.png)](http://1.bp.blogspot.com/_SgxaAaUGqzY/SduqsU4uYRI/AAAAAAAABuc/jJNFX8yokJk/s1600-h/Picture+1.png)
+
+I was very happy when the next presenter at the [Los Angeles Ruby Conference 2009 (LARubyConf)](http://www.larubyconf.com/) was [Blake Mizerany](https://twitter.com/bmizerany), creator of the very cool Ruby micro-framework [Sinatra](http://sinatrarb.com). As long-time readers of this blog know, I am very into Sinatra.  
   
 There has been an incredible amount of work going into Sinatra lately, so I was very interested to catch up on what the team has been up to.  
   

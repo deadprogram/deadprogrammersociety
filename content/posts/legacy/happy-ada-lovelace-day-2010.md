@@ -9,7 +9,9 @@ tags:
 - female programmers
 ---
 
-[![](http://3.bp.blogspot.com/_SgxaAaUGqzY/S6pHhWPdGII/AAAAAAAAB0o/i-TEbxPEVK4/s200/barbie-programmer.jpg)](http://3.bp.blogspot.com/_SgxaAaUGqzY/S6pHhWPdGII/AAAAAAAAB0o/i-TEbxPEVK4/s1600/barbie-programmer.jpg)Once again, it is [Lady Ada Lovelace](http://en.wikipedia.org/wiki/Ada_Lovelace) day, and time for me to celebrate some women software developers that I know personally. This year I want to call out four women that I have especially noticed their knowledge and dedication. In no particular order...  
+[![](http://3.bp.blogspot.com/_SgxaAaUGqzY/S6pHhWPdGII/AAAAAAAAB0o/i-TEbxPEVK4/s200/barbie-programmer.jpg)](http://3.bp.blogspot.com/_SgxaAaUGqzY/S6pHhWPdGII/AAAAAAAAB0o/i-TEbxPEVK4/s1600/barbie-programmer.jpg)
+
+Once again, it is [Lady Ada Lovelace](http://en.wikipedia.org/wiki/Ada_Lovelace) day, and time for me to celebrate some women software developers that I know personally. This year I want to call out four women that I have especially noticed their knowledge and dedication. In no particular order...  
   
 First, a big shout out to Sarah Mei ([@sarahmei](http://twitter.com/sarahmei)). Sarah is a founder of [RailsBridge](http://railsbridge.org/), a non-profit organization dedicated to helping people learn about and make use of Ruby on Rails. She is also a conference speaker who has been going around hyping up the community about one of the subjects most near and dear to my heart: teaching kids programming.  
   

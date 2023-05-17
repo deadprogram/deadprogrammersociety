@@ -10,7 +10,9 @@ tags:
 - larubyconf
 ---
 
-[![](http://farm4.static.flickr.com/3448/3212016570_94c779a2e0.jpg)](http://farm4.static.flickr.com/3448/3212016570_94c779a2e0.jpg)Yesterday was the first ever [Los Angeles Ruby Conference](http://www.larubyconf.com). Despite being located a bit out of the way, down in Tustin, the venue was actually completely amazing. Called the [Marconi Automotive Museum](http://www.marconimuseum.org/), the place was like "Robin Master's garage" quipped one attendee, being that it was FULL of Ferrari's and other highly valuable and hot sports cars.  
+[![](http://farm4.static.flickr.com/3448/3212016570_94c779a2e0.jpg)](http://farm4.static.flickr.com/3448/3212016570_94c779a2e0.jpg)
+
+Yesterday was the first ever [Los Angeles Ruby Conference](http://www.larubyconf.com). Despite being located a bit out of the way, down in Tustin, the venue was actually completely amazing. Called the [Marconi Automotive Museum](http://www.marconimuseum.org/), the place was like "Robin Master's garage" quipped one attendee, being that it was FULL of Ferrari's and other highly valuable and hot sports cars.  
   
 Thanks to the tireless efforts of [Coby Randquist](http://www2.confreaks.com/) and [JR Fent](http://www.jrfent.com/blog/), along with a host of others, this first conference was a tremendous success. There was an incredible lineup of speakers, with something for everyone. All of us who attended were really impressed by the quality of the event. There was even one guy who came all the way from Boston (this is great time of year to visit California from the east coast, people). After a short introduction, the program was off and running.  
   

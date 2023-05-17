@@ -12,7 +12,9 @@ tags:
 - passenger
 ---
 
-[![](http://www.best-horror-movies.com/images/Jasonchainsmall.jpg)](http://www.best-horror-movies.com/images/Jasonchainsmall.jpg)As yet another part of the be-all, end-all media upload processing solution, my client wanted to provide a nice progress bar for tracking the status of file uploads. Let me note, that providing user feedback as to the state of an extended upload turns out to be a very important UI feature.  
+[![](http://www.best-horror-movies.com/images/Jasonchainsmall.jpg)](http://www.best-horror-movies.com/images/Jasonchainsmall.jpg)
+
+As yet another part of the be-all, end-all media upload processing solution, my client wanted to provide a nice progress bar for tracking the status of file uploads. Let me note, that providing user feedback as to the state of an extended upload turns out to be a very important UI feature.  
   
 Luckily, the problem of a nice way to track file upload progress had already been solved several times. My own platform of choice at the moment is [Apache](http://httpd.apache.org/) running with [Passenger](http://www.modrails.com/), and cool dude [Peter Sarnacki aka drogomir](http://drogomir.com) had kindly provided a handy version of the same JSON based file upload progress tracking that had been done so well on nginx, except this time for Apache in the form of [apache-upload-progress-module](http://github.com/drogus/apache-upload-progress-module/tree/master). He even had created a [jquery-upload-progress](http://github.com/drogus/jquery-upload-progress/tree/master) plugin too, which is exactly what I needed.  
   

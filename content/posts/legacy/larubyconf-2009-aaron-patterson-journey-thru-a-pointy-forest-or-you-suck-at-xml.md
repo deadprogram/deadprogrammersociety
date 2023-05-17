@@ -11,7 +11,9 @@ tags:
 - larubyconf
 ---
 
-[![](http://1.bp.blogspot.com/_W1ueYt1O3xs/R0xGYiwAJNI/AAAAAAAAClQ/b7vhHdsJIG4/s320/Ice-covered%2BWillow%2BTrees.jpg)](http://1.bp.blogspot.com/_W1ueYt1O3xs/R0xGYiwAJNI/AAAAAAAAClQ/b7vhHdsJIG4/s320/Ice-covered%2BWillow%2BTrees.jpg)The second presentation of the day at [Los Angeles Ruby Conference 2009 (LARubyConf)](http://www.larubyconf.com/) was [Aaron Patterson](http://tenderlovemaking.com/), XML maniac. I had a run at hardcore XML/XSL a few years back, and it has been a while since I walked the razor's edge of the angle bracket. But Aaron is not just an aficionado, he is genuinely obsessed. Given that he is the maintainer of the [Nokogiri](http://github.com/tenderlove/nokogiri/tree/master) and [Mechanize](http://mechanize.rubyforge.org/) gems, this makes me happy.  
+[![](http://1.bp.blogspot.com/_W1ueYt1O3xs/R0xGYiwAJNI/AAAAAAAAClQ/b7vhHdsJIG4/s320/Ice-covered%2BWillow%2BTrees.jpg)](http://1.bp.blogspot.com/_W1ueYt1O3xs/R0xGYiwAJNI/AAAAAAAAClQ/b7vhHdsJIG4/s320/Ice-covered%2BWillow%2BTrees.jpg)
+
+The second presentation of the day at [Los Angeles Ruby Conference 2009 (LARubyConf)](http://www.larubyconf.com/) was [Aaron Patterson](http://tenderlovemaking.com/), XML maniac. I had a run at hardcore XML/XSL a few years back, and it has been a while since I walked the razor's edge of the angle bracket. But Aaron is not just an aficionado, he is genuinely obsessed. Given that he is the maintainer of the [Nokogiri](http://github.com/tenderlove/nokogiri/tree/master) and [Mechanize](http://mechanize.rubyforge.org/) gems, this makes me happy.  
   
 He covered four areas related to XML:  
 \- XML Processing  

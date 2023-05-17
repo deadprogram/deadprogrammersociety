@@ -11,7 +11,9 @@ tags:
 - danny blitz
 ---
 
-[![](http://blog.herdingtigers.com/wp-content/uploads/2009/03/tigerheadonly3.jpg)](http://blog.herdingtigers.com/wp-content/uploads/2009/03/tigerheadonly3.jpg)I had no idea what I was about to experience at [Los Angeles Ruby Conference 2009 (LARubyConf)](http://www.larubyconf.com/) when [Danny Blitz](http://blog.herdingtigers.com/) took the podium as the next presenter. I had seen him hanging out with his distinctive pompadour, tattoos, and leather jacket. He is a big guy, and hard to miss. But he had been pretty quiet till then, which was about to change radically.  
+[![](http://blog.herdingtigers.com/wp-content/uploads/2009/03/tigerheadonly3.jpg)](http://blog.herdingtigers.com/wp-content/uploads/2009/03/tigerheadonly3.jpg)
+
+I had no idea what I was about to experience at [Los Angeles Ruby Conference 2009 (LARubyConf)](http://www.larubyconf.com/) when [Danny Blitz](http://blog.herdingtigers.com/) took the podium as the next presenter. I had seen him hanging out with his distinctive pompadour, tattoos, and leather jacket. He is a big guy, and hard to miss. But he had been pretty quiet till then, which was about to change radically.  
   
 Herding Cats is a term commonly used when describing the management of software teams. But when Danny Blitz says cats, he means big cats aka tigers. So who is this guy? He has done TONS of stuff, from DOD to Dell, to the DARPA autonomous vehicle challenge. Very cool stuff.  
   

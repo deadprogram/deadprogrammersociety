@@ -11,7 +11,9 @@ tags:
 - larubyconf
 ---
 
-[![](http://www.freeclassicimages.com/images/ghostbusters_2_1989.jpg)](http://www.freeclassicimages.com/images/ghostbusters_2_1989.jpg)The next session at the 2009 [Los Angeles Ruby Conference (LARubyConf)](http://www.larubyconf.com) was [Jeremy Evans](http://code.jeremyevans.net/sequel) presenting [Sequel](http://sequel.rubyforge.org/), which is a very powerful database toolkit for Ruby.  
+[![](http://www.freeclassicimages.com/images/ghostbusters_2_1989.jpg)](http://www.freeclassicimages.com/images/ghostbusters_2_1989.jpg)
+
+The next session at the 2009 [Los Angeles Ruby Conference (LARubyConf)](http://www.larubyconf.com) was [Jeremy Evans](http://code.jeremyevans.net/sequel) presenting [Sequel](http://sequel.rubyforge.org/), which is a very powerful database toolkit for Ruby.  
   
 Ruby originally had adapters for each database. The problem was that each was very database specific. This was a problem due to both SQL differences, as well as API differences.  
   

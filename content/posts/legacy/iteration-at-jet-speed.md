@@ -7,15 +7,15 @@ tags:
 - agile development
 ---
 
-[![](http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/USAF_F15.jpg/300px-USAF_F15.jpg)](http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/USAF_F15.jpg/300px-USAF_F15.jpg)[Jeff Atwood's blog](http://www.codinghorror.com/blog/archives/000788.html) has some excellent points about agile software development, based on a cool article by [Roger Sessions from MSDN](http://msdn2.microsoft.com/en-us/library/aa479371.aspx).  
+[![](http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/USAF_F15.jpg/300px-USAF_F15.jpg)](http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/USAF_F15.jpg/300px-USAF_F15.jpg)
+
+[Jeff Atwood's blog](http://www.codinghorror.com/blog/archives/000788.html) has some excellent points about agile software development, based on a cool article by [Roger Sessions from MSDN](http://msdn2.microsoft.com/en-us/library/aa479371.aspx).  
   
 Sessions notes the concept of the iconoclastic [Col. John Boyd](http://en.wikipedia.org/wiki/John_Boyd_(military_strategist)) that speed of iteration beats quality of iteration.  
 
 >   
 > Boyd decided that the primary determinant to winning dogfights was not observing, orienting, planning, or acting better. The primary determinant to winning dogfights was observing, orienting, planning, and acting faster. In other words, how quickly one could iterate. Speed of iteration, Boyd suggested, beats quality of iteration.  
 
-  
-  
 Jeff Atwood riffs further on this idea:  
 
 >   

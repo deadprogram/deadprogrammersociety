@@ -7,7 +7,7 @@ tags:
 - ruby
 ---
 
-[![](http://www.barronmind.com/attire6.jpg)](http://www.barronmind.com/attire6.jpg)I had noticed that almost [all](http://brainspl.at) [of](http://chadfowler.com/) [the](http://drnicwilliams.com/) [cool](http://errtheblog.com/) [people](http://dablog.rubypal.com/) post nicely formatted, color coded, beautiful looking Ruby code whenever they post.  
+I had noticed that almost [all](http://brainspl.at) [of](http://chadfowler.com/) [the](http://drnicwilliams.com/) [cool](http://errtheblog.com/) [people](http://dablog.rubypal.com/) post nicely formatted, color coded, beautiful looking Ruby code whenever they post.  
   
 Well, some of the cool people use a [style of formatting that defies description](http://redhanded.hobix.com/inspect/streamCopyYoutubeRevverEtc.html)...but I digress.  
   

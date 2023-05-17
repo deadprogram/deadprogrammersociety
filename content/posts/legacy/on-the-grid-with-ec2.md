@@ -13,7 +13,7 @@ tags:
 - grid computing
 ---
 
-[![](http://www.musicbox-online.com/images/complete-on-the-corner.jpg)](http://www.musicbox-online.com/images/complete-on-the-corner.jpg)Lately, I have had a chance to get seriously into [Amazon's Elastic Compute Cloud (EC2)](http://aws.amazon.com/ec2) service. I doubt any reader of this blog is unfamiliar with the existence of EC2, but many of you have probably not even gotten to the tire kicking stage, like I had been until recently.  
+Lately, I have had a chance to get seriously into [Amazon's Elastic Compute Cloud (EC2)](http://aws.amazon.com/ec2) service. I doubt any reader of this blog is unfamiliar with the existence of EC2, but many of you have probably not even gotten to the tire kicking stage, like I had been until recently.  
   
 Even after attending several sessions about Amazon's EC2 at RailsConf 2007, I still had only a very general idea about the service. However, it is true that there is no substitute for experience, and now that I have finally been getting hands-on, I am pretty excited about what you can do with it.  
   

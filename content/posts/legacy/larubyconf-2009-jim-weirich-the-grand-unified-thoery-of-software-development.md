@@ -10,7 +10,9 @@ tags:
 - larubyconf
 ---
 
-[![](http://homepage.mac.com/michaelrevans/photos/tetron-cluster-front.jpg)](http://homepage.mac.com/michaelrevans/photos/tetron-cluster-front.jpg)As the 2009 [Los Angeles Ruby Conference (LARubyConf)](http://www.larubyconf.com/) drew to a close, our keynote speaker [Jim Weirich](http://onestepback.org/) took the podium. I have seen Jim speak several times, and he is both intelligent, as well as down to earth, which is a rare combination indeed.  
+[![](http://homepage.mac.com/michaelrevans/photos/tetron-cluster-front.jpg)](http://homepage.mac.com/michaelrevans/photos/tetron-cluster-front.jpg)
+
+As the 2009 [Los Angeles Ruby Conference (LARubyConf)](http://www.larubyconf.com/) drew to a close, our keynote speaker [Jim Weirich](http://onestepback.org/) took the podium. I have seen Jim speak several times, and he is both intelligent, as well as down to earth, which is a rare combination indeed.  
   
 The subject of his keynote would be anything but down to earth. In fact, it would have to be one of the most ambitious talks I have ever seen at a Ruby conference. Only Jim could have pulled it off as he did, with both humor and insight.  
   

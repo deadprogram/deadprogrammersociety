@@ -8,7 +8,7 @@ tags:
 - databases
 ---
 
-[![](http://g-ec2.images-amazon.com/images/I/51FQA7SSCAL._AA280_.jpg)](http://g-ec2.images-amazon.com/images/I/51FQA7SSCAL._AA280_.jpg)Is your database getting old and tired? [Mike Stonebraker](http://en.wikipedia.org/wiki/Michael_Stonebraker) thinks so. Stonebraker is a database guru and long-time researcher, and when I say database guru I mean one of the founders of Ingres, and former CTO of Informix, not just some guy who knows how to debug a stored procedure.  
+Is your database getting old and tired? [Mike Stonebraker](http://en.wikipedia.org/wiki/Michael_Stonebraker) thinks so. Stonebraker is a database guru and long-time researcher, and when I say database guru I mean one of the founders of Ingres, and former CTO of Informix, not just some guy who knows how to debug a stored procedure.  
   
 Here is a juicy quote from a [recent article published by MIT](http://web.mit.edu/dna/www/vldb07hstore.pdf) of which he is one of the authors:  
   

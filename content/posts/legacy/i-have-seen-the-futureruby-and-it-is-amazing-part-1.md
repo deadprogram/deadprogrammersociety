@@ -8,7 +8,9 @@ tags:
 - ruby
 ---
 
-[![](http://farm2.static.flickr.com/1081/1045078870_28a927b58d_o.jpg)](http://farm2.static.flickr.com/1081/1045078870_28a927b58d_o.jpg)It was with tremendous excitement that my brother [Damen](http://twitter.com/Damenevans) and I had arrived in Toronto for [FutureRuby](http://futureruby.com). Not only were we getting to attend the reprise of what had been by all accounts the "Best. Conference. Ever.", but we were going to be speaking about [Project Flying Robot](http://flyingrobo.com).  
+[![](http://farm2.static.flickr.com/1081/1045078870_28a927b58d_o.jpg)](http://farm2.static.flickr.com/1081/1045078870_28a927b58d_o.jpg)
+
+It was with tremendous excitement that my brother [Damen](http://twitter.com/Damenevans) and I had arrived in Toronto for [FutureRuby](http://futureruby.com). Not only were we getting to attend the reprise of what had been by all accounts the "Best. Conference. Ever.", but we were going to be speaking about [Project Flying Robot](http://flyingrobo.com).  
   
 There had been many interesting interactions with various security personnel on the journey, thanks to the many small homemade electronic devices that make up our tiny squadron. All of them were extremely friendly and professional as they carefully unpacked, swabbed, scanned, then repacked our cases full of joysticks, [Arduinos](http://www.arduino.cc/), electric motors, batteries, and many wires. MANY wires.  
   

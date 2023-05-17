@@ -8,7 +8,7 @@ tags:
 - kids
 ---
 
-[![](http://www.videogamecritic.net/images/gba/kelly_slater%27s_pro_surfer.jpg)](http://www.videogamecritic.net/images/gba/kelly_slater%27s_pro_surfer.jpg)I have just begun a new blog called [Net Grommit](http://netgrommit.com/).  
+I have just begun a new blog called [Net Grommit](http://netgrommit.com/).  
   
 It is a place that I can go off and explore my experiences with technology and being a 21st century parent. I will get into anything from video games, kids programming, tech toys, education, and whatever else appeals to me. As a father of two boys, and an obsessive technologist, I have plenty of personal experience to talk about, and I really look forward to the participation of some other people, as well.  
   

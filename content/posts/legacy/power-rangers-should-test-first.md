@@ -8,7 +8,9 @@ tags:
 - test-driven development
 ---
 
-[![](http://content.answers.com/main/content/wp/en/thumb/e/ed/300px-PRISgroup.jpg)](http://content.answers.com/main/content/wp/en/thumb/e/ed/300px-PRISgroup.jpg)Last night, I got home a bit late. My 8 year old son was still up, watching the Power Rangers. "Sit down and watch with me, Dad," he said. "I'm surprised you still like the Power Rangers," I said, as I sat beside him on the sofa. "I mostly just like the vehicles," he told me.  
+[![](http://content.answers.com/main/content/wp/en/thumb/e/ed/300px-PRISgroup.jpg)](http://content.answers.com/main/content/wp/en/thumb/e/ed/300px-PRISgroup.jpg)
+
+Last night, I got home a bit late. My 8 year old son was still up, watching the Power Rangers. "Sit down and watch with me, Dad," he said. "I'm surprised you still like the Power Rangers," I said, as I sat beside him on the sofa. "I mostly just like the vehicles," he told me.  
   
 The Power Rangers were in trouble in this episode. The bad guys had taken remote control of the Rangers' giant robots, and the Power Rangers were helpless without their usual firepower. The Smart Rangers, meaning the guy with the glasses and the Asian girl (WTF!!!), were constructing a jamming device to block the bad guy's signal, while the other Rangers got their behinds handed to them by their own robots.  
   

@@ -10,7 +10,9 @@ tags:
 - ruby waves
 ---
 
-[![](http://s.wsj.net/public/resources/images/NA-AW447_LA_G_20090312182513.jpg)](http://s.wsj.net/public/resources/images/NA-AW447_LA_G_20090312182513.jpg)Lead-off man [Dan Yoder](http://dev.zeraweb.com/blog/mousetrap-2) started off the day's proceedings at the [Los Angeles Ruby Conference (LARubyConf) 2009](http://www.larubyconf.com/), with a presentation on [Ruby Waves](http://rubywaves.com/) called "Resource Oriented Architectures and Why It Matters". Despite not getting the same attention that some Ruby frameworks have, the Waves team has been tirelessly working on it. According to Dan, the foundation of Waves has gotten pretty solid. Waves adds a lot of support for things over and above just handling http requests. So what is Waves really? It is a layer on top of [Rack](http://rack.rubyforge.org/) for defining application frameworks.  
+[![](http://s.wsj.net/public/resources/images/NA-AW447_LA_G_20090312182513.jpg)](http://s.wsj.net/public/resources/images/NA-AW447_LA_G_20090312182513.jpg)
+
+Lead-off man [Dan Yoder](http://dev.zeraweb.com/blog/mousetrap-2) started off the day's proceedings at the [Los Angeles Ruby Conference (LARubyConf) 2009](http://www.larubyconf.com/), with a presentation on [Ruby Waves](http://rubywaves.com/) called "Resource Oriented Architectures and Why It Matters". Despite not getting the same attention that some Ruby frameworks have, the Waves team has been tirelessly working on it. According to Dan, the foundation of Waves has gotten pretty solid. Waves adds a lot of support for things over and above just handling http requests. So what is Waves really? It is a layer on top of [Rack](http://rack.rubyforge.org/) for defining application frameworks.  
   
 The next thing beyond MVC is to help developers write more rest compliant apps.  
   

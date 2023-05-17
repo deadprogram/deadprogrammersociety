@@ -14,7 +14,7 @@ tags:
 - thinking sphinx
 ---
 
-[![](http://yourtech.typepad.com/main/WindowsLiveWriter/ThesearchforSTIIITheSearchforSpock_9B38/star_trek3_thumb1.jpg)](http://yourtech.typepad.com/main/WindowsLiveWriter/ThesearchforSTIIITheSearchforSpock_9B38/star_trek3_thumb1.jpg)My client was having troubles. The site was crashing, seemingly at random. QA was baffled, management concerned. After hunting thru logs, the culprit was found: the ferret search service.  
+My client was having troubles. The site was crashing, seemingly at random. QA was baffled, management concerned. After hunting thru logs, the culprit was found: the ferret search service.  
   
 Despite having configured [acts\_as\_ferret](http://projects.jkraemer.net/acts_as_ferret/) to use the DRb server option, the "whole thing" would fall apart on a regular basis whenever the ferret daemon would crash... which was pretty often. The ruby on rails plugin acts\_as\_ferret would revert to a local mode of operation, which would only make matters worse when competing mongrels would corrupt the index files on disk.  
   

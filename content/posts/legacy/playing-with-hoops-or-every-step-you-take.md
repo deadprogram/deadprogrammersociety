@@ -8,7 +8,7 @@ tags:
 - user interface
 ---
 
-[![](http://www.stpete.org/athletics/images/Basketball.jpg)](http://www.stpete.org/athletics/images/Basketball.jpg)I do not often pay full attention to [Giles Bowkett](http://gilesbowkett.blogspot.com/). That is the flip side of being the provocateur that he is, some people will occasionally tune out. However, when anyone plays the [Steve Krug](http://www.sensible.com/) card, I am compelled to take a look.  
+I do not often pay full attention to [Giles Bowkett](http://gilesbowkett.blogspot.com/). That is the flip side of being the provocateur that he is, some people will occasionally tune out. However, when anyone plays the [Steve Krug](http://www.sensible.com/) card, I am compelled to take a look.  
   
 Yesterday, Giles posted a dead-on point about user registration, called ["I Don't Care About Your Hoops"](http://gilesbowkett.blogspot.com/2009/03/i-dont-care-about-your-hoops.html). When you compare the success of simplicity, as in the Google and Apple examples, to what we all tend to fall into, I hope you are as embarrassed as I was. Time for some self-examination.  
   

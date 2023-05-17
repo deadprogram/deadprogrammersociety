@@ -7,7 +7,9 @@ tags:
 - user interface
 ---
 
-[![](http://www.generiques-mag.com/documents/Image/betterlarry-782203.jpg)](http://www.generiques-mag.com/documents/Image/betterlarry-782203.jpg)Yet more wisdom about user experience and interface design from the Signal Vs. Noise blog, this time [debunking the mistaken idea that a good user interface has anything to do with just drawing a pretty picture](http://www.37signals.com/svn/posts/642-ask-37signals-do-i-need-a-designer-to-make-pretty), and handing it over to someone to implement.  
+[![](http://www.generiques-mag.com/documents/Image/betterlarry-782203.jpg)](http://www.generiques-mag.com/documents/Image/betterlarry-782203.jpg)
+
+Yet more wisdom about user experience and interface design from the Signal Vs. Noise blog, this time [debunking the mistaken idea that a good user interface has anything to do with just drawing a pretty picture](http://www.37signals.com/svn/posts/642-ask-37signals-do-i-need-a-designer-to-make-pretty), and handing it over to someone to implement.  
   
 One phrase in particular really caught my attention, "our designers apply their talents to the native materials of the web."  
   

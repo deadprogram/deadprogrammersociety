@@ -11,7 +11,9 @@ tags:
 - los angeles
 ---
 
-[![](http://www.laruby.com/images/la-ruby-logo.png)](http://www.laruby.com/images/la-ruby-logo.png)It is with great excitement that I want to tell all of you about the first annual [Los Angeles Ruby Conference](http://www.larubyconf.com). Thanks to the fine efforts of a bunch of [LA's hardworking Rubyists](http://www.laruby.com/), and the generous financial support of AT&T Interactive, we are preparing to bring the noise to Los Angeles on April 4, 2009.  
+[![](http://www.laruby.com/images/la-ruby-logo.png)](http://www.laruby.com/images/la-ruby-logo.png)
+
+It is with great excitement that I want to tell all of you about the first annual [Los Angeles Ruby Conference](http://www.larubyconf.com). Thanks to the fine efforts of a bunch of [LA's hardworking Rubyists](http://www.laruby.com/), and the generous financial support of AT&T Interactive, we are preparing to bring the noise to Los Angeles on April 4, 2009.  
   
 Too many of these wannabe cities have been smoking us with their regional conferences, but no more! Time for we Angelinos to step up and be counted among the world's important Ruby communities. All joking aside, it really is time for us to share our enthusiasm and experience, and grow beyond just the local scene.  
   

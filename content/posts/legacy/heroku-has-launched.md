@@ -11,7 +11,9 @@ tags:
 - ruby on rails
 ---
 
-[![](http://ecx.images-amazon.com/images/I/510MZNM0WDL._SL500_AA280_.jpg)](http://ecx.images-amazon.com/images/I/510MZNM0WDL._SL500_AA280_.jpg)Well, just a very short time after [I started using](http://deadprogrammersociety.blogspot.com/2009/04/heroku-why-havent-i-been-using-you-till.html) [Heroku](http://heroku.com/), they went commercial. Yes, after their very successful beta period, where apparently [24,999 web sites other than mine were already hosting](http://gigaom.com/2009/04/23/heroku-to-exit-beta-start-charging-for-cloud-computing/), Heroku is now offering a paid version of their service. I had a sneak peak at the pricing a few days ahead of time, but I was not able to talk. And despite my intentions of blogging this right away, the other demands on my time have kept me occupied till just now.  
+[![](http://ecx.images-amazon.com/images/I/510MZNM0WDL._SL500_AA280_.jpg)](http://ecx.images-amazon.com/images/I/510MZNM0WDL._SL500_AA280_.jpg)
+
+Well, just a very short time after [I started using](http://deadprogrammersociety.blogspot.com/2009/04/heroku-why-havent-i-been-using-you-till.html) [Heroku](http://heroku.com/), they went commercial. Yes, after their very successful beta period, where apparently [24,999 web sites other than mine were already hosting](http://gigaom.com/2009/04/23/heroku-to-exit-beta-start-charging-for-cloud-computing/), Heroku is now offering a paid version of their service. I had a sneak peak at the pricing a few days ahead of time, but I was not able to talk. And despite my intentions of blogging this right away, the other demands on my time have kept me occupied till just now.  
   
 Heroku is mimicking the successful "freemium" pricing plan of other services, but brings it into the Ruby web application hosting space, within some pretty generous limitations. Yes, exactly. Heroku still allows you to get started with their service at no charge at all. Wow. I do not know of any free web hosting service that does not at minimum plaster your site with hideous ads. Let alone quality Ruby hosting. Let alone Ruby powered cloud computing.  
   

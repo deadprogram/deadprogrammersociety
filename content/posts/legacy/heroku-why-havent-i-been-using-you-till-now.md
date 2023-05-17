@@ -11,7 +11,9 @@ tags:
 - ruby on rails
 ---
 
-[![](http://www.dinaview.com/wp-content/uploads/2008/06/hero.jpg)](http://www.dinaview.com/wp-content/uploads/2008/06/hero.jpg)Last night, I finally got around to deploying something on [Heroku](http://heroku.com/), an interesting service founded by my formerly LA-based Ruby programming chums [Adam Wiggins](http://adam.blog.heroku.com/), James Lindenbaum, and Orion Henry. I had played with their previous incarnation of the service, now known as "Heroku Garden" but only recently have I gotten to know a little bit more about the incredible offering they have evolved into.  
+[![](http://www.dinaview.com/wp-content/uploads/2008/06/hero.jpg)](http://www.dinaview.com/wp-content/uploads/2008/06/hero.jpg)
+
+Last night, I finally got around to deploying something on [Heroku](http://heroku.com/), an interesting service founded by my formerly LA-based Ruby programming chums [Adam Wiggins](http://adam.blog.heroku.com/), James Lindenbaum, and Orion Henry. I had played with their previous incarnation of the service, now known as "Heroku Garden" but only recently have I gotten to know a little bit more about the incredible offering they have evolved into.  
   
 Basically, the Heroku crew have addressed the question "how can I deploy my [Ruby on Rails](http://rubyonrails.org/), [Sinatra](http://www.sinatrarb.com/), or other [Rack](http://rack.rubyforge.org/)\-based web application into a dynamic cloud of servers with ridiculous ease?" They have done this with an ingenious architecture that takes advantage of [Amazon's EC2](http://aws.amazon.com/ec2/) to provide their internal infrastructure. This allows Heroku to concentrate on their most important core value proposition, of a simple way to take your Ruby code and just push it into the cloud.  
   

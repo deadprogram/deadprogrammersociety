@@ -13,7 +13,7 @@ I have never been a big checkers fan. Good thing, cause I would have had to give
   
 Actually, as it turns out, the best possible outcome in a game of checkers, given two players who each make perfect moves, is a draw.  
   
-The next game to be solved will likely be othello, than other even more complex games like chess, which has 1020 more possible moves than checkers.  
+The next game to be solved will likely be othello, than other even more complex games like chess, which has 10<sup>20</sup> more possible moves than checkers.  
   
 It is only a matter of time before sufficient computing power allows the machines to contemplate eventualities of which we have not even postulated the existence.  
   

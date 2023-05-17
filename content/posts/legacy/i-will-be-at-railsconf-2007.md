@@ -9,7 +9,9 @@ tags:
 - ruby
 ---
 
-[![](http://conferences.oreillynet.com/images/rails2007/layout/railsConf-logo.gif)](http://conferences.oreillynet.com/images/rails2007/layout/railsConf-logo.gif)I just checked my email, and saw that registration has just opened for [RailsConf 2007](http://conferences.oreillynet.com/rails/). I went to last year's conference, and it was the most interesting and exciting event in the software industry I had been to in years!  
+[![](http://conferences.oreillynet.com/images/rails2007/layout/railsConf-logo.gif)](http://conferences.oreillynet.com/images/rails2007/layout/railsConf-logo.gif)
+
+I just checked my email, and saw that registration has just opened for [RailsConf 2007](http://conferences.oreillynet.com/rails/). I went to last year's conference, and it was the most interesting and exciting event in the software industry I had been to in years!  
   
 If you are interested in going, I suggest that you register immediately. Last year's event sold out in a couple days. When they added 100 additional spots last year, those sold out in hours!  
   

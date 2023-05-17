@@ -8,7 +8,7 @@ tags:
 - mac
 ---
 
-[![](http://www.my-mac.org/files/page0_blog_entry629_1.png)](http://www.my-mac.org/files/page0_blog_entry629_1.png)Security expert Bruce Schneier says [not to use Windows Vista](http://www.schneier.com/blog/archives/2007/02/drm_in_windows.html), due to the flaws of the Digital Rights Management (DRM) incorporated into the OS. No, really. One of, if not THE, top security expert says not to use Microsoft's newest OS.  
+Security expert Bruce Schneier says [not to use Windows Vista](http://www.schneier.com/blog/archives/2007/02/drm_in_windows.html), due to the flaws of the Digital Rights Management (DRM) incorporated into the OS. No, really. One of, if not THE, top security expert says not to use Microsoft's newest OS.  
   
 To quote Mr. Schneier:  
   
