@@ -1,5 +1,5 @@
 ---
-title: 'Hypercard: Freedom To Associate'
+title: 'HyperCard: Freedom To Associate'
 date: 2023-05-21T00:59:00.000-08:00
 draft: false
 url: /2023/05/hypercard-freedom-to-associate.html
