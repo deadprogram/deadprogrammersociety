@@ -15,7 +15,6 @@ pygmentsUseClasses = true
 
 [params]
   google_analytics_id = ""
-  twitter_handle = "@deadprogram"
   showAuthorOnHomepage = false
   showAuthorOnPosts = false
   showPostsOnHomepage = true

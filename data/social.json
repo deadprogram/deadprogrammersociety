@@ -16,9 +16,9 @@
       "image": "images/social/linkedin.svg"
     },
     {
-      "name": "twitter",
-      "url": "https://twitter.com/deadprogram",
-      "image": "images/social/twitter.svg"
+      "name": "bluesky",
+      "url": "https://bsky.app/profile/deadprogram.com",
+      "image": "images/social/bluesky.svg"
     }
   ]
 }
